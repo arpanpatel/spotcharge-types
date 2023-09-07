@@ -1,0 +1,21 @@
+{
+  "name": "spotcharge-types",
+  "version": "1.0.0",
+  "description": "Spotcharge types",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:techparticle.devhub/spotcharge-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/techparticle.devhub/spotcharge-types/issues"
+  },
+  "homepage": "https://gitlab.com/techparticle.devhub/spotcharge-types#readme",
+  "dependencies": {}
+}
