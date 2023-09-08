@@ -6,5 +6,5 @@ var FirebaseProviderType;
     FirebaseProviderType["google"] = "google.com";
     FirebaseProviderType["facebook"] = "facebook.com";
     FirebaseProviderType["password"] = "password";
-})(FirebaseProviderType = exports.FirebaseProviderType || (exports.FirebaseProviderType = {}));
+})(FirebaseProviderType || (exports.FirebaseProviderType = FirebaseProviderType = {}));
 //# sourceMappingURL=firebase-provider-type.js.map

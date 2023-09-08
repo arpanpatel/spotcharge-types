@@ -15,4 +15,10 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./user-role.api.model"), exports);
+__exportStar(require("./address.api.model"), exports);
+__exportStar(require("./fleet.api.model"), exports);
+__exportStar(require("./fleet-user.api.model"), exports);
+__exportStar(require("./franchise.api.model"), exports);
+__exportStar(require("./franchise-user.api.model"), exports);
+__exportStar(require("./charger.api.model"), exports);
 //# sourceMappingURL=index.js.map

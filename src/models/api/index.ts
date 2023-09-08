@@ -1,1 +1,7 @@
 export * from './user-role.api.model';
+export * from './address.api.model';
+export * from './fleet.api.model';
+export * from './fleet-user.api.model';
+export * from './franchise.api.model';
+export * from './franchise-user.api.model';
+export * from './charger.api.model';

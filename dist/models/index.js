@@ -21,4 +21,5 @@ __exportStar(require("./country.model"), exports);
 __exportStar(require("./phone-number-model"), exports);
 __exportStar(require("./api"), exports);
 __exportStar(require("./timestamp"), exports);
+__exportStar(require("./fleet.model"), exports);
 //# sourceMappingURL=index.js.map
