@@ -1,1 +1,1 @@
-{"version":3,"file":"firestore-collections.enum.d.ts","sourceRoot":"","sources":["../../src/enum/firestore-collections.enum.ts"],"names":[],"mappings":"AACA,oBAAY,UAAU;IAClB,UAAU,eAAe;IACzB,KAAK,UAAU;IACf,eAAe,oBAAoB;CACtC"}
+{"version":3,"file":"firestore-collections.enum.d.ts","sourceRoot":"","sources":["../../src/enum/firestore-collections.enum.ts"],"names":[],"mappings":"AACA,oBAAY,UAAU;IAClB,UAAU,eAAe;IACzB,KAAK,UAAU;IACf,eAAe,oBAAoB;IACnC,MAAM,WAAW;IACjB,UAAU,eAAe;IACzB,QAAQ,aAAa;CACxB"}

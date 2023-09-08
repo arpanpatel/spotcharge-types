@@ -4,5 +4,5 @@ exports.FranchiseType = void 0;
 var FranchiseType;
 (function (FranchiseType) {
     FranchiseType["Fleet"] = "fleet";
-})(FranchiseType || (exports.FranchiseType = FranchiseType = {}));
+})(FranchiseType = exports.FranchiseType || (exports.FranchiseType = {}));
 //# sourceMappingURL=franchise-type.enum.js.map

@@ -6,5 +6,5 @@ var ChargerStatus;
     ChargerStatus["Active"] = "active";
     ChargerStatus["Inactive"] = "inactive";
     ChargerStatus["InMaintenance"] = "in-maintenance";
-})(ChargerStatus || (exports.ChargerStatus = ChargerStatus = {}));
+})(ChargerStatus = exports.ChargerStatus || (exports.ChargerStatus = {}));
 //# sourceMappingURL=charger-status-type.enum.js.map

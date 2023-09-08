@@ -7,5 +7,8 @@ var Collection;
     Collection["Franchises"] = "franchises";
     Collection["Users"] = "users";
     Collection["TempAssignClaim"] = "tempAssignClaim";
-})(Collection || (exports.Collection = Collection = {}));
+    Collection["Fleets"] = "fleets";
+    Collection["FleetUsers"] = "fleetUsers";
+    Collection["Chargers"] = "chargers";
+})(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

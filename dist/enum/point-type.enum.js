@@ -6,5 +6,5 @@ var PointType;
     PointType["DC"] = "dc";
     PointType["AC"] = "ac";
     PointType["Hybrid"] = "hybrid";
-})(PointType || (exports.PointType = PointType = {}));
+})(PointType = exports.PointType || (exports.PointType = {}));
 //# sourceMappingURL=point-type.enum.js.map

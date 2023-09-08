@@ -5,5 +5,5 @@ var ChargerLocationType;
 (function (ChargerLocationType) {
     ChargerLocationType["Public"] = "public";
     ChargerLocationType["Private"] = "private";
-})(ChargerLocationType || (exports.ChargerLocationType = ChargerLocationType = {}));
+})(ChargerLocationType = exports.ChargerLocationType || (exports.ChargerLocationType = {}));
 //# sourceMappingURL=charger-location-type.enum.js.map

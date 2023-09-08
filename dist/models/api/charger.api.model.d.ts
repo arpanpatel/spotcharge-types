@@ -2,6 +2,8 @@ import { ChargerLocationType, ChargerStatus, ChargerType, ConnectorStatus, Point
 import { FleetModel } from "../fleet.model";
 import { FranchiseModel } from "../franchise.model";
 import { AddressApiModel } from "./address.api.model";
+import { CreatedByModel } from "../created-by.model";
+import { Timestamp } from "../timestamp";
 export interface ChargerApiModel {
     id: string;
     name: string;
@@ -16,6 +18,12 @@ export interface ChargerApiModel {
     status: ChargerStatus;
     purchaseRate: number;
     fleet?: FleetModel;
+    createdBy: CreatedByModel;
+    updatedBy: CreatedByModel;
+    createdAt: Timestamp;
+    updatedAt: Timestamp;
+    deletedAt: Timestamp | null;
+    isDeleted: boolean;
 }
 export interface ConnectorModel {
     name: string;

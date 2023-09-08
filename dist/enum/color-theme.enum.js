@@ -6,5 +6,5 @@ var ColorTheme;
 (function (ColorTheme) {
     ColorTheme["dark"] = "dark";
     ColorTheme["light"] = "light";
-})(ColorTheme || (exports.ColorTheme = ColorTheme = {}));
+})(ColorTheme = exports.ColorTheme || (exports.ColorTheme = {}));
 //# sourceMappingURL=color-theme.enum.js.map

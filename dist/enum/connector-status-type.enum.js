@@ -6,5 +6,5 @@ var ConnectorStatus;
     ConnectorStatus["Active"] = "active";
     ConnectorStatus["Inactive"] = "inactive";
     ConnectorStatus["InMaintenance"] = "in-maintenance";
-})(ConnectorStatus || (exports.ConnectorStatus = ConnectorStatus = {}));
+})(ConnectorStatus = exports.ConnectorStatus || (exports.ConnectorStatus = {}));
 //# sourceMappingURL=connector-status-type.enum.js.map
