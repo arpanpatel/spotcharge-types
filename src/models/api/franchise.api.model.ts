@@ -1,12 +1,20 @@
 import {FranchiseType} from "../../enum";
-import { PhoneNumberModel } from "../phone-number-model";
+import {PhoneNumberModel} from "../phone-number-model";
+import {CreatedByModel} from "../created-by.model";
+import {Timestamp} from "../timestamp";
 
 export interface FranchiseApiModel {
-  id: string;
-  franchiseName: string;
-  franchiseType: FranchiseType;
-  ownerName: string;
-  phoneNumber: PhoneNumberModel;
-  email: string;
-  password: string;
+    id: string;
+    franchiseName: string;
+    franchiseType: FranchiseType;
+    ownerName: string;
+    phoneNumber: PhoneNumberModel;
+    email: string;
+    password: string;
+    createdBy: CreatedByModel;
+    updatedBy: CreatedByModel;
+    createdAt: Timestamp;
+    updatedAt: Timestamp;
+    deletedAt: Timestamp | null;
+    isDeleted: boolean;
 }

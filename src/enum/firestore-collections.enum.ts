@@ -2,5 +2,8 @@
 export enum Collection {
     Franchises = 'franchises',
     Users = 'users',
-    TempAssignClaim = 'tempAssignClaim'
+    TempAssignClaim = 'tempAssignClaim',
+    Fleets = 'fleets',
+    FleetUsers = 'fleetUsers',
+    Chargers = 'chargers',
 }
