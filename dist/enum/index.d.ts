@@ -7,4 +7,5 @@ export * from './charger-status-type.enum';
 export * from './charger-location-type.enum';
 export * from './connector-status-type.enum';
 export * from './point-type.enum';
+export * from './roles.enum';
 //# sourceMappingURL=index.d.ts.map
