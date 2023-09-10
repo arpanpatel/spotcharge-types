@@ -6,7 +6,8 @@ export interface FranchiseApiModel {
     id: string;
     franchiseName: string;
     franchiseType: FranchiseType;
-    ownerName: string;
+    firstName: string;
+    lastName: string;
     phoneNumber: PhoneNumberModel;
     email: string;
     password: string;
