@@ -1,7 +1,7 @@
 export interface PhoneNumberModel {
     number: NumberModel;
     regionCode: string;
-    countryCode: 91;
+    countryCode: number;
     valid: boolean;
     possible: boolean;
     canBeInternationallyDialled: boolean;
