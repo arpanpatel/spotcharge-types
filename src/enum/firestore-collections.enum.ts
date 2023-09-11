@@ -6,4 +6,5 @@ export enum Collection {
     Fleets = 'fleets',
     FleetUsers = 'fleetUsers',
     Chargers = 'chargers',
+    FleetChargers = 'fleetChargers',
 }

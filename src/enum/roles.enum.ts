@@ -1,5 +1,5 @@
 export enum Roles {
-  superAdmin = 'super_admin',
-  franchiseAdmin = 'franchise_admin',
-  fleetUser = 'fleet_user',
+  SuperAdmin = 'super_admin',
+  FranchiseAdmin = 'franchise_admin',
+  FleetUser = 'fleet_user',
 }
