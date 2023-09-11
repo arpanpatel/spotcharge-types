@@ -28,7 +28,7 @@ export interface UserModel {
     roles?: Pick<UserRoleApiModel, 'title' | 'value' | 'id'>;
     favouriteSalons?: string[];
     providerData?: ProviderData[];
-    fleet?: string[];
+    fleet?: string[] | null;
 }
 export interface ProviderData {
     displayName: string;
