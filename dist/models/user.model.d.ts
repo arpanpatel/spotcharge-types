@@ -5,13 +5,14 @@ import { FirebaseProviderType } from '../enum';
 import { PhoneNumberModel } from './phone-number-model';
 import { Timestamp } from "./timestamp";
 import { CreatedByModel } from "./created-by.model";
+import { FleetModel } from "./fleet.model";
 export interface UserModel {
     id: string;
     userId: string;
     email: string;
     franchise: FranchiseModel;
     country: CountryModel;
-    phoneNumber: PhoneNumberModel;
+    phoneNumber: PhoneNumberModel | null;
     photoURL: string | null;
     displayName?: string;
     firstName: string;
@@ -28,6 +29,7 @@ export interface UserModel {
     roles?: Pick<UserRoleApiModel, 'title' | 'value' | 'id'>;
     favouriteSalons?: string[];
     providerData?: ProviderData[];
+    fleet?: FleetModel[];
 }
 export interface ProviderData {
     displayName: string;

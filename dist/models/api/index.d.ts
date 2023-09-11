@@ -5,4 +5,5 @@ export * from './fleet-user.api.model';
 export * from './franchise.api.model';
 export * from './franchise-user.api.model';
 export * from './charger.api.model';
+export * from './fleet-charger.api.model';
 //# sourceMappingURL=index.d.ts.map
