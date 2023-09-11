@@ -13,7 +13,7 @@ export interface UserModel {
   email: string;
   franchise: FranchiseModel;
   country: CountryModel;
-  phoneNumber: PhoneNumberModel;
+  phoneNumber: PhoneNumberModel | null;
   photoURL: string | null;
   displayName?: string;
   firstName: string;
