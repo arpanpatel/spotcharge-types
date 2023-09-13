@@ -6,7 +6,7 @@ import {FleetChargerModel} from "../fleet-charger.model";
 
 export interface FleetApiModel {
   id: string;
-  fleetName: string;
+  name: string;
   address: AddressApiModel;
   franchise: FranchiseModel;
   chargers: FleetChargerModel[];

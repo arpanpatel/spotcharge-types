@@ -21,4 +21,5 @@ __exportStar(require("./fleet-user.api.model"), exports);
 __exportStar(require("./franchise.api.model"), exports);
 __exportStar(require("./franchise-user.api.model"), exports);
 __exportStar(require("./charger.api.model"), exports);
+__exportStar(require("./fleet-charger.api.model"), exports);
 //# sourceMappingURL=index.js.map

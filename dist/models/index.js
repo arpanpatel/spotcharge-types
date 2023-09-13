@@ -22,4 +22,5 @@ __exportStar(require("./phone-number-model"), exports);
 __exportStar(require("./timestamp"), exports);
 __exportStar(require("./fleet.model"), exports);
 __exportStar(require("./created-by.model"), exports);
+__exportStar(require("./connector.model"), exports);
 //# sourceMappingURL=index.js.map

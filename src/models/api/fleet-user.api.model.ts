@@ -9,7 +9,7 @@ export interface FleetUserApiModel {
     firstName: string;
     lastName: string;
     franchise: FranchiseModel;
-    fleets: Array<FleetModel>;
+    fleets: FleetModel[];
     email: string;
     password: string;
     phoneNumber: PhoneNumberModel | null;

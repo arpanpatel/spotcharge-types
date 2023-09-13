@@ -6,4 +6,5 @@ export * from './phone-number-model';
 export * from './timestamp';
 export * from './fleet.model';
 export * from './created-by.model';
+export * from './connector.model';
 //# sourceMappingURL=index.d.ts.map
