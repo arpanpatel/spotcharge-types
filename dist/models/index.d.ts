@@ -7,4 +7,6 @@ export * from './timestamp';
 export * from './fleet.model';
 export * from './created-by.model';
 export * from './connector.model';
+export * from './master-data.model';
+export * from './fleet-charger.model';
 //# sourceMappingURL=index.d.ts.map

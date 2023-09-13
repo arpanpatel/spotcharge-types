@@ -13,6 +13,7 @@ export interface FranchiseApiModel {
     password: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
+    deletedBy: CreatedByModel;
     createdAt: Timestamp;
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;

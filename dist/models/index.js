@@ -23,4 +23,6 @@ __exportStar(require("./timestamp"), exports);
 __exportStar(require("./fleet.model"), exports);
 __exportStar(require("./created-by.model"), exports);
 __exportStar(require("./connector.model"), exports);
+__exportStar(require("./master-data.model"), exports);
+__exportStar(require("./fleet-charger.model"), exports);
 //# sourceMappingURL=index.js.map

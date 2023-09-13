@@ -7,6 +7,7 @@ export interface FranchiseUserApiModel {
     email: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
+    deletedBy: CreatedByModel;
     createdAt: Timestamp;
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
