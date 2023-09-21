@@ -1,9 +1,7 @@
-import { CapacityUnit } from "../enum";
 import { ColorModel } from "./color.model";
-export interface ChargerCapacityModel {
+export interface ChargerCapacity {
     id: string;
-    value: number;
-    unit: CapacityUnit;
+    capacity: string;
     color: ColorModel;
 }
 //# sourceMappingURL=charger-capacity.model.d.ts.map
