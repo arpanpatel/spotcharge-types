@@ -23,4 +23,5 @@ __exportStar(require("./charger-location-type.enum"), exports);
 __exportStar(require("./connector-status.enum"), exports);
 __exportStar(require("./point-type.enum"), exports);
 __exportStar(require("./roles.enum"), exports);
+__exportStar(require("./capcity-unit.enum"), exports);
 //# sourceMappingURL=index.js.map

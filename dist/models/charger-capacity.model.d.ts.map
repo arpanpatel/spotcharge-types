@@ -1,0 +1,1 @@
+{"version":3,"file":"charger-capacity.model.d.ts","sourceRoot":"","sources":["../../src/models/charger-capacity.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,YAAY,EAAC,MAAM,SAAS,CAAC;AACrC,OAAO,EAAC,UAAU,EAAC,MAAM,eAAe,CAAC;AAEzC,MAAM,WAAW,oBAAoB;IACjC,EAAE,EAAE,MAAM,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;IACd,IAAI,EAAE,YAAY,CAAC;IACnB,KAAK,EAAE,UAAU,CAAC;CACrB"}

@@ -22,4 +22,5 @@ __exportStar(require("./franchise.api.model"), exports);
 __exportStar(require("./franchise-user.api.model"), exports);
 __exportStar(require("./charger.api.model"), exports);
 __exportStar(require("./fleet-charger.api.model"), exports);
+__exportStar(require("./charger-capacity.api.model"), exports);
 //# sourceMappingURL=index.js.map

@@ -25,4 +25,6 @@ __exportStar(require("./created-by.model"), exports);
 __exportStar(require("./connector.model"), exports);
 __exportStar(require("./master-data.model"), exports);
 __exportStar(require("./fleet-charger.model"), exports);
+__exportStar(require("./charger-capacity.model"), exports);
+__exportStar(require("./color.model"), exports);
 //# sourceMappingURL=index.js.map

@@ -1,9 +1,9 @@
 import { ConnectorStatus } from "../enum";
-import { MasterData } from "./master-data.model";
+import { ChargerCapacityModel } from "./charger-capacity.model";
 export interface ConnectorModel {
     name: number;
     status: ConnectorStatus;
-    capacity: MasterData;
+    capacity: ChargerCapacityModel;
     unitRate: number;
 }
 //# sourceMappingURL=connector.model.d.ts.map
