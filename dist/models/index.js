@@ -14,16 +14,8 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Timestamp = void 0;
 __exportStar(require("./api"), exports);
-__exportStar(require("./user.model"), exports);
-__exportStar(require("./franchise.model"), exports);
-__exportStar(require("./country.model"), exports);
-__exportStar(require("./phone-number-model"), exports);
-__exportStar(require("./timestamp"), exports);
-__exportStar(require("./fleet.model"), exports);
-__exportStar(require("./created-by.model"), exports);
-__exportStar(require("./connector.model"), exports);
-__exportStar(require("./master-data.model"), exports);
-__exportStar(require("./fleet-charger.model"), exports);
-__exportStar(require("./color.model"), exports);
+var timestamp_1 = require("./timestamp");
+Object.defineProperty(exports, "Timestamp", { enumerable: true, get: function () { return timestamp_1.Timestamp; } });
 //# sourceMappingURL=index.js.map
