@@ -10,3 +10,5 @@ export * from './created-by.model';
 export * from './connector.model';
 export * from './master-data.model';
 export * from './fleet-charger.model';
+export * from './charger-capacity.model';
+export * from './color.model';

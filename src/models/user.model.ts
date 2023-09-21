@@ -5,7 +5,6 @@ import {FirebaseProviderType} from '../enum';
 import {PhoneNumberModel} from './phone-number-model';
 import {Timestamp} from "./timestamp";
 import {CreatedByModel} from "./created-by.model";
-import {FleetModel} from "./fleet.model";
 
 export interface UserModel {
   id: string;

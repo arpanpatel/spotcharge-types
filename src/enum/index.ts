@@ -7,3 +7,4 @@ export * from './charger-location-type.enum';
 export * from './connector-status.enum';
 export * from './point-type.enum';
 export * from './roles.enum';
+export * from './capcity-unit.enum';

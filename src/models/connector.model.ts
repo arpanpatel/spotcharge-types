@@ -1,9 +1,9 @@
 import {ConnectorStatus} from "../enum";
-import {MasterData} from "./master-data.model";
+import {ChargerCapacityModel} from "./charger-capacity.model";
 
 export interface ConnectorModel {
-  name: number;
-  status: ConnectorStatus;
-  capacity: MasterData;
-  unitRate: number;
+    name: number;
+    status: ConnectorStatus;
+    capacity: ChargerCapacityModel;
+    unitRate: number;
 }
