@@ -5,6 +5,7 @@ import { AddressApiModel } from "./address.api.model";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { ConnectorModel } from "../connector.model";
+import { VendorModel } from "../vendor.model";
 export interface FleetChargerApiModel {
     id: string;
     name: string;
@@ -18,6 +19,7 @@ export interface FleetChargerApiModel {
     chargerLocationType: ChargerLocationType;
     purchaseRate: number;
     active: boolean;
+    vendor: VendorModel;
     fleet?: FleetModel;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
