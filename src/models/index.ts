@@ -12,3 +12,4 @@ export {MasterData} from './master-data.model';
 export {FleetChargerModel} from './fleet-charger.model';
 export {ColorModel} from './color.model';
 export {ChargerCapacity} from './charger-capacity.model';
+export {VendorModel} from './vendor.model';
