@@ -9,4 +9,5 @@ export enum Collection {
     FleetChargers = 'fleetChargers',
     ChargerCapacities = 'chargerCapacities',
     Vendors = 'vendors',
+    ConnectorTypes = 'connectorTypes',
 }
