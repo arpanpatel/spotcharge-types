@@ -13,5 +13,6 @@ var Collection;
     Collection["FleetChargers"] = "fleetChargers";
     Collection["ChargerCapacities"] = "chargerCapacities";
     Collection["Vendors"] = "vendors";
+    Collection["ConnectorTypes"] = "connectorTypes";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
