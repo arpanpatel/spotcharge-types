@@ -16,5 +16,6 @@ export interface FleetApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    credit: number;
 }
 //# sourceMappingURL=fleet.api.model.d.ts.map
