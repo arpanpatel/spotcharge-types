@@ -7,7 +7,6 @@ import {Timestamp} from "../timestamp";
 import {ConnectorModel} from "../connector.model";
 import {VendorModel} from "../vendor.model";
 
-
 export interface FleetChargerApiModel {
     id: string;
     name: string;
