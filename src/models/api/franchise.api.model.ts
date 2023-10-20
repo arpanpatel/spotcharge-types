@@ -12,6 +12,7 @@ export interface FranchiseApiModel {
     phoneNumber: PhoneNumberModel;
     email: string;
     password: string;
+    chargers: string[];
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
