@@ -1,6 +1,12 @@
 export declare enum ConnectorStatus {
-    Active = "active",
-    Inactive = "inactive",
-    InMaintenance = "in-maintenance"
+    Available = "Available",
+    Preparing = "Preparing",
+    Charging = "Charging",
+    SuspendedEV = "SuspendedEV",
+    SuspendedEVSE = "SuspendedEVSE",
+    Finishing = "Finishing",
+    Reserved = "Reserved",
+    Unavailable = "Unavailable",
+    Faulted = "Faulted"
 }
 //# sourceMappingURL=connector-status.enum.d.ts.map
