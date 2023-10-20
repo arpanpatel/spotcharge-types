@@ -20,13 +20,16 @@ export interface UserModel {
   gender: string;
   color: string;
   staffId: string;
-  createdBy: CreatedByModel;
-  updatedBy: CreatedByModel;
-  updatedAt: Timestamp;
-  createdAt: Timestamp;
   outletIds: Array<string>;
   emailVerified: boolean;
-  roles?: Pick<UserRoleApiModel, 'title'| 'value' | 'id'>;
+  createdBy: CreatedByModel;
+  updatedBy: CreatedByModel;
+  deleteBy: CreatedByModel;
+  createdAt: Timestamp;
+  updatedAt: Timestamp;
+  deletedAt: Timestamp | null;
+  isDeleted: boolean;
+  roles?: Pick<UserRoleApiModel, 'title' | 'value' | 'id'>;
   favouriteSalons?: string[];
   providerData?: ProviderData[]
   fleet?: string[] | null;

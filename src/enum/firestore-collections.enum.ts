@@ -10,4 +10,5 @@ export enum Collection {
     ChargerCapacities = 'chargerCapacities',
     Vendors = 'vendors',
     ConnectorTypes = 'connectorTypes',
+    Rfids = 'rfids',
 }
