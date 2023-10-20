@@ -2,6 +2,7 @@ import {FranchiseType} from "../../enum";
 import {PhoneNumberModel} from "../phone-number-model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
+import {AddressApiModel} from "./address.api.model";
 
 export interface FranchiseApiModel {
     id: string;
@@ -13,6 +14,7 @@ export interface FranchiseApiModel {
     email: string;
     password: string;
     chargers: string[];
+    address: AddressApiModel;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
