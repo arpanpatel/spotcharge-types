@@ -14,5 +14,6 @@ var Collection;
     Collection["ChargerCapacities"] = "chargerCapacities";
     Collection["Vendors"] = "vendors";
     Collection["ConnectorTypes"] = "connectorTypes";
+    Collection["Rfids"] = "rfids";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
