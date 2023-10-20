@@ -14,6 +14,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ConnectorStatus = exports.ChargerStatus = void 0;
 __exportStar(require("./firestore-collections.enum"), exports);
 __exportStar(require("./firebase-provider-type"), exports);
 __exportStar(require("./franchise-type.enum"), exports);
@@ -24,4 +25,8 @@ __exportStar(require("./connector-status.enum"), exports);
 __exportStar(require("./point-type.enum"), exports);
 __exportStar(require("./roles.enum"), exports);
 __exportStar(require("./capcity-unit.enum"), exports);
+var charger_status_enum_1 = require("./charger-status.enum");
+Object.defineProperty(exports, "ChargerStatus", { enumerable: true, get: function () { return charger_status_enum_1.ChargerStatus; } });
+var connector_status_enum_1 = require("./connector-status.enum");
+Object.defineProperty(exports, "ConnectorStatus", { enumerable: true, get: function () { return connector_status_enum_1.ConnectorStatus; } });
 //# sourceMappingURL=index.js.map

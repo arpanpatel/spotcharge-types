@@ -1,4 +1,4 @@
-import { ChargerLocationType, ChargerType, PointType } from "../../enum";
+import { ChargerLocationType, ChargerStatus, ChargerType, PointType } from "../../enum";
 import { AddressApiModel } from "./address.api.model";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
@@ -17,6 +17,7 @@ export interface ChargerApiModel {
     purchaseRate: number;
     active: boolean;
     vendor: VendorModel;
+    status: ChargerStatus;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;

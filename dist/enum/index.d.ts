@@ -8,4 +8,6 @@ export * from './connector-status.enum';
 export * from './point-type.enum';
 export * from './roles.enum';
 export * from './capcity-unit.enum';
+export { ChargerStatus } from './charger-status.enum';
+export { ConnectorStatus } from './connector-status.enum';
 //# sourceMappingURL=index.d.ts.map
