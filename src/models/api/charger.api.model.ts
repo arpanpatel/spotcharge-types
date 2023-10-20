@@ -12,7 +12,7 @@ export interface ChargerApiModel {
     type: ChargerType;
     pointType: PointType;
     location: AddressApiModel;
-    connectors: Array<ConnectorModel>;
+    connectors: Record<string, ConnectorModel>;
     protocol: string;
     chargerLocationType: ChargerLocationType;
     purchaseRate: number;
