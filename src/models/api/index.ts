@@ -10,3 +10,4 @@ export {ChargerCapacityApiModel} from './charger-capacity.api.model';
 export {VendorApiModel} from './vendor.api.model';
 export {ConnectorTypeApiModel} from './connector-type.api.model';
 export {RfidApiModel} from './rfid.api.model';
+export  {OrderApiModel} from  './order.api.model'
