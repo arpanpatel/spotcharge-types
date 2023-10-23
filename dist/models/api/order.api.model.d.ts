@@ -20,6 +20,7 @@ export interface OrderApiModel {
     meterStop: number;
     customerName: string;
     state: string;
+    userId: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     createdAt: Timestamp;
