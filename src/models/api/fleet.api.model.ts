@@ -17,4 +17,5 @@ export interface FleetApiModel {
   deletedAt: Timestamp | null;
   isDeleted: boolean;
   credit: number;
+  billingStartDate: number;
 }
