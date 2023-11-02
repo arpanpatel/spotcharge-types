@@ -18,4 +18,5 @@ export interface FleetApiModel {
   isDeleted: boolean;
   credit: number;
   billingStartDate: number;
+  timeZone: string;
 }

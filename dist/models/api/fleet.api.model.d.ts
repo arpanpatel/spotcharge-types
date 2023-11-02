@@ -17,5 +17,6 @@ export interface FleetApiModel {
     isDeleted: boolean;
     credit: number;
     billingStartDate: number;
+    timeZone: string;
 }
 //# sourceMappingURL=fleet.api.model.d.ts.map
