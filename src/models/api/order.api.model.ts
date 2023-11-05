@@ -35,6 +35,7 @@ export interface OrderApiModel {
     customerName: string;
     state: string;
     userId: string;
+    unitRate: number;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     createdAt: Timestamp;
