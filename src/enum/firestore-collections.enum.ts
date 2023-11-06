@@ -12,4 +12,5 @@ export enum Collection {
     ConnectorTypes = 'connectorTypes',
     Orders = 'orders',
     Rfids = 'rfids',
+    FleetInvoices = 'fleetInvoices',
 }
