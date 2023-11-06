@@ -30,9 +30,9 @@ export interface UserModel {
   deletedAt: Timestamp | null;
   isDeleted: boolean;
   roles?: Pick<UserRoleApiModel, 'title' | 'value' | 'id'>;
-  favouriteSalons?: string[];
   providerData?: ProviderData[]
   fleet?: string[] | null;
+  fleetUserId?: string;
 }
 
 export interface ProviderData {
