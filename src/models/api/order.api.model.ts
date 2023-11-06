@@ -42,4 +42,5 @@ export interface OrderApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    orderType: string;
 }

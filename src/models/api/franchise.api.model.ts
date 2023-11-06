@@ -22,4 +22,6 @@ export interface FranchiseApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    userId: string;
+    timeZone: string;
 }

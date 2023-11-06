@@ -40,6 +40,7 @@ export interface OrderApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    orderType: string;
 }
 export {};
 //# sourceMappingURL=order.api.model.d.ts.map

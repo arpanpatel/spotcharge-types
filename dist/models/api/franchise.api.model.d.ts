@@ -21,5 +21,7 @@ export interface FranchiseApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    userId: string;
+    timeZone: string;
 }
 //# sourceMappingURL=franchise.api.model.d.ts.map
