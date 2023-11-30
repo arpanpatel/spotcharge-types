@@ -13,6 +13,7 @@ export interface FleetUserApiModel {
     email: string;
     password: string;
     phoneNumber: PhoneNumberModel | null;
+    vehicleNumber?: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;

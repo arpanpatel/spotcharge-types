@@ -13,4 +13,5 @@ export enum Collection {
     Orders = 'orders',
     Rfids = 'rfids',
     FleetInvoices = 'fleetInvoices',
+    DeleteAccounts = 'deleteAccounts',
 }
