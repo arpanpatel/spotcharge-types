@@ -17,5 +17,6 @@ var Collection;
     Collection["Orders"] = "orders";
     Collection["Rfids"] = "rfids";
     Collection["FleetInvoices"] = "fleetInvoices";
+    Collection["DeleteAccounts"] = "deleteAccounts";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
