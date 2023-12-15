@@ -3,6 +3,7 @@ import {FranchiseModel} from "../franchise.model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {PhoneNumberModel} from "../phone-number-model";
+import {VehicleModel} from "../vehicle.model";
 
 export interface FleetUserApiModel {
     id: string;
@@ -13,6 +14,7 @@ export interface FleetUserApiModel {
     email: string;
     password: string;
     phoneNumber: PhoneNumberModel | null;
+    vehicle: VehicleModel | null;
     vehicleNumber?: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;

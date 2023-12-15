@@ -12,3 +12,5 @@ export {ConnectorTypeApiModel} from './connector-type.api.model';
 export {RfidApiModel} from './rfid.api.model';
 export {OrderApiModel} from './order.api.model';
 export {FleetInvoiceApiModel} from './fleet-invoice.api.model';
+export {VehicleApiModel} from './vehicle.api.model';
+export {BrandApiModel} from './brand.api.model';

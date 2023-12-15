@@ -10,3 +10,4 @@ export {CapacityUnit} from './capcity-unit.enum';
 export {ChargerStatus} from './charger-status.enum';
 export {ConnectorStatus} from './connector-status.enum';
 export {OrderState} from './order-state.enum';
+export {OrderType} from './order-type.enum';
