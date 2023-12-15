@@ -12,6 +12,7 @@ export declare enum Collection {
     Orders = "orders",
     Rfids = "rfids",
     FleetInvoices = "fleetInvoices",
-    DeleteAccounts = "deleteAccounts"
+    DeleteAccounts = "deleteAccounts",
+    FleetOrders = "fleetOrders"
 }
 //# sourceMappingURL=firestore-collections.enum.d.ts.map

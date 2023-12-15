@@ -13,4 +13,6 @@ export { ColorModel } from './color.model';
 export { ChargerCapacity } from './charger-capacity.model';
 export { VendorModel } from './vendor.model';
 export { ConnectorTypeModel } from './connector-type.model';
+export { VehicleModel } from './vehicle.model';
+export { BrandModel } from './brand.model';
 //# sourceMappingURL=index.d.ts.map

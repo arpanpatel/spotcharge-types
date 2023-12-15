@@ -6,6 +6,7 @@ import {OrderType} from "../../enum";
 
 export interface ChargingTransaction {
     unitConsumed: number;
+    power: number;
     endTime: Date;
     startTime: Date;
     meterStop: number;

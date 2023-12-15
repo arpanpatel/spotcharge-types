@@ -2,8 +2,10 @@ import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { FleetModel } from "../fleet.model";
 import { FranchiseModel } from "../franchise.model";
+import { OrderType } from "../../enum";
 export interface ChargingTransaction {
     unitConsumed: number;
+    power: number;
     endTime: Date;
     startTime: Date;
     meterStop: number;
@@ -35,7 +37,7 @@ export interface OrderApiModel {
     state: string;
     userId: string;
     unitRate: number;
-    orderType: string;
+    orderType: OrderType;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel | null;
