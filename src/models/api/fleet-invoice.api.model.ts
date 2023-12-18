@@ -5,6 +5,7 @@ import {FranchiseModel} from "../franchise.model";
 
 export interface FleetInvoiceApiModel {
     id: string;
+    invoiceNo: number;
     billDate: Timestamp;
     fleet: FleetModel;
     franchise: FranchiseModel;

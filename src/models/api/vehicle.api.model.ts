@@ -1,6 +1,7 @@
 import {BrandModel} from "../brand.model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
+import {VehicleType} from "../../enum";
 
 export interface VehicleApiModel {
   id: string;
@@ -9,6 +10,7 @@ export interface VehicleApiModel {
   year: number;
   batteryCapacity: number;
   image: string;
+  type: VehicleType;
   createdBy: CreatedByModel;
   updatedBy: CreatedByModel;
   deleteBy: CreatedByModel;

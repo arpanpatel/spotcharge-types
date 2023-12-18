@@ -15,6 +15,7 @@ export interface FranchiseApiModel {
     password: string;
     chargers: string[];
     address: AddressApiModel;
+    fleetInvoiceCount: number;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
