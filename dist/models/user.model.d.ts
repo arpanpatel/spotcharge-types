@@ -32,7 +32,7 @@ export interface UserModel {
     providerData?: ProviderData[];
     fleet?: string[] | null;
     fleetUserId?: string;
-    allowedFleets?: string[];
+    allowedFleetIds?: string[];
 }
 export interface ProviderData {
     displayName: string;
