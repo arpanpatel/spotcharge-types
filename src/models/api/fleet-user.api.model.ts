@@ -16,6 +16,7 @@ export interface FleetUserApiModel {
     phoneNumber: PhoneNumberModel | null;
     vehicle: VehicleModel | null;
     vehicleNumber?: string;
+    userId: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
