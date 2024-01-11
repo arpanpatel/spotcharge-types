@@ -1,6 +1,6 @@
 export declare enum Collection {
     Franchises = "franchises",
-    Users = "users",
+    PublicUsers = "publicUsers",
     TempAssignClaim = "tempAssignClaim",
     Fleets = "fleets",
     FleetUsers = "fleetUsers",
