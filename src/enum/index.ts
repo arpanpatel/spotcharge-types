@@ -12,3 +12,4 @@ export {ConnectorStatus} from './connector-status.enum';
 export {OrderState} from './order-state.enum';
 export {OrderType} from './order-type.enum';
 export {VehicleType} from './vehicle-type.enum';
+export {EntityType} from './entity-type';
