@@ -6,6 +6,7 @@ import { ConnectorModel } from "../connector.model";
 import { VendorModel } from "../vendor.model";
 export interface ChargerApiModel {
     id: string;
+    _firestore_id: string;
     name: string;
     chargerId: string;
     type: ChargerType;
