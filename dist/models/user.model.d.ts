@@ -33,6 +33,7 @@ export interface UserModel {
     fleet?: string[] | null;
     fleetUserId?: string;
     allowedFleetIds?: string[];
+    vehicles?: UserVehicle[];
 }
 export interface ProviderData {
     displayName: string;
@@ -41,5 +42,9 @@ export interface ProviderData {
     photoURL: string;
     providerId: FirebaseProviderType;
     uid: string;
+}
+export interface UserVehicle {
+    id: string;
+    registrationNo: string;
 }
 //# sourceMappingURL=user.model.d.ts.map

@@ -33,7 +33,8 @@ export interface UserModel {
   providerData?: ProviderData[]
   fleet?: string[] | null;
   fleetUserId?: string;
-    allowedFleetIds?: string[];
+  allowedFleetIds?: string[];
+  vehicles?: UserVehicle[]
 }
 
 export interface ProviderData {
@@ -43,4 +44,9 @@ export interface ProviderData {
   photoURL: string;
   providerId: FirebaseProviderType;
   uid:string;
+}
+
+export interface UserVehicle {
+  id: string,
+  registrationNo: string
 }

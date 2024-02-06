@@ -1,6 +1,6 @@
 export * from './api';
 
-export {UserModel, ProviderData} from './user.model';
+export {UserModel, ProviderData, UserVehicle} from './user.model';
 export {FranchiseModel} from './franchise.model';
 export {CountryModel} from './country.model';
 export {PhoneNumberModel, NumberModel} from './phone-number-model';
