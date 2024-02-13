@@ -13,4 +13,5 @@ export { OrderState } from './order-state.enum';
 export { OrderType } from './order-type.enum';
 export { VehicleType } from './vehicle-type.enum';
 export { EntityType } from './entity-type';
+export { PaymentStatus } from './payment-status';
 //# sourceMappingURL=index.d.ts.map

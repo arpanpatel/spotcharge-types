@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
+exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -31,4 +31,6 @@ var vehicle_type_enum_1 = require("./vehicle-type.enum");
 Object.defineProperty(exports, "VehicleType", { enumerable: true, get: function () { return vehicle_type_enum_1.VehicleType; } });
 var entity_type_1 = require("./entity-type");
 Object.defineProperty(exports, "EntityType", { enumerable: true, get: function () { return entity_type_1.EntityType; } });
+var payment_status_1 = require("./payment-status");
+Object.defineProperty(exports, "PaymentStatus", { enumerable: true, get: function () { return payment_status_1.PaymentStatus; } });
 //# sourceMappingURL=index.js.map

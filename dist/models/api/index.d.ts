@@ -14,4 +14,5 @@ export { OrderApiModel } from './order.api.model';
 export { FleetInvoiceApiModel } from './fleet-invoice.api.model';
 export { VehicleApiModel } from './vehicle.api.model';
 export { BrandApiModel } from './brand.api.model';
+export { BookingApiModel } from './booking.api.model';
 //# sourceMappingURL=index.d.ts.map
