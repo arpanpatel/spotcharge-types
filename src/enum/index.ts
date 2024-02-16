@@ -14,3 +14,5 @@ export {OrderType} from './order-type.enum';
 export {VehicleType} from './vehicle-type.enum';
 export {EntityType} from './entity-type';
 export {PaymentStatus} from './payment-status';
+export {TransactionType} from './transaction-type';
+export {TransactionReason} from './transaction-reasons';

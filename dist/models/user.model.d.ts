@@ -28,6 +28,7 @@ export interface UserModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    walletBalance: number;
     roles?: Pick<UserRoleApiModel, 'title' | 'value' | 'id'>;
     providerData?: ProviderData[];
     fleet?: string[] | null;
