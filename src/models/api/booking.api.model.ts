@@ -7,8 +7,8 @@ export interface BookingApiModel {
   id: string;
   userId: string;
   userInfo: {
-    id: string,
-    name: string
+    id: string;
+    name: string;
   };
   chargingDate: Date;
   startTime: number;
