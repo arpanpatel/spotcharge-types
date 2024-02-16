@@ -1,4 +1,6 @@
 // eslint-disable-next-line no-shadow
+import {WalletTransactionApiModel} from "../models";
+
 export enum Collection {
     Franchises = 'franchises',
     PublicUsers = 'publicUsers',
@@ -16,4 +18,5 @@ export enum Collection {
     DeleteAccounts = 'deleteAccounts',
     FleetOrders = 'fleetOrders',
     Bookings = 'bookings',
+    WalletTransaction = 'walletTransaction',
 }
