@@ -5,6 +5,11 @@ import {PaymentStatus} from "../../enum";
 
 export interface BookingApiModel {
   id: string;
+  userId: string;
+  userInfo: {
+    id: string,
+    name: string
+  };
   chargingDate: Date;
   startTime: number;
   endTime: number;
