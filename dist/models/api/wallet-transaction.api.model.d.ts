@@ -7,7 +7,6 @@ export interface WalletTransactionApiModel {
     amount: number;
     type: TransactionType;
     reason: TransactionReason;
-    transactionDate: Timestamp;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deleteBy: CreatedByModel;
