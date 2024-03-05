@@ -14,8 +14,10 @@ export interface FleetUserApiModel {
     email: string;
     password: string;
     phoneNumber: PhoneNumberModel | null;
-    vehicle: VehicleModel | null;
-    vehicleNumber?: string;
+    fleetVehicle: FleetVehicleModel;
+    fleetVehicleId: string;
+    // vehicle: VehicleModel | null;
+    // vehicleNumber?: string;
     userId: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
@@ -24,4 +26,12 @@ export interface FleetUserApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+}
+
+
+
+export interface FleetVehicleModel {
+    id: string;
+    vehicle: VehicleModel;
+    vehicleNumber:string;
 }
