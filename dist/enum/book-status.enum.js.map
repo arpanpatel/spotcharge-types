@@ -1,1 +1,1 @@
-{"version":3,"file":"book-status.enum.js","sourceRoot":"","sources":["../../src/enum/book-status.enum.ts"],"names":[],"mappings":";;;AAAA,IAAY,aAKX;AALD,WAAY,aAAa;IACrB,wCAAuB,CAAA;IACvB,wCAAuB,CAAA;IACvB,wCAAuB,CAAA;IACvB,4CAA2B,CAAA;AAC/B,CAAC,EALW,aAAa,GAAb,qBAAa,KAAb,qBAAa,QAKxB"}
+{"version":3,"file":"book-status.enum.js","sourceRoot":"","sources":["../../src/enum/book-status.enum.ts"],"names":[],"mappings":";;;AAAA,IAAY,aAKX;AALD,WAAY,aAAa;IACrB,wCAAuB,CAAA;IACvB,wCAAuB,CAAA;IACvB,wCAAuB,CAAA;IACvB,oCAAmB,CAAA;AACvB,CAAC,EALW,aAAa,GAAb,qBAAa,KAAb,qBAAa,QAKxB"}
