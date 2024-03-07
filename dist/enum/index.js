@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
+exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -37,4 +37,6 @@ var transaction_type_1 = require("./transaction-type");
 Object.defineProperty(exports, "TransactionType", { enumerable: true, get: function () { return transaction_type_1.TransactionType; } });
 var transaction_reasons_1 = require("./transaction-reasons");
 Object.defineProperty(exports, "TransactionReason", { enumerable: true, get: function () { return transaction_reasons_1.TransactionReason; } });
+var book_status_enum_1 = require("./book-status.enum");
+Object.defineProperty(exports, "BookingStatus", { enumerable: true, get: function () { return book_status_enum_1.BookingStatus; } });
 //# sourceMappingURL=index.js.map

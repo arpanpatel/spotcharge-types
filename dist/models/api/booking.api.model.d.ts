@@ -1,7 +1,7 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { RazorpaySuccessResponse } from "../razorpay.model";
-import { PaymentStatus } from "../../enum";
+import { BookingStatus, PaymentStatus } from "../../enum";
 export interface BookingApiModel {
     id: string;
     userId: string;
@@ -25,6 +25,7 @@ export interface BookingApiModel {
     totalAmount: number;
     paymentInfo: RazorpaySuccessResponse | null;
     paymentStatus: PaymentStatus;
+    status: BookingStatus;
     bookingRef: string;
     paymentVerified: false;
     createdBy: CreatedByModel;

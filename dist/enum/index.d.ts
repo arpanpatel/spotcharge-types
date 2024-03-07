@@ -16,4 +16,5 @@ export { EntityType } from './entity-type';
 export { PaymentStatus } from './payment-status';
 export { TransactionType } from './transaction-type';
 export { TransactionReason } from './transaction-reasons';
+export { BookingStatus } from './book-status.enum';
 //# sourceMappingURL=index.d.ts.map
