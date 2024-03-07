@@ -1,7 +1,7 @@
 export declare enum BookingStatus {
-    CONFIRMED = "CONFIRMED",
-    CANCELLED = "CANCELLED",
-    COMPLETED = "COMPLETED",
-    IN_PROGRESS = "IN_PROGRESS"
+    CONFIRMED = "confirmed",
+    CANCELLED = "cancelled",
+    COMPLETED = "completed",
+    IN_PROGRESS = "in_progress"
 }
 //# sourceMappingURL=book-status.enum.d.ts.map
