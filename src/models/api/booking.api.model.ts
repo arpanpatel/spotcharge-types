@@ -10,7 +10,7 @@ export interface BookingApiModel {
     id: string;
     name: string;
   };
-  chargingDate: Date;
+  chargingDate: Timestamp;
   startTime: number;
   endTime: number;
   charger: {
