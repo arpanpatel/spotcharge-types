@@ -5,6 +5,7 @@ var Collection;
 (function (Collection) {
     Collection["Franchises"] = "franchises";
     Collection["PublicUsers"] = "publicUsers";
+    Collection["Users"] = "users";
     Collection["TempAssignClaim"] = "tempAssignClaim";
     Collection["Fleets"] = "fleets";
     Collection["FleetUsers"] = "fleetUsers";

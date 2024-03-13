@@ -4,6 +4,7 @@ import {WalletTransactionApiModel} from "../models";
 export enum Collection {
     Franchises = 'franchises',
     PublicUsers = 'publicUsers',
+    Users = 'users',
     TempAssignClaim = 'tempAssignClaim',
     Fleets = 'fleets',
     FleetUsers = 'fleetUsers',
