@@ -16,3 +16,5 @@ export {VehicleApiModel} from './vehicle.api.model';
 export {BrandApiModel} from './brand.api.model';
 export {BookingApiModel} from './booking.api.model';
 export {WalletTransactionApiModel} from './wallet-transaction.api.model';
+export {FleetVehicleApiModel} from './fleet-vehicle.api.model';
+export {InvoiceApiModel} from './invoice.api.model';

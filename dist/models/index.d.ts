@@ -15,5 +15,6 @@ export { VendorModel } from './vendor.model';
 export { ConnectorTypeModel } from './connector-type.model';
 export { VehicleModel } from './vehicle.model';
 export { BrandModel } from './brand.model';
+export { ChargingTransaction, ChargingTransactionRecords } from './charging-transaction';
 export { RazorpaySuccessResponse, RazorpayErrorResponse, RazorpayPaymentError } from './razorpay.model';
 //# sourceMappingURL=index.d.ts.map

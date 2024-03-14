@@ -4,5 +4,6 @@ exports.OrderType = void 0;
 var OrderType;
 (function (OrderType) {
     OrderType["Fleet"] = "fleet";
+    OrderType["Public"] = "public";
 })(OrderType = exports.OrderType || (exports.OrderType = {}));
 //# sourceMappingURL=order-type.enum.js.map

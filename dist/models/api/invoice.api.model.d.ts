@@ -1,38 +1,34 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
-import { FleetModel } from "../fleet.model";
-import { FranchiseModel } from "../franchise.model";
 import { OrderType } from "../../enum";
 import { ChargingTransactionRecords } from "../charging-transaction";
-export interface OrderApiModel {
-    orderId: string;
+export interface InvoiceApiModel {
     id: string;
+    invoiceId: string;
+    invoiceNo: number;
     chargerId: string;
+    customerName: string;
+    chargingDate: Timestamp;
     startTime: Timestamp;
     endTime: Timestamp;
-    chargingDate: Timestamp;
-    fleet: FleetModel;
-    franchise: FranchiseModel;
-    stopReason: string;
-    orderNo: number;
-    transactionId: number;
-    currentTransactionId: number;
-    transaction: ChargingTransactionRecords;
-    connectorNo: number;
     unitConsumed: number;
-    meterStart: number;
-    meterStop: number;
-    customerName: string;
     state: string;
+    connectorNo: number;
     userId: string;
     unitRate: number;
     orderType: OrderType;
+    stopReason: string;
+    transactionId: number;
+    currentTransactionId: number;
+    transaction: ChargingTransactionRecords;
+    meterStart: number;
+    meterStop: number;
+    isDeleted: boolean;
+    deletedAt: Timestamp | null;
+    createdAt: Timestamp;
+    updatedAt: Timestamp;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel | null;
-    createdAt: Timestamp;
-    updatedAt: Timestamp;
-    deletedAt: Timestamp | null;
-    isDeleted: boolean;
 }
-//# sourceMappingURL=order.api.model.d.ts.map
+//# sourceMappingURL=invoice.api.model.d.ts.map

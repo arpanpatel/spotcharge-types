@@ -1,4 +1,5 @@
 export declare enum OrderType {
-    Fleet = "fleet"
+    Fleet = "fleet",
+    Public = "public"
 }
 //# sourceMappingURL=order-type.enum.d.ts.map
