@@ -5,6 +5,7 @@ import { ChargingTransactionRecords } from "../charging-transaction";
 export interface InvoiceApiModel {
     id: string;
     invoiceId: string;
+    bookingId: string;
     invoiceNo: number;
     chargerId: string;
     customerName: string;
