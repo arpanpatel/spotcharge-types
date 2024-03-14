@@ -27,6 +27,7 @@ export interface BookingApiModel {
   paymentInfo: RazorpaySuccessResponse | null;
   paymentStatus: PaymentStatus;
   status: BookingStatus;
+  state: string;
   bookingRef: string;
   paymentVerified: false;
   createdBy: CreatedByModel;
@@ -36,4 +37,5 @@ export interface BookingApiModel {
   updatedAt: Timestamp;
   deletedAt: Timestamp | null;
   isDeleted: boolean;
+  invoiceId?: string;
 }
