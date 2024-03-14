@@ -17,4 +17,6 @@ export interface WalletTransactionApiModel {
   updatedAt: Timestamp;
   deletedAt: Timestamp | null;
   isDeleted: boolean;
+  invoiceId?: string;
+  bookingId?: string;
 }
