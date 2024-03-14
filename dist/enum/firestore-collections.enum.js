@@ -17,6 +17,7 @@ var Collection;
     Collection["Orders"] = "orders";
     Collection["Rfids"] = "rfids";
     Collection["FleetInvoices"] = "fleetInvoices";
+    Collection["Invoices"] = "invoices";
     Collection["DeleteAccounts"] = "deleteAccounts";
     Collection["FleetOrders"] = "fleetOrders";
     Collection["Bookings"] = "bookings";
