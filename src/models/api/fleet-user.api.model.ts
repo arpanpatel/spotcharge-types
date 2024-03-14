@@ -4,6 +4,7 @@ import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {PhoneNumberModel} from "../phone-number-model";
 import {VehicleModel} from "../vehicle.model";
+import {UserRoleApiModel} from "./user-role.api.model";
 
 export interface FleetUserApiModel {
     id: string;
@@ -18,6 +19,7 @@ export interface FleetUserApiModel {
     fleetVehicleId: string;
     // vehicle: VehicleModel | null;
     // vehicleNumber?: string;
+    roles: Pick<UserRoleApiModel, "title" | "value" | "id">,
     userId: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
