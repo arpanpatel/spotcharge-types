@@ -1,6 +1,6 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
-import { TransactionReason, TransactionType } from "../../enum";
+import { EntityType, TransactionReason, TransactionType } from "../../enum";
 import { RazorpaySuccessResponse } from "../razorpay.model";
 export interface WalletTransactionApiModel {
     id: string;
@@ -18,5 +18,6 @@ export interface WalletTransactionApiModel {
     isDeleted: boolean;
     invoiceId?: string;
     bookingId?: string;
+    source: EntityType;
 }
 //# sourceMappingURL=wallet-transaction.api.model.d.ts.map
