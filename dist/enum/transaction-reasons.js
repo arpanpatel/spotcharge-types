@@ -10,5 +10,6 @@ var TransactionReason;
     TransactionReason["BONUS"] = "bonus";
     TransactionReason["DEPOSIT"] = "deposit";
     TransactionReason["WITHDRAWAL"] = "withdrawal";
+    TransactionReason["CHARGING"] = "charging";
 })(TransactionReason = exports.TransactionReason || (exports.TransactionReason = {}));
 //# sourceMappingURL=transaction-reasons.js.map
