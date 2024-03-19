@@ -26,5 +26,9 @@ export interface ChargerApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    _geo: {
+        lat: number;
+        lng: number;
+    };
 }
 //# sourceMappingURL=charger.api.model.d.ts.map
