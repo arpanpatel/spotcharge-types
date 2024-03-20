@@ -40,5 +40,6 @@ export interface BookingApiModel {
   paymentMethod: PaymentMethod;
   invoiceId?: string;
   walletAmount?: number;
-  addedMoneyAmount?: number;
+  topUpAmount?: number;
 }
+
