@@ -1,7 +1,7 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { RazorpaySuccessResponse } from "../razorpay.model";
-import { BookingStatus, PaymentStatus } from "../../enum";
+import { BookingStatus, PaymentMethod, PaymentStatus } from "../../enum";
 export interface BookingApiModel {
     id: string;
     userId: string;
@@ -36,6 +36,9 @@ export interface BookingApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    paymentMethod: PaymentMethod;
     invoiceId?: string;
+    walletAmount?: number;
+    addedMoneyAmount?: number;
 }
 //# sourceMappingURL=booking.api.model.d.ts.map

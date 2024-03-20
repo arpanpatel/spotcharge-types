@@ -17,3 +17,4 @@ export {PaymentStatus} from './payment-status';
 export {TransactionType} from './transaction-type';
 export {TransactionReason} from './transaction-reasons';
 export {BookingStatus} from './book-status.enum';
+export {PaymentMethod} from './payment-method';
