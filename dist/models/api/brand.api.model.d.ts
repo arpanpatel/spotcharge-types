@@ -3,6 +3,7 @@ import { Timestamp } from "../timestamp";
 export interface BrandApiModel {
     id: string;
     name: string;
+    logo: string | null;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deleteBy: CreatedByModel;
