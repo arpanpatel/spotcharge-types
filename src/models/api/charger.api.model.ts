@@ -30,7 +30,8 @@ export interface ChargerApiModel {
     _geo: {
         lat: number;
         lng: number;
-    }
+    },
+    _geoDistance: number;
 }
 
 

@@ -30,5 +30,6 @@ export interface ChargerApiModel {
         lat: number;
         lng: number;
     };
+    _geoDistance: number;
 }
 //# sourceMappingURL=charger.api.model.d.ts.map
