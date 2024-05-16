@@ -1,4 +1,5 @@
 "use strict";
+// eslint-disable-next-line no-shadow
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Collection = void 0;
 var Collection;
@@ -22,5 +23,6 @@ var Collection;
     Collection["FleetOrders"] = "fleetOrders";
     Collection["Bookings"] = "bookings";
     Collection["WalletTransaction"] = "walletTransaction";
+    Collection["FleetUserFranchiseChangeLogs"] = "fleetUserFranchiseChangeLogs";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

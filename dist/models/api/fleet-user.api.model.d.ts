@@ -11,6 +11,7 @@ export interface FleetUserApiModel {
     lastName: string;
     franchise: FranchiseModel;
     fleets: FleetModel[];
+    fleetIds: string[];
     email: string;
     password: string;
     phoneNumber: PhoneNumberModel | null;
@@ -25,6 +26,9 @@ export interface FleetUserApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    timeZone: string;
+    previousFleetUserId?: string;
+    fleetUserFranchiseChangeLogId?: string;
 }
 export interface FleetVehicleModel {
     id: string;
