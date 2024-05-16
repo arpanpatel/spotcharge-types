@@ -18,3 +18,4 @@ export {BookingApiModel} from './booking.api.model';
 export {WalletTransactionApiModel} from './wallet-transaction.api.model';
 export {FleetVehicleApiModel} from './fleet-vehicle.api.model';
 export {InvoiceApiModel} from './invoice.api.model';
+export {FleetUserFranchiseChangeLogApiModel} from './fleet-user-franchise-change-log.api.model';
