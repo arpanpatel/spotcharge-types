@@ -24,5 +24,6 @@ var Collection;
     Collection["Bookings"] = "bookings";
     Collection["WalletTransaction"] = "walletTransaction";
     Collection["FleetUserFranchiseChangeLogs"] = "fleetUserFranchiseChangeLogs";
+    Collection["ServiceCharges"] = "serviceCharges";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

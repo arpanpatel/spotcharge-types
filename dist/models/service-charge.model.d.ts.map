@@ -1,0 +1,1 @@
+{"version":3,"file":"service-charge.model.d.ts","sourceRoot":"","sources":["../../src/models/service-charge.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,YAAY,EAAC,MAAM,uBAAuB,CAAC;AAEnD,MAAM,WAAW,kBAAkB;IAC/B,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,MAAM,CAAC;IACb,YAAY,EAAE,YAAY,CAAC;CAC9B"}
