@@ -1,16 +1,12 @@
-import {CapacityUnit} from "../../enum";
 import {CreatedByModel} from "../created-by.model";
+import {RateDuration} from "../rate-duration.model";
 import {Timestamp} from "../timestamp";
-import {ColorModel} from "../color.model";
-import {ServiceChargeModel} from "../service-charge.model";
 
-
-export interface ChargerCapacityApiModel {
+export interface ServiceChargeApiModel {
     id: string;
-    value: number;
-    unit: CapacityUnit;
-    color: ColorModel;
-    serviceCharge: ServiceChargeModel;
+    name: string;
+    rate: number;
+    rateDuration: RateDuration;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
@@ -19,3 +15,7 @@ export interface ChargerCapacityApiModel {
     deletedAt: Timestamp | null;
     isDeleted: boolean;
 }
+
+
+
+

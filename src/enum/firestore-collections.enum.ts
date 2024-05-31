@@ -21,4 +21,5 @@ export enum Collection {
     Bookings = 'bookings',
     WalletTransaction = 'walletTransaction',
     FleetUserFranchiseChangeLogs = 'fleetUserFranchiseChangeLogs',
+    ServiceCharges = 'serviceCharges',
 }
