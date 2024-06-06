@@ -22,4 +22,5 @@ export enum Collection {
     WalletTransaction = 'walletTransaction',
     FleetUserFranchiseChangeLogs = 'fleetUserFranchiseChangeLogs',
     ServiceCharges = 'serviceCharges',
+    FleetOperators = 'fleetOperators',
 }
