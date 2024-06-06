@@ -34,6 +34,7 @@ export interface UserModel {
   providerData?: ProviderData[]
   fleet?: string[] | null;
   fleetUserId?: string;
+  fleetOperatorId?: string;
   allowedFleetIds?: string[];
   vehicles?: UserVehicle[]
 }
