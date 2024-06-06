@@ -31,5 +31,6 @@ export interface ChargerApiModel {
         lng: number;
     };
     _geoDistance: number;
+    fleetIds?: string[];
 }
 //# sourceMappingURL=charger.api.model.d.ts.map
