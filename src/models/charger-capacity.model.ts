@@ -1,4 +1,5 @@
 import {ColorModel} from "./color.model";
+import {ServiceChargeModel} from "./service-charge.model";
 
 export interface ChargerCapacity {
   id: string;
@@ -6,4 +7,5 @@ export interface ChargerCapacity {
   color: ColorModel;
   capacityValue?: number;
   capacityUnit?: string;
+  serviceCharge?: ServiceChargeModel;
 }
