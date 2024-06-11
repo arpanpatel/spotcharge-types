@@ -35,4 +35,5 @@ export interface InvoiceApiModel {
     deletedBy: CreatedByModel | null;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
+    taxAmount: number;
 }

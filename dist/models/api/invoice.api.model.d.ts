@@ -34,5 +34,6 @@ export interface InvoiceApiModel {
     deletedBy: CreatedByModel | null;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
+    taxAmount: number;
 }
 //# sourceMappingURL=invoice.api.model.d.ts.map
