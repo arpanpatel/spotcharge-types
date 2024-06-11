@@ -2,6 +2,7 @@ import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { OrderType } from "../../enum";
 import { ChargingTransactionRecords } from "../charging-transaction";
+import { ServiceChargeModel } from "../service-charge.model";
 export interface InvoiceApiModel {
     id: string;
     invoiceId: string;
@@ -31,5 +32,7 @@ export interface InvoiceApiModel {
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel | null;
+    serviceChargeInfo: ServiceChargeModel;
+    serviceCharge: number;
 }
 //# sourceMappingURL=invoice.api.model.d.ts.map
