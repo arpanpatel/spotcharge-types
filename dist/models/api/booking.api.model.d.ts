@@ -2,6 +2,7 @@ import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { RazorpaySuccessResponse } from "../razorpay.model";
 import { BookingStatus, PaymentMethod, PaymentStatus } from "../../enum";
+import { ServiceChargeModel } from "../service-charge.model";
 export interface BookingApiModel {
     id: string;
     userId: string;
@@ -40,5 +41,7 @@ export interface BookingApiModel {
     invoiceId?: string;
     walletAmount?: number;
     topUpAmount?: number;
+    serviceChargeInfo: ServiceChargeModel;
+    serviceCharge: number;
 }
 //# sourceMappingURL=booking.api.model.d.ts.map
