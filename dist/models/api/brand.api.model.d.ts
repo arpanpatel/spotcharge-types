@@ -4,6 +4,8 @@ export interface BrandApiModel {
     id: string;
     name: string;
     logo: string | null;
+    showOnFleet: boolean;
+    showOnPublic: boolean;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deleteBy: CreatedByModel;
