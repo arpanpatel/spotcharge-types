@@ -23,4 +23,5 @@ export enum Collection {
     FleetUserFranchiseChangeLogs = 'fleetUserFranchiseChangeLogs',
     ServiceCharges = 'serviceCharges',
     FleetOperators = 'fleetOperators',
+    Brands = 'brands',
 }
