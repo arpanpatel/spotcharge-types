@@ -7,5 +7,6 @@ var BookingStatus;
     BookingStatus["CANCELLED"] = "cancelled";
     BookingStatus["COMPLETED"] = "completed";
     BookingStatus["PENDING"] = "pending";
+    BookingStatus["IN_PROGRESS"] = "in_progress";
 })(BookingStatus = exports.BookingStatus || (exports.BookingStatus = {}));
 //# sourceMappingURL=book-status.enum.js.map
