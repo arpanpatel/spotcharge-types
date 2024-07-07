@@ -4,6 +4,7 @@ import {FleetModel} from "../fleet.model";
 import {FranchiseModel} from "../franchise.model";
 import {OrderType} from "../../enum";
 import {ChargingTransactionRecords} from "../charging-transaction";
+import {FleetVehicleModel} from "../fleet-vehicle.model";
 
 export interface OrderApiModel {
     orderId: string;
@@ -27,6 +28,7 @@ export interface OrderApiModel {
     state: string;
     userId: string;
     unitRate: number;
+    fleetVehicle: FleetVehicleModel,
     orderType: OrderType;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
