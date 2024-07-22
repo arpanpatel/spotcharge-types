@@ -29,6 +29,8 @@ export interface OrderApiModel {
     unitRate: number;
     fleetVehicle: FleetVehicleModel;
     orderType: OrderType;
+    totalConsumedUnits: number;
+    totalAmount: number;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel | null;
