@@ -1,6 +1,6 @@
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
-import {OrderType} from "../../enum";
+import {OrderType, PointType} from "../../enum";
 import {ChargingTransactionRecords} from "../charging-transaction";
 import {ServiceChargeModel} from "../service-charge.model";
 
@@ -37,4 +37,7 @@ export interface InvoiceApiModel {
     serviceCharge: number;
     taxAmount: number;
     subTotal: number;
+    pointType: PointType;
+    batteryPercentage: number;
+    recordHealth: 'bad' | 'good';
 }
