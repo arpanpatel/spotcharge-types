@@ -39,5 +39,9 @@ export interface InvoiceApiModel {
     pointType: PointType;
     batteryPercentage: number;
     recordHealth: 'bad' | 'good';
+    approxUnit: number;
+    approxAmount: number;
+    bookingStartTime: number;
+    bookingEndTime: number;
 }
 //# sourceMappingURL=invoice.api.model.d.ts.map

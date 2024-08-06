@@ -40,4 +40,8 @@ export interface InvoiceApiModel {
     pointType: PointType;
     batteryPercentage: number;
     recordHealth: 'bad' | 'good';
+    approxUnit: number;
+    approxAmount: number;
+    bookingStartTime: number;
+    bookingEndTime: number;
 }
