@@ -44,4 +44,6 @@ export interface InvoiceApiModel {
     approxAmount: number;
     bookingStartTime: number;
     bookingEndTime: number;
+    totalConsumedUnits: number;
+    totalAmount: number;
 }

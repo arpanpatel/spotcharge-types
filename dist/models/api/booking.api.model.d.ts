@@ -44,5 +44,23 @@ export interface BookingApiModel {
     topUpAmount?: number;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
+    refundData?: Refund;
+}
+export interface Refund {
+    id: string;
+    entity: string;
+    amount: number;
+    receipt: string | null;
+    currency: string;
+    payment_id: string;
+    notes: string[];
+    acquirer_data: {
+        arn: string | null;
+    };
+    created_at: number;
+    batch_id: string | null;
+    status: "pending" | "processed" | "failed";
+    speed_processed: string;
+    speed_requested: string;
 }
 //# sourceMappingURL=booking.api.model.d.ts.map
