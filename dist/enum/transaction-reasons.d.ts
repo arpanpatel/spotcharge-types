@@ -6,6 +6,8 @@ export declare enum TransactionReason {
     BONUS = "bonus",
     DEPOSIT = "deposit",
     WITHDRAWAL = "withdrawal",
-    CHARGING = "charging"
+    CHARGING = "charging",
+    ADD_BALANCE = "add balance",
+    BOOKING = "booking"
 }
 //# sourceMappingURL=transaction-reasons.d.ts.map

@@ -7,4 +7,6 @@ export enum TransactionReason {
     DEPOSIT = 'deposit',
     WITHDRAWAL = 'withdrawal',
     CHARGING = 'charging',
+    ADD_BALANCE = 'add balance',
+    BOOKING = 'booking',
 }
