@@ -26,6 +26,7 @@ export interface BookingApiModel {
   amount: number;
   tax: number;
   totalAmount: number;
+  chargedAmount: number;
   paymentInfo: RazorpaySuccessResponse | null;
   paymentStatus: PaymentStatus;
   status: BookingStatus;
