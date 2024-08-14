@@ -1,0 +1,1 @@
+{"version":3,"file":"public-user-vehicle.model.d.ts","sourceRoot":"","sources":["../../src/models/public-user-vehicle.model.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,iBAAiB;IAC9B,EAAE,EAAE,MAAM,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;IACd,cAAc,EAAE,MAAM,CAAC;IACvB,KAAK,EAAE,MAAM,CAAC;IACd,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,MAAM,CAAC;IACb,eAAe,EAAE,MAAM,CAAC;CAC3B"}
