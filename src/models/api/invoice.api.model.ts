@@ -3,6 +3,7 @@ import {Timestamp} from "../timestamp";
 import {OrderType, PointType} from "../../enum";
 import {ChargingTransactionRecords} from "../charging-transaction";
 import {ServiceChargeModel} from "../service-charge.model";
+import {PublicUserVehicle} from "../public-user-vehicle.model";
 
 export interface InvoiceApiModel {
     id: string;
@@ -45,4 +46,5 @@ export interface InvoiceApiModel {
     bookingUnit: number;
     bookingAmount: number;
     bookingDuration: number;
+    vehicle: PublicUserVehicle
 }

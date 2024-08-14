@@ -3,6 +3,7 @@ import {Timestamp} from "../timestamp";
 import {RazorpaySuccessResponse} from "../razorpay.model";
 import {BookingStatus, PaymentMethod, PaymentStatus, PointType} from "../../enum";
 import {ServiceChargeModel} from "../service-charge.model";
+import {PublicUserVehicle} from "../public-user-vehicle.model";
 
 export interface BookingApiModel {
   id: string;
@@ -22,7 +23,7 @@ export interface BookingApiModel {
   };
   connectorNo: number;
   unit: number;
-  vehicle: number;
+  vehicle: PublicUserVehicle;
   amount: number;
   tax: number;
   totalAmount: number;

@@ -21,3 +21,4 @@ export {RazorpaySuccessResponse, RazorpayErrorResponse, RazorpayPaymentError} fr
 export {FleetVehicleModel} from './fleet-vehicle.model';
 export {RateDuration} from './rate-duration.model';
 export {ServiceChargeModel} from './service-charge.model';
+export {PublicUserVehicle} from './public-user-vehicle.model';
