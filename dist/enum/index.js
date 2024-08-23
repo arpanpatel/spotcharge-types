@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
+exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -43,4 +43,8 @@ var payment_method_1 = require("./payment-method");
 Object.defineProperty(exports, "PaymentMethod", { enumerable: true, get: function () { return payment_method_1.PaymentMethod; } });
 var time_unit_1 = require("./time-unit");
 Object.defineProperty(exports, "TimeUnit", { enumerable: true, get: function () { return time_unit_1.TimeUnit; } });
+var app_type_1 = require("./app-type");
+Object.defineProperty(exports, "AppType", { enumerable: true, get: function () { return app_type_1.AppType; } });
+var support_queries_status_1 = require("./support-queries-status");
+Object.defineProperty(exports, "SupportQueriesStatus", { enumerable: true, get: function () { return support_queries_status_1.SupportQueriesStatus; } });
 //# sourceMappingURL=index.js.map

@@ -19,3 +19,5 @@ export {TransactionReason} from './transaction-reasons';
 export {BookingStatus} from './book-status.enum';
 export {PaymentMethod} from './payment-method';
 export {TimeUnit} from './time-unit';
+export {AppType} from './app-type';
+export {SupportQueriesStatus} from './support-queries-status';
