@@ -20,6 +20,7 @@ var Collection;
     Collection["FleetInvoices"] = "fleetInvoices";
     Collection["Invoices"] = "invoices";
     Collection["DeleteAccounts"] = "deleteAccounts";
+    Collection["PublicUserDeleteAccounts"] = "publicUserDeleteAccounts";
     Collection["FleetOrders"] = "fleetOrders";
     Collection["Bookings"] = "bookings";
     Collection["WalletTransaction"] = "walletTransaction";
