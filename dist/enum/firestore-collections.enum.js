@@ -29,5 +29,6 @@ var Collection;
     Collection["FleetOperators"] = "fleetOperators";
     Collection["Brands"] = "brands";
     Collection["SupportQueries"] = "supportQueries";
+    Collection["versionInfo"] = "versionInfo";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
