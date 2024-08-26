@@ -21,3 +21,4 @@ export {InvoiceApiModel} from './invoice.api.model';
 export {FleetUserFranchiseChangeLogApiModel} from './fleet-user-franchise-change-log.api.model';
 export {ServiceChargeApiModel} from './service-charge.api.model';
 export {FleetOperatorApiModel} from './fleet-operator.api.model';
+export {SupportQueriesApiModel} from './support-queries.api.model';

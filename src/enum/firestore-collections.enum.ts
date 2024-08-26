@@ -25,4 +25,5 @@ export enum Collection {
     ServiceCharges = 'serviceCharges',
     FleetOperators = 'fleetOperators',
     Brands = 'brands',
+    SupportQueries = 'supportQueries'
 }
