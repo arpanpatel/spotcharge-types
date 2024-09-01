@@ -14,6 +14,9 @@ export interface ChargerErrorApiModel {
     source: AppType;
     vendor: VendorModel;
     orderIds: string[];
+    resolved: boolean;
+    resolvedAt: null;
+    resolvedBy: null;
     reportedAt: Timestamp;
     updatedAt: Timestamp;
     createdAt: Timestamp;
