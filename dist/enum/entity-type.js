@@ -8,5 +8,9 @@ var EntityType;
     EntityType["system"] = "system";
     EntityType["superAdmin"] = "superAdmin";
     EntityType["franchise"] = "franchise";
+    EntityType["fleetApp"] = "fleetApp";
+    EntityType["publicApp"] = "publicApp";
+    EntityType["fleetApi"] = "fleetApi";
+    EntityType["publicApi"] = "publicApi";
 })(EntityType = exports.EntityType || (exports.EntityType = {}));
 //# sourceMappingURL=entity-type.js.map

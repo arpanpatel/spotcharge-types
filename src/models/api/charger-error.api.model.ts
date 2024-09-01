@@ -1,5 +1,5 @@
 import {Timestamp} from "../timestamp";
-import {AppType} from "../../enum";
+import {AppType, EntityType} from "../../enum";
 import {VendorModel} from "../vendor.model";
 import {CreatedByModel} from "../created-by.model";
 
@@ -12,7 +12,8 @@ export interface ChargerErrorApiModel {
     chargerName: string;
     chargerLocation: string;
     status: string;
-    source: AppType;
+    source: EntityType;
+    appType: AppType,
     vendor: VendorModel;
     orderIds: string[];
     resolved: boolean;

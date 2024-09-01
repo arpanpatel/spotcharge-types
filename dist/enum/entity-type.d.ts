@@ -3,6 +3,10 @@ export declare enum EntityType {
     business = "business",
     system = "system",
     superAdmin = "superAdmin",
-    franchise = "franchise"
+    franchise = "franchise",
+    fleetApp = "fleetApp",
+    publicApp = "publicApp",
+    fleetApi = "fleetApi",
+    publicApi = "publicApi"
 }
 //# sourceMappingURL=entity-type.d.ts.map

@@ -4,4 +4,8 @@ export enum EntityType  {
   system = 'system',
   superAdmin = 'superAdmin',
   franchise = 'franchise',
+  fleetApp = 'fleetApp',
+  publicApp = 'publicApp',
+  fleetApi = 'fleetApi',
+  publicApi = 'publicApi',
 }
