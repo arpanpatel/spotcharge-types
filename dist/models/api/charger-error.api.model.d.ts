@@ -3,6 +3,7 @@ import { AppType } from "../../enum";
 import { VendorModel } from "../vendor.model";
 import { CreatedByModel } from "../created-by.model";
 export interface ChargerErrorApiModel {
+    id: string;
     payload: ErrorPayload;
     messageId: number;
     connectorId: number;
