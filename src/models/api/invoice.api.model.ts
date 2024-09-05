@@ -11,6 +11,7 @@ export interface InvoiceApiModel {
     bookingId: string;
     invoiceNo: number;
     chargerId: string;
+    chargerName: string;
     customerName: string;
     chargingDate: Timestamp;
     startTime: Timestamp;
