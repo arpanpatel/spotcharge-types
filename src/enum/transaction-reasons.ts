@@ -9,4 +9,5 @@ export enum TransactionReason {
     CHARGING = 'charging',
     ADD_BALANCE = 'add balance',
     BOOKING = 'booking',
+    BANK_REFUND = 'bank refund'
 }
