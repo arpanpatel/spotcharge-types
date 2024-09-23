@@ -13,5 +13,6 @@ var TransactionReason;
     TransactionReason["CHARGING"] = "charging";
     TransactionReason["ADD_BALANCE"] = "add balance";
     TransactionReason["BOOKING"] = "booking";
+    TransactionReason["BANK_REFUND"] = "bank refund";
 })(TransactionReason = exports.TransactionReason || (exports.TransactionReason = {}));
 //# sourceMappingURL=transaction-reasons.js.map
