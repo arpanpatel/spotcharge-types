@@ -4,6 +4,7 @@ import {RazorpaySuccessResponse} from "../razorpay.model";
 import {BookingStatus, PaymentMethod, PaymentStatus, PointType} from "../../enum";
 import {ServiceChargeModel} from "../service-charge.model";
 import {PublicUserVehicle} from "../public-user-vehicle.model";
+import {PhoneNumberModel} from "../phone-number-model";
 
 export interface BookingApiModel {
   id: string;
@@ -29,6 +30,7 @@ export interface BookingApiModel {
   totalAmount: number;
   chargedAmount: number;
   paymentInfo: RazorpaySuccessResponse | null;
+  phoneNumber: PhoneNumberModel;
   paymentStatus: PaymentStatus;
   status: BookingStatus;
   state: string;

@@ -4,6 +4,7 @@ import {OrderType, PointType} from "../../enum";
 import {ChargingTransactionRecords} from "../charging-transaction";
 import {ServiceChargeModel} from "../service-charge.model";
 import {PublicUserVehicle} from "../public-user-vehicle.model";
+import {PhoneNumberModel} from "../phone-number-model";
 
 export interface InvoiceApiModel {
     id: string;
@@ -42,6 +43,7 @@ export interface InvoiceApiModel {
     pointType: PointType;
     batteryPercentage: number;
     recordHealth: 'bad' | 'good';
+    phoneNumber: PhoneNumberModel;
     totalConsumedUnits: number;
     totalAmount: number;
     bookingUnit: number;
