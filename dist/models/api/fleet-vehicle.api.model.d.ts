@@ -9,6 +9,8 @@ export interface FleetVehicleApiModel {
     vehicleNumber: string;
     fleet: FleetModel;
     franchise: FranchiseModel;
+    fleets: FleetModel[];
+    fleetIds: string[];
     timeZone: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;

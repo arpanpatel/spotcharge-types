@@ -48,7 +48,7 @@ export interface BookingApiModel {
     topUpAmount?: number;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
-    refundData?: Refund;
+    refundData?: Record<string, Refund>;
 }
 export interface Refund {
     id: string;
