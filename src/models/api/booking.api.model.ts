@@ -50,6 +50,7 @@ export interface BookingApiModel {
   serviceChargeInfo: ServiceChargeModel;
   serviceCharge: number;
   refundData?: Record<string, Refund>;
+  timeZone: string;
 }
 
 
