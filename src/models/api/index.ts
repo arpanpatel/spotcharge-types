@@ -24,3 +24,4 @@ export {FleetOperatorApiModel} from './fleet-operator.api.model';
 export {SupportQueriesApiModel} from './support-queries.api.model';
 export {ChargerErrorApiModel} from './charger-error.api.model';
 export {InvoiceDownloadApiModel} from './invoice-download.api.model';
+export {TaxApiModel} from './tax-api-model';
