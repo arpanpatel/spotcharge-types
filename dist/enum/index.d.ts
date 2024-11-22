@@ -21,4 +21,5 @@ export { PaymentMethod } from './payment-method';
 export { TimeUnit } from './time-unit';
 export { AppType } from './app-type';
 export { SupportQueriesStatus } from './support-queries-status';
+export { TaxCategory } from './tax-category';
 //# sourceMappingURL=index.d.ts.map
