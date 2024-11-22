@@ -9,7 +9,6 @@ export interface TaxApiModel {
     percentage: number | null;
     type: TaxCategory;
     taxSpecificType: string;
-    isDefault?: boolean;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     updatedAt: Timestamp;
