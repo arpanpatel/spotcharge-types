@@ -4,8 +4,8 @@ import { EntityType } from "../../enum";
 export interface GstRecordApiModel {
     id: string;
     gstNumber: string;
-    interState: StateTaxModel;
-    intraState: StateTaxModel;
+    interTax: StateTaxModel;
+    intraTax: StateTaxModel;
     businessLegalName: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
@@ -18,6 +18,11 @@ export interface GstRecordApiModel {
     timeZone: string;
 }
 export interface StateTaxModel {
+    id: string;
+    name: string;
+    taxPercentages: [TaxWithPercentageModel];
+}
+export interface TaxWithPercentageModel {
     id: string;
     name: string;
     percentage: number;
