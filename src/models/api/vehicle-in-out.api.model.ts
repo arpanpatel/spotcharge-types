@@ -23,7 +23,9 @@ export interface VehicleInOutApiModel {
     batteryPercentage: number;
     purpose: VehiclePurposeType;
     checklistStatus: VehicleChecklist;
-    photoEvidence: string[];
+    previousInOutId?: string;
+    photoEvidence: PhotoEvidenceModel[];
+    profileImage: PhotoEvidenceModel;
     notes: string | null;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
@@ -32,4 +34,11 @@ export interface VehicleInOutApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+}
+
+// Interface for Photo evidence
+export interface PhotoEvidenceModel {
+    imageUrl: string;
+    title: string;
+    exif: any | null;
 }
