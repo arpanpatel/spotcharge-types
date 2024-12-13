@@ -25,6 +25,9 @@ export declare enum Collection {
     Brands = "brands",
     SupportQueries = "supportQueries",
     versionInfo = "versionInfo",
-    ChargerErrors = "chargerErrors"
+    ChargerErrors = "chargerErrors",
+    FleetVehicle = "fleetVehicle",
+    InOuts = "inOuts",
+    Assets = "assets"
 }
 //# sourceMappingURL=firestore-collections.enum.d.ts.map
