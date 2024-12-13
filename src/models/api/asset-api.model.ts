@@ -26,3 +26,10 @@ export interface AssetType {
     id: string;
     name: string;
 }
+
+export interface AssetModel {
+    id: string;
+    name: string;
+    status: string;
+    type: AssetType;
+}
