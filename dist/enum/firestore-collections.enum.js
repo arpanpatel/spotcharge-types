@@ -31,5 +31,8 @@ var Collection;
     Collection["SupportQueries"] = "supportQueries";
     Collection["versionInfo"] = "versionInfo";
     Collection["ChargerErrors"] = "chargerErrors";
+    Collection["FleetVehicle"] = "fleetVehicle";
+    Collection["InOuts"] = "inOuts";
+    Collection["Assets"] = "assets";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
