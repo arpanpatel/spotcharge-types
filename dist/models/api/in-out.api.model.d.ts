@@ -4,6 +4,7 @@ import { VehiclePurposeType } from "../../consts";
 import { FleetModel } from "../fleet.model";
 import { FleetVehicleModel } from "../fleet-vehicle.model";
 import { FranchiseModel } from "../franchise.model";
+import { AssetModel } from "./asset-api.model";
 export type VehicleStatus = "IN" | "OUT";
 export interface VehicleChecklist {
     batteryChecked: boolean;
@@ -16,6 +17,7 @@ export interface InOutApiModel {
     id: string;
     fleet: FleetModel;
     franchise: FranchiseModel;
+    asset: AssetModel;
     vehicle: FleetVehicleModel;
     driver: string | null;
     status: VehicleStatus;
