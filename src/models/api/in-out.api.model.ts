@@ -1,6 +1,9 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import {VehiclePurposeType} from "../../consts";
+import {FleetModel} from "../fleet.model";
+import {FleetVehicleModel} from "../fleet-vehicle.model";
+import {FranchiseModel} from "../franchise.model";
 
 // Union type for vehicle status
 export type VehicleStatus = "IN" | "OUT";
@@ -15,10 +18,12 @@ export interface VehicleChecklist {
 }
 
 // Main interface with improved type constraints
-export interface VehicleInOutApiModel {
-    fleetId: string;
-    vehicleId: string;
-    driverId: string | null;
+export interface InOutApiModel {
+    id: string;
+    fleet: FleetModel;
+    franchise: FranchiseModel;
+    vehicle: FleetVehicleModel;
+    driver: string | null;
     status: VehicleStatus;
     batteryPercentage: number;
     purpose: VehiclePurposeType;

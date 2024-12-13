@@ -26,4 +26,5 @@ export {ChargerErrorApiModel} from './charger-error.api.model';
 export {InvoiceDownloadApiModel} from './invoice-download.api.model';
 export {TaxApiModel} from './tax-api-model';
 export {GstRecordApiModel, StateTaxModel} from './gst-record-api.model';
-export {VehicleStatus, VehicleChecklist,VehicleInOutApiModel, PhotoEvidenceModel} from './vehicle-in-out.api.model';
+export {VehicleStatus, VehicleChecklist, InOutApiModel, PhotoEvidenceModel} from './in-out.api.model';
+export {AssetApiModel, AssetType} from './asset-api.model';

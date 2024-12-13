@@ -1,10 +1,37 @@
+// export const VehiclePurpose = {
+//     General: "General",
+//     Delivery: "Delivery",
+//     Maintenance: "Maintenance",
+//     Charging: "Charging",
+//     Inspection: "Inspection",
+//     Emergency: "Emergency"
+// } as const;
+
 export const VehiclePurpose = {
-    General: "General",
-    Delivery: "Delivery",
-    Maintenance: "Maintenance",
-    Charging: "Charging",
-    Inspection: "Inspection",
-    Emergency: "Emergency"
+    GENERAL: {
+        id: 'general',
+        name: 'General',
+    },
+    DELIVERY: {
+        id: 'delivery',
+        name: 'Delivery',
+    },
+    MAINTENANCE: {
+        id: 'maintenance',
+        name: 'Maintenance',
+    },
+    CHARGING: {
+        id: 'charging',
+        name: 'Charging',
+    },
+    INSPECTION: {
+        id: 'inspection',
+        name: 'Inspection',
+    },
+    EMERGENCY: {
+        id: 'emergency',
+        name: 'Emergency',
+    },
 } as const;
 
 // Derive type from the const object

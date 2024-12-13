@@ -27,5 +27,8 @@ export enum Collection {
     Brands = 'brands',
     SupportQueries = 'supportQueries',
     versionInfo = 'versionInfo',
-    ChargerErrors = 'chargerErrors'
+    ChargerErrors = 'chargerErrors',
+    FleetVehicle = 'fleetVehicle',
+    InOuts = 'inOuts',
+    Assets = 'assets',
 }
