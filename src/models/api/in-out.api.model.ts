@@ -28,6 +28,7 @@ export interface InOutApiModel {
     driver: string | null;
     status: VehicleStatus;
     batteryPercentage: number;
+    odometer: number;
     purpose: VehiclePurposeType;
     checklistStatus: VehicleChecklist;
     previousInOutId?: string;
