@@ -1,5 +1,5 @@
 export { UserRoleApiModel } from './user-role.api.model';
-export { AddressApiModel } from './address.api.model';
+export { AddressApiModel, StateModel } from './address.api.model';
 export { FleetApiModel } from './fleet.api.model';
 export { FleetUserApiModel, FleetVehicleModel } from './fleet-user.api.model';
 export { FranchiseApiModel } from './franchise.api.model';
