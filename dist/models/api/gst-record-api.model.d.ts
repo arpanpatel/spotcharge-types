@@ -27,4 +27,9 @@ export interface TaxWithPercentageModel {
     name: string;
     percentage: number;
 }
+export interface GstModel {
+    id: string;
+    businessLegalName: string;
+    gstNumber: string;
+}
 //# sourceMappingURL=gst-record-api.model.d.ts.map
