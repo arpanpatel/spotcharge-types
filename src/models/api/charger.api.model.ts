@@ -4,6 +4,7 @@ import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {ConnectorModel} from "../connector.model";
 import {VendorModel} from "../vendor.model";
+import {GstModel} from "./gst-record-api.model";
 
 export interface ChargerApiModel {
     id: string;
@@ -14,6 +15,7 @@ export interface ChargerApiModel {
     pointType: PointType;
     location: AddressApiModel;
     connectors: Record<string, ConnectorModel>;
+    gst: GstModel;
     protocol: string;
     chargerLocationType: ChargerLocationType;
     purchaseRate: number;

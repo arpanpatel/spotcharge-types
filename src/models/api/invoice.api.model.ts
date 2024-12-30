@@ -5,6 +5,8 @@ import {ChargingTransactionRecords} from "../charging-transaction";
 import {ServiceChargeModel} from "../service-charge.model";
 import {PublicUserVehicle} from "../public-user-vehicle.model";
 import {PhoneNumberModel} from "../phone-number-model";
+import {AddressApiModel, StateModel} from "./address.api.model";
+import {GstModel} from "./gst-record-api.model";
 
 export interface InvoiceApiModel {
     id: string;
@@ -13,6 +15,9 @@ export interface InvoiceApiModel {
     invoiceNo: number;
     chargerId: string;
     chargerName: string;
+    chargerAddress: AddressApiModel;
+    chargerState: StateModel;
+    gst: GstModel;
     customerName: string;
     chargingDate: Timestamp;
     startTime: Timestamp;

@@ -30,3 +30,9 @@ export interface TaxWithPercentageModel {
     name: string;
     percentage: number;
 }
+
+export interface GstModel {
+    id: string;
+    businessLegalName: string;
+    gstNumber: string;
+}
