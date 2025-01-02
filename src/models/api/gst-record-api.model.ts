@@ -1,6 +1,7 @@
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {EntityType} from "../../enum";
+import {StateModel} from "./address.api.model";
 
 export interface GstRecordApiModel {
     id: string;
@@ -8,6 +9,7 @@ export interface GstRecordApiModel {
     interTax: StateTaxModel;
     intraTax: StateTaxModel;
     businessLegalName: string;
+    state: StateModel;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
@@ -35,4 +37,5 @@ export interface GstModel {
     id: string;
     businessLegalName: string;
     gstNumber: string;
+    gstState: string;
 }
