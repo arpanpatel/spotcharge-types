@@ -32,4 +32,5 @@ export interface AssetModel {
     name: string;
     status: string;
     type: AssetType;
+    identificationNumber: string;
 }

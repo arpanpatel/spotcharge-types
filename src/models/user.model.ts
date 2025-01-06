@@ -17,6 +17,7 @@ export interface UserModel {
   displayName?: string;
   firstName: string;
   lastName?: string;
+  isProfileComplete: boolean;
   gender: string;
   color: string;
   staffId: string;
