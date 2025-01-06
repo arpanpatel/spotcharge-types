@@ -29,5 +29,6 @@ export interface AssetModel {
     name: string;
     status: string;
     type: AssetType;
+    identificationNumber: string;
 }
 //# sourceMappingURL=asset-api.model.d.ts.map
