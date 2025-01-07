@@ -9,6 +9,7 @@ export interface AssetApiModel {
     name: string;
     type: AssetType;
     status: string;
+    identificationNumber: string;
     fleet: FleetModel;
     franchise: FranchiseModel;
     photo?: PhotoEvidenceModel;
