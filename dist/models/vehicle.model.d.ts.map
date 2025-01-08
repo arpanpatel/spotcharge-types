@@ -1,1 +1,1 @@
-{"version":3,"file":"vehicle.model.d.ts","sourceRoot":"","sources":["../../src/models/vehicle.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAC,MAAM,eAAe,CAAC;AAEzC,MAAM,WAAW,YAAY;IAC3B,EAAE,EAAE,MAAM,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;IACd,KAAK,EAAE,UAAU,CAAC;CACnB"}
+{"version":3,"file":"vehicle.model.d.ts","sourceRoot":"","sources":["../../src/models/vehicle.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAC,MAAM,eAAe,CAAC;AAEzC,MAAM,WAAW,YAAY;IAC3B,EAAE,EAAE,MAAM,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;IACd,KAAK,EAAE,UAAU,CAAC;IAClB,IAAI,EAAE,MAAM,CAAC;CACd"}
