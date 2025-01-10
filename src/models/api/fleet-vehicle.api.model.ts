@@ -13,6 +13,7 @@ export interface FleetVehicleApiModel {
     fleets: FleetModel[];
     fleetIds: string[];
     timeZone: string;
+    lastInOut: any;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
