@@ -52,10 +52,10 @@ export interface PhotoEvidenceModel {
     exif: any | null;
 }
 
-export interface InOutModel {
-    status: string;
-    createdBy: string;
-    date: Timestamp;
+export interface LastInOutModel {
+    status: VehicleStatus;
+    createdBy: CreatedByModel;
+    timeStamp: Timestamp;
     driver: string;
     fleet: FleetModel;
     franchise: FranchiseModel;
