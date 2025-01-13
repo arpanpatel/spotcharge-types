@@ -1,6 +1,6 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
-import { VehiclePurposeType } from "../../consts";
+import { InOutKeys, VehiclePurposeType } from "../../consts";
 import { FleetModel } from "../fleet.model";
 import { FleetVehicleModel } from "../fleet-vehicle.model";
 import { FranchiseModel } from "../franchise.model";
@@ -23,7 +23,7 @@ export interface InOutApiModel {
     status: VehicleStatus;
     batteryPercentage: number;
     odometer: number;
-    inOutType: string;
+    inOutType: InOutKeys;
     purpose: VehiclePurposeType;
     checklistStatus: VehicleChecklist;
     previousInOutId?: string;
