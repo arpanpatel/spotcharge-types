@@ -23,6 +23,7 @@ export interface InOutApiModel {
     status: VehicleStatus;
     batteryPercentage: number;
     odometer: number;
+    inOutType: string;
     purpose: VehiclePurposeType;
     checklistStatus: VehicleChecklist;
     previousInOutId?: string;
@@ -41,5 +42,13 @@ export interface PhotoEvidenceModel {
     imageUrl: string;
     title: string;
     exif: any | null;
+}
+export interface LastInOutModel {
+    status: VehicleStatus;
+    createdBy: CreatedByModel;
+    timeStamp: Timestamp;
+    driver: string;
+    fleet: FleetModel;
+    franchise: FranchiseModel;
 }
 //# sourceMappingURL=in-out.api.model.d.ts.map

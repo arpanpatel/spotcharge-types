@@ -3,6 +3,7 @@ import { Timestamp } from "../timestamp";
 import { VehicleModel } from "../vehicle.model";
 import { FleetModel } from "../fleet.model";
 import { FranchiseModel } from "../franchise.model";
+import { LastInOutModel } from "./in-out.api.model";
 export interface FleetVehicleApiModel {
     id: string;
     vehicle: VehicleModel;
@@ -12,6 +13,8 @@ export interface FleetVehicleApiModel {
     fleets: FleetModel[];
     fleetIds: string[];
     timeZone: string;
+    lastIn: LastInOutModel;
+    lastOut: LastInOutModel;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
