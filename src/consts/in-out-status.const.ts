@@ -1,6 +1,6 @@
-export const InOutStatusConst = {
+export const InOutStatus = {
     IN: 'IN',
     OUT: 'OUT'
 } as const;
 
-export type InOutStatusType =  keyof typeof InOutStatusConst;
+export type InOutStatusType =  keyof typeof InOutStatus;

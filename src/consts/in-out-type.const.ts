@@ -1,7 +1,7 @@
 
-export const InOutTypeConst = {
+export const InOutType = {
     VEHICLE: 'vehicle',
     ASSET: 'asset'
 } as const;
 
-export type InOutType =  keyof typeof InOutTypeConst;
+export type InOutKeys =  keyof typeof InOutType;
