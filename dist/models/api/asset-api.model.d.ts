@@ -1,4 +1,4 @@
-import { PhotoEvidenceModel } from "./in-out.api.model";
+import { LastInOutModel, PhotoEvidenceModel } from "./in-out.api.model";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { FleetModel } from "../fleet.model";
@@ -11,6 +11,8 @@ export interface AssetApiModel {
     identificationNumber: string;
     fleet: FleetModel;
     franchise: FranchiseModel;
+    lastIn: LastInOutModel;
+    lastOut: LastInOutModel;
     photo?: PhotoEvidenceModel;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
