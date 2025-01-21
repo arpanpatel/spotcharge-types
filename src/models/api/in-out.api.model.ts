@@ -11,11 +11,13 @@ export type VehicleStatus = "IN" | "OUT";
 
 // Interface for vehicle checklist status
 export interface VehicleChecklist {
-    batteryChecked: boolean;
-    tirePressureChecked: boolean;
-    brakesChecked: boolean;
-    lightsChecked: boolean;
-    externalDamageReported: boolean;
+    auxiliaryBattery: boolean;
+    fireExtinguisher: boolean;
+    spareWheel: boolean;
+    hydraulicJack : boolean;
+    rightSideMirror: boolean;
+    leftSideMirror: boolean;
+    vehicleKey: boolean;
 }
 
 // Main interface with improved type constraints
