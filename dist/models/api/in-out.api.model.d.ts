@@ -7,11 +7,13 @@ import { FranchiseModel } from "../franchise.model";
 import { AssetModel } from "./asset-api.model";
 export type VehicleStatus = "IN" | "OUT";
 export interface VehicleChecklist {
-    batteryChecked: boolean;
-    tirePressureChecked: boolean;
-    brakesChecked: boolean;
-    lightsChecked: boolean;
-    externalDamageReported: boolean;
+    auxiliaryBattery: boolean;
+    fireExtinguisher: boolean;
+    spareWheel: boolean;
+    hydraulicJack: boolean;
+    rightSideMirror: boolean;
+    leftSideMirror: boolean;
+    vehicleKey: boolean;
 }
 export interface InOutApiModel {
     id: string;
@@ -27,6 +29,7 @@ export interface InOutApiModel {
     purpose: VehiclePurposeType;
     checklistStatus: VehicleChecklist;
     previousInOutId?: string;
+    missingChecklistItems?: string[];
     photoEvidence: PhotoEvidenceModel[];
     profileImage: PhotoEvidenceModel;
     notes: string | null;
