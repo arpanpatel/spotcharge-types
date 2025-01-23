@@ -25,4 +25,5 @@ export declare const VehiclePurpose: {
     };
 };
 export type VehiclePurposeType = keyof typeof VehiclePurpose;
+export type VehiclePurposeDetailType = (typeof VehiclePurpose)[keyof typeof VehiclePurpose];
 //# sourceMappingURL=vehicle-purpose.const.d.ts.map
