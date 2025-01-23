@@ -36,3 +36,5 @@ export const VehiclePurpose = {
 
 // Derive type from the const object
 export type VehiclePurposeType = keyof typeof VehiclePurpose;
+
+export type VehiclePurposeDetailType = (typeof VehiclePurpose)[keyof typeof VehiclePurpose];
