@@ -6,7 +6,7 @@ export declare const VehicleInspectionChecklist: {
     rightSideMirror: string;
     leftSideMirror: string;
     vehicleKey: string;
-    toolkit: string;
+    toolKit: string;
 };
 export type VehicleInspectionChecklistType = keyof typeof VehicleInspectionChecklist;
 //# sourceMappingURL=vehicle-inspection-check-list.const.d.ts.map
