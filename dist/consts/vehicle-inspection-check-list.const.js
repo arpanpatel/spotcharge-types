@@ -9,5 +9,6 @@ exports.VehicleInspectionChecklist = {
     rightSideMirror: 'Right Side Mirror',
     leftSideMirror: 'Left Side Mirror',
     vehicleKey: 'Vehicle Key',
+    toolkit: 'Tool Kit',
 };
 //# sourceMappingURL=vehicle-inspection-check-list.const.js.map

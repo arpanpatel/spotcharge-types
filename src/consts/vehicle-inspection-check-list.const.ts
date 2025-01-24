@@ -6,6 +6,7 @@ export const VehicleInspectionChecklist = {
     rightSideMirror: 'Right Side Mirror',
     leftSideMirror: 'Left Side Mirror',
     vehicleKey: 'Vehicle Key',
+    toolkit: 'Tool Kit',
 }
 
 export type VehicleInspectionChecklistType = keyof typeof VehicleInspectionChecklist;
