@@ -35,6 +35,7 @@ export interface InOutApiModel {
     purpose: VehiclePurposeDetailType;
     checklistStatus: VehicleChecklist;
     previousInOutId?: string;
+    isChecklistChanged: boolean;
     missingChecklistItems?: string[];
     newlyAddedCheckListItems?: string[];
     photoEvidence: PhotoEvidenceModel[];
