@@ -10,5 +10,9 @@ var OrderStopReason;
     OrderStopReason["Other"] = "Other";
     OrderStopReason["PowerLoss"] = "PowerLoss";
     OrderStopReason["Reboot"] = "Reboot";
+    OrderStopReason["Remote"] = "Remote";
+    OrderStopReason["SoftReset"] = "SoftReset";
+    OrderStopReason["UnlockCommand"] = "UnlockCommand";
+    OrderStopReason["DeAuthorized"] = "DeAuthorized";
 })(OrderStopReason = exports.OrderStopReason || (exports.OrderStopReason = {}));
 //# sourceMappingURL=order-stop-reason.enum.js.map
