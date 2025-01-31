@@ -31,5 +31,6 @@ export enum Collection {
     FleetVehicle = 'fleetVehicle',
     InOuts = 'inOuts',
     Assets = 'assets',
-    GstRecords = 'gstRecords'
+    GstRecords = 'gstRecords',
+    Notifications = 'notifications'
 }

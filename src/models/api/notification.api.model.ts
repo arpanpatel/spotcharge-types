@@ -2,6 +2,7 @@ import {Timestamp} from "../timestamp";
 import {CreatedByModel} from "../created-by.model";
 
 export interface NotificationApiModel {
+    id: string;
     notification: {
         title: string;
         body: string;
