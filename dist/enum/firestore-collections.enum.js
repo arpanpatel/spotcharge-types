@@ -35,5 +35,6 @@ var Collection;
     Collection["InOuts"] = "inOuts";
     Collection["Assets"] = "assets";
     Collection["GstRecords"] = "gstRecords";
+    Collection["Notifications"] = "notifications";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
