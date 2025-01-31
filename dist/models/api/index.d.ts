@@ -28,4 +28,5 @@ export { TaxApiModel } from './tax-api-model';
 export { GstRecordApiModel, StateTaxModel, TaxWithPercentageModel, GstModel } from './gst-record-api.model';
 export { VehicleStatus, VehicleChecklist, InOutApiModel, PhotoEvidenceModel, LastInOutModel } from './in-out.api.model';
 export { AssetApiModel, AssetType, AssetModel } from './asset-api.model';
+export { NotificationApiModel } from './notification.api.model';
 //# sourceMappingURL=index.d.ts.map

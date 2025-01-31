@@ -9,6 +9,7 @@ export interface OrderApiModel {
     orderId: string;
     id: string;
     chargerId: string;
+    chargerName: string;
     startTime: Timestamp;
     endTime: Timestamp;
     chargingDate: Timestamp;
