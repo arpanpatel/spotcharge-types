@@ -1,1 +1,1 @@
-{"version":3,"file":"vehicle-type.enum.d.ts","sourceRoot":"","sources":["../../src/enum/vehicle-type.enum.ts"],"names":[],"mappings":"AAAA,oBAAY,WAAW;IACnB,GAAG,QAAQ;IACX,IAAI,SAAS;IACb,OAAO,YAAY;CACtB"}
+{"version":3,"file":"vehicle-type.enum.d.ts","sourceRoot":"","sources":["../../src/enum/vehicle-type.enum.ts"],"names":[],"mappings":"AAAA,oBAAY,WAAW;IACnB,GAAG,QAAQ;IACX,IAAI,SAAS;IACb,OAAO,YAAY;IACnB,MAAM,WAAW;CACpB"}

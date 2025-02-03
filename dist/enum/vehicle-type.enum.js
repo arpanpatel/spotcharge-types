@@ -6,5 +6,6 @@ var VehicleType;
     VehicleType["Car"] = "car";
     VehicleType["Bike"] = "bike";
     VehicleType["Rikshaw"] = "rikshaw";
+    VehicleType["Pickup"] = "Pickup";
 })(VehicleType = exports.VehicleType || (exports.VehicleType = {}));
 //# sourceMappingURL=vehicle-type.enum.js.map
