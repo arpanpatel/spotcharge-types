@@ -2,12 +2,15 @@ import { Timestamp } from "../timestamp";
 import { CreatedByModel } from "../created-by.model";
 export interface NotificationApiModel {
     id: string;
-    notification: {
+    notification?: {
         title: string;
         body: string;
     };
+    android?: {
+        priority: 'high' | 'normal';
+    };
+    data?: Record<string, any>;
     message: string;
-    messageData: Record<string, any>;
     userToken: string;
     userId: string;
     markedAsRead: boolean;
