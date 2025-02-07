@@ -12,7 +12,7 @@ export interface NotificationApiModel {
     },
     data?: Record<string, any>;
     message: string;
-    userToken: string;
+    userTokens: string[];
     userId: string;
     markedAsRead: boolean;
     createdBy: CreatedByModel;
