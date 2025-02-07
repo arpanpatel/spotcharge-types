@@ -16,6 +16,7 @@ export interface OrderApiModel {
     chargingDate: Timestamp;
     fleet: FleetModel;
     franchise: FranchiseModel;
+    highestAmpere?: number;
     stopReason: string;
     orderNo: number;
     transactionId: number;

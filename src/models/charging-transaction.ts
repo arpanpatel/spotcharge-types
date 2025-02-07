@@ -8,6 +8,8 @@ export interface ChargingTransaction {
     meterStop: number;
     meterStart: number;
     state: string;
+    highestAmpere?: number;
+    ampere?: number;
 }
 
 export interface ChargingTransactionRecords {
