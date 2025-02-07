@@ -37,6 +37,7 @@ export interface UserModel {
     fleetOperatorId?: string;
     allowedFleetIds?: string[];
     vehicles?: UserVehicle[];
+    userTokens?: string[];
 }
 export interface ProviderData {
     displayName: string;
