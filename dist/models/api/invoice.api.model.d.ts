@@ -14,6 +14,7 @@ export interface InvoiceApiModel {
     invoiceNo: number;
     chargerId: string;
     chargerName: string;
+    initialBatteryPercentage?: number;
     chargerAddress: AddressApiModel;
     chargerState: StateModel;
     gst: GstModel;
