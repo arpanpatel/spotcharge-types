@@ -22,3 +22,4 @@ export {FleetVehicleModel} from './fleet-vehicle.model';
 export {RateDuration} from './rate-duration.model';
 export {ServiceChargeModel} from './service-charge.model';
 export {PublicUserVehicle} from './public-user-vehicle.model';
+export {UserRolePermission} from './user-role-permission';

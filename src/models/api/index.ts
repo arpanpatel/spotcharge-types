@@ -29,3 +29,4 @@ export {GstRecordApiModel, StateTaxModel, TaxWithPercentageModel, GstModel} from
 export {VehicleStatus, VehicleChecklist, InOutApiModel, PhotoEvidenceModel, LastInOutModel} from './in-out.api.model';
 export {AssetApiModel, AssetType, AssetModel} from './asset-api.model';
 export {NotificationApiModel} from './notification.api.model';
+export {PermissionGroupApiModel} from './permission-group.api.model';
