@@ -1,0 +1,1 @@
+{"version":3,"file":"user-role-permission.d.ts","sourceRoot":"","sources":["../../src/models/user-role-permission.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAC,MAAM,WAAW,CAAC;AAErC,MAAM,MAAM,kBAAkB,GAAG,UAAU,GAAG;IAC1C,OAAO,EAAE,MAAM,CAAC;IAChB,SAAS,EAAE,MAAM,CAAC;IAClB,UAAU,EAAE,MAAM,CAAC;IACnB,aAAa,EAAE,OAAO,CAAC;CAC1B,CAAC"}
