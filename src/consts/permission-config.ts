@@ -169,6 +169,7 @@ export const permissionConfig = {
     },
     'RESUME_PUBLIC_SCHEDULE': {
         key: 'Can Resume Public Schedule',
+        formattedPermission: 'Can Resume Public Schedule',
     },
     'STOP_PUBLIC_SCHEDULE': {
         key: 'STOP_PUBLIC_SCHEDULE',

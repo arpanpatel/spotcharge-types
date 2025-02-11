@@ -32,5 +32,7 @@ export enum Collection {
     InOuts = 'inOuts',
     Assets = 'assets',
     GstRecords = 'gstRecords',
-    Notifications = 'notifications'
+    Notifications = 'notifications',
+    MasterUserRoles = 'masterUserRoles',
+    PermissionGroups = 'permissionGroups'
 }
