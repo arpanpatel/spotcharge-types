@@ -36,5 +36,7 @@ var Collection;
     Collection["Assets"] = "assets";
     Collection["GstRecords"] = "gstRecords";
     Collection["Notifications"] = "notifications";
+    Collection["MasterUserRoles"] = "masterUserRoles";
+    Collection["PermissionGroups"] = "permissionGroups";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

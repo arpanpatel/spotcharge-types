@@ -30,6 +30,8 @@ export declare enum Collection {
     InOuts = "inOuts",
     Assets = "assets",
     GstRecords = "gstRecords",
-    Notifications = "notifications"
+    Notifications = "notifications",
+    MasterUserRoles = "masterUserRoles",
+    PermissionGroups = "permissionGroups"
 }
 //# sourceMappingURL=firestore-collections.enum.d.ts.map

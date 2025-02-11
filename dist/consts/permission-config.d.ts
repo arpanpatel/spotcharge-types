@@ -169,6 +169,7 @@ export declare const permissionConfig: {
     };
     RESUME_PUBLIC_SCHEDULE: {
         key: string;
+        formattedPermission: string;
     };
     STOP_PUBLIC_SCHEDULE: {
         key: string;
