@@ -34,5 +34,6 @@ export enum Collection {
     GstRecords = 'gstRecords',
     Notifications = 'notifications',
     MasterUserRoles = 'masterUserRoles',
-    PermissionGroups = 'permissionGroups'
+    PermissionGroups = 'permissionGroups',
+    AdminUsers = 'adminUsers'
 }

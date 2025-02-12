@@ -31,3 +31,4 @@ export {AssetApiModel, AssetType, AssetModel} from './asset-api.model';
 export {NotificationApiModel} from './notification.api.model';
 export {PermissionGroupApiModel} from './permission-group.api.model';
 export {MasterUserRoleApiModel} from './master-user-role.api.model';
+export {AdminUserApiModel} from './admin-user.api.model';
