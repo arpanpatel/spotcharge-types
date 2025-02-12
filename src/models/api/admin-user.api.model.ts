@@ -5,7 +5,8 @@ import {Timestamp} from "../timestamp";
 
 export interface AdminUserApiModel {
     id: string;
-    username: string;
+    firstName: string;
+    lastName: string;
     userId: string;
     email: string;
     phoneNumber: PhoneNumberModel;
