@@ -8,6 +8,7 @@ export interface AdminUserApiModel {
     lastName: string;
     userId: string;
     email: string;
+    password: string;
     phoneNumber: PhoneNumberModel;
     roles?: Pick<UserRoleApiModel, 'title' | 'value' | 'id'>;
     createdBy: CreatedByModel;
