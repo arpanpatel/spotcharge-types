@@ -5,6 +5,8 @@ import { FirebaseProviderType } from '../enum';
 import { PhoneNumberModel } from './phone-number-model';
 import { Timestamp } from "./timestamp";
 import { CreatedByModel } from "./created-by.model";
+import { PermissionKeys } from "../consts";
+import { UserRolePermission } from "./user-role-permission";
 export interface UserModel {
     id: string;
     userId: string;
@@ -37,6 +39,7 @@ export interface UserModel {
     fleetOperatorId?: string;
     allowedFleetIds?: string[];
     vehicles?: UserVehicle[];
+    permissions?: Record<PermissionKeys, UserRolePermission> | null;
     userTokens?: string[];
 }
 export interface ProviderData {
