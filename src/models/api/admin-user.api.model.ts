@@ -8,6 +8,7 @@ export interface AdminUserApiModel {
     firstName: string;
     lastName: string;
     userId: string;
+    isOwner: boolean;
     email: string;
     password: string;
     phoneNumber: PhoneNumberModel;
