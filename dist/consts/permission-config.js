@@ -26,13 +26,25 @@ exports.permissionConfig = {
         key: 'EDIT_FRANCHISE_ACCOUNT_SETTING',
         formattedPermission: 'Can Edit Franchise Account Setting',
     },
+    'EDIT_FRANCHISE_PROFILE': {
+        key: 'EDIT_FRANCHISE_PROFILE',
+        formattedPermission: 'Can Edit Franchise Profile',
+    },
     'FRANCHISE_BILLING': {
         key: 'FRANCHISE_BILLING',
         formattedPermission: 'Can View Franchise Billing',
     },
+    'VIEW_FRANCHISE_FLEET_INVOICE': {
+        key: 'VIEW_FRANCHISE_FLEET_INVOICE',
+        formattedPermission: 'Can View Franchise Fleet Invoice',
+    },
     'FRANCHISE_ORDERS': {
         key: 'FRANCHISE_ORDERS',
-        formattedPermission: 'Can View Franchise Franchise Orders',
+        formattedPermission: 'Can View Franchise Orders',
+    },
+    'VIEW_FRANCHISE_FLEET_ORDER': {
+        key: 'VIEW_FRANCHISE_FLEET_ORDER',
+        formattedPermission: 'Can View Franchise Fleet Order',
     },
     'FRANCHISE_SUBSCRIPTION': {
         key: 'FRANCHISE_SUBSCRIPTION',
@@ -161,6 +173,26 @@ exports.permissionConfig = {
     'VIEW_PUBLIC_USER': {
         key: 'VIEW_PUBLIC_USER',
         formattedPermission: 'Can View Public User',
+    },
+    'PUBLIC_USER_SUMMARY': {
+        key: 'PUBLIC_USER_SUMMARY',
+        formattedPermission: 'Can View Public User Summary',
+    },
+    'PUBLIC_USER_DETAIL': {
+        key: 'PUBLIC_USER_DETAIL',
+        formattedPermission: 'Can View Public User Detail',
+    },
+    'PUBLIC_USER_BOOKING': {
+        key: 'PUBLIC_USER_BOOKING',
+        formattedPermission: 'Can View Public User Booking',
+    },
+    'PUBLIC_USER_INVOICE': {
+        key: 'PUBLIC_USER_INVOICE',
+        formattedPermission: 'Can View Public User Invoice',
+    },
+    'PUBLIC_USER_WALLET': {
+        key: 'PUBLIC_USER_WALLET',
+        formattedPermission: 'Can View Public User Wallet',
     },
     'MANAGE_PUBLIC_SCHEDULES': {
         key: 'MANAGE_PUBLIC_SCHEDULES',
@@ -405,6 +437,50 @@ exports.permissionConfig = {
     'VIEW_SUPPORT_QUERY': {
         key: 'VIEW_SUPPORT_QUERY',
         formattedPermission: 'Can View Support Query',
+    },
+    'MANAGE_USER_ROLE': {
+        key: 'MANAGE_USER_ROLE',
+        formattedPermission: 'Can Manage User Role',
+    },
+    'ADD_USER_ROLE': {
+        key: 'ADD_USER_ROLE',
+        formattedPermission: 'Can Add User Role',
+    },
+    'EDIT_USER_ROLE': {
+        key: 'EDIT_USER_ROLE',
+        formattedPermission: 'Can Edit User Role',
+    },
+    'MANAGE_PERMISSION_GROUP': {
+        key: 'MANAGE_PERMISSION_GROUP',
+        formattedPermission: 'Can Manage Permission Group',
+    },
+    'ADD_PERMISSION_GROUP': {
+        key: 'ADD_PERMISSION_GROUP',
+        formattedPermission: 'Can Add Permission Group',
+    },
+    'EDIT_PERMISSION_GROUP': {
+        key: 'EDIT_PERMISSION_GROUP',
+        formattedPermission: 'Can Edit Permission Group',
+    },
+    'DELETE_PERMISSION_GROUP': {
+        key: 'DELETE_PERMISSION_GROUP',
+        formattedPermission: 'Can Delete Permission Group',
+    },
+    'MANAGE_ADMIN_USERS': {
+        key: 'MANAGE_ADMIN_USERS',
+        formattedPermission: 'Can Manage Admin Users',
+    },
+    'ADD_ADMIN_USER': {
+        key: 'ADD_ADMIN_USER',
+        formattedPermission: 'Can Add Admin User',
+    },
+    'EDIT_ADMIN_USER': {
+        key: 'EDIT_ADMIN_USER',
+        formattedPermission: 'Can Edit Admin User',
+    },
+    'DELETE_ADMIN_USER': {
+        key: 'DELETE_ADMIN_USER',
+        formattedPermission: 'Can Delete Admin User',
     }
 };
 //# sourceMappingURL=permission-config.js.map

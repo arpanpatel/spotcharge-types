@@ -23,11 +23,23 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    EDIT_FRANCHISE_PROFILE: {
+        key: string;
+        formattedPermission: string;
+    };
     FRANCHISE_BILLING: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_FRANCHISE_FLEET_INVOICE: {
+        key: string;
+        formattedPermission: string;
+    };
     FRANCHISE_ORDERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_FRANCHISE_FLEET_ORDER: {
         key: string;
         formattedPermission: string;
     };
@@ -156,6 +168,26 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     VIEW_PUBLIC_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    PUBLIC_USER_SUMMARY: {
+        key: string;
+        formattedPermission: string;
+    };
+    PUBLIC_USER_DETAIL: {
+        key: string;
+        formattedPermission: string;
+    };
+    PUBLIC_USER_BOOKING: {
+        key: string;
+        formattedPermission: string;
+    };
+    PUBLIC_USER_INVOICE: {
+        key: string;
+        formattedPermission: string;
+    };
+    PUBLIC_USER_WALLET: {
         key: string;
         formattedPermission: string;
     };
@@ -400,6 +432,50 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     VIEW_SUPPORT_QUERY: {
+        key: string;
+        formattedPermission: string;
+    };
+    MANAGE_USER_ROLE: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_USER_ROLE: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_USER_ROLE: {
+        key: string;
+        formattedPermission: string;
+    };
+    MANAGE_PERMISSION_GROUP: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_PERMISSION_GROUP: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_PERMISSION_GROUP: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_PERMISSION_GROUP: {
+        key: string;
+        formattedPermission: string;
+    };
+    MANAGE_ADMIN_USERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_ADMIN_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_ADMIN_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_ADMIN_USER: {
         key: string;
         formattedPermission: string;
     };
