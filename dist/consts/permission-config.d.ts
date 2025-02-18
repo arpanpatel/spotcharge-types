@@ -275,7 +275,15 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_FLEET_VEHICLE_IN_OUT_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
     ASSET_IN_OUT_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_ASSET_IN_OUT_REPORT: {
         key: string;
         formattedPermission: string;
     };

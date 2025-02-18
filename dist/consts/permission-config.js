@@ -278,9 +278,17 @@ exports.permissionConfig = {
         key: 'FLEET_VEHICLE_IN_OUT_REPORT',
         formattedPermission: 'Fleet Vehicle In Out Report',
     },
+    'VIEW_FLEET_VEHICLE_IN_OUT_REPORT': {
+        key: 'VIEW_FLEET_VEHICLE_IN_OUT_REPORT',
+        formattedPermission: 'Can View Fleet Vehicle In Out Report',
+    },
     'ASSET_IN_OUT_REPORT': {
         key: 'ASSET_IN_OUT_REPORT',
         formattedPermission: 'Asset In Out Report',
+    },
+    'VIEW_ASSET_IN_OUT_REPORT': {
+        key: 'VIEW_ASSET_IN_OUT_REPORT',
+        formattedPermission: 'Can View Asset In Out Report',
     },
     'FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT': {
         key: 'FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT',
