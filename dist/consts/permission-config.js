@@ -262,6 +262,26 @@ exports.permissionConfig = {
         key: 'EXPORT_FLEET_ORDER_REPORTS',
         formattedPermission: 'Can Export Fleet Order Reports',
     },
+    'ACCESS_PUBLIC_ORDER_REPORTS': {
+        key: 'ACCESS_PUBLIC_ORDER_REPORTS',
+        formattedPermission: 'Can Access Public Order Reports',
+    },
+    'EXPORT_PUBLIC_ORDER_REPORTS': {
+        key: 'EXPORT_PUBLIC_ORDER_REPORTS',
+        formattedPermission: 'Can Export Public Order Reports',
+    },
+    'PUBLIC_ORDER_REPORTS': {
+        key: 'PUBLIC_ORDER_REPORTS',
+        formattedPermission: 'Public Order Reports',
+    },
+    'ORDER_BY_PUBLIC_USER_REPORT': {
+        key: 'ORDER_BY_PUBLIC_USER_REPORT',
+        formattedPermission: 'Order By Public User Report',
+    },
+    'ORDER_BY_PUBLIC_USER_VEHICLE_REPORT': {
+        key: 'ORDER_BY_PUBLIC_USER_VEHICLE_REPORT',
+        formattedPermission: 'Order By Public User Vehicle Report',
+    },
     'ACCESS_FLEET_VEHICLE_REPORTS': {
         key: 'ACCESS_FLEET_VEHICLE_REPORTS',
         formattedPermission: 'Can Access Fleet Vehicle Reports',

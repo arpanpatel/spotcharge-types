@@ -259,6 +259,26 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    ACCESS_PUBLIC_ORDER_REPORTS: {
+        key: string;
+        formattedPermission: string;
+    };
+    EXPORT_PUBLIC_ORDER_REPORTS: {
+        key: string;
+        formattedPermission: string;
+    };
+    PUBLIC_ORDER_REPORTS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ORDER_BY_PUBLIC_USER_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    ORDER_BY_PUBLIC_USER_VEHICLE_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
     ACCESS_FLEET_VEHICLE_REPORTS: {
         key: string;
         formattedPermission: string;
