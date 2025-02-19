@@ -7,6 +7,9 @@ export interface AdminUserApiModel {
     id: string;
     firstName: string;
     lastName: string;
+    displayName?: string;
+    photoURL: string | null;
+    color: string;
     userId: string;
     isOwner: boolean;
     email: string;
