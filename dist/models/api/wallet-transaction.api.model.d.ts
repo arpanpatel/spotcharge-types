@@ -18,6 +18,7 @@ export interface WalletTransactionApiModel {
     isDeleted: boolean;
     invoiceId?: string;
     bookingId?: string;
+    bookingRef?: string;
     source: EntityType;
 }
 //# sourceMappingURL=wallet-transaction.api.model.d.ts.map

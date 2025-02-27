@@ -11,6 +11,9 @@ export interface InvoiceApiModel {
     id: string;
     invoiceId: string;
     bookingId: string;
+    bookingRef: string;
+    bookingStartTime: number;
+    bookingEndTime: number;
     invoiceNo: number;
     chargerId: string;
     chargerName: string;
