@@ -23,6 +23,7 @@ export interface BookingApiModel {
     };
     connectorNo: number;
     unit: number;
+    unitRate: number;
     vehicle: PublicUserVehicle;
     amount: number;
     tax: number;
