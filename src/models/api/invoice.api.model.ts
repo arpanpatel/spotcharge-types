@@ -13,6 +13,7 @@ export interface InvoiceApiModel {
     invoiceId: string;
     bookingId: string;
     bookingRef: string;
+    bookingDate: Timestamp;
     bookingStartTime: number;
     bookingEndTime: number;
     invoiceNo: number;
