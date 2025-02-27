@@ -45,6 +45,7 @@ export interface BookingApiModel {
     isDeleted: boolean;
     paymentMethod: PaymentMethod;
     invoiceId?: string;
+    invoiceNo?: number;
     walletAmount?: number;
     topUpAmount?: number;
     serviceChargeInfo: ServiceChargeModel;
