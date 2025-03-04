@@ -8,6 +8,7 @@ export interface WalletTransactionApiModel {
   userId: string;
   amount: number;
   paymentInfo: RazorpaySuccessResponse | null;
+  closingBalance?: number;
   type: TransactionType;
   reason: TransactionReason;
   createdBy: CreatedByModel;
