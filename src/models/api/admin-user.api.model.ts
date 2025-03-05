@@ -11,6 +11,7 @@ export interface AdminUserApiModel {
     photoURL: string | null;
     color: string;
     userId: string;
+    active: boolean;
     isOwner: boolean;
     email: string;
     password: string;
