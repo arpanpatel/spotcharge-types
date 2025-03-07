@@ -282,6 +282,10 @@ exports.permissionConfig = {
         key: 'ORDER_BY_PUBLIC_USER_VEHICLE_REPORT',
         formattedPermission: 'Order By Public User Vehicle Report',
     },
+    'ORDER_BY_PUBLIC_CHARGER_REPORT': {
+        key: 'ORDER_BY_PUBLIC_CHARGER_REPORT',
+        formattedPermission: 'Order By Public Charger Report',
+    },
     'ACCESS_FLEET_VEHICLE_REPORTS': {
         key: 'ACCESS_FLEET_VEHICLE_REPORTS',
         formattedPermission: 'Can Access Fleet Vehicle Reports',

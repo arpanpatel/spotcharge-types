@@ -279,6 +279,10 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    ORDER_BY_PUBLIC_CHARGER_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
     ACCESS_FLEET_VEHICLE_REPORTS: {
         key: string;
         formattedPermission: string;
