@@ -7,7 +7,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    FRANCHISES: {
+    LIST_FRANCHISES: {
         key: string;
         formattedPermission: string;
     };
@@ -47,7 +47,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_FLEETS: {
+    LIST_FLEETS: {
         key: string;
         formattedPermission: string;
     };
@@ -63,7 +63,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_FLEET_USERS: {
+    LIST_FLEET_USERS: {
         key: string;
         formattedPermission: string;
     };
@@ -79,7 +79,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_FLEET_OPERATORS: {
+    LIST_FLEET_OPERATORS: {
         key: string;
         formattedPermission: string;
     };
@@ -95,7 +95,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_FLEET_VEHICLES: {
+    LIST_FLEET_VEHICLES: {
         key: string;
         formattedPermission: string;
     };
@@ -111,7 +111,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    CHARGER_ERRORS: {
+    LIST_CHARGER_ERRORS: {
         key: string;
         formattedPermission: string;
     };
@@ -123,7 +123,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    FLEET_ORDER_SCHEDULES: {
+    LIST_FLEET_ORDER_SCHEDULES: {
         key: string;
         formattedPermission: string;
     };
@@ -139,7 +139,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_PUBLIC_BOOKINGS: {
+    LIST_PUBLIC_BOOKINGS: {
         key: string;
         formattedPermission: string;
     };
@@ -147,7 +147,19 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_PUBLIC_INVOICES: {
+    START_PUBLIC_BOOKING: {
+        key: string;
+        formattedPermission: string;
+    };
+    CANCEL_PUBLIC_BOOKING: {
+        key: string;
+        formattedPermission: string;
+    };
+    ISSUE_BOOKING_REFUND: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_PUBLIC_INVOICES: {
         key: string;
         formattedPermission: string;
     };
@@ -163,7 +175,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_PUBLIC_USERS: {
+    LIST_PUBLIC_USERS: {
         key: string;
         formattedPermission: string;
     };
@@ -191,7 +203,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_PUBLIC_SCHEDULES: {
+    LIST_PUBLIC_SCHEDULES: {
         key: string;
         formattedPermission: string;
     };
@@ -207,7 +219,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    CHARGERS: {
+    LIST_CHARGERS: {
         key: string;
         formattedPermission: string;
     };
@@ -223,7 +235,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    CHARGER_CAPACITY: {
+    LIST_CHARGER_CAPACITIES: {
         key: string;
         formattedPermission: string;
     };
@@ -239,63 +251,67 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    ACCESS_FLEET_ORDER_REPORTS: {
+    VIEW_FLEET_ORDER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    FLEET_ORDER_REPORTS: {
+    EXPORT_FLEET_ORDER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ORDERS_BY_FLEET_VEHICLE_REPORT: {
+    VIEW_ORDERS_BY_FLEET_VEHICLE_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ORDERS_BY_USER_REPORT: {
+    EXPORT_ORDERS_BY_FLEET_VEHICLE_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_FLEET_ORDER_REPORTS: {
+    VIEW_ORDERS_BY_USER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ACCESS_PUBLIC_ORDER_REPORTS: {
+    EXPORT_ORDERS_BY_USER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_PUBLIC_ORDER_REPORTS: {
+    VIEW_PUBLIC_ORDER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    PUBLIC_ORDER_REPORTS: {
+    EXPORT_PUBLIC_ORDER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ORDER_BY_PUBLIC_USER_REPORT: {
+    VIEW_ORDER_BY_PUBLIC_USER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ORDER_BY_PUBLIC_USER_VEHICLE_REPORT: {
+    EXPORT_ORDER_BY_PUBLIC_USER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ORDER_BY_PUBLIC_CHARGER_REPORT: {
+    VIEW_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ACCESS_FLEET_VEHICLE_REPORTS: {
+    EXPORT_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_FLEET_VEHICLE_REPORTS: {
+    VIEW_ORDER_BY_PUBLIC_CHARGER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ACCESS_IN_OUT_REPORTS: {
+    EXPORT_ORDER_BY_PUBLIC_CHARGER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    FLEET_VEHICLE_IN_OUT_REPORT: {
+    VIEW_FLEET_VEHICLE_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    EXPORT_FLEET_VEHICLE_REPORT: {
         key: string;
         formattedPermission: string;
     };
@@ -303,7 +319,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    ASSET_IN_OUT_REPORT: {
+    EXPORT_FLEET_VEHICLE_IN_OUT_REPORT: {
         key: string;
         formattedPermission: string;
     };
@@ -311,23 +327,35 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT: {
+    EXPORT_ASSET_IN_OUT_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    ASSET_IN_OUT_SUMMARY_REPORT: {
+    VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT: {
+    EXPORT_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_IN_OUT_REPORTS: {
+    VIEW_ASSET_IN_OUT_SUMMARY_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_CONNECTOR_TYPES: {
+    EXPORT_ASSET_IN_OUT_SUMMARY_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    EXPORT_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_CONNECTOR_TYPES: {
         key: string;
         formattedPermission: string;
     };
@@ -343,7 +371,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_VENDORS: {
+    LIST_VENDORS: {
         key: string;
         formattedPermission: string;
     };
@@ -355,7 +383,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_RFIDS: {
+    LIST_RFIDS: {
         key: string;
         formattedPermission: string;
     };
@@ -371,7 +399,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_VEHICLES: {
+    LIST_VEHICLES: {
         key: string;
         formattedPermission: string;
     };
@@ -387,7 +415,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_BRANDS: {
+    LIST_BRANDS: {
         key: string;
         formattedPermission: string;
     };
@@ -403,7 +431,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_LOGS: {
+    LIST_LOGS: {
         key: string;
         formattedPermission: string;
     };
@@ -411,7 +439,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_SERVICE_CHARGES: {
+    LIST_SERVICE_CHARGES: {
         key: string;
         formattedPermission: string;
     };
@@ -427,7 +455,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_TAX_RATES: {
+    LIST_TAX_RATES: {
         key: string;
         formattedPermission: string;
     };
@@ -443,7 +471,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_GST: {
+    LIST_GST: {
         key: string;
         formattedPermission: string;
     };
@@ -459,7 +487,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    SUPPORT_QUERY: {
+    LIST_SUPPORT_QUERY: {
         key: string;
         formattedPermission: string;
     };
@@ -467,7 +495,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_USER_ROLE: {
+    LIST_USER_ROLE: {
         key: string;
         formattedPermission: string;
     };
@@ -479,7 +507,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_PERMISSION_GROUP: {
+    LIST_PERMISSION_GROUP: {
         key: string;
         formattedPermission: string;
     };
@@ -495,7 +523,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    MANAGE_ADMIN_USERS: {
+    LIST_ADMIN_USERS: {
         key: string;
         formattedPermission: string;
     };
