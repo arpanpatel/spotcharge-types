@@ -7,9 +7,9 @@ export const permissionConfig = {
         key: 'VIEW_PUBLIC_DASHBOARD',
         formattedPermission: 'Can View Public Dashboard',
     },
-    'FRANCHISES': {
-        key: 'FRANCHISES',
-        formattedPermission: 'Franchises',
+    'LIST_FRANCHISES': {
+        key: 'LIST_FRANCHISES',
+        formattedPermission: 'List Franchises',
     },
     'ADD_FRANCHISE': {
         key: 'ADD_FRANCHISE',
@@ -47,9 +47,9 @@ export const permissionConfig = {
         key: 'FRANCHISE_SUBSCRIPTION',
         formattedPermission: 'Can Edit Franchise Subscription',
     },
-    'MANAGE_FLEETS': {
-        key: 'MANAGE_FLEETS',
-        formattedPermission: 'Can Manage Fleets',
+    'LIST_FLEETS': {
+        key: 'LIST_FLEETS',
+        formattedPermission: 'List Fleets',
     },
     'ADD_FLEET': {
         key: 'ADD_FLEET',
@@ -63,9 +63,9 @@ export const permissionConfig = {
         key: 'DELETE_FLEET',
         formattedPermission: 'Can Delete Fleet',
     },
-    'MANAGE_FLEET_USERS': {
-        key: 'MANAGE_FLEET_USERS',
-        formattedPermission: 'Can Manage Fleet Users',
+    'LIST_FLEET_USERS': {
+        key: 'LIST_FLEET_USERS',
+        formattedPermission: 'List Fleet Users',
     },
     'ADD_FLEET_USER': {
         key: 'ADD_FLEET_USER',
@@ -79,9 +79,9 @@ export const permissionConfig = {
         key: 'DELETE_FLEET_USER',
         formattedPermission: 'Can Delete Fleet User',
     },
-    'MANAGE_FLEET_OPERATORS': {
-        key: 'MANAGE_FLEET_OPERATORS',
-        formattedPermission: 'Can Manage Fleet Operators',
+    'LIST_FLEET_OPERATORS': {
+        key: 'LIST_FLEET_OPERATORS',
+        formattedPermission: 'List Fleet Operators',
     },
     'ADD_FLEET_OPERATOR': {
         key: 'ADD_FLEET_OPERATOR',
@@ -95,9 +95,9 @@ export const permissionConfig = {
         key: 'DELETE_FLEET_OPERATOR',
         formattedPermission: 'Can Delete Fleet Operator',
     },
-    'MANAGE_FLEET_VEHICLES': {
-        key: 'MANAGE_FLEET_VEHICLES',
-        formattedPermission: 'Can Manage Fleet Vehicles',
+    'LIST_FLEET_VEHICLES': {
+        key: 'LIST_FLEET_VEHICLES',
+        formattedPermission: 'List Fleet Vehicles',
     },
     'ADD_FLEET_VEHICLE': {
         key: 'ADD_FLEET_VEHICLE',
@@ -111,21 +111,21 @@ export const permissionConfig = {
         key: 'DELETE_FLEET_VEHICLE',
         formattedPermission: 'Can Delete Fleet Vehicle',
     },
-    'CHARGER_ERRORS': {
-        key: 'CHARGER_ERRORS',
-        formattedPermission: 'Charge Errors',
+    'LIST_CHARGER_ERRORS': {
+        key: 'LIST_CHARGER_ERRORS',
+        formattedPermission: 'List Charger Errors',
     },
     'VIEW_CHARGER_ERROR': {
         key: 'VIEW_CHARGER_ERROR',
-        formattedPermission: 'Can View Charge Error',
+        formattedPermission: 'Can View Charger Error',
     },
     'DOWNLOAD_CHARGER_ERROR_LOG': {
         key: 'DOWNLOAD_CHARGER_ERROR',
-        formattedPermission: 'Can Download Charge Error Log',
+        formattedPermission: 'Can Download Charger Error Log',
     },
-    'FLEET_ORDER_SCHEDULES': {
-        key: 'FLEET_ORDER_SCHEDULES',
-        formattedPermission: 'Fleet Order Schedules',
+    'LIST_FLEET_ORDER_SCHEDULES': {
+        key: 'LIST_FLEET_ORDER_SCHEDULES',
+        formattedPermission: 'List Fleet Order Schedules',
     },
     'VIEW_FLEET_ORDER_SCHEDULE': {
         key: 'VIEW_FLEET_ORDER_SCHEDULE',
@@ -139,17 +139,29 @@ export const permissionConfig = {
         key: 'RESTART_FLEET_ORDER_SCHEDULE',
         formattedPermission: 'Can Restart Fleet Order Schedule',
     },
-    'MANAGE_PUBLIC_BOOKINGS': {
-        key: 'MANAGE_PUBLIC_BOOKINGS',
-        formattedPermission: 'Can Manage Public Bookings',
+    'LIST_PUBLIC_BOOKINGS': {
+        key: 'LIST_PUBLIC_BOOKINGS',
+        formattedPermission: 'List Public Bookings',
     },
     'VIEW_PUBLIC_BOOKING': {
         key: 'VIEW_PUBLIC_BOOKING',
         formattedPermission: 'Can View Public Booking',
     },
-    'MANAGE_PUBLIC_INVOICES': {
-        key: 'MANAGE_PUBLIC_INVOICES',
-        formattedPermission: 'Can Manage Public Invoices',
+    'START_PUBLIC_BOOKING': {
+        key: 'START_PUBLIC_BOOKING',
+        formattedPermission: 'Can Start Public Booking',
+    },
+    'CANCEL_PUBLIC_BOOKING': {
+        key: 'CANCEL_PUBLIC_BOOKING',
+        formattedPermission: 'Can Cancel Public Booking',
+    },
+    'ISSUE_BOOKING_REFUND': {
+        key: 'ISSUE_BOOKING_REFUND',
+        formattedPermission: 'Can Issue Booking Refund',
+    },
+    'LIST_PUBLIC_INVOICES': {
+        key: 'LIST_PUBLIC_INVOICES',
+        formattedPermission: 'List Public Invoices',
     },
     'VIEW_PUBLIC_INVOICE': {
         key: 'VIEW_PUBLIC_INVOICE',
@@ -163,9 +175,9 @@ export const permissionConfig = {
         key: 'PUBLIC_INVOICE_DOWNLOAD_REQUESTS',
         formattedPermission: 'Public Invoice Download Requests',
     },
-    'MANAGE_PUBLIC_USERS': {
-        key: 'MANAGE_PUBLIC_USERS',
-        formattedPermission: 'Can Manage Public Users',
+    'LIST_PUBLIC_USERS': {
+        key: 'LIST_PUBLIC_USERS',
+        formattedPermission: 'List Public Users',
     },
     'VIEW_PUBLIC_USER': {
         key: 'VIEW_PUBLIC_USER',
@@ -191,9 +203,9 @@ export const permissionConfig = {
         key: 'PUBLIC_USER_WALLET',
         formattedPermission: 'Can View Public User Wallet',
     },
-    'MANAGE_PUBLIC_SCHEDULES': {
-        key: 'MANAGE_PUBLIC_SCHEDULES',
-        formattedPermission: 'Can Manage Public Schedules',
+    'LIST_PUBLIC_SCHEDULES': {
+        key: 'LIST_PUBLIC_SCHEDULES',
+        formattedPermission: 'List Public Schedules',
     },
     'VIEW_PUBLIC_SCHEDULE': {
         key: 'VIEW_PUBLIC_SCHEDULE',
@@ -207,9 +219,9 @@ export const permissionConfig = {
         key: 'STOP_PUBLIC_SCHEDULE',
         formattedPermission: 'Can Stop Public Schedule',
     },
-    'CHARGERS': {
-        key: 'CHARGERS',
-        formattedPermission: 'Chargers',
+    'LIST_CHARGERS': {
+        key: 'LIST_CHARGERS',
+        formattedPermission: 'List Chargers',
     },
     'ADD_CHARGER': {
         key: 'ADD_CHARGER',
@@ -223,9 +235,9 @@ export const permissionConfig = {
         key: 'DELETE_CHARGER',
         formattedPermission: 'Can Delete Charger',
     },
-    'CHARGER_CAPACITY': {
-        key: 'CHARGER_CAPACITY',
-        formattedPermission: 'Charger Capacity',
+    'LIST_CHARGER_CAPACITIES': {
+        key: 'LIST_CHARGER_CAPACITIES',
+        formattedPermission: 'List Charger Capacities',
     },
     'ADD_CHARGER_CAPACITY': {
         key: 'ADD_CHARGER_CAPACITY',
@@ -239,97 +251,113 @@ export const permissionConfig = {
         key: 'DELETE_CHARGER_CAPACITY',
         formattedPermission: 'Can Delete Charger Capacity',
     },
-    'ACCESS_FLEET_ORDER_REPORTS': {
-        key: 'ACCESS_FLEET_ORDER_REPORTS',
-        formattedPermission: 'Can Access Fleet Order Reports',
+    'VIEW_FLEET_ORDER_REPORT': {
+        key: 'VIEW_FLEET_ORDER_REPORT',
+        formattedPermission: 'Can View Fleet Order Report',
     },
-    'FLEET_ORDER_REPORTS': {
-        key: 'FLEET_ORDER_REPORTS',
-        formattedPermission: 'Fleet Order Reports',
+    'EXPORT_FLEET_ORDER_REPORT': {
+        key: 'EXPORT_FLEET_ORDER_REPORT',
+        formattedPermission: 'Can Export Fleet Order Report',
     },
-    'ORDERS_BY_FLEET_VEHICLE_REPORT': {
-        key: 'ORDERS_BY_FLEET_VEHICLE_REPORT',
-        formattedPermission: 'Orders By Fleet Vehicle Report',
+    'VIEW_ORDERS_BY_FLEET_VEHICLE_REPORT': {
+        key: 'VIEW_ORDERS_BY_FLEET_VEHICLE_REPORT',
+        formattedPermission: 'Can View Orders By Fleet Vehicle Report',
     },
-    'ORDERS_BY_USER_REPORT': {
-        key: 'ORDERS_BY_USER_REPORT',
-        formattedPermission: 'Orders By User Report',
+    'EXPORT_ORDERS_BY_FLEET_VEHICLE_REPORT': {
+        key: 'EXPORT_ORDERS_BY_FLEET_VEHICLE_REPORT',
+        formattedPermission: 'Can Export Orders By Fleet Vehicle Report',
     },
-    'EXPORT_FLEET_ORDER_REPORTS': {
-        key: 'EXPORT_FLEET_ORDER_REPORTS',
-        formattedPermission: 'Can Export Fleet Order Reports',
+    'VIEW_ORDERS_BY_USER_REPORT': {
+        key: 'VIEW_ORDERS_BY_USER_REPORT',
+        formattedPermission: 'Can View Orders By User Report',
     },
-    'ACCESS_PUBLIC_ORDER_REPORTS': {
-        key: 'ACCESS_PUBLIC_ORDER_REPORTS',
-        formattedPermission: 'Can Access Public Order Reports',
+    'EXPORT_ORDERS_BY_USER_REPORT': {
+        key: 'EXPORT_ORDERS_BY_USER_REPORT',
+        formattedPermission: 'Can Orders By User Report',
     },
-    'EXPORT_PUBLIC_ORDER_REPORTS': {
-        key: 'EXPORT_PUBLIC_ORDER_REPORTS',
-        formattedPermission: 'Can Export Public Order Reports',
+    'VIEW_PUBLIC_ORDER_REPORT': {
+        key: 'VIEW_PUBLIC_ORDER_REPORT',
+        formattedPermission: 'Can View Public Order Report',
     },
-    'PUBLIC_ORDER_REPORTS': {
-        key: 'PUBLIC_ORDER_REPORTS',
-        formattedPermission: 'Public Order Reports',
+    'EXPORT_PUBLIC_ORDER_REPORT': {
+        key: 'EXPORT_PUBLIC_ORDER_REPORT',
+        formattedPermission: 'Can Export Public Order Report',
     },
-    'ORDER_BY_PUBLIC_USER_REPORT': {
-        key: 'ORDER_BY_PUBLIC_USER_REPORT',
-        formattedPermission: 'Order By Public User Report',
+    'VIEW_ORDER_BY_PUBLIC_USER_REPORT': {
+        key: 'VIEW_ORDER_BY_PUBLIC_USER_REPORT',
+        formattedPermission: 'Can View Order By Public User Report',
     },
-    'ORDER_BY_PUBLIC_USER_VEHICLE_REPORT': {
-        key: 'ORDER_BY_PUBLIC_USER_VEHICLE_REPORT',
-        formattedPermission: 'Order By Public User Vehicle Report',
+    'EXPORT_ORDER_BY_PUBLIC_USER_REPORT': {
+        key: 'EXPORT_ORDER_BY_PUBLIC_USER_REPORT',
+        formattedPermission: 'Can Export Order By Public User Report',
     },
-    'ORDER_BY_PUBLIC_CHARGER_REPORT': {
-        key: 'ORDER_BY_PUBLIC_CHARGER_REPORT',
-        formattedPermission: 'Order By Public Charger Report',
+    'VIEW_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT': {
+        key: 'VIEW_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT',
+        formattedPermission: 'Can View Order By Public User Vehicle Report',
     },
-    'ACCESS_FLEET_VEHICLE_REPORTS': {
-        key: 'ACCESS_FLEET_VEHICLE_REPORTS',
-        formattedPermission: 'Can Access Fleet Vehicle Reports',
+    'EXPORT_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT': {
+        key: 'EXPORT_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT',
+        formattedPermission: 'Can Export Order By Public User Vehicle Report',
     },
-    'EXPORT_FLEET_VEHICLE_REPORTS': {
-        key: 'EXPORT_FLEET_VEHICLE_REPORTS',
-        formattedPermission: 'Can Export Fleet Vehicle Reports',
+    'VIEW_ORDER_BY_PUBLIC_CHARGER_REPORT': {
+        key: 'VIEW_ORDER_BY_PUBLIC_CHARGER_REPORT',
+        formattedPermission: 'Can View Order By Public Charger Report',
     },
-    'ACCESS_IN_OUT_REPORTS': {
-        key: 'ACCESS_IN_OUT_REPORTS',
-        formattedPermission: 'Can Access In Out Reports',
+    'EXPORT_ORDER_BY_PUBLIC_CHARGER_REPORT': {
+        key: 'EXPORT_ORDER_BY_PUBLIC_CHARGER_REPORT',
+        formattedPermission: 'Can Export Order By Public Charger Report',
     },
-    'FLEET_VEHICLE_IN_OUT_REPORT': {
-        key: 'FLEET_VEHICLE_IN_OUT_REPORT',
-        formattedPermission: 'Fleet Vehicle In Out Report',
+    'VIEW_FLEET_VEHICLE_REPORT': {
+        key: 'VIEW_FLEET_VEHICLE_REPORT',
+        formattedPermission: 'Can View Fleet Vehicle Report',
+    },
+    'EXPORT_FLEET_VEHICLE_REPORT': {
+        key: 'EXPORT_FLEET_VEHICLE_REPORT',
+        formattedPermission: 'Can Export Fleet Vehicle Report',
     },
     'VIEW_FLEET_VEHICLE_IN_OUT_REPORT': {
         key: 'VIEW_FLEET_VEHICLE_IN_OUT_REPORT',
         formattedPermission: 'Can View Fleet Vehicle In Out Report',
     },
-    'ASSET_IN_OUT_REPORT': {
-        key: 'ASSET_IN_OUT_REPORT',
-        formattedPermission: 'Asset In Out Report',
+    'EXPORT_FLEET_VEHICLE_IN_OUT_REPORT': {
+        key: 'EXPORT_FLEET_VEHICLE_IN_OUT_REPORT',
+        formattedPermission: 'Can Export Fleet Vehicle In Out Report',
     },
     'VIEW_ASSET_IN_OUT_REPORT': {
         key: 'VIEW_ASSET_IN_OUT_REPORT',
         formattedPermission: 'Can View Asset In Out Report',
     },
-    'FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT': {
-        key: 'FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT',
-        formattedPermission: 'Fleet Vehicle In Out Summary Report',
+    'EXPORT_ASSET_IN_OUT_REPORT': {
+        key: 'EXPORT_ASSET_IN_OUT_REPORT',
+        formattedPermission: 'Can Export Asset In Out Report',
     },
-    'ASSET_IN_OUT_SUMMARY_REPORT': {
-        key: 'ASSET_IN_OUT_SUMMARY_REPORT',
-        formattedPermission: 'Asset In Out Summary Report',
+    'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT': {
+        key: 'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT',
+        formattedPermission: 'Can View Fleet Vehicle In Out Summary Report',
     },
-    'FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT': {
-        key: 'FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT',
-        formattedPermission: 'Fleet Vehicle In Out Difference Report',
+    'EXPORT_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT': {
+        key: 'EXPORT_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT',
+        formattedPermission: 'Can Export Fleet Vehicle In Out Summary Report',
     },
-    'EXPORT_IN_OUT_REPORTS': {
-        key: 'EXPORT_IN_OUT_REPORTS',
-        formattedPermission: 'Can Export In Out Reports',
+    'VIEW_ASSET_IN_OUT_SUMMARY_REPORT': {
+        key: 'VIEW_ASSET_IN_OUT_SUMMARY_REPORT',
+        formattedPermission: 'Can View Asset In Out Summary Report',
     },
-    'MANAGE_CONNECTOR_TYPES': {
-        key: 'MANAGE_CONNECTOR_TYPES',
-        formattedPermission: 'Manage Connector Types',
+    'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT': {
+        key: 'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT',
+        formattedPermission: 'Can Export Asset In Out Summary Report',
+    },
+    'VIEW_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT': {
+        key: 'VIEW_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT',
+        formattedPermission: 'Can View Fleet Vehicle In Out Difference Report',
+    },
+    'EXPORT_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT': {
+        key: 'EXPORT_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT',
+        formattedPermission: 'Can Export Fleet Vehicle In Out Difference Report',
+    },
+    'LIST_CONNECTOR_TYPES': {
+        key: 'LIST_CONNECTOR_TYPES',
+        formattedPermission: 'List Connector Types',
     },
     'ADD_CONNECTOR_TYPE': {
         key: 'ADD_CONNECTOR_TYPE',
@@ -343,9 +371,9 @@ export const permissionConfig = {
         key: 'DELETE_CONNECTOR_TYPE',
         formattedPermission: 'Can Delete Connector Type',
     },
-    'MANAGE_VENDORS': {
-        key: 'MANAGE_VENDORS',
-        formattedPermission: 'Can Manage Vendors',
+    'LIST_VENDORS': {
+        key: 'LIST_VENDORS',
+        formattedPermission: 'List Vendors',
     },
     'ADD_VENDOR': {
         key: 'ADD_VENDOR',
@@ -355,9 +383,9 @@ export const permissionConfig = {
         key: 'EDIT_VENDOR',
         formattedPermission: 'Can Edit Vendor',
     },
-    'MANAGE_RFIDS': {
-        key: 'MANAGE_RFIDS',
-        formattedPermission: 'Can Manage Rfids',
+    'LIST_RFIDS': {
+        key: 'LIST_RFIDS',
+        formattedPermission: 'List Rfids',
     },
     'ADD_RFID': {
         key: 'ADD_RFID',
@@ -371,9 +399,9 @@ export const permissionConfig = {
         key: 'DELETE_RFID',
         formattedPermission: 'Can Delete RFID',
     },
-    'MANAGE_VEHICLES': {
-        key: 'MANAGE_VEHICLES',
-        formattedPermission: 'Can Manage Vehicles',
+    'LIST_VEHICLES': {
+        key: 'LIST_VEHICLES',
+        formattedPermission: 'List Vehicles',
     },
     'ADD_VEHICLE': {
         key: 'ADD_VEHICLE',
@@ -387,9 +415,9 @@ export const permissionConfig = {
         key: 'DELETE_VEHICLE',
         formattedPermission: 'Can Delete Vehicle',
     },
-    'MANAGE_BRANDS': {
-        key: 'MANAGE_BRANDS',
-        formattedPermission: 'Can Manage Brands',
+    'LIST_BRANDS': {
+        key: 'LIST_BRANDS',
+        formattedPermission: 'List Brands',
     },
     'ADD_BRAND': {
         key: 'ADD_BRAND',
@@ -403,17 +431,17 @@ export const permissionConfig = {
         key: 'DELETE_BRAND',
         formattedPermission: 'Can Delete BRAND',
     },
-    'MANAGE_LOGS': {
-        key: 'MANAGE_LOGS',
-        formattedPermission: 'Can Manage Logs',
+    'LIST_LOGS': {
+        key: 'LIST_LOGS',
+        formattedPermission: 'List Logs',
     },
     'EXPORT_LOG_REPORTS': {
         key: 'EXPORT_LOG_REPORTS',
         formattedPermission: 'Can Export Log Reports',
     },
-    'MANAGE_SERVICE_CHARGES': {
-        key: 'MANAGE_SERVICE_CHARGES',
-        formattedPermission: 'Can Manage Service Charges',
+    'LIST_SERVICE_CHARGES': {
+        key: 'LIST_SERVICE_CHARGES',
+        formattedPermission: 'List Service Charges',
     },
     'ADD_SERVICE_CHARGE': {
         key: 'ADD_SERVICE_CHARGE',
@@ -427,9 +455,9 @@ export const permissionConfig = {
         key: 'DELETE_SERVICE_CHARGE',
         formattedPermission: 'Can Delete Service Charge',
     },
-    'MANAGE_TAX_RATES': {
-        key: 'MANAGE_TAX_RATES',
-        formattedPermission: 'Can Manage Tax Rates',
+    'LIST_TAX_RATES': {
+        key: 'LIST_TAX_RATES',
+        formattedPermission: 'List Tax Rates',
     },
     'ADD_TAX_RATE': {
         key: 'ADD_TAX_RATE',
@@ -443,9 +471,9 @@ export const permissionConfig = {
         key: 'DELETE_TAX_RATE',
         formattedPermission: 'Can Delete Tax Rate',
     },
-    'MANAGE_GST': {
-        key: 'MANAGE_GST',
-        formattedPermission: 'Can Manage GST',
+    'LIST_GST': {
+        key: 'LIST_GST',
+        formattedPermission: 'List GST',
     },
     'ADD_GST': {
         key: 'ADD_GST',
@@ -459,17 +487,17 @@ export const permissionConfig = {
         key: 'DELETE_GST',
         formattedPermission: 'Can Delete GST',
     },
-    'SUPPORT_QUERY': {
-        key: 'SUPPORT_QUERY',
-        formattedPermission: 'Support Query',
+    'LIST_SUPPORT_QUERY': {
+        key: 'LIST_SUPPORT_QUERY',
+        formattedPermission: 'List Support Query',
     },
     'VIEW_SUPPORT_QUERY': {
         key: 'VIEW_SUPPORT_QUERY',
         formattedPermission: 'Can View Support Query',
     },
-    'MANAGE_USER_ROLE': {
-        key: 'MANAGE_USER_ROLE',
-        formattedPermission: 'Can Manage User Role',
+    'LIST_USER_ROLE': {
+        key: 'LIST_USER_ROLE',
+        formattedPermission: 'List User Role',
     },
     'ADD_USER_ROLE': {
         key: 'ADD_USER_ROLE',
@@ -479,9 +507,9 @@ export const permissionConfig = {
         key: 'EDIT_USER_ROLE',
         formattedPermission: 'Can Edit User Role',
     },
-    'MANAGE_PERMISSION_GROUP': {
-        key: 'MANAGE_PERMISSION_GROUP',
-        formattedPermission: 'Can Manage Permission Group',
+    'LIST_PERMISSION_GROUP': {
+        key: 'LIST_PERMISSION_GROUP',
+        formattedPermission: 'List Permission Group',
     },
     'ADD_PERMISSION_GROUP': {
         key: 'ADD_PERMISSION_GROUP',
@@ -495,9 +523,9 @@ export const permissionConfig = {
         key: 'DELETE_PERMISSION_GROUP',
         formattedPermission: 'Can Delete Permission Group',
     },
-    'MANAGE_ADMIN_USERS': {
-        key: 'MANAGE_ADMIN_USERS',
-        formattedPermission: 'Can Manage Admin Users',
+    'LIST_ADMIN_USERS': {
+        key: 'LIST_ADMIN_USERS',
+        formattedPermission: 'List Admin Users',
     },
     'ADD_ADMIN_USER': {
         key: 'ADD_ADMIN_USER',
