@@ -183,24 +183,28 @@ export const permissionConfig = {
         key: 'VIEW_PUBLIC_USER',
         formattedPermission: 'Can View Public User',
     },
-    'PUBLIC_USER_SUMMARY': {
-        key: 'PUBLIC_USER_SUMMARY',
+    'VIEW_PUBLIC_USER_SUMMARY': {
+        key: 'VIEW_PUBLIC_USER_SUMMARY',
         formattedPermission: 'Can View Public User Summary',
     },
-    'PUBLIC_USER_DETAIL': {
-        key: 'PUBLIC_USER_DETAIL',
+    'VIEW_PUBLIC_USER_DETAIL': {
+        key: 'VIEW_PUBLIC_USER_DETAIL',
         formattedPermission: 'Can View Public User Detail',
     },
-    'PUBLIC_USER_BOOKING': {
-        key: 'PUBLIC_USER_BOOKING',
+    'VIEW_PUBLIC_USER_BOOKING': {
+        key: 'VIEW_PUBLIC_USER_BOOKING',
         formattedPermission: 'Can View Public User Booking',
     },
-    'PUBLIC_USER_INVOICE': {
-        key: 'PUBLIC_USER_INVOICE',
+    'VIEW_PUBLIC_USER_INVOICE': {
+        key: 'VIEW_PUBLIC_USER_INVOICE',
         formattedPermission: 'Can View Public User Invoice',
     },
-    'PUBLIC_USER_WALLET': {
-        key: 'PUBLIC_USER_WALLET',
+    'EXPORT_PUBLIC_USER_INVOICE': {
+        key: 'EXPORT_PUBLIC_USER_INVOICE',
+        formattedPermission: 'Can Export Public User Invoice',
+    },
+    'VIEW_PUBLIC_USER_WALLET': {
+        key: 'VIEW_PUBLIC_USER_WALLET',
         formattedPermission: 'Can View Public User Wallet',
     },
     'LIST_PUBLIC_SCHEDULES': {
@@ -212,7 +216,7 @@ export const permissionConfig = {
         formattedPermission: 'Can View Public Schedule',
     },
     'RESUME_PUBLIC_SCHEDULE': {
-        key: 'Can Resume Public Schedule',
+        key: 'RESUME_PUBLIC_SCHEDULE',
         formattedPermission: 'Can Resume Public Schedule',
     },
     'STOP_PUBLIC_SCHEDULE': {
@@ -273,7 +277,7 @@ export const permissionConfig = {
     },
     'EXPORT_ORDERS_BY_USER_REPORT': {
         key: 'EXPORT_ORDERS_BY_USER_REPORT',
-        formattedPermission: 'Can Orders By User Report',
+        formattedPermission: 'Can Export Orders By User Report',
     },
     'VIEW_PUBLIC_ORDER_REPORT': {
         key: 'VIEW_PUBLIC_ORDER_REPORT',
@@ -319,6 +323,10 @@ export const permissionConfig = {
         key: 'VIEW_FLEET_VEHICLE_IN_OUT_REPORT',
         formattedPermission: 'Can View Fleet Vehicle In Out Report',
     },
+    'VIEW_FLEET_VEHICLE_IN_OUT_REPORT_DETAIL': {
+        key: 'VIEW_FLEET_VEHICLE_IN_OUT_REPORT_DETAIL',
+        formattedPermission: 'Can View Fleet Vehicle In Out Report Detail',
+    },
     'EXPORT_FLEET_VEHICLE_IN_OUT_REPORT': {
         key: 'EXPORT_FLEET_VEHICLE_IN_OUT_REPORT',
         formattedPermission: 'Can Export Fleet Vehicle In Out Report',
@@ -326,6 +334,10 @@ export const permissionConfig = {
     'VIEW_ASSET_IN_OUT_REPORT': {
         key: 'VIEW_ASSET_IN_OUT_REPORT',
         formattedPermission: 'Can View Asset In Out Report',
+    },
+    'VIEW_ASSET_IN_OUT_REPORT_DETAIL': {
+        key: 'VIEW_ASSET_IN_OUT_REPORT_DETAIL',
+        formattedPermission: 'Can View Asset In Out Report Detail',
     },
     'EXPORT_ASSET_IN_OUT_REPORT': {
         key: 'EXPORT_ASSET_IN_OUT_REPORT',
@@ -389,15 +401,15 @@ export const permissionConfig = {
     },
     'ADD_RFID': {
         key: 'ADD_RFID',
-        formattedPermission: 'Can Add RFID',
+        formattedPermission: 'Can Add Rfid',
     },
     'EDIT_RFID': {
         key: 'EDIT_RFID',
-        formattedPermission: 'Can Edit RFID',
+        formattedPermission: 'Can Edit Rfid',
     },
     'DELETE_RFID': {
         key: 'DELETE_RFID',
-        formattedPermission: 'Can Delete RFID',
+        formattedPermission: 'Can Delete Rfid',
     },
     'LIST_VEHICLES': {
         key: 'LIST_VEHICLES',
@@ -421,23 +433,23 @@ export const permissionConfig = {
     },
     'ADD_BRAND': {
         key: 'ADD_BRAND',
-        formattedPermission: 'Can Add BRAND',
+        formattedPermission: 'Can Add Brand',
     },
     'EDIT_BRAND': {
         key: 'EDIT_BRAND',
-        formattedPermission: 'Can Edit BRAND',
+        formattedPermission: 'Can Edit Brand',
     },
     'DELETE_BRAND': {
         key: 'DELETE_BRAND',
-        formattedPermission: 'Can Delete BRAND',
+        formattedPermission: 'Can Delete Brand',
     },
     'LIST_LOGS': {
         key: 'LIST_LOGS',
         formattedPermission: 'List Logs',
     },
-    'EXPORT_LOG_REPORTS': {
-        key: 'EXPORT_LOG_REPORTS',
-        formattedPermission: 'Can Export Log Reports',
+    'EXPORT_LOG_REPORT': {
+        key: 'EXPORT_LOG_REPORT',
+        formattedPermission: 'Can Export Log Report',
     },
     'LIST_SERVICE_CHARGES': {
         key: 'LIST_SERVICE_CHARGES',
