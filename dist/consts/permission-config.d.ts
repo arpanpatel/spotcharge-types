@@ -183,23 +183,27 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    PUBLIC_USER_SUMMARY: {
+    VIEW_PUBLIC_USER_SUMMARY: {
         key: string;
         formattedPermission: string;
     };
-    PUBLIC_USER_DETAIL: {
+    VIEW_PUBLIC_USER_DETAIL: {
         key: string;
         formattedPermission: string;
     };
-    PUBLIC_USER_BOOKING: {
+    VIEW_PUBLIC_USER_BOOKING: {
         key: string;
         formattedPermission: string;
     };
-    PUBLIC_USER_INVOICE: {
+    VIEW_PUBLIC_USER_INVOICE: {
         key: string;
         formattedPermission: string;
     };
-    PUBLIC_USER_WALLET: {
+    EXPORT_PUBLIC_USER_INVOICE: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_PUBLIC_USER_WALLET: {
         key: string;
         formattedPermission: string;
     };
@@ -319,11 +323,19 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_FLEET_VEHICLE_IN_OUT_REPORT_DETAIL: {
+        key: string;
+        formattedPermission: string;
+    };
     EXPORT_FLEET_VEHICLE_IN_OUT_REPORT: {
         key: string;
         formattedPermission: string;
     };
     VIEW_ASSET_IN_OUT_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_ASSET_IN_OUT_REPORT_DETAIL: {
         key: string;
         formattedPermission: string;
     };
@@ -435,7 +447,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_LOG_REPORTS: {
+    EXPORT_LOG_REPORT: {
         key: string;
         formattedPermission: string;
     };
