@@ -167,11 +167,19 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    DOWNLOAD_PUBLIC_INVOICE_LOG: {
+        key: string;
+        formattedPermission: string;
+    };
+    DOWNLOAD_PUBLIC_INVOICE_PDF: {
+        key: string;
+        formattedPermission: string;
+    };
     DOWNLOAD_PUBLIC_INVOICE: {
         key: string;
         formattedPermission: string;
     };
-    PUBLIC_INVOICE_DOWNLOAD_REQUESTS: {
+    LIST_PUBLIC_INVOICE_DOWNLOAD_REQUESTS: {
         key: string;
         formattedPermission: string;
     };
@@ -204,6 +212,10 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     VIEW_PUBLIC_USER_WALLET: {
+        key: string;
+        formattedPermission: string;
+    };
+    UPDATE_PUBLIC_USER_WALLET_BALANCE: {
         key: string;
         formattedPermission: string;
     };
@@ -255,11 +267,11 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    VIEW_FLEET_ORDER_REPORT: {
+    VIEW_FLEET_ORDERS_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_FLEET_ORDER_REPORT: {
+    EXPORT_FLEET_ORDERS_REPORT: {
         key: string;
         formattedPermission: string;
     };
@@ -279,35 +291,35 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    VIEW_PUBLIC_ORDER_REPORT: {
+    VIEW_PUBLIC_ORDERS_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_PUBLIC_ORDER_REPORT: {
+    EXPORT_PUBLIC_ORDERS_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    VIEW_ORDER_BY_PUBLIC_USER_REPORT: {
+    VIEW_ORDERS_BY_PUBLIC_USER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_ORDER_BY_PUBLIC_USER_REPORT: {
+    EXPORT_ORDERS_BY_PUBLIC_USER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    VIEW_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT: {
+    VIEW_ORDERS_BY_PUBLIC_USER_VEHICLE_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT: {
+    EXPORT_ORDERS_BY_PUBLIC_USER_VEHICLE_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    VIEW_ORDER_BY_PUBLIC_CHARGER_REPORT: {
+    VIEW_ORDERS_BY_PUBLIC_CHARGER_REPORT: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_ORDER_BY_PUBLIC_CHARGER_REPORT: {
+    EXPORT_ORDERS_BY_PUBLIC_CHARGER_REPORT: {
         key: string;
         formattedPermission: string;
     };
@@ -392,6 +404,10 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     EDIT_VENDOR: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_VENDOR: {
         key: string;
         formattedPermission: string;
     };

@@ -170,13 +170,21 @@ exports.permissionConfig = {
         key: 'VIEW_PUBLIC_INVOICE',
         formattedPermission: 'Can View Public Invoice',
     },
+    'DOWNLOAD_PUBLIC_INVOICE_LOG': {
+        key: 'DOWNLOAD_PUBLIC_INVOICE_LOG',
+        formattedPermission: 'Can Download Public Invoice Log',
+    },
+    'DOWNLOAD_PUBLIC_INVOICE_PDF': {
+        key: 'DOWNLOAD_PUBLIC_INVOICE_PDF',
+        formattedPermission: 'Can Download Public Invoice PDF',
+    },
     'DOWNLOAD_PUBLIC_INVOICE': {
         key: 'DOWNLOAD_PUBLIC_INVOICE',
         formattedPermission: 'Can Download Public Invoice',
     },
-    'PUBLIC_INVOICE_DOWNLOAD_REQUESTS': {
-        key: 'PUBLIC_INVOICE_DOWNLOAD_REQUESTS',
-        formattedPermission: 'Public Invoice Download Requests',
+    'LIST_PUBLIC_INVOICE_DOWNLOAD_REQUESTS': {
+        key: 'LIST_PUBLIC_INVOICE_DOWNLOAD_REQUESTS',
+        formattedPermission: 'List Public Invoice Download Requests',
     },
     'LIST_PUBLIC_USERS': {
         key: 'LIST_PUBLIC_USERS',
@@ -209,6 +217,10 @@ exports.permissionConfig = {
     'VIEW_PUBLIC_USER_WALLET': {
         key: 'VIEW_PUBLIC_USER_WALLET',
         formattedPermission: 'Can View Public User Wallet',
+    },
+    'UPDATE_PUBLIC_USER_WALLET_BALANCE': {
+        key: 'UPDATE_PUBLIC_USER_WALLET_BALANCE',
+        formattedPermission: 'Can Update Public User Wallet Balance',
     },
     'LIST_PUBLIC_SCHEDULES': {
         key: 'LIST_PUBLIC_SCHEDULES',
@@ -258,13 +270,13 @@ exports.permissionConfig = {
         key: 'DELETE_CHARGER_CAPACITY',
         formattedPermission: 'Can Delete Charger Capacity',
     },
-    'VIEW_FLEET_ORDER_REPORT': {
-        key: 'VIEW_FLEET_ORDER_REPORT',
-        formattedPermission: 'Can View Fleet Order Report',
+    'VIEW_FLEET_ORDERS_REPORT': {
+        key: 'VIEW_FLEET_ORDERS_REPORT',
+        formattedPermission: 'Can View Fleet Orders Report',
     },
-    'EXPORT_FLEET_ORDER_REPORT': {
-        key: 'EXPORT_FLEET_ORDER_REPORT',
-        formattedPermission: 'Can Export Fleet Order Report',
+    'EXPORT_FLEET_ORDERS_REPORT': {
+        key: 'EXPORT_FLEET_ORDERS_REPORT',
+        formattedPermission: 'Can Export Fleet Orders Report',
     },
     'VIEW_ORDERS_BY_FLEET_VEHICLE_REPORT': {
         key: 'VIEW_ORDERS_BY_FLEET_VEHICLE_REPORT',
@@ -282,37 +294,37 @@ exports.permissionConfig = {
         key: 'EXPORT_ORDERS_BY_USER_REPORT',
         formattedPermission: 'Can Export Orders By User Report',
     },
-    'VIEW_PUBLIC_ORDER_REPORT': {
-        key: 'VIEW_PUBLIC_ORDER_REPORT',
-        formattedPermission: 'Can View Public Order Report',
+    'VIEW_PUBLIC_ORDERS_REPORT': {
+        key: 'VIEW_PUBLIC_ORDERS_REPORT',
+        formattedPermission: 'Can View Public Orders Report',
     },
-    'EXPORT_PUBLIC_ORDER_REPORT': {
-        key: 'EXPORT_PUBLIC_ORDER_REPORT',
-        formattedPermission: 'Can Export Public Order Report',
+    'EXPORT_PUBLIC_ORDERS_REPORT': {
+        key: 'EXPORT_PUBLIC_ORDERS_REPORT',
+        formattedPermission: 'Can Export Public Orders Report',
     },
-    'VIEW_ORDER_BY_PUBLIC_USER_REPORT': {
-        key: 'VIEW_ORDER_BY_PUBLIC_USER_REPORT',
+    'VIEW_ORDERS_BY_PUBLIC_USER_REPORT': {
+        key: 'VIEW_ORDERS_BY_PUBLIC_USER_REPORT',
         formattedPermission: 'Can View Order By Public User Report',
     },
-    'EXPORT_ORDER_BY_PUBLIC_USER_REPORT': {
-        key: 'EXPORT_ORDER_BY_PUBLIC_USER_REPORT',
-        formattedPermission: 'Can Export Order By Public User Report',
+    'EXPORT_ORDERS_BY_PUBLIC_USER_REPORT': {
+        key: 'EXPORT_ORDERS_BY_PUBLIC_USER_REPORT',
+        formattedPermission: 'Can Export Orders By Public User Report',
     },
-    'VIEW_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT': {
-        key: 'VIEW_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT',
-        formattedPermission: 'Can View Order By Public User Vehicle Report',
+    'VIEW_ORDERS_BY_PUBLIC_USER_VEHICLE_REPORT': {
+        key: 'VIEW_ORDERS_BY_PUBLIC_USER_VEHICLE_REPORT',
+        formattedPermission: 'Can View Orders By Public User Vehicle Report',
     },
-    'EXPORT_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT': {
-        key: 'EXPORT_ORDER_BY_PUBLIC_USER_VEHICLE_REPORT',
-        formattedPermission: 'Can Export Order By Public User Vehicle Report',
+    'EXPORT_ORDERS_BY_PUBLIC_USER_VEHICLE_REPORT': {
+        key: 'EXPORT_ORDERS_BY_PUBLIC_USER_VEHICLE_REPORT',
+        formattedPermission: 'Can Export Orders By Public User Vehicle Report',
     },
-    'VIEW_ORDER_BY_PUBLIC_CHARGER_REPORT': {
-        key: 'VIEW_ORDER_BY_PUBLIC_CHARGER_REPORT',
-        formattedPermission: 'Can View Order By Public Charger Report',
+    'VIEW_ORDERS_BY_PUBLIC_CHARGER_REPORT': {
+        key: 'VIEW_ORDERS_BY_PUBLIC_CHARGER_REPORT',
+        formattedPermission: 'Can View Orders By Public Charger Report',
     },
-    'EXPORT_ORDER_BY_PUBLIC_CHARGER_REPORT': {
-        key: 'EXPORT_ORDER_BY_PUBLIC_CHARGER_REPORT',
-        formattedPermission: 'Can Export Order By Public Charger Report',
+    'EXPORT_ORDERS_BY_PUBLIC_CHARGER_REPORT': {
+        key: 'EXPORT_ORDERS_BY_PUBLIC_CHARGER_REPORT',
+        formattedPermission: 'Can Export Orders By Public Charger Report',
     },
     'VIEW_FLEET_VEHICLE_REPORT': {
         key: 'VIEW_FLEET_VEHICLE_REPORT',
@@ -397,6 +409,10 @@ exports.permissionConfig = {
     'EDIT_VENDOR': {
         key: 'EDIT_VENDOR',
         formattedPermission: 'Can Edit Vendor',
+    },
+    'DELETE_VENDOR': {
+        key: 'DELETE_VENDOR',
+        formattedPermission: 'Can Delete Vendor',
     },
     'LIST_RFIDS': {
         key: 'LIST_RFIDS',
