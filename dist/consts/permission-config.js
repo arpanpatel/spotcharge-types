@@ -12,7 +12,7 @@ exports.permissionConfig = {
     },
     'LIST_FRANCHISES': {
         key: 'LIST_FRANCHISES',
-        formattedPermission: 'List Franchises',
+        formattedPermission: 'Can View Franchise List',
     },
     'ADD_FRANCHISE': {
         key: 'ADD_FRANCHISE',
@@ -52,7 +52,7 @@ exports.permissionConfig = {
     },
     'LIST_FLEETS': {
         key: 'LIST_FLEETS',
-        formattedPermission: 'List Fleets',
+        formattedPermission: 'Can View Fleet List',
     },
     'ADD_FLEET': {
         key: 'ADD_FLEET',
@@ -68,7 +68,7 @@ exports.permissionConfig = {
     },
     'LIST_FLEET_USERS': {
         key: 'LIST_FLEET_USERS',
-        formattedPermission: 'List Fleet Users',
+        formattedPermission: 'Can View Fleet User List',
     },
     'ADD_FLEET_USER': {
         key: 'ADD_FLEET_USER',
@@ -84,7 +84,7 @@ exports.permissionConfig = {
     },
     'LIST_FLEET_OPERATORS': {
         key: 'LIST_FLEET_OPERATORS',
-        formattedPermission: 'List Fleet Operators',
+        formattedPermission: 'Can View Fleet Operator List',
     },
     'ADD_FLEET_OPERATOR': {
         key: 'ADD_FLEET_OPERATOR',
@@ -100,7 +100,7 @@ exports.permissionConfig = {
     },
     'LIST_FLEET_VEHICLES': {
         key: 'LIST_FLEET_VEHICLES',
-        formattedPermission: 'List Fleet Vehicles',
+        formattedPermission: 'Can View Fleet Vehicle List',
     },
     'ADD_FLEET_VEHICLE': {
         key: 'ADD_FLEET_VEHICLE',
@@ -116,7 +116,7 @@ exports.permissionConfig = {
     },
     'LIST_CHARGER_ERRORS': {
         key: 'LIST_CHARGER_ERRORS',
-        formattedPermission: 'List Charger Errors',
+        formattedPermission: 'Can View Charger Error List',
     },
     'VIEW_CHARGER_ERROR': {
         key: 'VIEW_CHARGER_ERROR',
@@ -128,7 +128,7 @@ exports.permissionConfig = {
     },
     'LIST_FLEET_ORDER_SCHEDULES': {
         key: 'LIST_FLEET_ORDER_SCHEDULES',
-        formattedPermission: 'List Fleet Order Schedules',
+        formattedPermission: 'Can View Fleet Order Schedule List',
     },
     'VIEW_FLEET_ORDER_SCHEDULE': {
         key: 'VIEW_FLEET_ORDER_SCHEDULE',
@@ -144,7 +144,7 @@ exports.permissionConfig = {
     },
     'LIST_PUBLIC_BOOKINGS': {
         key: 'LIST_PUBLIC_BOOKINGS',
-        formattedPermission: 'List Public Bookings',
+        formattedPermission: 'Can View Public Booking List',
     },
     'VIEW_PUBLIC_BOOKING': {
         key: 'VIEW_PUBLIC_BOOKING',
@@ -164,7 +164,7 @@ exports.permissionConfig = {
     },
     'LIST_PUBLIC_INVOICES': {
         key: 'LIST_PUBLIC_INVOICES',
-        formattedPermission: 'List Public Invoices',
+        formattedPermission: 'Can View Public Invoice List',
     },
     'VIEW_PUBLIC_INVOICE': {
         key: 'VIEW_PUBLIC_INVOICE',
@@ -184,11 +184,11 @@ exports.permissionConfig = {
     },
     'LIST_PUBLIC_INVOICE_DOWNLOAD_REQUESTS': {
         key: 'LIST_PUBLIC_INVOICE_DOWNLOAD_REQUESTS',
-        formattedPermission: 'List Public Invoice Download Requests',
+        formattedPermission: 'Can View Public Invoice Download Request List',
     },
     'LIST_PUBLIC_USERS': {
         key: 'LIST_PUBLIC_USERS',
-        formattedPermission: 'List Public Users',
+        formattedPermission: 'Can View Public User List',
     },
     'VIEW_PUBLIC_USER': {
         key: 'VIEW_PUBLIC_USER',
@@ -224,7 +224,7 @@ exports.permissionConfig = {
     },
     'LIST_PUBLIC_SCHEDULES': {
         key: 'LIST_PUBLIC_SCHEDULES',
-        formattedPermission: 'List Public Schedules',
+        formattedPermission: 'Can View Public Schedule List',
     },
     'VIEW_PUBLIC_SCHEDULE': {
         key: 'VIEW_PUBLIC_SCHEDULE',
@@ -240,7 +240,7 @@ exports.permissionConfig = {
     },
     'LIST_CHARGERS': {
         key: 'LIST_CHARGERS',
-        formattedPermission: 'List Chargers',
+        formattedPermission: 'Can View Charger List',
     },
     'ADD_CHARGER': {
         key: 'ADD_CHARGER',
@@ -256,7 +256,7 @@ exports.permissionConfig = {
     },
     'LIST_CHARGER_CAPACITIES': {
         key: 'LIST_CHARGER_CAPACITIES',
-        formattedPermission: 'List Charger Capacities',
+        formattedPermission: 'Can View Charger Capacity List',
     },
     'ADD_CHARGER_CAPACITY': {
         key: 'ADD_CHARGER_CAPACITY',
@@ -384,7 +384,7 @@ exports.permissionConfig = {
     },
     'LIST_CONNECTOR_TYPES': {
         key: 'LIST_CONNECTOR_TYPES',
-        formattedPermission: 'List Connector Types',
+        formattedPermission: 'Can View Connector Type List',
     },
     'ADD_CONNECTOR_TYPE': {
         key: 'ADD_CONNECTOR_TYPE',
@@ -400,7 +400,7 @@ exports.permissionConfig = {
     },
     'LIST_VENDORS': {
         key: 'LIST_VENDORS',
-        formattedPermission: 'List Vendors',
+        formattedPermission: 'Can View Vendor List',
     },
     'ADD_VENDOR': {
         key: 'ADD_VENDOR',
@@ -416,7 +416,7 @@ exports.permissionConfig = {
     },
     'LIST_RFIDS': {
         key: 'LIST_RFIDS',
-        formattedPermission: 'List Rfids',
+        formattedPermission: 'Can View Rfid List',
     },
     'ADD_RFID': {
         key: 'ADD_RFID',
@@ -432,7 +432,7 @@ exports.permissionConfig = {
     },
     'LIST_VEHICLES': {
         key: 'LIST_VEHICLES',
-        formattedPermission: 'List Vehicles',
+        formattedPermission: 'Can View Vehicle List',
     },
     'ADD_VEHICLE': {
         key: 'ADD_VEHICLE',
@@ -448,7 +448,7 @@ exports.permissionConfig = {
     },
     'LIST_BRANDS': {
         key: 'LIST_BRANDS',
-        formattedPermission: 'List Brands',
+        formattedPermission: 'Can View Brand List',
     },
     'ADD_BRAND': {
         key: 'ADD_BRAND',
@@ -464,7 +464,7 @@ exports.permissionConfig = {
     },
     'LIST_LOGS': {
         key: 'LIST_LOGS',
-        formattedPermission: 'List Logs',
+        formattedPermission: 'Can View Logs',
     },
     'EXPORT_LOG_REPORT': {
         key: 'EXPORT_LOG_REPORT',
@@ -472,7 +472,7 @@ exports.permissionConfig = {
     },
     'LIST_SERVICE_CHARGES': {
         key: 'LIST_SERVICE_CHARGES',
-        formattedPermission: 'List Service Charges',
+        formattedPermission: 'Can View Service Charge List',
     },
     'ADD_SERVICE_CHARGE': {
         key: 'ADD_SERVICE_CHARGE',
@@ -488,7 +488,7 @@ exports.permissionConfig = {
     },
     'LIST_TAX_RATES': {
         key: 'LIST_TAX_RATES',
-        formattedPermission: 'List Tax Rates',
+        formattedPermission: 'Can View Tax Rate List',
     },
     'ADD_TAX_RATE': {
         key: 'ADD_TAX_RATE',
@@ -504,7 +504,7 @@ exports.permissionConfig = {
     },
     'LIST_GST': {
         key: 'LIST_GST',
-        formattedPermission: 'List GST',
+        formattedPermission: 'Can View GST List',
     },
     'ADD_GST': {
         key: 'ADD_GST',
@@ -520,7 +520,7 @@ exports.permissionConfig = {
     },
     'LIST_SUPPORT_QUERY': {
         key: 'LIST_SUPPORT_QUERY',
-        formattedPermission: 'List Support Query',
+        formattedPermission: 'Can View Support Query List',
     },
     'VIEW_SUPPORT_QUERY': {
         key: 'VIEW_SUPPORT_QUERY',
@@ -528,7 +528,7 @@ exports.permissionConfig = {
     },
     'LIST_USER_ROLE': {
         key: 'LIST_USER_ROLE',
-        formattedPermission: 'List User Role',
+        formattedPermission: 'Can View User Role List',
     },
     'ADD_USER_ROLE': {
         key: 'ADD_USER_ROLE',
@@ -540,7 +540,7 @@ exports.permissionConfig = {
     },
     'LIST_PERMISSION_GROUP': {
         key: 'LIST_PERMISSION_GROUP',
-        formattedPermission: 'List Permission Group',
+        formattedPermission: 'Can View Permission Group List',
     },
     'ADD_PERMISSION_GROUP': {
         key: 'ADD_PERMISSION_GROUP',
@@ -556,7 +556,7 @@ exports.permissionConfig = {
     },
     'LIST_ADMIN_USERS': {
         key: 'LIST_ADMIN_USERS',
-        formattedPermission: 'List Admin Users',
+        formattedPermission: 'Can View Admin User List',
     },
     'ADD_ADMIN_USER': {
         key: 'ADD_ADMIN_USER',
