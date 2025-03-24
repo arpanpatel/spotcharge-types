@@ -271,6 +271,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_FLEET_ORDER_REPORT_DETAIL: {
+        key: string;
+        formattedPermission: string;
+    };
+    DOWNLOAD_FLEET_ORDER_LOG: {
+        key: string;
+        formattedPermission: string;
+    };
     EXPORT_FLEET_ORDERS_REPORT: {
         key: string;
         formattedPermission: string;
