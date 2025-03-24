@@ -271,6 +271,14 @@ export const permissionConfig = {
         key: 'VIEW_FLEET_ORDERS_REPORT',
         formattedPermission: 'Can View Fleet Orders Report',
     },
+    'VIEW_FLEET_ORDER_REPORT_DETAIL': {
+        key: 'VIEW_FLEET_ORDER_REPORT_DETAIL',
+        formattedPermission: 'Can View Fleet Order Report Detail',
+    },
+    'DOWNLOAD_FLEET_ORDER_LOG': {
+        key: 'DOWNLOAD_FLEET_ORDER_LOG',
+        formattedPermission: 'Can Download Fleet Order Log',
+    },
     'EXPORT_FLEET_ORDERS_REPORT': {
         key: 'EXPORT_FLEET_ORDERS_REPORT',
         formattedPermission: 'Can Export Fleet Orders Report',
