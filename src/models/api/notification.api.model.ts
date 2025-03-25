@@ -1,5 +1,6 @@
 import {Timestamp} from "../timestamp";
 import {CreatedByModel} from "../created-by.model";
+import {AppType} from "../../enum";
 
 export interface NotificationApiModel {
     id: string;
@@ -10,6 +11,7 @@ export interface NotificationApiModel {
     android?: {
         priority: 'high' | 'normal';
     },
+    appType?: AppType,
     data?: Record<string, any>;
     message: string;
     userTokens: string[];
