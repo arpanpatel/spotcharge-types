@@ -299,6 +299,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_ORDERS_BY_FLEET_CHARGER_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    EXPORT_ORDERS_BY_FLEET_CHARGER_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
     VIEW_PUBLIC_ORDERS_REPORT: {
         key: string;
         formattedPermission: string;

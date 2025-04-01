@@ -302,6 +302,14 @@ exports.permissionConfig = {
         key: 'EXPORT_ORDERS_BY_USER_REPORT',
         formattedPermission: 'Can Export Orders By User Report',
     },
+    'VIEW_ORDERS_BY_FLEET_CHARGER_REPORT': {
+        key: 'VIEW_ORDERS_BY_FLEET_CHARGER_REPORT',
+        formattedPermission: 'Can View Orders By Fleet Charger Report',
+    },
+    'EXPORT_ORDERS_BY_FLEET_CHARGER_REPORT': {
+        key: 'EXPORT_ORDERS_BY_FLEET_CHARGER_REPORT',
+        formattedPermission: 'Can Export Orders By Fleet Charger Report',
+    },
     'VIEW_PUBLIC_ORDERS_REPORT': {
         key: 'VIEW_PUBLIC_ORDERS_REPORT',
         formattedPermission: 'Can View Public Orders Report',
