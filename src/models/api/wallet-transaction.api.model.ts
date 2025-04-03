@@ -7,7 +7,7 @@ export interface WalletTransactionApiModel {
   id: string;
   userId: string;
   amount: number;
-  topUpAmount?: number;
+  topUpAmount?: number | null;
   paymentInfo: RazorpaySuccessResponse | null;
   closingBalance?: number;
   type: TransactionType;
