@@ -6,6 +6,7 @@ export const Notifications = {
     cancelCharging: "cancelCharging",
     refundCharging: "refundCharging",
     stopCharging: "stopCharging",
+    chargingReminder: "chargingReminder",
     updateApp: "updateApp",
     others: "others",
     marketing: "marketing",
