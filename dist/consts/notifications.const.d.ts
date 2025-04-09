@@ -5,6 +5,7 @@ export declare const Notifications: {
     readonly cancelCharging: "cancelCharging";
     readonly refundCharging: "refundCharging";
     readonly stopCharging: "stopCharging";
+    readonly chargingReminder: "chargingReminder";
     readonly updateApp: "updateApp";
     readonly others: "others";
     readonly marketing: "marketing";
