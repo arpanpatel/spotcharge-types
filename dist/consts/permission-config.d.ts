@@ -243,7 +243,15 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_CHARGER_DETAIL: {
+        key: string;
+        formattedPermission: string;
+    };
     EDIT_CHARGER: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_CHARGER_CONFIGURATION: {
         key: string;
         formattedPermission: string;
     };

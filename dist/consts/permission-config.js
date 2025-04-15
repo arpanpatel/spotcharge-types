@@ -246,9 +246,17 @@ exports.permissionConfig = {
         key: 'ADD_CHARGER',
         formattedPermission: 'Can Add Charger',
     },
+    'VIEW_CHARGER_DETAIL': {
+        key: 'VIEW_CHARGER_DETAIL',
+        formattedPermission: 'Can View Charger Detail',
+    },
     'EDIT_CHARGER': {
         key: 'EDIT_CHARGER',
         formattedPermission: 'Can Edit Charger',
+    },
+    'EDIT_CHARGER_CONFIGURATION': {
+        key: 'EDIT_CHARGER_CONFIGURATION',
+        formattedPermission: 'Can Edit Charger Configuration',
     },
     'DELETE_CHARGER': {
         key: 'DELETE_CHARGER',
