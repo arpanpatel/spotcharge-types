@@ -3,6 +3,7 @@ export declare const Notifications: {
     readonly rescheduleBooking: "rescheduleBooking";
     readonly completeCharging: "completeCharging";
     readonly cancelCharging: "cancelCharging";
+    readonly startCharging: "startCharging";
     readonly refundCharging: "refundCharging";
     readonly stopCharging: "stopCharging";
     readonly chargingReminder: "chargingReminder";

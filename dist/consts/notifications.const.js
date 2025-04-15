@@ -6,6 +6,7 @@ exports.Notifications = {
     rescheduleBooking: "rescheduleBooking",
     completeCharging: "completeCharging",
     cancelCharging: "cancelCharging",
+    startCharging: "startCharging",
     refundCharging: "refundCharging",
     stopCharging: "stopCharging",
     chargingReminder: "chargingReminder",
