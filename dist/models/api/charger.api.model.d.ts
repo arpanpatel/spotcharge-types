@@ -19,6 +19,7 @@ export interface ChargerApiModel {
     chargerLocationType: ChargerLocationType;
     purchaseRate: number;
     active: boolean;
+    maintenanceMode: boolean;
     vendor: VendorModel;
     status: ChargerStatus;
     createdBy: CreatedByModel;
