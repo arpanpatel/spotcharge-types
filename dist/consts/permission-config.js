@@ -242,6 +242,10 @@ exports.permissionConfig = {
         key: 'LIST_CHARGERS',
         formattedPermission: 'Can View Charger List',
     },
+    'DISPLAY_CHARGERS_ON_MAP': {
+        key: 'DISPLAY_CHARGERS_ON_MAP',
+        formattedPermission: 'Can View Chargers On Map',
+    },
     'ADD_CHARGER': {
         key: 'ADD_CHARGER',
         formattedPermission: 'Can Add Charger',

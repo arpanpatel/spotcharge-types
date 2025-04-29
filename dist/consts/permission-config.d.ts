@@ -239,6 +239,10 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    DISPLAY_CHARGERS_ON_MAP: {
+        key: string;
+        formattedPermission: string;
+    };
     ADD_CHARGER: {
         key: string;
         formattedPermission: string;
