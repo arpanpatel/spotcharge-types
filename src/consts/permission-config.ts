@@ -241,7 +241,7 @@ export const permissionConfig = {
     },
     'DISPLAY_CHARGERS_ON_MAP': {
         key: 'DISPLAY_CHARGERS_ON_MAP',
-        formattedPermission: 'Can View Chargers on Map',
+        formattedPermission: 'Can View Chargers On Map',
     },
     'ADD_CHARGER': {
         key: 'ADD_CHARGER',
