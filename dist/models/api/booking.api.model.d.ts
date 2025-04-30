@@ -52,6 +52,7 @@ export interface BookingApiModel {
     topUpAmount?: number;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
+    isServiceChargeApplicable: boolean;
     refundData?: Record<string, Refund>;
     timeZone: string;
 }

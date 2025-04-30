@@ -61,5 +61,6 @@ export interface InvoiceApiModel {
     bookingAmount: number;
     bookingDuration: number;
     vehicle: PublicUserVehicle;
+    isServiceChargeApplicable: boolean;
 }
 //# sourceMappingURL=invoice.api.model.d.ts.map
