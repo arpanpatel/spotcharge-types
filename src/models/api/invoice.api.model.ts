@@ -61,5 +61,6 @@ export interface InvoiceApiModel {
     bookingUnit: number;
     bookingAmount: number;
     bookingDuration: number;
-    vehicle: PublicUserVehicle
+    vehicle: PublicUserVehicle;
+    isServiceChargeApplicable: boolean;
 }
