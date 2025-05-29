@@ -26,6 +26,10 @@ exports.VehiclePurpose = {
         id: 'charging',
         name: 'Charging',
     },
+    PARKING: {
+        id: 'parking',
+        name: 'Parking',
+    },
     INSPECTION: {
         id: 'inspection',
         name: 'Inspection',

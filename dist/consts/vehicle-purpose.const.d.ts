@@ -15,6 +15,10 @@ export declare const VehiclePurpose: {
         readonly id: "charging";
         readonly name: "Charging";
     };
+    readonly PARKING: {
+        readonly id: "parking";
+        readonly name: "Parking";
+    };
     readonly INSPECTION: {
         readonly id: "inspection";
         readonly name: "Inspection";
