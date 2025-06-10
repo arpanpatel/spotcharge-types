@@ -191,6 +191,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    EDIT_PUBLIC_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_PUBLIC_USER_BLOCK_STATUS: {
+        key: string;
+        formattedPermission: string;
+    };
     VIEW_PUBLIC_USER_SUMMARY: {
         key: string;
         formattedPermission: string;
