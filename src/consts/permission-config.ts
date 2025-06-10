@@ -191,6 +191,14 @@ export const permissionConfig = {
         key: 'VIEW_PUBLIC_USER',
         formattedPermission: 'Can View Public User',
     },
+    'EDIT_PUBLIC_USER': {
+        key: 'EDIT_PUBLIC_USER',
+        formattedPermission: 'Can Edit Public User',
+    },
+    'EDIT_PUBLIC_USER_BLOCK_STATUS': {
+        key: 'EDIT_PUBLIC_USER_BLOCK_STATUS',
+        formattedPermission: 'Can Edit Public User Block Status',
+    },
     'VIEW_PUBLIC_USER_SUMMARY': {
         key: 'VIEW_PUBLIC_USER_SUMMARY',
         formattedPermission: 'Can View Public User Summary',
