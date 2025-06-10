@@ -42,6 +42,7 @@ export interface UserModel {
   vehicles?: UserVehicle[];
   permissions?: Record<PermissionKeys, UserRolePermission> | null;
   userTokens?: string[];
+  isBlocked?: boolean;
 }
 
 export interface ProviderData {
