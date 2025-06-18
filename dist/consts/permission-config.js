@@ -418,6 +418,14 @@ exports.permissionConfig = {
         key: 'EXPORT_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT',
         formattedPermission: 'Can Export Fleet Vehicle In Out Difference Report',
     },
+    'VIEW_CHARGER_REPORT': {
+        key: 'VIEW_CHARGER_REPORT',
+        formattedPermission: 'Can View Charger Online/Offline Report',
+    },
+    'EXPORT_CHARGER_REPORT': {
+        key: 'EXPORT_CHARGER_REPORT',
+        formattedPermission: 'Can Export Charger Online/Offline Report',
+    },
     'LIST_CONNECTOR_TYPES': {
         key: 'LIST_CONNECTOR_TYPES',
         formattedPermission: 'Can View Connector Type List',

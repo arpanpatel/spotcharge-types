@@ -415,6 +415,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_CHARGER_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    EXPORT_CHARGER_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
     LIST_CONNECTOR_TYPES: {
         key: string;
         formattedPermission: string;
