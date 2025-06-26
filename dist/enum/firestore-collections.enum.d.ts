@@ -33,6 +33,7 @@ export declare enum Collection {
     Notifications = "notifications",
     MasterUserRoles = "masterUserRoles",
     PermissionGroups = "permissionGroups",
-    AdminUsers = "adminUsers"
+    AdminUsers = "adminUsers",
+    ChargerReports = "chargerReports"
 }
 //# sourceMappingURL=firestore-collections.enum.d.ts.map

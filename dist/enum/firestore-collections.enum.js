@@ -39,5 +39,6 @@ var Collection;
     Collection["MasterUserRoles"] = "masterUserRoles";
     Collection["PermissionGroups"] = "permissionGroups";
     Collection["AdminUsers"] = "adminUsers";
+    Collection["ChargerReports"] = "chargerReports";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

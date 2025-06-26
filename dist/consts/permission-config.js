@@ -270,6 +270,10 @@ exports.permissionConfig = {
         key: 'EDIT_CHARGER_CONFIGURATION',
         formattedPermission: 'Can Edit Charger Configuration',
     },
+    'EDIT_CHARGER_FIRMWARE': {
+        key: 'EDIT_CHARGER_FIRMWARE',
+        formattedPermission: 'Can Edit Charger Firmware',
+    },
     'DELETE_CHARGER': {
         key: 'DELETE_CHARGER',
         formattedPermission: 'Can Delete Charger',

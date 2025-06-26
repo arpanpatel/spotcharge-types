@@ -267,6 +267,10 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    EDIT_CHARGER_FIRMWARE: {
+        key: string;
+        formattedPermission: string;
+    };
     DELETE_CHARGER: {
         key: string;
         formattedPermission: string;
