@@ -39,6 +39,7 @@ export interface ChargerApiModel {
     fleetIds?: string[];
     lastSeen?: Timestamp;
     onlineAt?: Timestamp;
+    firmwareVersion?: string;
 }
 
 
