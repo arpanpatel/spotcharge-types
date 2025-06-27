@@ -38,5 +38,6 @@ export interface ChargerApiModel {
     fleetIds?: string[];
     lastSeen?: Timestamp;
     onlineAt?: Timestamp;
+    firmwareVersion?: string;
 }
 //# sourceMappingURL=charger.api.model.d.ts.map
