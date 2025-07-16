@@ -15,6 +15,7 @@ export interface FleetVehicleApiModel {
     timeZone: string;
     lastIn: LastInOutModel;
     lastOut: LastInOutModel;
+    inOutStatus: string;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
