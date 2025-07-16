@@ -14,6 +14,7 @@ export interface AssetApiModel {
     franchise: FranchiseModel;
     lastIn: LastInOutModel;
     lastOut: LastInOutModel;
+    inOutStatus: string;
     photo?: PhotoEvidenceModel;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;

@@ -268,8 +268,8 @@ export const permissionConfig = {
         formattedPermission: 'Can Edit Charger Configuration',
     },
     'EDIT_CHARGER_FIRMWARE': {
-      key: 'EDIT_CHARGER_FIRMWARE',
-      formattedPermission: 'Can Edit Charger Firmware',
+        key: 'EDIT_CHARGER_FIRMWARE',
+        formattedPermission: 'Can Edit Charger Firmware',
     },
     'DELETE_CHARGER': {
         key: 'DELETE_CHARGER',
@@ -324,8 +324,8 @@ export const permissionConfig = {
         formattedPermission: 'Can Export Orders By User Report',
     },
     'VIEW_ORDERS_BY_FLEET_CHARGER_REPORT': {
-      key: 'VIEW_ORDERS_BY_FLEET_CHARGER_REPORT',
-      formattedPermission: 'Can View Orders By Fleet Charger Report',
+        key: 'VIEW_ORDERS_BY_FLEET_CHARGER_REPORT',
+        formattedPermission: 'Can View Orders By Fleet Charger Report',
     },
     'EXPORT_ORDERS_BY_FLEET_CHARGER_REPORT': {
         key: 'EXPORT_ORDERS_BY_FLEET_CHARGER_REPORT',
@@ -394,6 +394,22 @@ export const permissionConfig = {
     'EXPORT_ASSET_IN_OUT_REPORT': {
         key: 'EXPORT_ASSET_IN_OUT_REPORT',
         formattedPermission: 'Can Export Asset In Out Report',
+    },
+    'VIEW_FLEET_VEHICLE_IN_OUT_LOG_REPORT': {
+        key: 'VIEW_FLEET_VEHICLE_IN_OUT_LOG_REPORT',
+        formattedPermission: 'Can View Fleet Vehicle In Out Log Report',
+    },
+    'EXPORT_FLEET_VEHICLE_IN_OUT_LOG_REPORT': {
+        key: 'EXPORT_FLEET_VEHICLE_IN_OUT_LOG_REPORT',
+        formattedPermission: 'Can Export Fleet Vehicle In Out Log Report',
+    },
+    'VIEW_ASSET_IN_OUT_LOG_REPORT': {
+        key: 'VIEW_ASSET_IN_OUT_LOG_REPORT',
+        formattedPermission: 'Can View Asset In Out Log Report',
+    },
+    'EXPORT_ASSET_IN_OUT_LOG_REPORT': {
+        key: 'EXPORT_ASSET_IN_OUT_LOG_REPORT',
+        formattedPermission: 'Can Export Asset In Out Log Report',
     },
     'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT': {
         key: 'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT',
