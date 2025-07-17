@@ -399,6 +399,10 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_FLEET_VEHICLE_IN_OUT_LOG_DETAIL: {
+        key: string;
+        formattedPermission: string;
+    };
     EXPORT_FLEET_VEHICLE_IN_OUT_LOG_REPORT: {
         key: string;
         formattedPermission: string;
@@ -407,11 +411,19 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_ASSET_IN_OUT_LOG_DETAIL: {
+        key: string;
+        formattedPermission: string;
+    };
     EXPORT_ASSET_IN_OUT_LOG_REPORT: {
         key: string;
         formattedPermission: string;
     };
     VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT_DETAIL: {
         key: string;
         formattedPermission: string;
     };
@@ -424,6 +436,10 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     EXPORT_ASSET_IN_OUT_SUMMARY_REPORT: {
+        key: string;
+        formattedPermission: string;
+    };
+    EXPORT_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL: {
         key: string;
         formattedPermission: string;
     };
