@@ -36,5 +36,6 @@ export enum Collection {
     MasterUserRoles = 'masterUserRoles',
     PermissionGroups = 'permissionGroups',
     AdminUsers = 'adminUsers',
-    ChargerReports = 'chargerReports'
+    ChargerReports = 'chargerReports',
+    Vehicles = 'vehicles'
 }

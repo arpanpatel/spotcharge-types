@@ -439,8 +439,8 @@ export const permissionConfig = {
         key: 'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT',
         formattedPermission: 'Can Export Asset In Out Summary Report',
     },
-    'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL': {
-        key: 'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL',
+    'VIEW_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL': {
+        key: 'VIEW_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL',
         formattedPermission: 'Can View Asset In Out Summary Report Detail',
     },
     'VIEW_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT': {
