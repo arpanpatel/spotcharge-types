@@ -399,6 +399,10 @@ export const permissionConfig = {
         key: 'VIEW_FLEET_VEHICLE_IN_OUT_LOG_REPORT',
         formattedPermission: 'Can View Fleet Vehicle In Out Log Report',
     },
+    'VIEW_FLEET_VEHICLE_IN_OUT_LOG_DETAIL': {
+        key: 'VIEW_FLEET_VEHICLE_IN_OUT_LOG_DETAIL',
+        formattedPermission: 'Can View Fleet Vehicle In Out Log Detail',
+    },
     'EXPORT_FLEET_VEHICLE_IN_OUT_LOG_REPORT': {
         key: 'EXPORT_FLEET_VEHICLE_IN_OUT_LOG_REPORT',
         formattedPermission: 'Can Export Fleet Vehicle In Out Log Report',
@@ -407,6 +411,10 @@ export const permissionConfig = {
         key: 'VIEW_ASSET_IN_OUT_LOG_REPORT',
         formattedPermission: 'Can View Asset In Out Log Report',
     },
+    'VIEW_ASSET_IN_OUT_LOG_DETAIL': {
+        key: 'VIEW_ASSET_IN_OUT_LOG_DETAIL',
+        formattedPermission: 'Can View Asset In Out Log Detail',
+    },
     'EXPORT_ASSET_IN_OUT_LOG_REPORT': {
         key: 'EXPORT_ASSET_IN_OUT_LOG_REPORT',
         formattedPermission: 'Can Export Asset In Out Log Report',
@@ -414,6 +422,10 @@ export const permissionConfig = {
     'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT': {
         key: 'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT',
         formattedPermission: 'Can View Fleet Vehicle In Out Summary Report',
+    },
+    'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT_DETAIL': {
+        key: 'VIEW_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT_DETAIL',
+        formattedPermission: 'Can View Fleet Vehicle In Out Summary Report Detail',
     },
     'EXPORT_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT': {
         key: 'EXPORT_FLEET_VEHICLE_IN_OUT_SUMMARY_REPORT',
@@ -426,6 +438,10 @@ export const permissionConfig = {
     'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT': {
         key: 'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT',
         formattedPermission: 'Can Export Asset In Out Summary Report',
+    },
+    'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL': {
+        key: 'EXPORT_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL',
+        formattedPermission: 'Can View Asset In Out Summary Report Detail',
     },
     'VIEW_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT': {
         key: 'VIEW_FLEET_VEHICLE_IN_OUT_DIFFERENCE_REPORT',
