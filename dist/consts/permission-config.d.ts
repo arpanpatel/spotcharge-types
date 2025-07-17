@@ -439,7 +439,7 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    EXPORT_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL: {
+    VIEW_ASSET_IN_OUT_SUMMARY_REPORT_DETAIL: {
         key: string;
         formattedPermission: string;
     };
