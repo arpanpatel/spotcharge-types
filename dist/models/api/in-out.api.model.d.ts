@@ -49,11 +49,27 @@ export interface PhotoEvidenceModel {
     exif: any | null;
 }
 export interface LastInOutModel {
-    status: VehicleStatus;
-    createdBy: CreatedByModel;
-    timeStamp: Timestamp;
-    driver: string;
+    id: string;
     fleet: FleetModel;
     franchise: FranchiseModel;
+    asset: AssetModel;
+    vehicle: FleetVehicleModel;
+    driver: string | null;
+    status: VehicleStatus;
+    batteryPercentage: number;
+    odometer: number;
+    inOutType: InOutKeys;
+    purpose: VehiclePurposeDetailType;
+    checklistStatus: VehicleChecklist;
+    previousInOutId?: string;
+    isChecklistChanged: boolean;
+    missingChecklistItems?: string[];
+    newlyAddedCheckListItems?: string[];
+    photoEvidence: PhotoEvidenceModel[];
+    profileImage: PhotoEvidenceModel;
+    notes: string | null;
+    createdBy: CreatedByModel;
+    createdAt: Timestamp;
+    timeStamp: Timestamp;
 }
 //# sourceMappingURL=in-out.api.model.d.ts.map
