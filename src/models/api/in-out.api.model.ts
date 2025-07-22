@@ -79,4 +79,5 @@ export interface LastInOutModel {
     notes: string | null;
     createdBy: CreatedByModel;
     createdAt: Timestamp;
+    timeStamp: Timestamp;
 }
