@@ -34,6 +34,12 @@ export interface OrderApiModel {
     orderType: OrderType;
     totalConsumedUnits: number;
     totalAmount: number;
+    type?:string;
+    addedBy?: string;
+    initialBatteryPercentage?: number;
+    completeBatteryPercentage?: number;
+    vehicleBatteryCapacity?: number;
+    approxChargingTime?: number;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel | null;
