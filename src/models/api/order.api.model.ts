@@ -2,7 +2,7 @@ import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {FleetModel} from "../fleet.model";
 import {FranchiseModel} from "../franchise.model";
-import {OrderType} from "../../enum";
+import {ChargerStatus, OrderType} from "../../enum";
 import {ChargingTransactionRecords} from "../charging-transaction";
 import {FleetVehicleModel} from "../fleet-vehicle.model";
 
@@ -47,4 +47,6 @@ export interface OrderApiModel {
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
     isDeleted: boolean;
+    chargerStatus?: ChargerStatus | null;
+    reason?: string | null;
 }
