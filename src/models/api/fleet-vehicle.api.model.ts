@@ -17,6 +17,7 @@ export interface FleetVehicleApiModel {
     lastIn: LastInOutModel;
     lastOut: LastInOutModel;
     inOutStatus: string;
+    inOutDate: Timestamp;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel;
