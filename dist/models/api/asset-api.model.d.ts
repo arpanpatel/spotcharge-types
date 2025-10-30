@@ -15,6 +15,7 @@ export interface AssetApiModel {
     lastOut: LastInOutModel;
     inOutStatus: string;
     photo?: PhotoEvidenceModel;
+    inOutDate: Timestamp;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel | null;
