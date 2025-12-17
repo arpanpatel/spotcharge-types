@@ -2,7 +2,7 @@ import {AddressApiModel} from "./address.api.model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 
-export interface ChargerStationApiModel {
+export interface PublicChargingStationApiModel {
     id: string;
     _firestore_id?: string;
     name: string;
