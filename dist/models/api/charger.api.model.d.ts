@@ -8,6 +8,7 @@ import { GstModel } from "./gst-record-api.model";
 export interface ChargerApiModel {
     id: string;
     _firestore_id: string;
+    stationId: string;
     name: string;
     chargerId: string;
     type: ChargerType;

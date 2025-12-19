@@ -23,3 +23,4 @@ export {AppType} from './app-type';
 export {SupportQueriesStatus} from './support-queries-status';
 export {TaxCategory} from './tax-category';
 export {OrderStopReason} from './order-stop-reason.enum';
+export {StationStatus} from './station-status.enum';
