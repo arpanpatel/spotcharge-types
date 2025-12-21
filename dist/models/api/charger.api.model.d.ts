@@ -1,4 +1,4 @@
-import { ChargerLocationType, ChargerStatus, ChargerType, PointType } from "../../enum";
+import { ChargerAllowedMode, ChargerLocationType, ChargerStatus, ChargerType, PointType } from "../../enum";
 import { AddressApiModel } from "./address.api.model";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
@@ -18,6 +18,9 @@ export interface ChargerApiModel {
     gst: GstModel;
     protocol: string;
     chargerLocationType: ChargerLocationType;
+    chargerVisibility: ChargerLocationType[];
+    allowedModes?: ChargerAllowedMode[];
+    accessNote?: string;
     purchaseRate: number;
     active: boolean;
     isServiceChargeApplicable: boolean;
