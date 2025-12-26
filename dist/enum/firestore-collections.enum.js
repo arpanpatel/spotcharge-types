@@ -42,5 +42,6 @@ var Collection;
     Collection["ChargerReports"] = "chargerReports";
     Collection["Vehicles"] = "vehicles";
     Collection["Stations"] = "stations";
+    Collection["ApiConsumers"] = "apiConsumers";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
