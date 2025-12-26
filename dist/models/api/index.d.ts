@@ -33,5 +33,5 @@ export { PermissionGroupApiModel } from './permission-group.api.model';
 export { MasterUserRoleApiModel } from './master-user-role.api.model';
 export { AdminUserApiModel } from './admin-user.api.model';
 export { ChargerReportApiModel } from './charger-report.api.model';
-export { StationApiModel } from './station.api.model';
+export { StationApiModel, StationCapabilities, StationChargerCounts } from './station.api.model';
 //# sourceMappingURL=index.d.ts.map
