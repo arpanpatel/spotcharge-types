@@ -13,19 +13,10 @@ export interface StationApiModel {
         lng: number;
     };
     /* ---------- CAPABILITIES (DERIVED, REQUIRED) ---------- */
-    capabilities: {
-        fleet: boolean;
-        public: boolean;
-        residentsOnly: boolean;
-    };
+    capabilities: StationCapabilities;
 
     /* ---------- CHARGER COUNTS (DERIVED, REQUIRED) ---------- */
-    chargerCounts: {
-        total: number;
-        fleet: number;
-        public: number;
-        residentsOnly: number;
-    };
+    chargerCounts: StationChargerCounts;
     status: StationStatus;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
@@ -35,4 +26,18 @@ export interface StationApiModel {
     deletedAt: Timestamp | null;
     isDeleted: boolean;
     timeZone: string;
+}
+
+
+export interface StationCapabilities {
+  fleet: boolean;
+  public: boolean;
+  residentsOnly: boolean;
+}
+
+export interface StationChargerCounts {
+  total: number;
+  fleet: number;
+  public: number;
+  residentsOnly: number;
 }

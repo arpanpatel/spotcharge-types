@@ -11,17 +11,8 @@ export interface StationApiModel {
         lat: number;
         lng: number;
     };
-    capabilities: {
-        fleet: boolean;
-        public: boolean;
-        residentsOnly: boolean;
-    };
-    chargerCounts: {
-        total: number;
-        fleet: number;
-        public: number;
-        residentsOnly: number;
-    };
+    capabilities: StationCapabilities;
+    chargerCounts: StationChargerCounts;
     status: StationStatus;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
@@ -31,5 +22,16 @@ export interface StationApiModel {
     deletedAt: Timestamp | null;
     isDeleted: boolean;
     timeZone: string;
+}
+export interface StationCapabilities {
+    fleet: boolean;
+    public: boolean;
+    residentsOnly: boolean;
+}
+export interface StationChargerCounts {
+    total: number;
+    fleet: number;
+    public: number;
+    residentsOnly: number;
 }
 //# sourceMappingURL=station.api.model.d.ts.map
