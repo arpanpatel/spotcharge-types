@@ -34,3 +34,4 @@ export {MasterUserRoleApiModel} from './master-user-role.api.model';
 export {AdminUserApiModel} from './admin-user.api.model';
 export {ChargerReportApiModel} from './charger-report.api.model';
 export {StationApiModel, StationCapabilities, StationChargerCounts} from './station.api.model';
+export {ApiConsumerApiModel} from './api-consumer.api.model';
