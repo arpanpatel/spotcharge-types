@@ -37,5 +37,6 @@ export enum Collection {
     PermissionGroups = 'permissionGroups',
     AdminUsers = 'adminUsers',
     ChargerReports = 'chargerReports',
-    Vehicles = 'vehicles'
+    Vehicles = 'vehicles',
+    Stations = 'stations'
 }

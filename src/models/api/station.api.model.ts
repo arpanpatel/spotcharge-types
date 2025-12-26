@@ -16,6 +16,7 @@ export interface StationApiModel {
     capabilities: {
         fleet: boolean;
         public: boolean;
+        residentsOnly: boolean;
     };
 
     /* ---------- CHARGER COUNTS (DERIVED, REQUIRED) ---------- */
@@ -23,6 +24,7 @@ export interface StationApiModel {
         total: number;
         fleet: number;
         public: number;
+        residentsOnly: number;
     };
     status: StationStatus;
     createdBy: CreatedByModel;

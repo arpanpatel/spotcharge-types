@@ -14,11 +14,13 @@ export interface StationApiModel {
     capabilities: {
         fleet: boolean;
         public: boolean;
+        residentsOnly: boolean;
     };
     chargerCounts: {
         total: number;
         fleet: number;
         public: number;
+        residentsOnly: number;
     };
     status: StationStatus;
     createdBy: CreatedByModel;
