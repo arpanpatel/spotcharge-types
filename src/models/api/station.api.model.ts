@@ -1,7 +1,7 @@
 import {AddressApiModel} from "./address.api.model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
-import {StationStatus} from "../../enum";
+import {StationAccessCapability, StationStatus} from "../../enum";
 
 export interface StationApiModel {
     id: string;
@@ -13,7 +13,16 @@ export interface StationApiModel {
         lng: number;
     };
     /* ---------- CAPABILITIES (DERIVED, REQUIRED) ---------- */
-    capabilities: StationCapabilities;
+    capabilities: {
+      access: StationAccessCapability[];
+    };
+    amenities: {
+      parking: boolean;
+      restroom?: boolean;
+      cafe?: boolean;
+      waitingArea?: boolean;
+      wheelchairAccessible?: boolean;
+    };
 
     /* ---------- CHARGER COUNTS (DERIVED, REQUIRED) ---------- */
     chargerCounts: StationChargerCounts;
@@ -28,12 +37,6 @@ export interface StationApiModel {
     timeZone: string;
 }
 
-
-export interface StationCapabilities {
-  fleet: boolean;
-  public: boolean;
-  residentsOnly: boolean;
-}
 
 export interface StationChargerCounts {
   total: number;
