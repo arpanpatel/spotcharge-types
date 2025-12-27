@@ -16,13 +16,7 @@ export interface StationApiModel {
     capabilities: {
       access: StationAccessCapability[];
     };
-    amenities: {
-      parking: boolean;
-      restroom?: boolean;
-      cafe?: boolean;
-      waitingArea?: boolean;
-      wheelchairAccessible?: boolean;
-    };
+    amenities: StationAmenities;
 
     /* ---------- CHARGER COUNTS (DERIVED, REQUIRED) ---------- */
     chargerCounts: StationChargerCounts;
@@ -37,10 +31,17 @@ export interface StationApiModel {
     timeZone: string;
 }
 
-
 export interface StationChargerCounts {
   total: number;
   fleet: number;
   public: number;
   residentsOnly: number;
+}
+
+export interface StationAmenities {
+  parking: boolean;
+  restroom?: boolean;
+  cafe?: boolean;
+  waitingArea?: boolean;
+  wheelchairAccessible?: boolean;
 }

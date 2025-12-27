@@ -14,13 +14,7 @@ export interface StationApiModel {
     capabilities: {
         access: StationAccessCapability[];
     };
-    amenities: {
-        parking: boolean;
-        restroom?: boolean;
-        cafe?: boolean;
-        waitingArea?: boolean;
-        wheelchairAccessible?: boolean;
-    };
+    amenities: StationAmenities;
     chargerCounts: StationChargerCounts;
     status: StationStatus;
     createdBy: CreatedByModel;
@@ -37,5 +31,12 @@ export interface StationChargerCounts {
     fleet: number;
     public: number;
     residentsOnly: number;
+}
+export interface StationAmenities {
+    parking: boolean;
+    restroom?: boolean;
+    cafe?: boolean;
+    waitingArea?: boolean;
+    wheelchairAccessible?: boolean;
 }
 //# sourceMappingURL=station.api.model.d.ts.map
