@@ -35,3 +35,4 @@ export {AdminUserApiModel} from './admin-user.api.model';
 export {ChargerReportApiModel} from './charger-report.api.model';
 export {StationApiModel, StationChargerCounts, StationAmenities} from './station.api.model';
 export {ApiConsumerApiModel} from './api-consumer.api.model';
+export {ConnectorApiModel} from './connector.api.model';
