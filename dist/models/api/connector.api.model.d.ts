@@ -1,12 +1,11 @@
-import { ConnectorStatus } from "../../enum";
-import { ConnectorTypeModel } from "../connector-type.model";
+import { ConnectorStatus, ConnectorType } from "../../enum";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 export interface ConnectorApiModel {
     id: string;
     connectorId: number;
     name: string;
-    connectorType: ConnectorTypeModel;
+    connectorType: ConnectorType;
     outputType: "AC" | "DC";
     capacity: string;
     unitRate: number;

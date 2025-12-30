@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
+exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -23,6 +23,8 @@ var charger_status_enum_1 = require("./charger-status.enum");
 Object.defineProperty(exports, "ChargerStatus", { enumerable: true, get: function () { return charger_status_enum_1.ChargerStatus; } });
 var connector_status_enum_1 = require("./connector-status.enum");
 Object.defineProperty(exports, "ConnectorStatus", { enumerable: true, get: function () { return connector_status_enum_1.ConnectorStatus; } });
+var connector_type_enum_1 = require("./connector-type.enum");
+Object.defineProperty(exports, "ConnectorType", { enumerable: true, get: function () { return connector_type_enum_1.ConnectorType; } });
 var order_state_enum_1 = require("./order-state.enum");
 Object.defineProperty(exports, "OrderState", { enumerable: true, get: function () { return order_state_enum_1.OrderState; } });
 var order_type_enum_1 = require("./order-type.enum");

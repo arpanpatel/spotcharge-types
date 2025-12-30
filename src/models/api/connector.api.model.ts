@@ -1,5 +1,4 @@
-import { ConnectorStatus } from "../../enum";
-import { ConnectorTypeModel } from "../connector-type.model";
+import { ConnectorStatus, ConnectorType } from "../../enum";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 
@@ -8,8 +7,7 @@ export interface ConnectorApiModel {
     connectorId: number;      // OCPP connector number (1, 2, 3, …)
     name: string;             // Human label for UI
 
-    connectorType: ConnectorTypeModel;         // Connector standard: e.g., "Type2", "CCS2", "CHAdeMO"
-    
+    connectorType: ConnectorType;  // Connector standard: e.g., "Type2", "CCS2", "CHAdeMO"
     outputType: "AC" | "DC"; // Clearly AC or DC — easy to filter & use
 
     capacity: string; // reference to charger capacity document ID

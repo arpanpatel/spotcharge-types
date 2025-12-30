@@ -39,6 +39,7 @@ export interface ChargerApiModel {
         lng: number;
     };
     _geoDistance: number;
+    lastChargeAt?: Timestamp;
     fleetIds?: string[];
     lastSeen?: Timestamp;
     onlineAt?: Timestamp;
