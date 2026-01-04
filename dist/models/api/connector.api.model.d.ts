@@ -3,7 +3,7 @@ import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 export interface ConnectorApiModel {
     id: string;
-    connectorId: number;
+    connectorNo: number;
     name: string;
     connectorType: ConnectorType;
     outputType: "AC" | "DC";

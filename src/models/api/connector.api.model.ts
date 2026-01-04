@@ -4,7 +4,7 @@ import { Timestamp } from "../timestamp";
 
 export interface ConnectorApiModel {
     id: string;               // Firestore document ID (unique)
-    connectorId: number;      // OCPP connector number (1, 2, 3, …)
+    connectorNo: number;      // OCPP connector number (1, 2, 3, …)
     name: string;             // Human label for UI
 
     connectorType: ConnectorType;  // Connector standard: e.g., "Type2", "CCS2", "CHAdeMO"
