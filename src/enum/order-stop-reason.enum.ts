@@ -9,5 +9,7 @@ export enum OrderStopReason {
     Remote = "Remote",
     SoftReset = "SoftReset",
     UnlockCommand = "UnlockCommand",
-    DeAuthorized = "DeAuthorized"
+    DeAuthorized = "DeAuthorized",
+    ManualStop = "ManualStop",
+    AutoComplete = "AutoComplete"
 }

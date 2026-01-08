@@ -3,4 +3,5 @@ export enum OrderState {
     Started = 'started',
     InProgress = 'inProgress',
     Completed = 'completed',
+    Paused = 'paused'
 }

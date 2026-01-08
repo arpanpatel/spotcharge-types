@@ -36,6 +36,7 @@ export interface InvoiceApiModel {
     unitRate: number;
     orderType: OrderType;
     stopReason: string;
+    stopSource: string;
     transactionId: number;
     currentTransactionId: number;
     transaction: ChargingTransactionRecords;
@@ -53,6 +54,7 @@ export interface InvoiceApiModel {
     taxAmount: number;
     subTotal: number;
     pointType: PointType;
+    isDirectStop?: boolean;
     batteryPercentage: number;
     recordHealth: 'bad' | 'good';
     phoneNumber: PhoneNumberModel;
