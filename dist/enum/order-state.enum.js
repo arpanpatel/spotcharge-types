@@ -7,5 +7,6 @@ var OrderState;
     OrderState["Started"] = "started";
     OrderState["InProgress"] = "inProgress";
     OrderState["Completed"] = "completed";
+    OrderState["Paused"] = "paused";
 })(OrderState = exports.OrderState || (exports.OrderState = {}));
 //# sourceMappingURL=order-state.enum.js.map

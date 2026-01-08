@@ -14,5 +14,7 @@ var OrderStopReason;
     OrderStopReason["SoftReset"] = "SoftReset";
     OrderStopReason["UnlockCommand"] = "UnlockCommand";
     OrderStopReason["DeAuthorized"] = "DeAuthorized";
+    OrderStopReason["ManualStop"] = "ManualStop";
+    OrderStopReason["AutoComplete"] = "AutoComplete";
 })(OrderStopReason = exports.OrderStopReason || (exports.OrderStopReason = {}));
 //# sourceMappingURL=order-stop-reason.enum.js.map

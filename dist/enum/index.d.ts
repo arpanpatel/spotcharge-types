@@ -27,4 +27,5 @@ export { OrderStopReason } from './order-stop-reason.enum';
 export { StationStatus } from './station-status.enum';
 export { ChargerAllowedMode } from './charger-allowed-mode.enum';
 export { StationAccessCapability } from './station-access-capability.enum';
+export { OrderStopSourceEnum } from './order-stop-source.enum';
 //# sourceMappingURL=index.d.ts.map

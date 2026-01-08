@@ -9,6 +9,8 @@ export declare enum OrderStopReason {
     Remote = "Remote",
     SoftReset = "SoftReset",
     UnlockCommand = "UnlockCommand",
-    DeAuthorized = "DeAuthorized"
+    DeAuthorized = "DeAuthorized",
+    ManualStop = "ManualStop",
+    AutoComplete = "AutoComplete"
 }
 //# sourceMappingURL=order-stop-reason.enum.d.ts.map
