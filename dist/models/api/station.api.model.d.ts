@@ -2,12 +2,18 @@ import { AddressApiModel } from "./address.api.model";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { StationAccessCapability, StationStatus } from "../../enum";
+import { GstModel } from "./gst-record-api.model";
 export interface StationApiModel {
     id: string;
     stationCode: string;
     name: string;
     address: AddressApiModel;
     location: {
+        lat: number;
+        lng: number;
+    };
+    gst: GstModel;
+    _geo: {
         lat: number;
         lng: number;
     };
