@@ -15,6 +15,8 @@ export interface BookingApiModel {
     chargingDate: Timestamp;
     startTime: number;
     endTime: number;
+    startDateTime: Timestamp;
+    endDateTime: Timestamp;
     actualStartTime: number;
     actualEndTime: number;
     charger: {
