@@ -36,4 +36,5 @@ export { ChargerReportApiModel } from './charger-report.api.model';
 export { StationApiModel, StationChargerCounts, StationAmenities } from './station.api.model';
 export { ApiConsumerApiModel } from './api-consumer.api.model';
 export { ConnectorApiModel } from './connector.api.model';
+export { FranchiseStationAccessApiModel } from './franchise-station-access.api.model';
 //# sourceMappingURL=index.d.ts.map
