@@ -649,6 +649,10 @@ exports.permissionConfig = {
     'DELETE_ADMIN_USER': {
         key: 'DELETE_ADMIN_USER',
         formattedPermission: 'Can Delete Admin User',
+    },
+    'FRANCHISE_STATION_ACCESS': {
+        key: 'FRANCHISE_STATION_ACCESS',
+        formattedPermission: 'Can Manage Franchise Station Access',
     }
 };
 //# sourceMappingURL=permission-config.js.map

@@ -40,5 +40,6 @@ export enum Collection {
     Vehicles = 'vehicles',
     Stations = 'stations',
     ApiConsumers = 'apiConsumers',
-    Connectors = 'connectors'
+    Connectors = 'connectors',
+    FranchiseStationAccess = 'franchiseStationAccess'
 }

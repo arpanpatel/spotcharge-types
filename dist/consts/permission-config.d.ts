@@ -647,6 +647,10 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    FRANCHISE_STATION_ACCESS: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {
