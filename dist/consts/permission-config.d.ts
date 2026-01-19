@@ -27,26 +27,6 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    FRANCHISE_BILLING: {
-        key: string;
-        formattedPermission: string;
-    };
-    VIEW_FRANCHISE_FLEET_INVOICE: {
-        key: string;
-        formattedPermission: string;
-    };
-    FRANCHISE_ORDERS: {
-        key: string;
-        formattedPermission: string;
-    };
-    VIEW_FRANCHISE_FLEET_ORDER: {
-        key: string;
-        formattedPermission: string;
-    };
-    FRANCHISE_SUBSCRIPTION: {
-        key: string;
-        formattedPermission: string;
-    };
     LIST_FLEETS: {
         key: string;
         formattedPermission: string;

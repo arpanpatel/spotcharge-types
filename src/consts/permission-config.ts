@@ -27,26 +27,6 @@ export const permissionConfig = {
         key: 'EDIT_FRANCHISE_PROFILE',
         formattedPermission: 'Can Edit Franchise Profile',
     },
-    'FRANCHISE_BILLING': {
-        key: 'FRANCHISE_BILLING',
-        formattedPermission: 'Can View Franchise Billing',
-    },
-    'VIEW_FRANCHISE_FLEET_INVOICE': {
-        key: 'VIEW_FRANCHISE_FLEET_INVOICE',
-        formattedPermission: 'Can View Franchise Fleet Invoice',
-    },
-    'FRANCHISE_ORDERS': {
-        key: 'FRANCHISE_ORDERS',
-        formattedPermission: 'Can View Franchise Orders',
-    },
-    'VIEW_FRANCHISE_FLEET_ORDER': {
-        key: 'VIEW_FRANCHISE_FLEET_ORDER',
-        formattedPermission: 'Can View Franchise Fleet Order',
-    },
-    'FRANCHISE_SUBSCRIPTION': {
-        key: 'FRANCHISE_SUBSCRIPTION',
-        formattedPermission: 'Can Edit Franchise Subscription',
-    },
     'LIST_FLEETS': {
         key: 'LIST_FLEETS',
         formattedPermission: 'Can View Fleet List',
