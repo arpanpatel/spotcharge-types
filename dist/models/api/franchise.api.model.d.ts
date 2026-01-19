@@ -6,6 +6,7 @@ import { AddressApiModel } from "./address.api.model";
 export interface FranchiseApiModel {
     id: string;
     franchiseName: string;
+    franchiseCode: string;
     contactEmail?: string;
     contactPhone?: PhoneNumberModel;
     franchiseType: FranchiseType;

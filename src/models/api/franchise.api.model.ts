@@ -7,6 +7,7 @@ import {AddressApiModel} from "./address.api.model";
 export interface FranchiseApiModel {
     id: string;
     franchiseName: string;
+    franchiseCode: string; // Human-friendly, unique, immutable
     contactEmail?: string;
     contactPhone?: PhoneNumberModel;
     // @deprecated — do not use 
