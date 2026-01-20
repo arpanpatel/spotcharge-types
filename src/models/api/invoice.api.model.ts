@@ -16,8 +16,7 @@ export interface InvoiceApiModel {
     bookingDate: Timestamp;
     bookingStartTime: number;
     bookingEndTime: number;
-    chargingStartTime: number;
-    chargingEndTime: number;
+    expectedEndTime?: number; // for efficient auto-complete cron queries
     invoiceNo: number;
     chargerId: string;
     chargerName: string;
@@ -62,7 +61,9 @@ export interface InvoiceApiModel {
     totalAmount: number;
     bookingUnit: number;
     bookingAmount: number;
+    /** @deprecated Use invoiceDuration instead */
     bookingDuration: number;
+    invoiceDuration?: number; // New field - use this instead of bookingDuration
     vehicle: PublicUserVehicle;
     isServiceChargeApplicable: boolean;
 }
