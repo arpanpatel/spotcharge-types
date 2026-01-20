@@ -6,7 +6,6 @@ import {GstModel} from "./gst-record-api.model";
  * Meilisearch document format for Station search index
  */
 export interface StationSearchApiModel {
-    _firestore_id: string;
     id: string;
     name: string;
     stationCode: string;
