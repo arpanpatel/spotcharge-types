@@ -16,7 +16,7 @@ export interface InvoiceApiModel {
     bookingDate: Timestamp;
     bookingStartTime: number;
     bookingEndTime: number;
-    expectedEndTime?: number; // for efficient auto-complete cron queries
+    expectedEndTime?: Timestamp; // for efficient auto-complete cron queries
     invoiceNo: number;
     chargerId: string;
     chargerName: string;
