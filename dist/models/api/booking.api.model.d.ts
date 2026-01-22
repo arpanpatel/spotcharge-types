@@ -59,6 +59,7 @@ export interface BookingApiModel {
     isServiceChargeApplicable: boolean;
     refundData?: Record<string, Refund>;
     timeZone: string;
+    sourceHoldId: string;
 }
 export interface Refund {
     id: string;
