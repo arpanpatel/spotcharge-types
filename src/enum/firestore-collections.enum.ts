@@ -44,4 +44,6 @@ export enum Collection {
     Connectors = 'connectors',
     FranchiseStationAccess = 'franchiseStationAccess',
     SlotHolds = 'slotHolds',
+    Counters ='_counters',
+    OrphanedPayments = 'orphanedPayments'
 }
