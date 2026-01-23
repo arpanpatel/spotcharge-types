@@ -12,6 +12,7 @@ export interface BookingApiModel {
   userInfo: {
     id: string;
     name: string;
+    phoneNumber: PhoneNumberModel;
   };
   chargingDate: Timestamp;
   startTime: number;
