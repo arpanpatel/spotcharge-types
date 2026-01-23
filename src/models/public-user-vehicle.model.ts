@@ -1,9 +1,12 @@
-export interface PublicUserVehicle {
+export interface VehicleInfo {
     id: string;
     model: string;
-    registrationNo: string;
     image: string;
     year: number;
     name: string;
     batteryCapacity: number;
+}
+
+export interface PublicUserVehicle extends VehicleInfo {
+    registrationNo: string;
 }
