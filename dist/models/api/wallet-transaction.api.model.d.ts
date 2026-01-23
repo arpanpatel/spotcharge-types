@@ -7,13 +7,13 @@ export interface WalletTransactionApiModel {
     userId: string;
     amount: number;
     topUpAmount?: number | null;
-    paymentInfo: RazorpaySuccessResponse | null;
+    paymentInfo?: RazorpaySuccessResponse | null;
     closingBalance?: number;
     type: TransactionType;
     reason: TransactionReason;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
-    deleteBy: CreatedByModel;
+    deleteBy?: CreatedByModel | null;
     createdAt: Timestamp;
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
@@ -22,5 +22,6 @@ export interface WalletTransactionApiModel {
     bookingId?: string;
     bookingRef?: string;
     source: EntityType;
+    timeZone?: string;
 }
 //# sourceMappingURL=wallet-transaction.api.model.d.ts.map

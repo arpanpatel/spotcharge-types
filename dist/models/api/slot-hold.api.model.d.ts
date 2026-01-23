@@ -26,8 +26,6 @@ export interface SlotHoldApiModel {
     amount: number;
     tax: number;
     totalAmount: number;
-    walletAmount: number;
-    topUpAmount: number;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
     isServiceChargeApplicable: boolean;
