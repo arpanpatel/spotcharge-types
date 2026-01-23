@@ -27,6 +27,8 @@ export interface SlotHoldApiModel {
   amount: number;
   tax: number;
   totalAmount: number;
+  walletAmount: number; // Amount to be paid from wallet
+  topUpAmount: number; // Amount to be paid via Razorpay
   serviceChargeInfo: ServiceChargeModel;
   serviceCharge: number;
   isServiceChargeApplicable: boolean;
