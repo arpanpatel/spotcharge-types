@@ -22,8 +22,6 @@ export interface UserModel {
   isProfileComplete: boolean;
   gender: string;
   color: string;
-  staffId: string;
-  outletIds: Array<string>;
   emailVerified: boolean;
   createdBy: CreatedByModel;
   updatedBy: CreatedByModel;
@@ -55,6 +53,7 @@ export interface ProviderData {
 }
 
 export interface UserVehicle {
-  id: string,
-  registrationNo: string
+  id: string;
+  registrationNo: string;
+  lastUsedAt?: Timestamp;
 }
