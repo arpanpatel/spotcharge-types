@@ -1,4 +1,5 @@
 import { PointType } from "../../enum";
+import { ConnectorTypeModel } from "../connector-type.model";
 import { CreatedByModel } from "../created-by.model";
 import { PhoneNumberModel } from "../phone-number-model";
 import { PublicUserVehicle } from "../public-user-vehicle.model";
@@ -22,6 +23,7 @@ export interface SlotHoldApiModel {
         pointType: PointType;
     };
     connectorNo: number;
+    connectorType?: ConnectorTypeModel;
     unit: number;
     unitRate: number;
     vehicle: PublicUserVehicle;
