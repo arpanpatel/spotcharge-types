@@ -5,6 +5,7 @@ import { BookingStatus, PaymentMethod, PaymentStatus, PointType } from "../../en
 import { ServiceChargeModel } from "../service-charge.model";
 import { PublicUserVehicle } from "../public-user-vehicle.model";
 import { PhoneNumberModel } from "../phone-number-model";
+import { ConnectorTypeModel } from "../connector-type.model";
 export interface BookingApiModel {
     id: string;
     userId: string;
@@ -29,6 +30,7 @@ export interface BookingApiModel {
         pointType: PointType;
     };
     connectorNo: number;
+    connectorType?: ConnectorTypeModel;
     unit: number;
     unitRate: number;
     vehicle: PublicUserVehicle;
