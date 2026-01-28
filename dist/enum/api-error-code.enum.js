@@ -33,7 +33,18 @@ var ApiErrorCode;
     // Charger errors
     ApiErrorCode["CHARGER_NOT_FOUND"] = "CHARGER_NOT_FOUND";
     ApiErrorCode["CHARGER_OFFLINE"] = "CHARGER_OFFLINE";
+    ApiErrorCode["CHARGER_NOT_CONNECTED"] = "CHARGER_NOT_CONNECTED";
+    ApiErrorCode["CHARGER_RESET_REJECTED"] = "CHARGER_RESET_REJECTED";
+    ApiErrorCode["CHARGER_CONFIG_ERROR"] = "CHARGER_CONFIG_ERROR";
+    ApiErrorCode["CHARGER_FIRMWARE_ERROR"] = "CHARGER_FIRMWARE_ERROR";
     ApiErrorCode["CONNECTOR_NOT_FOUND"] = "CONNECTOR_NOT_FOUND";
     ApiErrorCode["CONNECTOR_UNAVAILABLE"] = "CONNECTOR_UNAVAILABLE";
+    // Order/Charging errors
+    ApiErrorCode["ORDER_START_FAILED"] = "ORDER_START_FAILED";
+    ApiErrorCode["ORDER_STOP_FAILED"] = "ORDER_STOP_FAILED";
+    ApiErrorCode["ORDER_RESTART_FAILED"] = "ORDER_RESTART_FAILED";
+    ApiErrorCode["ORDER_NOT_FOUND"] = "ORDER_NOT_FOUND";
+    ApiErrorCode["ORDER_INVALID_TYPE"] = "ORDER_INVALID_TYPE";
+    ApiErrorCode["BOOKING_ID_REQUIRED"] = "BOOKING_ID_REQUIRED";
 })(ApiErrorCode = exports.ApiErrorCode || (exports.ApiErrorCode = {}));
 //# sourceMappingURL=api-error-code.enum.js.map
