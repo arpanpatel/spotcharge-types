@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
+exports.ApiErrorCode = exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -63,4 +63,6 @@ var order_stop_source_enum_1 = require("./order-stop-source.enum");
 Object.defineProperty(exports, "OrderStopSourceEnum", { enumerable: true, get: function () { return order_stop_source_enum_1.OrderStopSourceEnum; } });
 var franchis_station_access_status_enum_1 = require("./franchis-station-access-status.enum");
 Object.defineProperty(exports, "FranchiseStationAccessStatus", { enumerable: true, get: function () { return franchis_station_access_status_enum_1.FranchiseStationAccessStatus; } });
+var api_error_code_enum_1 = require("./api-error-code.enum");
+Object.defineProperty(exports, "ApiErrorCode", { enumerable: true, get: function () { return api_error_code_enum_1.ApiErrorCode; } });
 //# sourceMappingURL=index.js.map

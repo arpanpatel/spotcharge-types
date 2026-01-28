@@ -29,3 +29,4 @@ export {ChargerAllowedMode} from './charger-allowed-mode.enum';
 export {StationAccessCapability} from './station-access-capability.enum';
 export {OrderStopSourceEnum} from './order-stop-source.enum';
 export {FranchiseStationAccessStatus} from './franchis-station-access-status.enum';
+export {ApiErrorCode} from './api-error-code.enum';
