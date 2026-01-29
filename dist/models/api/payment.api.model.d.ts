@@ -21,8 +21,6 @@ export interface PaymentApiModel {
     providerPaymentId?: string;
     amount: number;
     currency: "INR";
-    walletAmount?: number;
-    topUpAmount?: number;
     paymentMethod: PaymentMethod;
     status: PaymentTransactionStatus;
     refundedAmount: number;

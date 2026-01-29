@@ -33,11 +33,9 @@ export interface PaymentApiModel {
   providerOrderId: string;
   providerPaymentId?: string;
 
-  // Amount details
+  // Amount details (only external payment amount that crossed system boundary)
   amount: number;
   currency: "INR";
-  walletAmount?: number;
-  topUpAmount?: number;
 
   // Payment method used
   paymentMethod: PaymentMethod;
