@@ -1,6 +1,6 @@
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
-import {RazorpaySuccessResponse} from "../razorpay.model";
+import {BookingPaymentInfo} from "../booking-payment-info.model";
 import {BookingStatus, PaymentMethod, PaymentStatus, PointType} from "../../enum";
 import {ServiceChargeModel} from "../service-charge.model";
 import {PublicUserVehicle} from "../public-user-vehicle.model";
@@ -18,12 +18,8 @@ export interface BookingApiModel {
   chargingDate: Timestamp;
   startTime: number;
   endTime: number;
-  actualStartTime: number;
-  actualEndTime: number;
   startDateTime: Timestamp;
   endDateTime: Timestamp;
-  actualStartDateTime: Timestamp;
-  actualEndDateTime: Timestamp;
   charger: {
     id: string;
     name: string;
@@ -38,14 +34,10 @@ export interface BookingApiModel {
   amount: number;
   tax: number;
   totalAmount: number;
-  chargedAmount: number;
-  paymentInfo: RazorpaySuccessResponse | null;
-  phoneNumber: PhoneNumberModel;
+  paymentInfo: BookingPaymentInfo | null;
   paymentStatus: PaymentStatus;
   status: BookingStatus;
-  state: string;
   bookingRef: string;
-  paymentVerified: boolean;
   createdBy: CreatedByModel;
   updatedBy: CreatedByModel;
   deletedBy: CreatedByModel;
@@ -56,8 +48,6 @@ export interface BookingApiModel {
   paymentMethod: PaymentMethod;
   invoiceId?: string;
   invoiceNo?: number;
-  walletAmount?: number;
-  topUpAmount?: number;
   serviceChargeInfo: ServiceChargeModel;
   serviceCharge: number;
   isServiceChargeApplicable: boolean;

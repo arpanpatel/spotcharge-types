@@ -17,6 +17,7 @@ export { VehicleModel } from './vehicle.model';
 export { BrandModel } from './brand.model';
 export { ChargingTransaction, ChargingTransactionRecords } from './charging-transaction';
 export { RazorpaySuccessResponse, RazorpayErrorResponse, RazorpayPaymentError } from './razorpay.model';
+export { BookingPaymentInfo } from './booking-payment-info.model';
 export { FleetVehicleModel } from './fleet-vehicle.model';
 export { RateDuration } from './rate-duration.model';
 export { ServiceChargeModel } from './service-charge.model';
