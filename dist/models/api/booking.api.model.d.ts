@@ -57,6 +57,7 @@ export interface BookingApiModel {
     expiredAt?: Timestamp;
     failedAt?: Timestamp;
     failureReason?: string;
+    lastReconciliationCheck?: Timestamp;
 }
 export interface Refund {
     id: string;

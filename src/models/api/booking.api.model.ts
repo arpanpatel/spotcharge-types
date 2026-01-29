@@ -60,6 +60,7 @@ export interface BookingApiModel {
   expiredAt?: Timestamp;
   failedAt?: Timestamp;
   failureReason?: string;
+  lastReconciliationCheck?: Timestamp;
 }
 
 
