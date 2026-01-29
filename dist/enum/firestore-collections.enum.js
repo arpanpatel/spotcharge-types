@@ -49,5 +49,7 @@ var Collection;
     Collection["SlotHolds"] = "slotHolds";
     Collection["Counters"] = "_counters";
     Collection["OrphanedPayments"] = "orphanedPayments";
+    Collection["Payments"] = "payments";
+    Collection["Refunds"] = "refunds";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
