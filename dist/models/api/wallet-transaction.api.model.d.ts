@@ -1,13 +1,13 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { EntityType, TransactionReason, TransactionType } from "../../enum";
-import { RazorpaySuccessResponse } from "../razorpay.model";
+import { BookingPaymentInfo } from "../booking-payment-info.model";
 export interface WalletTransactionApiModel {
     id: string;
     userId: string;
     amount: number;
     topUpAmount?: number | null;
-    paymentInfo?: RazorpaySuccessResponse | null;
+    paymentInfo?: BookingPaymentInfo | null;
     closingBalance?: number;
     type: TransactionType;
     reason: TransactionReason;

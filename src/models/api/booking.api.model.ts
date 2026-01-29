@@ -1,7 +1,7 @@
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {BookingPaymentInfo} from "../booking-payment-info.model";
-import {BookingStatus, PaymentMethod, PaymentStatus, PointType} from "../../enum";
+import {BookingStatus, PaymentStatus, PointType} from "../../enum";
 import {ServiceChargeModel} from "../service-charge.model";
 import {PublicUserVehicle} from "../public-user-vehicle.model";
 import {PhoneNumberModel} from "../phone-number-model";
@@ -45,7 +45,6 @@ export interface BookingApiModel {
   updatedAt: Timestamp;
   deletedAt: Timestamp | null;
   isDeleted: boolean;
-  paymentMethod: PaymentMethod;
   invoiceId?: string;
   invoiceNo?: number;
   serviceChargeInfo: ServiceChargeModel;
@@ -54,6 +53,13 @@ export interface BookingApiModel {
   refundData?: Record<string, Refund>;
   timeZone: string;
   sourceHoldId: string;
+  
+  // Optimistic booking fields
+  paymentExpiresAt?: Timestamp;
+  confirmedAt?: Timestamp;
+  expiredAt?: Timestamp;
+  failedAt?: Timestamp;
+  failureReason?: string;
 }
 
 
