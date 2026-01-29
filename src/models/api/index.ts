@@ -39,3 +39,5 @@ export {ApiConsumerApiModel} from './api-consumer.api.model';
 export {ConnectorApiModel} from './connector.api.model';
 export {FranchiseStationAccessApiModel} from './franchise-station-access.api.model';
 export {SlotHoldApiModel} from './slot-hold.api.model';
+export {PaymentApiModel} from './payment.api.model';
+export {RefundApiModel} from './refund.api.model';

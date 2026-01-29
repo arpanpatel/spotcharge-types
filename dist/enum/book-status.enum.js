@@ -6,6 +6,7 @@ var BookingStatus;
     BookingStatus["CONFIRMED"] = "confirmed";
     BookingStatus["CANCELLED"] = "cancelled";
     BookingStatus["COMPLETED"] = "completed";
+    BookingStatus["PENDING_PAYMENT"] = "pending_payment";
     BookingStatus["PENDING"] = "pending";
     BookingStatus["IN_PROGRESS"] = "in_progress";
     BookingStatus["PAUSED"] = "paused";

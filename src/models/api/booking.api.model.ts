@@ -45,10 +45,10 @@ export interface BookingApiModel {
   status: BookingStatus;
   state: string;
   bookingRef: string;
-  paymentVerified: false;
+  paymentVerified: boolean;
   createdBy: CreatedByModel;
   updatedBy: CreatedByModel;
-  deleteBy: CreatedByModel;
+  deletedBy: CreatedByModel;
   createdAt: Timestamp;
   updatedAt: Timestamp;
   deletedAt: Timestamp | null;

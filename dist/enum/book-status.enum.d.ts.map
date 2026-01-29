@@ -1,1 +1,1 @@
-{"version":3,"file":"book-status.enum.d.ts","sourceRoot":"","sources":["../../src/enum/book-status.enum.ts"],"names":[],"mappings":"AAAA,oBAAY,aAAa;IACrB,SAAS,cAAc;IACvB,SAAS,cAAc;IACvB,SAAS,cAAc;IACvB,OAAO,YAAY;IACnB,WAAW,gBAAgB;IAC3B,MAAM,WAAW;CACpB"}
+{"version":3,"file":"book-status.enum.d.ts","sourceRoot":"","sources":["../../src/enum/book-status.enum.ts"],"names":[],"mappings":"AAAA,oBAAY,aAAa;IACrB,SAAS,cAAc;IACvB,SAAS,cAAc;IACvB,SAAS,cAAc;IACvB,eAAe,oBAAoB;IACnC,OAAO,YAAY;IACnB,WAAW,gBAAgB;IAC3B,MAAM,WAAW;CACpB"}
