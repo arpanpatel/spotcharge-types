@@ -61,6 +61,7 @@ export interface BookingApiModel {
     reconciliationAttempts?: number;
     paymentAttempts?: number;
     previousOrderIds?: string[];
+    convertedFromRazorpay?: boolean;
 }
 export interface Refund {
     id: string;

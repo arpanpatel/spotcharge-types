@@ -66,6 +66,7 @@ export interface BookingApiModel {
   // Payment retry tracking
   paymentAttempts?: number; // Number of times user attempted payment
   previousOrderIds?: string[]; // History of abandoned Razorpay order IDs
+  convertedFromRazorpay?: boolean; // True if booking was converted from Razorpay to wallet payment
 }
 
 
