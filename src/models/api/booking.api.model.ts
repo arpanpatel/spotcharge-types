@@ -62,6 +62,10 @@ export interface BookingApiModel {
   failureReason?: string;
   lastReconciliationCheck?: Timestamp;
   reconciliationAttempts?: number;
+  
+  // Payment retry tracking
+  paymentAttempts?: number; // Number of times user attempted payment
+  previousOrderIds?: string[]; // History of abandoned Razorpay order IDs
 }
 
 

@@ -59,6 +59,8 @@ export interface BookingApiModel {
     failureReason?: string;
     lastReconciliationCheck?: Timestamp;
     reconciliationAttempts?: number;
+    paymentAttempts?: number;
+    previousOrderIds?: string[];
 }
 export interface Refund {
     id: string;
