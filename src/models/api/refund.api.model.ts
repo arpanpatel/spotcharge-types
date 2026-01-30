@@ -53,9 +53,9 @@ export interface RefundApiModel {
   errorDescription?: string;
 
   /** Related entities */
-  bookingId?: string;
-  invoiceId?: string;
-  walletTransactionId?: string;
+  bookingId: string | null;
+  invoiceId: string | null;
+  walletTransactionId: string | null;
 
   /** Who triggered this refund */
   triggeredBy: EntityType; // system | admin | superAdmin
