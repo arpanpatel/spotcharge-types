@@ -5,7 +5,8 @@ import {
   PaymentEntityType, 
   RefundStatus, 
   RefundReason, 
-  RefundDestination 
+  RefundDestination, 
+  PaymentProvider
 } from "../../enum";
 
 /**
@@ -17,49 +18,48 @@ import {
 export interface RefundApiModel {
   id: string;
 
-  // Link to original payment
-  paymentId: string;
+  /** Link to original payment (if external money involved) */
+  paymentId?: string;
 
-  // What this refund is for
   entityType: PaymentEntityType;
-  entityId: string;
+  entityId: string; // bookingId or walletTopupId
 
-  // User who receives the refund
   userId: string;
   userInfo?: {
     id: string;
     name: string;
   };
 
-  // Amount details
-  requestedAmount: number;
-  refundedAmount: number;
+  /** Amount refunded in THIS refund event */
+  amount: number;
   currency: "INR";
 
-  // Refund reason
+  /** Why refund happened */
   reason: RefundReason;
   reasonDescription?: string;
 
-  // Refund status
-  status: RefundStatus;
-
-  // Refund destination
+  /** Where money went */
   refundTo: RefundDestination;
 
-  // Provider details (if refunded to source)
+  /** Lifecycle (async only for bank refunds) */
+  status: RefundStatus;
+
+  /** Provider details (only for bank refunds) */
+  provider?: PaymentProvider;
   providerRefundId?: string;
   providerResponse?: Record<string, unknown>;
 
-  // Error details if refund failed
   errorCode?: string;
   errorDescription?: string;
 
-  // Related entities
+  /** Related entities */
   bookingId?: string;
   invoiceId?: string;
   walletTransactionId?: string;
 
-  // Metadata
+  /** Who triggered this refund */
+  triggeredBy: EntityType; // system | admin | superAdmin
+
   createdBy: CreatedByModel;
   updatedBy: CreatedByModel;
   deletedBy?: CreatedByModel | null;

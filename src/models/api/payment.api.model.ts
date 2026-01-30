@@ -17,43 +17,37 @@ import {
 export interface PaymentApiModel {
   id: string;
 
-  // What this payment is for
   entityType: PaymentEntityType;
   entityId: string;
 
-  // User who made the payment
   userId: string;
   userInfo?: {
     id: string;
     name: string;
   };
 
-  // Payment provider details
   provider: PaymentProvider;
   providerOrderId: string;
   providerPaymentId?: string;
 
-  // Amount details (only external payment amount that crossed system boundary)
+  /** External money only */
   amount: number;
   currency: "INR";
 
-  // Payment method used
   paymentMethod: PaymentMethod;
 
-  // Payment status
+  /** Derived from refundedAmount */
   status: PaymentTransactionStatus;
 
-  // Refund tracking
+  /** Guardrail for refunds */
   refundedAmount: number;
 
-  // Razorpay webhook response data
+  /** Provider raw data (never used for logic) */
   providerResponse?: Record<string, unknown>;
 
-  // Error details if payment failed
   errorCode?: string;
   errorDescription?: string;
 
-  // Metadata
   createdBy: CreatedByModel;
   updatedBy: CreatedByModel;
   deletedBy?: CreatedByModel | null;

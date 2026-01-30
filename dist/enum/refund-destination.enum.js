@@ -4,6 +4,6 @@ exports.RefundDestination = void 0;
 var RefundDestination;
 (function (RefundDestination) {
     RefundDestination["Wallet"] = "wallet";
-    RefundDestination["Source"] = "source";
+    RefundDestination["Bank"] = "bank";
 })(RefundDestination = exports.RefundDestination || (exports.RefundDestination = {}));
 //# sourceMappingURL=refund-destination.enum.js.map

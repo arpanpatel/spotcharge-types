@@ -19,11 +19,15 @@ export interface PaymentApiModel {
     provider: PaymentProvider;
     providerOrderId: string;
     providerPaymentId?: string;
+    /** External money only */
     amount: number;
     currency: "INR";
     paymentMethod: PaymentMethod;
+    /** Derived from refundedAmount */
     status: PaymentTransactionStatus;
+    /** Guardrail for refunds */
     refundedAmount: number;
+    /** Provider raw data (never used for logic) */
     providerResponse?: Record<string, unknown>;
     errorCode?: string;
     errorDescription?: string;

@@ -1,6 +1,6 @@
 import { Timestamp } from "../timestamp";
 import { CreatedByModel } from "../created-by.model";
-import { EntityType, PaymentEntityType, RefundStatus, RefundReason, RefundDestination } from "../../enum";
+import { EntityType, PaymentEntityType, RefundStatus, RefundReason, RefundDestination, PaymentProvider } from "../../enum";
 /**
  * Refund API Model
  *
@@ -9,7 +9,8 @@ import { EntityType, PaymentEntityType, RefundStatus, RefundReason, RefundDestin
  */
 export interface RefundApiModel {
     id: string;
-    paymentId: string;
+    /** Link to original payment (if external money involved) */
+    paymentId?: string;
     entityType: PaymentEntityType;
     entityId: string;
     userId: string;
@@ -17,20 +18,28 @@ export interface RefundApiModel {
         id: string;
         name: string;
     };
-    requestedAmount: number;
-    refundedAmount: number;
+    /** Amount refunded in THIS refund event */
+    amount: number;
     currency: "INR";
+    /** Why refund happened */
     reason: RefundReason;
     reasonDescription?: string;
-    status: RefundStatus;
+    /** Where money went */
     refundTo: RefundDestination;
+    /** Lifecycle (async only for bank refunds) */
+    status: RefundStatus;
+    /** Provider details (only for bank refunds) */
+    provider?: PaymentProvider;
     providerRefundId?: string;
     providerResponse?: Record<string, unknown>;
     errorCode?: string;
     errorDescription?: string;
+    /** Related entities */
     bookingId?: string;
     invoiceId?: string;
     walletTransactionId?: string;
+    /** Who triggered this refund */
+    triggeredBy: EntityType;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy?: CreatedByModel | null;
