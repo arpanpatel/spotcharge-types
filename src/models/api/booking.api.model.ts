@@ -61,6 +61,7 @@ export interface BookingApiModel {
   failedAt?: Timestamp;
   failureReason?: string;
   lastReconciliationCheck?: Timestamp;
+  reconciliationAttempts?: number;
 }
 
 
