@@ -48,6 +48,5 @@ export enum Collection {
     OrphanedPayments = 'orphanedPayments',
     Payments = 'payments',
     Refunds = 'refunds',
-    PublicInvoices = 'publicInvoices',
     InvoiceReviews = 'invoiceReviews'
 }

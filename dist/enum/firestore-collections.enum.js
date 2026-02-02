@@ -51,7 +51,6 @@ var Collection;
     Collection["OrphanedPayments"] = "orphanedPayments";
     Collection["Payments"] = "payments";
     Collection["Refunds"] = "refunds";
-    Collection["PublicInvoices"] = "publicInvoices";
     Collection["InvoiceReviews"] = "invoiceReviews";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
