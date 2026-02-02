@@ -41,4 +41,6 @@ export { FranchiseStationAccessApiModel } from './franchise-station-access.api.m
 export { SlotHoldApiModel } from './slot-hold.api.model';
 export { PaymentApiModel } from './payment.api.model';
 export { RefundApiModel } from './refund.api.model';
+export { InvoiceReviewApiModel } from './invoice-review.api.model';
+export { PublicInvoiceApiModel, PublicInvoiceStatus, PublicInvoiceItemModel, PublicInvoicePaymentModel, PublicInvoiceTaxDetailModel, PublicInvoiceSocialMediaModel } from './public-invoice.api.model';
 //# sourceMappingURL=index.d.ts.map

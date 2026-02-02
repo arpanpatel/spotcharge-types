@@ -47,5 +47,7 @@ export enum Collection {
     Counters ='_counters',
     OrphanedPayments = 'orphanedPayments',
     Payments = 'payments',
-    Refunds = 'refunds'
+    Refunds = 'refunds',
+    PublicInvoices = 'publicInvoices',
+    InvoiceReviews = 'invoiceReviews'
 }
