@@ -21,6 +21,8 @@ export interface InvoiceApiModel {
     chargerDocId: string;
     stationId: string;
     chargerName: string;
+    stationName: string | null;
+    stationAddress: string | null;
     initialBatteryPercentage?: number;
     chargerAddress: AddressApiModel;
     chargerState: StateModel;

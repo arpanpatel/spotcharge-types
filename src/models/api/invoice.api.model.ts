@@ -22,6 +22,8 @@ export interface InvoiceApiModel {
     chargerDocId: string; // this is the doc id of the charger in the chargers collection,
     stationId: string; // this is the doc id of the station in the stations collection,
     chargerName: string;
+    stationName: string | null; // Station name at time of invoice creation (for legal compliance)
+    stationAddress: string | null; // Station address at time of invoice creation (for legal compliance)
     initialBatteryPercentage?: number;
     chargerAddress: AddressApiModel;
     chargerState: StateModel;
