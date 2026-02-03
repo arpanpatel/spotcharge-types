@@ -4,8 +4,9 @@ export interface InvoiceReviewApiModel {
     id: string;
     invoiceId: string;
     invoiceNo: number;
-    franchiseId: string;
     stationId: string;
+    chargerDocId: string;
+    chargerId: string;
     userId: string;
     rating: number;
     feedback: string;

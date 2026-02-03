@@ -62,6 +62,14 @@ export interface InvoiceApiModel {
     totalAmount: number;
     bookingUnit: number;
     bookingAmount: number;
+    /**
+     * @description This field is used to check if the invoice has been reviewed or not
+     */
+    isReviewAdded: boolean;
+    /**
+     * @description This field is used to store the review id of the invoice
+     */
+    reviewId: string | null;
     /** @deprecated Use invoiceDuration instead */
     bookingDuration: number;
     invoiceDuration?: number;
