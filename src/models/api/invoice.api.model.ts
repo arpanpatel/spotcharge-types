@@ -18,7 +18,9 @@ export interface InvoiceApiModel {
     bookingEndTime: number;
     expectedEndTime?: Timestamp; // for efficient auto-complete cron queries
     invoiceNo: number;
-    chargerId: string;
+    chargerId: string; // this is the id of the charger in which set in machine
+    chargerDocId: string; // this is the doc id of the charger in the chargers collection,
+    stationId: string; // this is the doc id of the station in the stations collection,
     chargerName: string;
     initialBatteryPercentage?: number;
     chargerAddress: AddressApiModel;

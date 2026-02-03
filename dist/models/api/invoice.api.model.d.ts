@@ -18,6 +18,8 @@ export interface InvoiceApiModel {
     expectedEndTime?: Timestamp;
     invoiceNo: number;
     chargerId: string;
+    chargerDocId: string;
+    stationId: string;
     chargerName: string;
     initialBatteryPercentage?: number;
     chargerAddress: AddressApiModel;
