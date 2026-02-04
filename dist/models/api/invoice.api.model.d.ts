@@ -7,6 +7,7 @@ import { PublicUserVehicle } from "../public-user-vehicle.model";
 import { PhoneNumberModel } from "../phone-number-model";
 import { AddressApiModel, StateModel } from "./address.api.model";
 import { GstModel } from "./gst-record-api.model";
+import { TaxConfigModel, InvoiceTaxModel } from "../tax-config.model";
 export interface InvoiceApiModel {
     id: string;
     invoiceId: string;
@@ -53,6 +54,8 @@ export interface InvoiceApiModel {
     deletedBy: CreatedByModel | null;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
+    taxConfig?: TaxConfigModel;
+    tax?: InvoiceTaxModel;
     taxAmount: number;
     subTotal: number;
     pointType: PointType;
