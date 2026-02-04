@@ -1,6 +1,6 @@
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
-import {EntityType, TaxCategory} from "../../enum";
+import {EntityType, GstType, TaxCategory} from "../../enum";
 
 export interface TaxApiModel {
     id: string;
@@ -8,7 +8,7 @@ export interface TaxApiModel {
     name: string;
     percentage: number | null;
     type: TaxCategory;
-    taxSpecificType: string;
+    taxSpecificType: GstType;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     updatedAt: Timestamp;

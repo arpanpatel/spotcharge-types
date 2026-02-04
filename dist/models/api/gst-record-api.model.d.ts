@@ -1,6 +1,6 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
-import { EntityType } from "../../enum";
+import { EntityType, GstType } from "../../enum";
 import { StateModel } from "./address.api.model";
 export interface GstRecordApiModel {
     id: string;
@@ -28,7 +28,7 @@ export interface TaxWithPercentageModel {
     id: string;
     name: string;
     percentage: number;
-    type: string;
+    type: GstType;
 }
 export interface GstModel {
     id: string;

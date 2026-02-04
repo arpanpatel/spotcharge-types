@@ -23,6 +23,7 @@ export { TimeUnit } from './time-unit';
 export { AppType } from './app-type';
 export { SupportQueriesStatus } from './support-queries-status';
 export { TaxCategory } from './tax-category';
+export { GstType } from './gst-type.enum';
 export { OrderStopReason } from './order-stop-reason.enum';
 export { StationStatus } from './station-status.enum';
 export { ChargerAllowedMode } from './charger-allowed-mode.enum';
