@@ -54,8 +54,8 @@ export interface InvoiceApiModel {
     deletedBy: CreatedByModel | null;
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
-    taxConfig?: TaxConfigModel;
-    tax?: InvoiceTaxModel;
+    taxConfig: TaxConfigModel | null;
+    tax: InvoiceTaxModel | null;
     taxAmount: number;
     subTotal: number;
     pointType: PointType;

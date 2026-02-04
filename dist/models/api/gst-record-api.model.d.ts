@@ -22,12 +22,13 @@ export interface GstRecordApiModel {
 export interface StateTaxModel {
     id: string;
     name: string;
-    taxPercentages: [TaxWithPercentageModel];
+    taxPercentages: TaxWithPercentageModel[];
 }
 export interface TaxWithPercentageModel {
     id: string;
     name: string;
     percentage: number;
+    type: string;
 }
 export interface GstModel {
     id: string;
