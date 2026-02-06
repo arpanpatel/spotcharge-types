@@ -631,6 +631,50 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_STATIONS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_STATION: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_STATION: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_STATION: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_STATION: {
+        key: string;
+        formattedPermission: string;
+    };
+    MANAGE_STATION_CHARGERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_API_CONSUMERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_API_CONSUMER: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_API_CONSUMER: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_API_CONSUMER: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_API_CONSUMER: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {
