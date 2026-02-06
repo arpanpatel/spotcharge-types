@@ -630,6 +630,50 @@ export const permissionConfig = {
     'FRANCHISE_STATION_ACCESS': {
         key: 'FRANCHISE_STATION_ACCESS',
         formattedPermission: 'Can Manage Franchise Station Access',
+    },
+    'LIST_STATIONS': {
+        key: 'LIST_STATIONS',
+        formattedPermission: 'Can View Station List',
+    },
+    'VIEW_STATION': {
+        key: 'VIEW_STATION',
+        formattedPermission: 'Can View Station'
+    },
+    'ADD_STATION': {
+        key: 'ADD_STATION',
+        formattedPermission: 'Can Add Station',
+    },
+    'EDIT_STATION': {
+        key: 'EDIT_STATION',
+        formattedPermission: 'Can Edit Station',
+    },
+    'DELETE_STATION': {
+        key: 'DELETE_STATION',
+        formattedPermission: 'Can Delete Station',
+    },
+    'MANAGE_STATION_CHARGERS': {
+        key: 'MANAGE_STATION_CHARGERS',
+        formattedPermission: 'Can Manage Station Chargers',
+    },
+    'LIST_API_CONSUMERS': {
+        key: 'LIST_API_CONSUMERS',
+        formattedPermission: 'Can View API Consumer List',
+    },
+    'ADD_API_CONSUMER': {
+        key: 'ADD_API_CONSUMER',
+        formattedPermission: 'Can Add API Consumer',
+    },
+    'EDIT_API_CONSUMER': {
+        key: 'EDIT_API_CONSUMER',
+        formattedPermission: 'Can Edit API Consumer',
+    },
+    'DELETE_API_CONSUMER': {
+        key: 'DELETE_API_CONSUMER',
+        formattedPermission: 'Can Delete API Consumer',
+    },
+    'VIEW_API_CONSUMER': {
+        key: 'VIEW_API_CONSUMER',
+        formattedPermission: 'Can View API Consumer',
     }
 }
 
