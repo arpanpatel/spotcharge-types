@@ -48,5 +48,6 @@ export enum Collection {
     OrphanedPayments = 'orphanedPayments',
     Payments = 'payments',
     Refunds = 'refunds',
-    InvoiceReviews = 'invoiceReviews'
+    InvoiceReviews = 'invoiceReviews',
+    WhatsappLogs = 'whatsappLogs'
 }
