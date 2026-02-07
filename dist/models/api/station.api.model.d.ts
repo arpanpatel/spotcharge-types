@@ -3,6 +3,10 @@ import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { StationAccessCapability, StationStatus } from "../../enum";
 import { GstModel } from "./gst-record-api.model";
+export interface StationPhotoModel {
+    imageUrl: string;
+    isFeatured: boolean;
+}
 export interface StationApiModel {
     id: string;
     stationCode: string;
@@ -21,6 +25,7 @@ export interface StationApiModel {
         access: StationAccessCapability[];
     };
     amenities: StationAmenities;
+    photos: StationPhotoModel[];
     chargerCounts: StationChargerCounts;
     status: StationStatus;
     createdBy: CreatedByModel;
