@@ -46,6 +46,7 @@ var Collection;
     Collection["ApiConsumers"] = "apiConsumers";
     Collection["Connectors"] = "connectors";
     Collection["FranchiseStationAccess"] = "franchiseStationAccess";
+    Collection["FleetStationVisibility"] = "fleetStationVisibility";
     Collection["SlotHolds"] = "slotHolds";
     Collection["Counters"] = "_counters";
     Collection["OrphanedPayments"] = "orphanedPayments";

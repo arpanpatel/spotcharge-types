@@ -41,6 +41,7 @@ export declare enum Collection {
     ApiConsumers = "apiConsumers",
     Connectors = "connectors",
     FranchiseStationAccess = "franchiseStationAccess",
+    FleetStationVisibility = "fleetStationVisibility",
     SlotHolds = "slotHolds",
     Counters = "_counters",
     OrphanedPayments = "orphanedPayments",
