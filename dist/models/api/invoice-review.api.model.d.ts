@@ -5,6 +5,7 @@ export interface InvoiceReviewApiModel {
     invoiceId: string;
     invoiceNo: number;
     stationId: string;
+    customerName: string;
     chargerDocId: string;
     chargerId: string;
     userId: string;
