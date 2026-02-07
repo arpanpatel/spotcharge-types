@@ -6,6 +6,8 @@ import {Timestamp} from "../timestamp";
 export interface FleetApiModel {
   id: string;
   name: string;
+  fleetCode?: string;
+  status?: 'active' | 'inactive';
   address: AddressApiModel;
   franchise: FranchiseModel;
   chargers: string[];
