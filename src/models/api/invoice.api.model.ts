@@ -60,6 +60,7 @@ export interface InvoiceApiModel {
     taxAmount: number;
     subTotal: number;
     pointType: PointType;
+    outputType?: "AC" | "DC"
     isDirectStop?: boolean;
     batteryPercentage: number;
     recordHealth: 'bad' | 'good';
