@@ -15,6 +15,34 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    EDIT_FRANCHISE: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_FRANCHISE: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_FRANCHISE: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_FRANCHISE_USERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_FRANCHISE_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_FRANCHISE_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_FRANCHISE_USER: {
+        key: string;
+        formattedPermission: string;
+    };
     EDIT_FRANCHISE_SETTING: {
         key: string;
         formattedPermission: string;

@@ -18,6 +18,34 @@ exports.permissionConfig = {
         key: 'ADD_FRANCHISE',
         formattedPermission: 'Can Add Franchise',
     },
+    'EDIT_FRANCHISE': {
+        key: 'EDIT_FRANCHISE',
+        formattedPermission: 'Can Edit Franchise',
+    },
+    'VIEW_FRANCHISE': {
+        key: 'VIEW_FRANCHISE',
+        formattedPermission: 'Can View Franchise',
+    },
+    'DELETE_FRANCHISE': {
+        key: 'DELETE_FRANCHISE',
+        formattedPermission: 'Can Delete Franchise',
+    },
+    'LIST_FRANCHISE_USERS': {
+        key: 'LIST_FRANCHISE_USERS',
+        formattedPermission: 'Can View Franchise Users List',
+    },
+    'ADD_FRANCHISE_USER': {
+        key: 'ADD_FRANCHISE_USER',
+        formattedPermission: 'Can Add Franchise User',
+    },
+    'VIEW_FRANCHISE_USER': {
+        key: 'VIEW_FRANCHISE_USER',
+        formattedPermission: 'Can View Franchise User',
+    },
+    'EDIT_FRANCHISE_USER': {
+        key: 'EDIT_FRANCHISE_USER',
+        formattedPermission: 'Can Edit Franchise User',
+    },
     'EDIT_FRANCHISE_SETTING': {
         key: 'EDIT_FRANCHISE_SETTING',
         formattedPermission: 'Can Edit Franchise Setting',
