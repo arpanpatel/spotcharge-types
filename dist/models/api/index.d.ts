@@ -35,6 +35,7 @@ export { AdminUserApiModel } from './admin-user.api.model';
 export { ChargerReportApiModel } from './charger-report.api.model';
 export { StationApiModel, StationChargerCounts, StationAmenities, StationPhotoModel } from './station.api.model';
 export { StationSearchApiModel } from './station-search.api.model';
+export { FleetVehicleSearchApiModel } from './fleet-vehicle-search.api.model';
 export { ApiConsumerApiModel } from './api-consumer.api.model';
 export { ConnectorApiModel } from './connector.api.model';
 export { FranchiseStationAccessApiModel } from './franchise-station-access.api.model';
