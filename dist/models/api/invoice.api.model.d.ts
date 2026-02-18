@@ -1,6 +1,6 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
-import { OrderType, PointType } from "../../enum";
+import { OrderStopReason, OrderType, PointType } from "../../enum";
 import { ChargingTransactionRecords } from "../charging-transaction";
 import { ServiceChargeModel } from "../service-charge.model";
 import { PublicUserVehicle } from "../public-user-vehicle.model";
@@ -38,7 +38,7 @@ export interface InvoiceApiModel {
     userId: string;
     unitRate: number;
     orderType: OrderType;
-    stopReason: string;
+    stopReason: OrderStopReason;
     stopSource: string;
     transactionId: number;
     currentTransactionId: number;

@@ -2,7 +2,7 @@ import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {FleetModel} from "../fleet.model";
 import {FranchiseModel} from "../franchise.model";
-import {ChargerStatus, OrderType} from "../../enum";
+import {ChargerStatus, OrderStopReason, OrderType} from "../../enum";
 import {ChargingTransactionRecords} from "../charging-transaction";
 import {FleetVehicleModel} from "../fleet-vehicle.model";
 
@@ -17,7 +17,7 @@ export interface OrderApiModel {
     fleet: FleetModel;
     franchise: FranchiseModel;
     highestAmpere?: number;
-    stopReason: string;
+    stopReason: OrderStopReason;
     orderNo: number;
     transactionId: number;
     currentTransactionId: number;
