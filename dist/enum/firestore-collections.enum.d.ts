@@ -48,6 +48,7 @@ export declare enum Collection {
     Payments = "payments",
     Refunds = "refunds",
     InvoiceReviews = "invoiceReviews",
-    WhatsappLogs = "whatsappLogs"
+    WhatsappLogs = "whatsappLogs",
+    FleetUserAccess = "fleetUserAccess"
 }
 //# sourceMappingURL=firestore-collections.enum.d.ts.map

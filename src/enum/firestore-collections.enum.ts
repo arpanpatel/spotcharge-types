@@ -50,5 +50,6 @@ export enum Collection {
     Payments = 'payments',
     Refunds = 'refunds',
     InvoiceReviews = 'invoiceReviews',
-    WhatsappLogs = 'whatsappLogs'
+    WhatsappLogs = 'whatsappLogs',
+    FleetUserAccess = 'fleetUserAccess'
 }
