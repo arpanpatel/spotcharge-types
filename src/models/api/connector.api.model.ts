@@ -14,6 +14,7 @@ export interface ConnectorApiModel {
     unitRate: number;
     status: ConnectorStatus;  // Current connector status
 
+    qrCodeId?: string;        // Stable QR code identifier (nanoid), immutable after creation
     isActive: boolean;        // Enabled/disabled flag
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;

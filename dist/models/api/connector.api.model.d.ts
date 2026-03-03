@@ -10,6 +10,7 @@ export interface ConnectorApiModel {
     capacity: string;
     unitRate: number;
     status: ConnectorStatus;
+    qrCodeId?: string;
     isActive: boolean;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
