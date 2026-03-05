@@ -705,6 +705,38 @@ exports.permissionConfig = {
     'VIEW_API_CONSUMER': {
         key: 'VIEW_API_CONSUMER',
         formattedPermission: 'Can View API Consumer',
+    },
+    'LIST_TARIFFS': {
+        key: 'LIST_TARIFFS',
+        formattedPermission: 'Can View Tariff List',
+    },
+    'ADD_TARIFF': {
+        key: 'ADD_TARIFF',
+        formattedPermission: 'Can Add Tariff',
+    },
+    'EDIT_TARIFF': {
+        key: 'EDIT_TARIFF',
+        formattedPermission: 'Can Edit Tariff',
+    },
+    'DELETE_TARIFF': {
+        key: 'DELETE_TARIFF',
+        formattedPermission: 'Can Delete Tariff',
+    },
+    'LIST_TARIFF_ASSIGNMENTS': {
+        key: 'LIST_TARIFF_ASSIGNMENTS',
+        formattedPermission: 'Can View Tariff Assignment List',
+    },
+    'ADD_TARIFF_ASSIGNMENT': {
+        key: 'ADD_TARIFF_ASSIGNMENT',
+        formattedPermission: 'Can Add Tariff Assignment',
+    },
+    'EDIT_TARIFF_ASSIGNMENT': {
+        key: 'EDIT_TARIFF_ASSIGNMENT',
+        formattedPermission: 'Can Edit Tariff Assignment',
+    },
+    'DELETE_TARIFF_ASSIGNMENT': {
+        key: 'DELETE_TARIFF_ASSIGNMENT',
+        formattedPermission: 'Can Delete Tariff Assignment',
     }
 };
 //# sourceMappingURL=permission-config.js.map

@@ -8,6 +8,7 @@ import {PhoneNumberModel} from "../phone-number-model";
 import {AddressApiModel, StateModel} from "./address.api.model";
 import {GstModel} from "./gst-record-api.model";
 import {TaxConfigModel, InvoiceTaxModel} from "../tax-config.model";
+import {ResolvedTariff} from "../resolved-tariff.model";
 
 export interface InvoiceApiModel {
     id: string;
@@ -82,4 +83,5 @@ export interface InvoiceApiModel {
     invoiceDuration?: number; // New field - use this instead of bookingDuration
     vehicle: PublicUserVehicle;
     isServiceChargeApplicable: boolean;
+    resolvedTariff?: ResolvedTariff;
 }

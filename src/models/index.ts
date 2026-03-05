@@ -27,3 +27,4 @@ export {UserRolePermission} from './user-role-permission';
 export {RoleDescriptor} from './role-descriptor.model';
 export {ApiErrorResponse} from './api-error-response.model';
 export {TaxType, TaxConfigModel, InvoiceTaxModel} from './tax-config.model';
+export {ResolvedTariff} from './resolved-tariff.model';

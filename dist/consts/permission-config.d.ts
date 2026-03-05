@@ -703,6 +703,38 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_TARIFFS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_TARIFF: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_TARIFF: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_TARIFF: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_TARIFF_ASSIGNMENTS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_TARIFF_ASSIGNMENT: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_TARIFF_ASSIGNMENT: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_TARIFF_ASSIGNMENT: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {

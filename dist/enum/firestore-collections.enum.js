@@ -55,5 +55,7 @@ var Collection;
     Collection["InvoiceReviews"] = "invoiceReviews";
     Collection["WhatsappLogs"] = "whatsappLogs";
     Collection["FleetUserAccess"] = "fleetUserAccess";
+    Collection["Tariffs"] = "tariffs";
+    Collection["TariffAssignments"] = "tariffAssignments";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

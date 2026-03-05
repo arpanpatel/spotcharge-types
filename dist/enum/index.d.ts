@@ -38,4 +38,5 @@ export { PaymentTransactionStatus } from './payment-transaction-status.enum';
 export { RefundStatus } from './refund-status.enum';
 export { RefundReason } from './refund-reason.enum';
 export { RefundDestination } from './refund-destination.enum';
+export { TariffScope } from './tariff-scope.enum';
 //# sourceMappingURL=index.d.ts.map

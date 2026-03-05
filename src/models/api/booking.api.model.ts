@@ -6,6 +6,7 @@ import {ServiceChargeModel} from "../service-charge.model";
 import {PublicUserVehicle} from "../public-user-vehicle.model";
 import {PhoneNumberModel} from "../phone-number-model";
 import {ConnectorTypeModel} from "../connector-type.model";
+import {ResolvedTariff} from "../resolved-tariff.model";
 
 export interface BookingApiModel {
   id: string;
@@ -67,6 +68,7 @@ export interface BookingApiModel {
   paymentAttempts?: number; // Number of times user attempted payment
   previousOrderIds?: string[]; // History of abandoned Razorpay order IDs
   convertedFromRazorpay?: boolean; // True if booking was converted from Razorpay to wallet payment
+  resolvedTariff?: ResolvedTariff;
 }
 
 
