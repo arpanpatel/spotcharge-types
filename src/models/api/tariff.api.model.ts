@@ -17,8 +17,6 @@ export interface TariffApiModel {
     // Optional service charge override (null/undefined → use existing serviceChargeInfo)
     serviceCharge?: TariffServiceCharge | null;
 
-    validFrom: Timestamp;
-    validTo: Timestamp | null;
     isActive: boolean;
 
     createdBy: CreatedByModel;
