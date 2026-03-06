@@ -1,16 +1,11 @@
 import { Timestamp } from "../timestamp";
 import { CreatedByModel } from "../created-by.model";
-import { RateDuration } from "../rate-duration.model";
-export interface TariffServiceCharge {
-    rate: number;
-    rateDuration: RateDuration;
-}
 export interface TariffApiModel {
     id: string;
     name: string;
     description?: string;
     energyRate: number;
-    serviceCharge?: TariffServiceCharge | null;
+    serviceChargeId?: string | null;
     isActive: boolean;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;

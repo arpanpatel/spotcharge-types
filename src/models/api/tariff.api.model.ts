@@ -1,11 +1,5 @@
 import {Timestamp} from "../timestamp";
 import {CreatedByModel} from "../created-by.model";
-import {RateDuration} from "../rate-duration.model";
-
-export interface TariffServiceCharge {
-    rate: number;
-    rateDuration: RateDuration;
-}
 
 export interface TariffApiModel {
     id: string;
@@ -14,8 +8,8 @@ export interface TariffApiModel {
 
     energyRate: number;
 
-    // Optional service charge override (null/undefined → use existing serviceChargeInfo)
-    serviceCharge?: TariffServiceCharge | null;
+    // References a doc in the ServiceCharges collection
+    serviceChargeId?: string | null;
 
     isActive: boolean;
 

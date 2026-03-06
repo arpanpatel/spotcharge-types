@@ -6,7 +6,7 @@ export interface TariffAssignmentApiModel {
     tariffId: string;
     scope: TariffScope;
     scopeId: string | null;
-    outputType: 'AC' | 'DC';
+    capacityId?: string | null;
     priority: number;
     validFrom: Timestamp;
     validTo: Timestamp | null;
