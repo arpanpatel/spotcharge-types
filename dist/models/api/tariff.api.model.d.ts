@@ -11,8 +11,6 @@ export interface TariffApiModel {
     description?: string;
     energyRate: number;
     serviceCharge?: TariffServiceCharge | null;
-    validFrom: Timestamp;
-    validTo: Timestamp | null;
     isActive: boolean;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
