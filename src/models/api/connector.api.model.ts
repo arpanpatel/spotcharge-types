@@ -12,6 +12,7 @@ export interface ConnectorApiModel {
 
     capacity: string; // reference to charger capacity document ID
     unitRate: number;
+    isManualPricing?: boolean; // true = use unitRate directly, false/undefined = use tariff resolution
     status: ConnectorStatus;  // Current connector status
 
     qrCodeId?: string;        // Stable QR code identifier (nanoid), immutable after creation
