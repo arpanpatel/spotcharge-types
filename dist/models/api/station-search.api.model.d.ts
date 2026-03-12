@@ -16,6 +16,7 @@ export interface StationSearchApiModel {
         lat: number;
         lng: number;
     } | null;
+    capabilitiesAccess?: string[];
     createdAt?: number;
     updatedAt?: number;
 }
