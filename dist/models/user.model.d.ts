@@ -1,7 +1,7 @@
 import { FranchiseModel } from './franchise.model';
 import { CountryModel } from './country.model';
 import { UserRoleApiModel } from './api';
-import { FirebaseProviderType } from '../enum';
+import { FirebaseProviderType, VehicleType } from '../enum';
 import { PhoneNumberModel } from './phone-number-model';
 import { Timestamp } from "./timestamp";
 import { CreatedByModel } from "./created-by.model";
@@ -54,5 +54,9 @@ export interface UserVehicle {
     id: string;
     registrationNo: string;
     lastUsedAt?: Timestamp;
+    isCustom?: boolean;
+    brandName?: string;
+    vehicleType?: VehicleType;
+    modelName?: string;
 }
 //# sourceMappingURL=user.model.d.ts.map
