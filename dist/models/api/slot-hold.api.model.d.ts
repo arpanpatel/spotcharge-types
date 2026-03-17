@@ -3,6 +3,7 @@ import { ConnectorTypeModel } from "../connector-type.model";
 import { CreatedByModel } from "../created-by.model";
 import { PhoneNumberModel } from "../phone-number-model";
 import { PublicUserVehicle } from "../public-user-vehicle.model";
+import { ResolvedTariff } from "../resolved-tariff.model";
 import { ServiceChargeModel } from "../service-charge.model";
 import { Timestamp } from "../timestamp";
 export interface SlotHoldApiModel {
@@ -33,6 +34,7 @@ export interface SlotHoldApiModel {
     serviceChargeInfo: ServiceChargeModel;
     serviceCharge: number;
     isServiceChargeApplicable: boolean;
+    resolvedTariff?: ResolvedTariff;
     expiresAt: Timestamp;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
