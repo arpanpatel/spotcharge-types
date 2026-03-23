@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TariffScope = exports.RefundDestination = exports.RefundReason = exports.RefundStatus = exports.PaymentTransactionStatus = exports.PaymentProvider = exports.PaymentEntityType = exports.ApiErrorCode = exports.FleetStationVisibilityStatus = exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.GstType = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
+exports.CompanyStatus = exports.CompanyType = exports.TariffScope = exports.RefundDestination = exports.RefundReason = exports.RefundStatus = exports.PaymentTransactionStatus = exports.PaymentProvider = exports.PaymentEntityType = exports.ApiErrorCode = exports.FleetStationVisibilityStatus = exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.GstType = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -83,4 +83,8 @@ var refund_destination_enum_1 = require("./refund-destination.enum");
 Object.defineProperty(exports, "RefundDestination", { enumerable: true, get: function () { return refund_destination_enum_1.RefundDestination; } });
 var tariff_scope_enum_1 = require("./tariff-scope.enum");
 Object.defineProperty(exports, "TariffScope", { enumerable: true, get: function () { return tariff_scope_enum_1.TariffScope; } });
+var company_type_enum_1 = require("./company-type.enum");
+Object.defineProperty(exports, "CompanyType", { enumerable: true, get: function () { return company_type_enum_1.CompanyType; } });
+var company_status_enum_1 = require("./company-status.enum");
+Object.defineProperty(exports, "CompanyStatus", { enumerable: true, get: function () { return company_status_enum_1.CompanyStatus; } });
 //# sourceMappingURL=index.js.map

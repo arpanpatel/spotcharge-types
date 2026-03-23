@@ -48,3 +48,4 @@ export {FleetUserV2ApiModel} from './fleet-user-v2.api.model';
 export {FleetUserAccessApiModel} from './fleet-user-access.api.model';
 export {TariffApiModel} from './tariff.api.model';
 export {TariffAssignmentApiModel} from './tariff-assignment.api.model';
+export {CompanyApiModel} from './company.api.model';

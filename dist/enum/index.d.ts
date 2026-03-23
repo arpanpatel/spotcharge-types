@@ -39,4 +39,6 @@ export { RefundStatus } from './refund-status.enum';
 export { RefundReason } from './refund-reason.enum';
 export { RefundDestination } from './refund-destination.enum';
 export { TariffScope } from './tariff-scope.enum';
+export { CompanyType } from './company-type.enum';
+export { CompanyStatus } from './company-status.enum';
 //# sourceMappingURL=index.d.ts.map
