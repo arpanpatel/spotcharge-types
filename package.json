@@ -1,12 +1,12 @@
 {
   "name": "spotcharge-types",
-  "version": "1.0.279",
+  "version": "1.0.280",
   "description": "Spotcharge types",
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "bash ./publish_git.sh"
+    "publish": "bash ./publish_git.sh"
   },
   "repository": {
     "type": "git",
