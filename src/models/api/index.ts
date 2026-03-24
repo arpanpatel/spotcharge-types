@@ -49,3 +49,4 @@ export {FleetUserAccessApiModel} from './fleet-user-access.api.model';
 export {TariffApiModel} from './tariff.api.model';
 export {TariffAssignmentApiModel} from './tariff-assignment.api.model';
 export {CompanyApiModel} from './company.api.model';
+export {BusinessModelConfig, RevenueConfig} from './franchise-business-model';

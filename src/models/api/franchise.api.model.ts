@@ -1,8 +1,12 @@
 import {FranchiseType} from "../../enum";
+import {FranchiseBusinessType} from "../../enum/franchise-business-type.enum";
+import {FranchiseStatus} from "../../enum/franchise-status.enum";
+import {PricingControl} from "../../enum/pricing-control.enum";
 import {PhoneNumberModel} from "../phone-number-model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {AddressApiModel} from "./address.api.model";
+import {BusinessModelConfig, RevenueConfig} from "./franchise-business-model";
 
 export interface FranchiseApiModel {
     id: string;
@@ -38,4 +42,10 @@ export interface FranchiseApiModel {
     // @deprecated — do not use 
     userId: string;
     timeZone: string;
+    companyId?: string;
+    status?: FranchiseStatus;
+    businessType?: FranchiseBusinessType;
+    businessModel?: BusinessModelConfig;
+    revenueConfig?: RevenueConfig;
+    pricingControl?: PricingControl;
 }

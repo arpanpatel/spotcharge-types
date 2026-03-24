@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CompanyStatus = exports.CompanyType = exports.TariffScope = exports.RefundDestination = exports.RefundReason = exports.RefundStatus = exports.PaymentTransactionStatus = exports.PaymentProvider = exports.PaymentEntityType = exports.ApiErrorCode = exports.FleetStationVisibilityStatus = exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.GstType = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
+exports.FranchiseStatus = exports.RevenueContractType = exports.PricingControl = exports.RevenueModel = exports.BusinessOperation = exports.BusinessOwnership = exports.FranchiseBusinessType = exports.CompanyStatus = exports.CompanyType = exports.TariffScope = exports.RefundDestination = exports.RefundReason = exports.RefundStatus = exports.PaymentTransactionStatus = exports.PaymentProvider = exports.PaymentEntityType = exports.ApiErrorCode = exports.FleetStationVisibilityStatus = exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.GstType = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -87,4 +87,18 @@ var company_type_enum_1 = require("./company-type.enum");
 Object.defineProperty(exports, "CompanyType", { enumerable: true, get: function () { return company_type_enum_1.CompanyType; } });
 var company_status_enum_1 = require("./company-status.enum");
 Object.defineProperty(exports, "CompanyStatus", { enumerable: true, get: function () { return company_status_enum_1.CompanyStatus; } });
+var franchise_business_type_enum_1 = require("./franchise-business-type.enum");
+Object.defineProperty(exports, "FranchiseBusinessType", { enumerable: true, get: function () { return franchise_business_type_enum_1.FranchiseBusinessType; } });
+var business_ownership_enum_1 = require("./business-ownership.enum");
+Object.defineProperty(exports, "BusinessOwnership", { enumerable: true, get: function () { return business_ownership_enum_1.BusinessOwnership; } });
+var business_operation_enum_1 = require("./business-operation.enum");
+Object.defineProperty(exports, "BusinessOperation", { enumerable: true, get: function () { return business_operation_enum_1.BusinessOperation; } });
+var revenue_model_enum_1 = require("./revenue-model.enum");
+Object.defineProperty(exports, "RevenueModel", { enumerable: true, get: function () { return revenue_model_enum_1.RevenueModel; } });
+var pricing_control_enum_1 = require("./pricing-control.enum");
+Object.defineProperty(exports, "PricingControl", { enumerable: true, get: function () { return pricing_control_enum_1.PricingControl; } });
+var revenue_contract_type_enum_1 = require("./revenue-contract-type.enum");
+Object.defineProperty(exports, "RevenueContractType", { enumerable: true, get: function () { return revenue_contract_type_enum_1.RevenueContractType; } });
+var franchise_status_enum_1 = require("./franchise-status.enum");
+Object.defineProperty(exports, "FranchiseStatus", { enumerable: true, get: function () { return franchise_status_enum_1.FranchiseStatus; } });
 //# sourceMappingURL=index.js.map
