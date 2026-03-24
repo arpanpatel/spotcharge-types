@@ -282,6 +282,18 @@ exports.permissionConfig = {
         key: 'EDIT_CHARGER_FIRMWARE',
         formattedPermission: 'Can Edit Charger Firmware',
     },
+    'VIEW_CHARGER_LOGS': {
+        key: 'VIEW_CHARGER_LOGS',
+        formattedPermission: 'Can View Charger Logs',
+    },
+    'VIEW_CHARGER_TARIFF': {
+        key: 'VIEW_CHARGER_TARIFF',
+        formattedPermission: 'Can View Charger Tariff',
+    },
+    'VIEW_CHARGER_OCPP_COMMANDS': {
+        key: 'VIEW_CHARGER_OCPP_COMMANDS',
+        formattedPermission: 'Can View Charger Ocpp Commands',
+    },
     'DELETE_CHARGER': {
         key: 'DELETE_CHARGER',
         formattedPermission: 'Can Delete Charger',
@@ -686,6 +698,14 @@ exports.permissionConfig = {
         key: 'MANAGE_STATION_CHARGERS',
         formattedPermission: 'Can Manage Station Chargers',
     },
+    'VIEW_STATION_TARIFF': {
+        key: 'VIEW_STATION_TARIFF',
+        formattedPermission: 'Can View Station Tariff',
+    },
+    'VIEW_STATION_REVIEWS': {
+        key: 'VIEW_STATION_REVIEWS',
+        formattedPermission: 'Can View Station Reviews',
+    },
     'LIST_API_CONSUMERS': {
         key: 'LIST_API_CONSUMERS',
         formattedPermission: 'Can View API Consumer List',
@@ -737,6 +757,26 @@ exports.permissionConfig = {
     'DELETE_TARIFF_ASSIGNMENT': {
         key: 'DELETE_TARIFF_ASSIGNMENT',
         formattedPermission: 'Can Delete Tariff Assignment',
+    },
+    'LIST_COMPANIES': {
+        key: 'LIST_COMPANIES',
+        formattedPermission: 'Can View Company List',
+    },
+    'ADD_COMPANY': {
+        key: 'ADD_COMPANY',
+        formattedPermission: 'Can Add Company',
+    },
+    'EDIT_COMPANY': {
+        key: 'EDIT_COMPANY',
+        formattedPermission: 'Can Edit Company',
+    },
+    'DELETE_COMPANY': {
+        key: 'DELETE_COMPANY',
+        formattedPermission: 'Can Delete Company',
+    },
+    'VIEW_COMPANY': {
+        key: 'VIEW_COMPANY',
+        formattedPermission: 'Can View Company',
     }
 };
 //# sourceMappingURL=permission-config.js.map

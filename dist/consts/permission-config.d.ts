@@ -279,6 +279,18 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_CHARGER_LOGS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_CHARGER_TARIFF: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_CHARGER_OCPP_COMMANDS: {
+        key: string;
+        formattedPermission: string;
+    };
     DELETE_CHARGER: {
         key: string;
         formattedPermission: string;
@@ -683,6 +695,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_STATION_TARIFF: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_STATION_REVIEWS: {
+        key: string;
+        formattedPermission: string;
+    };
     LIST_API_CONSUMERS: {
         key: string;
         formattedPermission: string;
@@ -732,6 +752,26 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     DELETE_TARIFF_ASSIGNMENT: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_COMPANIES: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_COMPANY: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_COMPANY: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_COMPANY: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_COMPANY: {
         key: string;
         formattedPermission: string;
     };
