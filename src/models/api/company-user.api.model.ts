@@ -1,15 +1,16 @@
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
+import {CompanyUserStatus} from "../../enum";
 
 export interface CompanyUserApiModel {
   id: string; // `${companyId}__${userId}`
   companyId: string;
   userId: string;
   timeZone: string;
-  isActive: boolean;
+  status: CompanyUserStatus;
   createdBy: CreatedByModel;
   updatedBy: CreatedByModel;
-  deletedBy: CreatedByModel;
+  deletedBy: CreatedByModel | null;
   createdAt: Timestamp;
   updatedAt: Timestamp;
   deletedAt: Timestamp | null;
