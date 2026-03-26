@@ -58,5 +58,6 @@ var Collection;
     Collection["Tariffs"] = "tariffs";
     Collection["TariffAssignments"] = "tariffAssignments";
     Collection["Companies"] = "companies";
+    Collection["CompanyUsers"] = "companyUsers";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

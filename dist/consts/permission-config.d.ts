@@ -775,6 +775,22 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_COMPANY_USERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_COMPANY_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_COMPANY_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_COMPANY_USER: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {

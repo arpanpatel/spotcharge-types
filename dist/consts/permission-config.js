@@ -777,6 +777,22 @@ exports.permissionConfig = {
     'VIEW_COMPANY': {
         key: 'VIEW_COMPANY',
         formattedPermission: 'Can View Company',
+    },
+    'LIST_COMPANY_USERS': {
+        key: 'LIST_COMPANY_USERS',
+        formattedPermission: 'Can View Company User List',
+    },
+    'ADD_COMPANY_USER': {
+        key: 'ADD_COMPANY_USER',
+        formattedPermission: 'Can Add Company User',
+    },
+    'VIEW_COMPANY_USER': {
+        key: 'VIEW_COMPANY_USER',
+        formattedPermission: 'Can View Company User',
+    },
+    'EDIT_COMPANY_USER': {
+        key: 'EDIT_COMPANY_USER',
+        formattedPermission: 'Can Edit Company User',
     }
 };
 //# sourceMappingURL=permission-config.js.map
