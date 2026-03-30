@@ -2,7 +2,6 @@
 
 export enum Collection {
     Franchises = 'franchises',
-    FranchiseUsers = 'franchiseUsers',
     PublicUsers = 'publicUsers',
     Users = 'users',
     TempAssignClaim = 'tempAssignClaim',
