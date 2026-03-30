@@ -51,3 +51,4 @@ export {TariffAssignmentApiModel} from './tariff-assignment.api.model';
 export {CompanyApiModel} from './company.api.model';
 export {CompanyUserApiModel} from './company-user.api.model';
 export {BusinessModelConfig, RevenueConfig} from './franchise-business-model';
+export {CompanyUserEntityAccessApiModel} from './company-user-entity-access.api.model';

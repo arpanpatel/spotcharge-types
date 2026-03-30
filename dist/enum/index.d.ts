@@ -49,4 +49,6 @@ export { RevenueModel } from './revenue-model.enum';
 export { PricingControl } from './pricing-control.enum';
 export { RevenueContractType } from './revenue-contract-type.enum';
 export { FranchiseStatus } from './franchise-status.enum';
+export { CompanyUserEntityRole } from './company-user-entity-role.enum';
+export { CompanyUserEntityAccessStatus } from './company-user-entity-access-status.enum';
 //# sourceMappingURL=index.d.ts.map
