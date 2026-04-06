@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com:techparticle.devhub/spotcharge-types.git"
+    "url": "git@github.com:arpanpatel/spotcharge-types.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/techparticle.devhub/spotcharge-types/issues"
+    "url": "https://github.com/arpanpatel/spotcharge-types/issues"
   },
-  "homepage": "https://gitlab.com/techparticle.devhub/spotcharge-types#readme",
+  "homepage": "https://github.com/arpanpatel/spotcharge-types",
   "dependencies": {}
 }
