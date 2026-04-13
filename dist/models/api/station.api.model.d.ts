@@ -36,6 +36,8 @@ export interface StationApiModel {
     deletedAt: Timestamp | null;
     isDeleted: boolean;
     timeZone: string;
+    businessUnitId?: string | null;
+    companyId?: string | null;
 }
 export interface StationChargerCounts {
     total: number;

@@ -64,6 +64,9 @@ export interface BookingApiModel {
     previousOrderIds?: string[];
     convertedFromRazorpay?: boolean;
     resolvedTariff?: ResolvedTariff;
+    stationId?: string | null;
+    businessUnitId?: string | null;
+    companyId?: string | null;
 }
 export interface Refund {
     id: string;

@@ -84,4 +84,6 @@ export interface InvoiceApiModel {
     vehicle: PublicUserVehicle;
     isServiceChargeApplicable: boolean;
     resolvedTariff?: ResolvedTariff;
+    businessUnitId?: string | null;
+    companyId?: string | null;
 }

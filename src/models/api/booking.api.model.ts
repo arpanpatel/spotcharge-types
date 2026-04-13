@@ -69,6 +69,9 @@ export interface BookingApiModel {
   previousOrderIds?: string[]; // History of abandoned Razorpay order IDs
   convertedFromRazorpay?: boolean; // True if booking was converted from Razorpay to wallet payment
   resolvedTariff?: ResolvedTariff;
+  stationId?: string | null;
+  businessUnitId?: string | null;
+  companyId?: string | null;
 }
 
 

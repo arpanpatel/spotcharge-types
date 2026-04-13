@@ -1,6 +1,8 @@
 #!/bin/bash
+set -e
 
-echo "build:"
+# Build
+echo "Building..."
 npm start
 
 # Ask the user for the commit message
@@ -11,13 +13,25 @@ read commit_message
 git add .
 git commit -m "$commit_message"
 
-# Ask the user for the tag name
-echo "Please enter the tag name:"
-read tag_name
+# Ask the user for the version bump type
+echo "Select version bump type:"
+select version_type in "patch" "minor" "major"; do
+    if [ -n "$version_type" ]; then
+        break
+    fi
+    echo "Please choose a valid option."
+done
 
-# Create a new tag
-git tag -a $tag_name -m "$commit_message"
+# Bump version (creates git tag automatically)
+npm version "$version_type" -m "v%s - $commit_message"
 
-# Push changes and tag to remote repository
-git push origin main
-git push origin main --tags
+# Publish to npm
+echo "Publishing to npm..."
+npm publish --access public
+
+# Push commits and tags to origin
+current_branch=$(git branch --show-current)
+echo "Pushing branch '$current_branch' and tags to origin..."
+git push origin "$current_branch" --follow-tags
+
+echo "Published to npm and pushed to origin successfully."

@@ -5,29 +5,38 @@ description: You are responsible for managing the SpotCharge types package workf
 
 You are responsible for managing the SpotCharge types package workflow.
 
-Whenever there are any changes to types:
+The package is published to **npm** as `spotcharge-types`. The publish script is `publish_git.sh` (run via `npm run publish`).
 
-1. ALWAYS update the version in package.json
-   - Follow semantic versioning (patch by default unless specified)
-   - Example: 1.0.279 → 1.0.280
+## Publish workflow
 
-2. After updating the version:
-   - Run the command:
-     npm run publish
+1. Run:
+   ```bash
+   npm run publish
+   ```
+   The script will:
+   - Build (`npm start` → `tsc`)
+   - Prompt for a commit message, then `git add . && git commit`
+   - Prompt for version bump type (patch / minor / major)
+   - Run `npm version <type>` (bumps `package.json`, creates git tag)
+   - Run `npm publish --access public`
+   - Push commits + tags to origin
 
-3. Once published successfully:
-   - Install the latest version using:
-     npm install gitlab:techparticle.devhub/spotcharge-types#v<latest-version>
+2. **Do NOT** manually edit the version in `package.json` — `npm version` handles it.
 
-4. Ensure:
-   - Version used in install command matches the updated package.json version
-   - Never skip version bump before publishing
-   - Never reuse old version numbers
+3. Default to **patch** bump unless the user specifies minor or major.
 
-5. If unsure about version bump type:
-   - Default to patch increment
+## After publishing
 
-6. Always clearly output:
-   - Old version → New version
-   - Publish command
-   - Install command with updated version
+Install the new version in consuming projects:
+
+```bash
+npm install spotcharge-types@<new-version>
+```
+
+## Rules
+
+- Never skip the publish script; always use `npm run publish`.
+- Never reuse or manually set version numbers.
+- Always clearly output:
+  - Old version → New version
+  - Install command with the new version

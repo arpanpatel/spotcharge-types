@@ -20,4 +20,6 @@ export interface StationSearchApiModel {
     capabilitiesAccess?: string[];
     createdAt?: number;
     updatedAt?: number;
+    businessUnitId?: string | null;
+    companyId?: string | null;
 }
