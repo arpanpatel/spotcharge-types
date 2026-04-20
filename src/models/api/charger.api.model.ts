@@ -12,6 +12,8 @@ export interface ChargerApiModel {
     stationId: string;
     name: string;
     chargerId: string;
+    chargerPhysicalState: string;
+    chargerOperationalState: string;
     type: ChargerType;
     pointType: PointType;
     location: AddressApiModel;
