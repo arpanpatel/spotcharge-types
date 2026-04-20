@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "bash ./publish_git.sh"
+    "release": "bash ./publish_git.sh"
   },
   "repository": {
     "type": "git",

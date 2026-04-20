@@ -25,6 +25,10 @@ done
 # Bump version (creates git tag automatically)
 npm version "$version_type" -m "v%s - $commit_message"
 
+# Ensure npm is authenticated
+echo "Logging in to npm..."
+npm login
+
 # Publish to npm
 echo "Publishing to npm..."
 npm publish --access public

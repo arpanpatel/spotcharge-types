@@ -5,19 +5,20 @@ description: You are responsible for managing the SpotCharge types package workf
 
 You are responsible for managing the SpotCharge types package workflow.
 
-The package is published to **npm** as `spotcharge-types`. The publish script is `publish_git.sh` (run via `npm run publish`).
+The package is published to **npm** as `spotcharge-types`. The publish script is `publish_git.sh` (run via `npm run release`).
 
 ## Publish workflow
 
 1. Run:
    ```bash
-   npm run publish
+   npm run release
    ```
    The script will:
    - Build (`npm start` → `tsc`)
    - Prompt for a commit message, then `git add . && git commit`
    - Prompt for version bump type (patch / minor / major)
    - Run `npm version <type>` (bumps `package.json`, creates git tag)
+   - Run `npm login` (ensures npm authentication)
    - Run `npm publish --access public`
    - Push commits + tags to origin
 
@@ -35,7 +36,7 @@ npm install spotcharge-types@<new-version>
 
 ## Rules
 
-- Never skip the publish script; always use `npm run publish`.
+- Never skip the publish script; always use `npm run release`.
 - Never reuse or manually set version numbers.
 - Always clearly output:
   - Old version → New version

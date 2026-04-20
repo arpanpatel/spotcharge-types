@@ -55,5 +55,6 @@ export enum Collection {
     TariffAssignments = 'tariffAssignments',
     Companies = 'companies',
     CompanyUsers = 'companyUsers',
-    CompanyUserEntityAccess = 'companyUserEntityAccess'
+    CompanyUserEntityAccess = 'companyUserEntityAccess',
+    ContactSubmissions = 'contactSubmissions'
 }
