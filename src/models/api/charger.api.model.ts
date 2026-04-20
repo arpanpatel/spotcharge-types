@@ -14,6 +14,7 @@ export interface ChargerApiModel {
     chargerId: string;
     chargerPhysicalState: string;
     chargerOperationalState: string;
+    isCmsV2: boolean;
     type: ChargerType;
     pointType: PointType;
     location: AddressApiModel;
