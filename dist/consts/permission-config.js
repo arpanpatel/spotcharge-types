@@ -793,6 +793,14 @@ exports.permissionConfig = {
     'EDIT_COMPANY_USER': {
         key: 'EDIT_COMPANY_USER',
         formattedPermission: 'Can Edit Company User',
+    },
+    'LIST_CONTACT_SUBMISSIONS': {
+        key: 'LIST_CONTACT_SUBMISSIONS',
+        formattedPermission: 'Can View Contact Submission List',
+    },
+    'VIEW_CONTACT_SUBMISSION': {
+        key: 'VIEW_CONTACT_SUBMISSION',
+        formattedPermission: 'Can View Contact Submission',
     }
 };
 //# sourceMappingURL=permission-config.js.map

@@ -791,6 +791,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_CONTACT_SUBMISSIONS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_CONTACT_SUBMISSION: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {
