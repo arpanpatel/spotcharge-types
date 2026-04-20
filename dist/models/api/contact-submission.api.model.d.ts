@@ -1,4 +1,5 @@
 import { Timestamp } from "../timestamp";
+import { CreatedByModel } from "../created-by.model";
 export interface ContactSubmissionApiModel {
     id: string;
     firstName: string;
@@ -7,6 +8,7 @@ export interface ContactSubmissionApiModel {
     message: string;
     source: string;
     status: string;
+    createdBy?: CreatedByModel | null;
     createdAt: Timestamp;
     updatedAt: Timestamp;
     deletedAt: Timestamp | null;
