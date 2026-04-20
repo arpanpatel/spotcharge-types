@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RevenueContractType = exports.PricingControl = exports.RevenueModel = exports.BusinessOperation = exports.BusinessOwnership = exports.FranchiseBusinessType = exports.CompanyUserStatus = exports.CompanyStatus = exports.CompanyType = exports.TariffScope = exports.RefundDestination = exports.RefundReason = exports.RefundStatus = exports.PaymentTransactionStatus = exports.PaymentProvider = exports.PaymentEntityType = exports.ApiErrorCode = exports.FleetStationVisibilityStatus = exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.GstType = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
-exports.CompanyUserEntityAccessStatus = exports.CompanyUserEntityRole = exports.FranchiseStatus = void 0;
+exports.ChargerOperationalState = exports.ChargerPhysicalState = exports.CompanyUserEntityAccessStatus = exports.CompanyUserEntityRole = exports.FranchiseStatus = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -108,4 +108,8 @@ var company_user_entity_role_enum_1 = require("./company-user-entity-role.enum")
 Object.defineProperty(exports, "CompanyUserEntityRole", { enumerable: true, get: function () { return company_user_entity_role_enum_1.CompanyUserEntityRole; } });
 var company_user_entity_access_status_enum_1 = require("./company-user-entity-access-status.enum");
 Object.defineProperty(exports, "CompanyUserEntityAccessStatus", { enumerable: true, get: function () { return company_user_entity_access_status_enum_1.CompanyUserEntityAccessStatus; } });
+var charger_physical_state_enum_1 = require("./charger-physical-state.enum");
+Object.defineProperty(exports, "ChargerPhysicalState", { enumerable: true, get: function () { return charger_physical_state_enum_1.ChargerPhysicalState; } });
+var charger_operational_state_enum_1 = require("./charger-operational-state.enum");
+Object.defineProperty(exports, "ChargerOperationalState", { enumerable: true, get: function () { return charger_operational_state_enum_1.ChargerOperationalState; } });
 //# sourceMappingURL=index.js.map

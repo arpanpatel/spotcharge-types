@@ -9,6 +9,7 @@ export interface ContactSubmissionApiModel {
     message: string;
     source: string;
     status: string;
+    updatedBy?: CreatedByModel | null;
     createdBy?: CreatedByModel | null;
     createdAt: Timestamp;
     updatedAt: Timestamp;
