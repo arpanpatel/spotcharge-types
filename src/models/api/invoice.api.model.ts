@@ -9,6 +9,7 @@ import {AddressApiModel, StateModel} from "./address.api.model";
 import {GstModel} from "./gst-record-api.model";
 import {TaxConfigModel, InvoiceTaxModel} from "../tax-config.model";
 import {ResolvedTariff} from "../resolved-tariff.model";
+import {RevenueSnapshot} from "../revenue-snapshot.model";
 
 export interface InvoiceApiModel {
     id: string;
@@ -86,4 +87,5 @@ export interface InvoiceApiModel {
     resolvedTariff?: ResolvedTariff;
     businessUnitId?: string | null;
     companyId?: string | null;
+    revenueSnapshot?: RevenueSnapshot | null;
 }
