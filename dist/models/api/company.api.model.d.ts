@@ -13,6 +13,7 @@ export interface CompanyApiModel {
     contactEmail?: string;
     address?: AddressApiModel;
     gstNumber?: string;
+    panNumber?: string;
     status: CompanyStatus;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
