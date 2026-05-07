@@ -799,6 +799,22 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_BUSINESS_UNIT_EARNING: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_BUSINESS_UNIT_SETTLEMENTS: {
+        key: string;
+        formattedPermission: string;
+    };
+    CREATE_BUSINESS_UNIT_SETTLEMENT: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_BUSINESS_UNIT_INVOICE: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {
