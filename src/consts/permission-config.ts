@@ -798,6 +798,22 @@ export const permissionConfig = {
     'VIEW_CONTACT_SUBMISSION': {
         key: 'VIEW_CONTACT_SUBMISSION',
         formattedPermission: 'Can View Contact Submission',
+    },
+    'VIEW_BUSINESS_UNIT_EARNING': {
+        key: 'VIEW_BUSINESS_UNIT_EARNING',
+        formattedPermission: 'Can View Business Unit Earning',
+    },
+    'LIST_BUSINESS_UNIT_SETTLEMENTS': {
+        key: 'LIST_BUSINESS_UNIT_SETTLEMENTS',
+        formattedPermission: 'Can View Business Unit Settlements List',
+    },
+    'CREATE_BUSINESS_UNIT_SETTLEMENT': {
+        key: 'CREATE_BUSINESS_UNIT_SETTLEMENT',
+        formattedPermission: 'Can Create Business Unit Settlement',
+    },
+    'LIST_BUSINESS_UNIT_INVOICE': {
+        key: 'LIST_BUSINESS_UNIT_INVOICE',
+        formattedPermission: 'Can View Business Unit Invoice List',
     }
 }
 
