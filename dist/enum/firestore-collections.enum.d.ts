@@ -55,6 +55,7 @@ export declare enum Collection {
     CompanyUsers = "companyUsers",
     CompanyUserEntityAccess = "companyUserEntityAccess",
     ContactSubmissions = "contactSubmissions",
+    FranchiseSubmissions = "franchiseSubmissions",
     Settlements = "settlements"
 }
 //# sourceMappingURL=firestore-collections.enum.d.ts.map
