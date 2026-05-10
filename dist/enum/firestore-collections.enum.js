@@ -60,7 +60,7 @@ var Collection;
     Collection["CompanyUsers"] = "companyUsers";
     Collection["CompanyUserEntityAccess"] = "companyUserEntityAccess";
     Collection["ContactSubmissions"] = "contactSubmissions";
-    Collection["FranchiseSubmissions"] = "franchiseSubmissions";
+    Collection["PartnerInquiries"] = "partnerInquiries";
     Collection["Settlements"] = "settlements";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map

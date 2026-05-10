@@ -1,37 +1,37 @@
 import {Timestamp} from "../timestamp";
 import {CreatedByModel} from "../created-by.model";
 
-export enum FranchiseInvestmentRange {
+export enum PartnerInquiryInvestmentRange {
     TEN_TO_FIFTEEN_LAKHS = '10_15_LAKHS',
     FIFTEEN_TO_TWENTYFIVE_LAKHS = '15_25_LAKHS',
     TWENTYFIVE_PLUS_LAKHS = '25_PLUS_LAKHS',
     EXPLORING = 'EXPLORING',
 }
 
-export enum FranchiseLocationReadiness {
+export enum PartnerInquiryLocationReadiness {
     OWNED = 'OWNED',
     RENTED = 'RENTED',
     NEED_ASSISTANCE = 'NEED_ASSISTANCE',
     EXPLORING = 'EXPLORING',
 }
 
-export enum FranchiseTimeline {
+export enum PartnerInquiryTimeline {
     IMMEDIATE = 'IMMEDIATE',
     ONE_TO_THREE_MONTHS = '1_3_MONTHS',
     THREE_TO_SIX_MONTHS = '3_6_MONTHS',
     RESEARCHING = 'RESEARCHING',
 }
 
-export interface FranchiseSubmissionApiModel {
+export interface PartnerInquiryApiModel {
     id: string;
     fullName: string;
     email: string;
     phone: string;
     city: string;
     postCode: string;
-    investmentRange: FranchiseInvestmentRange;
-    locationReadiness: FranchiseLocationReadiness;
-    timeline: FranchiseTimeline;
+    investmentRange: PartnerInquiryInvestmentRange;
+    locationReadiness: PartnerInquiryLocationReadiness;
+    timeline: PartnerInquiryTimeline;
     siteLocationLink?: string | null;
     hasParkingSpace?: boolean | null;
     spaceSize?: string | null;

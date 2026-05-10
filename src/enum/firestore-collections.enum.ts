@@ -57,6 +57,6 @@ export enum Collection {
     CompanyUsers = 'companyUsers',
     CompanyUserEntityAccess = 'companyUserEntityAccess',
     ContactSubmissions = 'contactSubmissions',
-    FranchiseSubmissions = 'franchiseSubmissions',
+    PartnerInquiries = 'partnerInquiries',
     Settlements = 'settlements'
 }

@@ -52,6 +52,6 @@ export { CompanyUserApiModel } from './company-user.api.model';
 export { BusinessModelConfig, RevenueConfig } from './franchise-business-model';
 export { CompanyUserEntityAccessApiModel } from './company-user-entity-access.api.model';
 export { ContactSubmissionApiModel } from './contact-submission.api.model';
-export { FranchiseSubmissionApiModel, FranchiseInvestmentRange, FranchiseLocationReadiness, FranchiseTimeline } from './franchise-submission.api.model';
+export { PartnerInquiryApiModel, PartnerInquiryInvestmentRange, PartnerInquiryLocationReadiness, PartnerInquiryTimeline } from './partner-inquiry.api.model';
 export { SettlementApiModel } from './settlement.api.model';
 //# sourceMappingURL=index.d.ts.map
