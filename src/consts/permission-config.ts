@@ -814,6 +814,14 @@ export const permissionConfig = {
     'LIST_BUSINESS_UNIT_INVOICE': {
         key: 'LIST_BUSINESS_UNIT_INVOICE',
         formattedPermission: 'Can View Business Unit Invoice List',
+    },
+    'LIST_PARTNER_INQUIRIES': {
+        key: 'LIST_PARTNER_INQUIRIES',
+        formattedPermission: 'Can View Partner Inquiry List',
+    },
+    'VIEW_PARTNER_INQUIRY': {
+        key: 'VIEW_PARTNER_INQUIRY',
+        formattedPermission: 'Can View Partner Inquiry',
     }
 }
 
