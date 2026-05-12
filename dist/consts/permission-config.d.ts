@@ -815,6 +815,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_PARTNER_INQUIRIES: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_PARTNER_INQUIRY: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {
