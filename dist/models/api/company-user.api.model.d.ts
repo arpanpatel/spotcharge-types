@@ -1,12 +1,12 @@
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
-import { CompanyUserStatus } from "../../enum";
+import { UserRoleStatus } from "../../enum";
 export interface CompanyUserApiModel {
     id: string;
     companyId: string;
     userId: string;
     timeZone: string;
-    status: CompanyUserStatus;
+    status: UserRoleStatus;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
     deletedBy: CreatedByModel | null;

@@ -41,7 +41,9 @@ export { RefundDestination } from './refund-destination.enum';
 export { TariffScope } from './tariff-scope.enum';
 export { CompanyType } from './company-type.enum';
 export { CompanyStatus } from './company-status.enum';
+/** @deprecated Use UserRoleStatus instead */
 export { CompanyUserStatus } from './company-user-status.enum';
+export { UserRoleStatus } from './user-role-status.enum';
 export { FranchiseBusinessType } from './franchise-business-type.enum';
 export { BusinessOwnership } from './business-ownership.enum';
 export { BusinessOperation } from './business-operation.enum';
