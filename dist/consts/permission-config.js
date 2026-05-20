@@ -62,6 +62,14 @@ exports.permissionConfig = {
         key: 'LIST_FLEETS',
         formattedPermission: 'Can View Fleet List',
     },
+    'VIEW_FLEET': {
+        key: 'VIEW_FLEET',
+        formattedPermission: 'Can View Fleet',
+    },
+    'MANAGE_FLEET_STATIONS': {
+        key: 'MANAGE_FLEET_STATIONS',
+        formattedPermission: 'Can Manage Fleet Stations',
+    },
     'ADD_FLEET': {
         key: 'ADD_FLEET',
         formattedPermission: 'Can Add Fleet',
@@ -77,6 +85,14 @@ exports.permissionConfig = {
     'LIST_FLEET_USERS': {
         key: 'LIST_FLEET_USERS',
         formattedPermission: 'Can View Fleet User List',
+    },
+    'VIEW_FLEET_USER': {
+        key: 'VIEW_FLEET_USER',
+        formattedPermission: 'Can View Fleet User',
+    },
+    'MANAGE_FLEET_USER_FLEETS': {
+        key: 'MANAGE_FLEET_USER_FLEETS',
+        formattedPermission: 'Can Manage Fleet User Fleets',
     },
     'ADD_FLEET_USER': {
         key: 'ADD_FLEET_USER',
@@ -789,6 +805,10 @@ exports.permissionConfig = {
     'VIEW_COMPANY_USER': {
         key: 'VIEW_COMPANY_USER',
         formattedPermission: 'Can View Company User',
+    },
+    'MANAGE_COMPANY_USER_ACCESS': {
+        key: 'MANAGE_COMPANY_USER_ACCESS',
+        formattedPermission: 'Can Manage Company User Access',
     },
     'EDIT_COMPANY_USER': {
         key: 'EDIT_COMPANY_USER',

@@ -59,6 +59,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    VIEW_FLEET: {
+        key: string;
+        formattedPermission: string;
+    };
+    MANAGE_FLEET_STATIONS: {
+        key: string;
+        formattedPermission: string;
+    };
     ADD_FLEET: {
         key: string;
         formattedPermission: string;
@@ -72,6 +80,14 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     LIST_FLEET_USERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_FLEET_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    MANAGE_FLEET_USER_FLEETS: {
         key: string;
         formattedPermission: string;
     };
@@ -784,6 +800,10 @@ export declare const permissionConfig: {
         formattedPermission: string;
     };
     VIEW_COMPANY_USER: {
+        key: string;
+        formattedPermission: string;
+    };
+    MANAGE_COMPANY_USER_ACCESS: {
         key: string;
         formattedPermission: string;
     };
