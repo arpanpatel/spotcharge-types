@@ -13,6 +13,10 @@ export interface SettlementApiModel {
     platformAmount: number;
     clientAmount: number;
     invoiceCount: number;
+    partnerHasGst?: boolean;
+    gstOnPartnerShare?: number;
+    totalPayableToPartner?: number;
+    spotchargeGstPayable?: number;
     status: SettlementStatus;
     paidAmount: number;
     paymentReference?: string;
