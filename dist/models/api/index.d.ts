@@ -54,4 +54,5 @@ export { CompanyUserEntityAccessApiModel } from './company-user-entity-access.ap
 export { ContactSubmissionApiModel } from './contact-submission.api.model';
 export { PartnerInquiryApiModel, PartnerInquiryInvestmentRange, PartnerInquiryLocationReadiness, PartnerInquiryTimeline } from './partner-inquiry.api.model';
 export { SettlementApiModel } from './settlement.api.model';
+export { UserFavoriteStationApiModel } from './user-favorite-station.api.model';
 //# sourceMappingURL=index.d.ts.map

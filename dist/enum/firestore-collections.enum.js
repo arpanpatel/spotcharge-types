@@ -62,5 +62,6 @@ var Collection;
     Collection["ContactSubmissions"] = "contactSubmissions";
     Collection["PartnerInquiries"] = "partnerInquiries";
     Collection["Settlements"] = "settlements";
+    Collection["UserFavoriteStations"] = "userFavoriteStations";
 })(Collection = exports.Collection || (exports.Collection = {}));
 //# sourceMappingURL=firestore-collections.enum.js.map
