@@ -5,6 +5,7 @@ export interface ContactSubmissionApiModel {
     firstName: string;
     lastName: string;
     email: string;
+    phoneNumber?: string;
     message: string;
     source: string;
     status: string;
