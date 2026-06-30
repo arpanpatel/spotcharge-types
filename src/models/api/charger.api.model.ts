@@ -14,23 +14,15 @@ export interface ChargerApiModel {
     chargerId: string;
     chargerPhysicalState: string;
     chargerOperationalState: string;
-    isCmsV2: boolean;
     type: ChargerType;
-    pointType: PointType;
     location: AddressApiModel;
     connectors: Record<string, ConnectorModel>;
     gst: GstModel;
     protocol: string;
-    // @deprecated: remove in future
-    chargerLocationType: ChargerLocationType;
-    // @deprecated: remove in future
-    chargerVisibility: ChargerLocationType[];
-    allowedModes?: ChargerAllowedMode[];
+    allowedModes: ChargerAllowedMode[];
     accessNote?: string;
     purchaseRate: number;
-    active: boolean;
     isServiceChargeApplicable: boolean;
-    maintenanceMode: boolean;
     vendor: VendorModel;
     status: ChargerStatus;
     createdBy: CreatedByModel;
