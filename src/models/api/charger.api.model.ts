@@ -12,6 +12,7 @@ export interface ChargerApiModel {
     stationId: string;
     name: string;
     chargerId: string;
+    connectorCount: number;
     chargerPhysicalState: string;
     chargerOperationalState: string;
     type: ChargerType;
