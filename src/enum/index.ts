@@ -56,3 +56,4 @@ export {CompanyUserEntityAccessStatus} from './company-user-entity-access-status
 export {ChargerPhysicalState} from './charger-physical-state.enum';
 export {ChargerOperationalState} from './charger-operational-state.enum';
 export {SettlementStatus} from './settlement-status.enum';
+export {StationSearchSource} from './station-search-source.enum';

@@ -1,6 +1,7 @@
 import {AddressApiModel} from "./address.api.model";
 import {StationAmenities} from "./station.api.model";
 import {GstModel} from "./gst-record-api.model";
+import { StationSearchSource } from "../../enum";
 
 /**
  * Meilisearch document format for Station search index
@@ -24,16 +25,15 @@ export interface StationSearchApiModel {
     companyId?: string | null;
     /**
      * Origin of the station document.
-     * - 'owned': a SpotCharge-operated station (default).
-     * - 'ocpi': a partner CPO location mirrored via OCPI roaming.
+     * - StationSearchSource.Owned: SpotCharge-operated station (default).
+     * - StationSearchSource.Ocpi: partner CPO location mirrored via OCPI roaming.
      */
     source?: StationSearchSource;
     /** True when this is a roaming (partner) location. */
     isRoaming?: boolean;
-    /** Owning CPO party id (OCPI), present only when source = 'ocpi'. */
+    /** Owning CPO party id (OCPI), present only when source = ocpi. */
     ownerPartyId?: string | null;
-    /** Owning CPO country code (OCPI), present only when source = 'ocpi'. */
+    /** Owning CPO country code (OCPI), present only when source = ocpi. */
     ownerCountryCode?: string | null;
 }
 
-export type StationSearchSource = 'owned' | 'ocpi';
