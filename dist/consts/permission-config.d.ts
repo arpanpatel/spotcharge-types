@@ -843,6 +843,50 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_OCPI_PARTNERS: {
+        key: string;
+        formattedPermission: string;
+    };
+    REGISTER_OCPI_PARTNER_OUTBOUND: {
+        key: string;
+        formattedPermission: string;
+    };
+    REGISTER_OCPI_PARTNER_INBOUND: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_OCPI_PARTNER: {
+        key: string;
+        formattedPermission: string;
+    };
+    UNREGISTER_OCPI_PARTNER: {
+        key: string;
+        formattedPermission: string;
+    };
+    PULL_OCPI_PARTNER_LOCATION: {
+        key: string;
+        formattedPermission: string;
+    };
+    PULL_OCPI_PARTNER_TARIFF: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_OCPI_PARTNER_LOCATIONS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_OCPI_PARTNER_LOCATION: {
+        key: string;
+        formattedPermission: string;
+    };
+    LIST_OCPI_PARTNER_TARIFFS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_OCPI_PARTNER_TARIFF: {
+        key: string;
+        formattedPermission: string;
+    };
 };
 export type PermissionKeys = keyof typeof permissionConfig;
 export type Permission = typeof permissionConfig[PermissionKeys] & {

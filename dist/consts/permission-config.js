@@ -845,6 +845,50 @@ exports.permissionConfig = {
     'VIEW_PARTNER_INQUIRY': {
         key: 'VIEW_PARTNER_INQUIRY',
         formattedPermission: 'Can View Partner Inquiry',
+    },
+    'LIST_OCPI_PARTNERS': {
+        key: 'LIST_OCPI_PARTNERS',
+        formattedPermission: 'Can View OCPI Partners List',
+    },
+    'REGISTER_OCPI_PARTNER_OUTBOUND': {
+        key: 'REGISTER_OCPI_PARTNER_OUTBOUND',
+        formattedPermission: 'Can Register OCPI Partner Outbound',
+    },
+    'REGISTER_OCPI_PARTNER_INBOUND': {
+        key: 'REGISTER_OCPI_PARTNER_INBOUND',
+        formattedPermission: 'Can Register OCPI Partner Inbound',
+    },
+    'VIEW_OCPI_PARTNER': {
+        key: 'VIEW_OCPI_PARTNER',
+        formattedPermission: 'Can View OCPI Partner',
+    },
+    'UNREGISTER_OCPI_PARTNER': {
+        key: 'UNREGISTER_OCPI_PARTNER',
+        formattedPermission: 'Can Unregister OCPI Partner',
+    },
+    'PULL_OCPI_PARTNER_LOCATION': {
+        key: 'PULL_OCPI_PARTNER_LOCATION',
+        formattedPermission: 'Can Pull OCPI Partner Location',
+    },
+    'PULL_OCPI_PARTNER_TARIFF': {
+        key: 'PULL_OCPI_PARTNER_TARIFF',
+        formattedPermission: 'Can Pull OCPI Partner Tariff',
+    },
+    'LIST_OCPI_PARTNER_LOCATIONS': {
+        key: 'LIST_OCPI_PARTNER_LOCATIONS',
+        formattedPermission: 'Can View OCPI Partner Locations List'
+    },
+    'VIEW_OCPI_PARTNER_LOCATION': {
+        key: 'VIEW_OCPI_PARTNER_LOCATION',
+        formattedPermission: 'Can View OCPI Partner Location'
+    },
+    'LIST_OCPI_PARTNER_TARIFFS': {
+        key: 'LIST_OCPI_PARTNER_TARIFFS',
+        formattedPermission: 'Can View OCPI Partner Tariffs List'
+    },
+    'VIEW_OCPI_PARTNER_TARIFF': {
+        key: 'VIEW_OCPI_PARTNER_TARIFF',
+        formattedPermission: 'Can View OCPI Partner Tariff'
     }
 };
 //# sourceMappingURL=permission-config.js.map
