@@ -1,4 +1,4 @@
-import {ChargerAllowedMode, ChargerLocationType, ChargerStatus, ChargerType, PointType} from "../../enum";
+import {ChargerAllowedMode, ChargerOperationalState, ChargerPhysicalState, ChargerStatus, ChargerType, PointType} from "../../enum";
 import {AddressApiModel} from "./address.api.model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
@@ -13,8 +13,8 @@ export interface ChargerApiModel {
     name: string;
     chargerId: string;
     connectorCount: number;
-    chargerPhysicalState: string;
-    chargerOperationalState: string;
+    chargerPhysicalState: ChargerPhysicalState;
+    chargerOperationalState: ChargerOperationalState;
     type: ChargerType;
     location: AddressApiModel;
     connectors: Record<string, ConnectorModel>;
