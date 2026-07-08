@@ -42,6 +42,7 @@ export {
   OcpiRoamingPartnerTariffApiModel,
   OcpiRoamingConnectorApiModel,
   OcpiRoamingEvseApiModel,
+  OcpiRoamingImageApiModel,
 } from './ocpi-roaming-location-detail.api.model';
 export {FleetVehicleSearchApiModel} from './fleet-vehicle-search.api.model';
 export {ApiConsumerApiModel} from './api-consumer.api.model';

@@ -30,9 +30,20 @@ export interface OcpiRoamingEvseApiModel {
   connectors?: OcpiRoamingConnectorApiModel[];
 }
 
+/** Minimal OCPI image shape from partner location raw payload. */
+export interface OcpiRoamingImageApiModel {
+  url: string;
+  thumbnail?: string;
+  category?: string;
+  type?: string;
+}
+
 export interface OcpiRoamingLocationRawApiModel {
   evses?: OcpiRoamingEvseApiModel[];
   operator?: { name?: string };
+  images?: OcpiRoamingImageApiModel[];
+  facilities?: string[];
+  coordinates?: { latitude: string; longitude: string };
 }
 
 export interface OcpiRoamingLocationApiModel {

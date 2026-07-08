@@ -35,7 +35,7 @@ export { ChargerReportApiModel } from './charger-report.api.model';
 export { StationApiModel, StationChargerCounts, StationAmenities, StationPhotoModel } from './station.api.model';
 export { StationSearchApiModel } from './station-search.api.model';
 export { StationSearchSource } from '../../enum';
-export { OcpiRoamingLocationDetailApiModel, OcpiRoamingLocationDetailResponseApiModel, OcpiRoamingLocationApiModel, OcpiRoamingPartnerTariffApiModel, OcpiRoamingConnectorApiModel, OcpiRoamingEvseApiModel, } from './ocpi-roaming-location-detail.api.model';
+export { OcpiRoamingLocationDetailApiModel, OcpiRoamingLocationDetailResponseApiModel, OcpiRoamingLocationApiModel, OcpiRoamingPartnerTariffApiModel, OcpiRoamingConnectorApiModel, OcpiRoamingEvseApiModel, OcpiRoamingImageApiModel, } from './ocpi-roaming-location-detail.api.model';
 export { FleetVehicleSearchApiModel } from './fleet-vehicle-search.api.model';
 export { ApiConsumerApiModel } from './api-consumer.api.model';
 export { ConnectorApiModel } from './connector.api.model';
