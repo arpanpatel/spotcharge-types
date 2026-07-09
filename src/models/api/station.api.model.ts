@@ -1,7 +1,7 @@
 import {AddressApiModel} from "./address.api.model";
 import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
-import {StationAccessCapability, StationStatus} from "../../enum";
+import {StationAccessCapability, StationFacility, StationStatus} from "../../enum";
 import { GstModel } from "./gst-record-api.model";
 
 export interface StationPhotoModel {
@@ -28,6 +28,7 @@ export interface StationApiModel {
       access: StationAccessCapability[];
     };
     amenities: StationAmenities;
+    facilities: StationFacility[];
     photos: StationPhotoModel[];
 
     /* ---------- CHARGER COUNTS (DERIVED, REQUIRED) ---------- */
