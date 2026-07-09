@@ -65,6 +65,7 @@ export interface BookingApiModel {
     convertedFromRazorpay?: boolean;
     resolvedTariff?: ResolvedTariff;
     stationId?: string | null;
+    stationAddress: string | null;
     businessUnitId?: string | null;
     companyId?: string | null;
 }
