@@ -70,6 +70,7 @@ export interface BookingApiModel {
   convertedFromRazorpay?: boolean; // True if booking was converted from Razorpay to wallet payment
   resolvedTariff?: ResolvedTariff;
   stationId?: string | null;
+  stationAddress: string | null;
   businessUnitId?: string | null;
   companyId?: string | null;
 }
