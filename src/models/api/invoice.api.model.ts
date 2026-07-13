@@ -26,9 +26,8 @@ export interface InvoiceApiModel {
     stationId: string; // this is the doc id of the station in the stations collection,
     chargerName: string;
     stationName: string | null; // Station name at time of invoice creation (for legal compliance)
-    stationAddress: string | null; // Station address at time of invoice creation (for legal compliance)
+    stationAddress: string; // Station address at time of invoice creation (for legal compliance)
     initialBatteryPercentage?: number;
-    chargerAddress: AddressApiModel;
     chargerState: StateModel;
     gst: GstModel;
     customerName: string;

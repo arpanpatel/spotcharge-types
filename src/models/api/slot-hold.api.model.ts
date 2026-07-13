@@ -24,6 +24,8 @@ export interface SlotHoldApiModel {
     address: string;
     pointType: PointType;
   };
+  stationId: string;
+  stationAddress: string;
   connectorNo: number;
   connectorType?: ConnectorTypeModel;
   unit: number;
