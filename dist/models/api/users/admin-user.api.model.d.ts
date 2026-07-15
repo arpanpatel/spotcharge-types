@@ -49,4 +49,13 @@ export interface UpdateAdminUserRequest {
     isOwner?: boolean;
     timezone?: string;
 }
+/** POST /api/users/admin-users response */
+export interface CreateAdminUserResponse {
+    profileId: string;
+    firebaseUid: string;
+    assignmentId: string;
+    isNewUser: boolean;
+    temporaryPassword?: string;
+    email: string;
+}
 //# sourceMappingURL=admin-user.api.model.d.ts.map
