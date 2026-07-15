@@ -20,5 +20,14 @@ export interface PermissionGroupDetailApiModel extends PermissionGroupListItemAp
 export interface UpdatePermissionGroupRequest {
     name?: string;
     order?: number;
+    /** Replaces permissions assigned to this group (keys must exist in catalog). */
+    permissionKeys?: string[];
+}
+/** POST /api/users/permission-groups */
+export interface CreatePermissionGroupRequest {
+    name: string;
+    order?: number;
+    /** Permission keys to assign to the new group (must not belong to another group). */
+    permissionKeys?: string[];
 }
 //# sourceMappingURL=permission-group.api.model.d.ts.map
