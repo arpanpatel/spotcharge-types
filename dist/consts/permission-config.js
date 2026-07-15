@@ -147,7 +147,7 @@ exports.permissionConfig = {
         formattedPermission: 'Can View Charger Error',
     },
     'DOWNLOAD_CHARGER_ERROR_LOG': {
-        key: 'DOWNLOAD_CHARGER_ERROR',
+        key: 'DOWNLOAD_CHARGER_ERROR_LOG',
         formattedPermission: 'Can Download Charger Error Log',
     },
     'LIST_FLEET_ORDER_SCHEDULES': {
