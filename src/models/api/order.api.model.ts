@@ -11,6 +11,8 @@ export interface OrderApiModel {
     id: string;
     chargerId: string;
     chargerName: string;
+    stationId: string;
+    stationName: string;
     startTime: Timestamp;
     endTime: Timestamp;
     chargingDate: Timestamp;

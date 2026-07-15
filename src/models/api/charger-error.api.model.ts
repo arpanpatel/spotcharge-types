@@ -11,7 +11,6 @@ export interface ChargerErrorApiModel {
     connectorId: number;
     chargerId: string;
     chargerName: string;
-    chargerLocation: AddressApiModel;
     status: string;
     source: EntityType;
     appType: AppType,
