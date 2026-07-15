@@ -58,3 +58,4 @@ export {ChargerOperationalState} from './charger-operational-state.enum';
 export {SettlementStatus} from './settlement-status.enum';
 export {StationSearchSource} from './station-search-source.enum';
 export {StationFacility} from './station-facility.enum';
+export {StationAccessType} from './station-access-type.enum';
