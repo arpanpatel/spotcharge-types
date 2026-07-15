@@ -1,7 +1,7 @@
 import { AddressApiModel } from "./address.api.model";
 import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
-import { StationAccessCapability, StationFacility, StationStatus } from "../../enum";
+import { StationAccessCapability, StationAccessType, StationFacility, StationStatus } from "../../enum";
 import { GstModel } from "./gst-record-api.model";
 export interface StationPhotoModel {
     imageUrl: string;
@@ -24,6 +24,7 @@ export interface StationApiModel {
     capabilities: {
         access: StationAccessCapability[];
     };
+    accessType: StationAccessType[];
     amenities: StationAmenities;
     facilities: StationFacility[];
     photos: StationPhotoModel[];

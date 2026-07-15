@@ -2,7 +2,6 @@ import { Timestamp } from "../timestamp";
 import { AppType, EntityType } from "../../enum";
 import { VendorModel } from "../vendor.model";
 import { CreatedByModel } from "../created-by.model";
-import { AddressApiModel } from "./address.api.model";
 export interface ChargerErrorApiModel {
     id: string;
     payload: ErrorPayload;
@@ -10,7 +9,6 @@ export interface ChargerErrorApiModel {
     connectorId: number;
     chargerId: string;
     chargerName: string;
-    chargerLocation: AddressApiModel;
     status: string;
     source: EntityType;
     appType: AppType;

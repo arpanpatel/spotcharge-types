@@ -1,7 +1,7 @@
 import { AddressApiModel } from "./address.api.model";
 import { StationAmenities } from "./station.api.model";
 import { GstModel } from "./gst-record-api.model";
-import { StationFacility, StationSearchSource } from "../../enum";
+import { StationAccessType, StationFacility, StationSearchSource } from "../../enum";
 /**
  * Meilisearch document format for Station search index
  */
@@ -14,6 +14,7 @@ export interface StationSearchApiModel {
     amenities?: StationAmenities;
     /** OCPI-aligned nearby facilities (e.g. HOTEL, RESTAURANT, PARKING_LOT). */
     facilities?: StationFacility[];
+    accessType?: StationAccessType[];
     gst?: GstModel | null;
     _geo?: {
         lat: number;

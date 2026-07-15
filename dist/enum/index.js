@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PricingControl = exports.RevenueModel = exports.BusinessOperation = exports.BusinessOwnership = exports.FranchiseBusinessType = exports.UserRoleStatus = exports.CompanyUserStatus = exports.CompanyStatus = exports.CompanyType = exports.TariffScope = exports.RefundDestination = exports.RefundReason = exports.RefundStatus = exports.PaymentTransactionStatus = exports.PaymentProvider = exports.PaymentEntityType = exports.ApiErrorCode = exports.FleetStationVisibilityStatus = exports.FranchiseStationAccessStatus = exports.OrderStopSourceEnum = exports.StationAccessCapability = exports.ChargerAllowedMode = exports.StationStatus = exports.OrderStopReason = exports.GstType = exports.TaxCategory = exports.SupportQueriesStatus = exports.AppType = exports.TimeUnit = exports.PaymentMethod = exports.BookingStatus = exports.TransactionReason = exports.TransactionType = exports.PaymentStatus = exports.EntityType = exports.VehicleType = exports.OrderType = exports.OrderState = exports.ConnectorType = exports.ConnectorStatus = exports.ChargerStatus = exports.CapacityUnit = exports.Roles = exports.PointType = exports.ChargerLocationType = exports.ChargerType = exports.ColorTheme = exports.FranchiseType = exports.FirebaseProviderType = exports.Collection = void 0;
-exports.StationFacility = exports.StationSearchSource = exports.SettlementStatus = exports.ChargerOperationalState = exports.ChargerPhysicalState = exports.CompanyUserEntityAccessStatus = exports.CompanyUserEntityRole = exports.FranchiseStatus = exports.RevenueContractType = void 0;
+exports.StationAccessType = exports.StationFacility = exports.StationSearchSource = exports.SettlementStatus = exports.ChargerOperationalState = exports.ChargerPhysicalState = exports.CompanyUserEntityAccessStatus = exports.CompanyUserEntityRole = exports.FranchiseStatus = exports.RevenueContractType = void 0;
 var firestore_collections_enum_1 = require("./firestore-collections.enum");
 Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return firestore_collections_enum_1.Collection; } });
 var firebase_provider_type_1 = require("./firebase-provider-type");
@@ -121,4 +121,6 @@ var station_search_source_enum_1 = require("./station-search-source.enum");
 Object.defineProperty(exports, "StationSearchSource", { enumerable: true, get: function () { return station_search_source_enum_1.StationSearchSource; } });
 var station_facility_enum_1 = require("./station-facility.enum");
 Object.defineProperty(exports, "StationFacility", { enumerable: true, get: function () { return station_facility_enum_1.StationFacility; } });
+var station_access_type_enum_1 = require("./station-access-type.enum");
+Object.defineProperty(exports, "StationAccessType", { enumerable: true, get: function () { return station_access_type_enum_1.StationAccessType; } });
 //# sourceMappingURL=index.js.map
