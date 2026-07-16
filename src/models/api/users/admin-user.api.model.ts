@@ -1,8 +1,12 @@
 import { UserRoleStatus } from '../../../enum';
 import { AuditActor } from '../../audit-actor.model';
+import { PhoneNumberModel } from '../../phone-number-model';
 import { AdminRoleRefApiModel, AuditTimestampsApiModel, IsoDateTime } from './shared.api.model';
 
 /** GET /api/users/admin-users */
+export type AdminUserListOrderBy = 'firstName' | 'lastName' | 'email' | 'role' | 'status' | 'createdAt';
+export type ApiSortDirection = 'asc' | 'desc';
+
 export interface AdminUserListItemApiModel {
   /** admin_assignments.id (uuid). */
   id: string;
@@ -17,12 +21,24 @@ export interface AdminUserListItemApiModel {
   status: UserRoleStatus;
   isOwner: boolean;
   createdAt: IsoDateTime;
-  /** Optional Firestore adminUsers doc id during cutover. */
-  legacyFirestoreId?: string;
+}
+
+/** GET /api/users/admin-users — paginated list response */
+export interface AdminUserListApiModel {
+  rows: AdminUserListItemApiModel[];
+  totalCount: number;
+  pageIndex: number;
+  pageSize: number;
+  orderBy: AdminUserListOrderBy;
+  sortDirection: ApiSortDirection;
 }
 
 /** GET /api/users/admin-users/:id */
-export interface AdminUserDetailApiModel extends AdminUserListItemApiModel, AuditTimestampsApiModel {
+export interface AdminUserDetailApiModel
+  extends Omit<AdminUserListItemApiModel, 'phoneNumber'>,
+    AuditTimestampsApiModel {
+  phoneNumber?: PhoneNumberModel | null;
+  phoneNumberDisplay?: string;
   displayName?: string;
   timezone?: string;
   isDeleted: boolean;

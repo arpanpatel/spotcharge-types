@@ -1,7 +1,6 @@
-import { Roles } from "../enum";
 export interface RoleDescriptor {
-    title: string;
-    value: Roles;
     id: string;
+    title: string;
+    isFullAccess: boolean;
 }
 //# sourceMappingURL=role-descriptor.model.d.ts.map

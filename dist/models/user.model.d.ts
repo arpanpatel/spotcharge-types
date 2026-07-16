@@ -1,12 +1,12 @@
 import { FranchiseModel } from './franchise.model';
 import { CountryModel } from './country.model';
-import { UserRoleApiModel } from './api';
 import { FirebaseProviderType, VehicleType } from '../enum';
 import { PhoneNumberModel } from './phone-number-model';
 import { Timestamp } from "./timestamp";
 import { CreatedByModel } from "./created-by.model";
 import { PermissionKeys } from "../consts";
 import { UserRolePermission } from "./user-role-permission";
+import { UserRoleApiModel } from './api';
 export interface UserModel {
     id: string;
     userId: string;

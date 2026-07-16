@@ -6,7 +6,9 @@ export interface PermissionGroupListItemApiModel {
     id: string;
     name: string;
     order: number;
-    legacyFirestoreId?: string;
+    permissionCount: number;
+    /** True for the system uncategorized catch-all group. */
+    isUncategorized?: boolean;
 }
 /** GET /api/users/permission-groups/:id */
 export interface PermissionGroupDetailApiModel extends PermissionGroupListItemApiModel, AuditTimestampsApiModel {

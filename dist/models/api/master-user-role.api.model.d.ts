@@ -6,7 +6,7 @@ import { UserRolePermission } from "../user-role-permission";
 export interface MasterUserRoleApiModel {
     id: string;
     title: string;
-    value: string;
+    isFullAccess: boolean;
     permissions: Record<PermissionKeys, UserRolePermission> | null;
     isDefault?: boolean;
     createdBy: CreatedByModel;

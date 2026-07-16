@@ -6,8 +6,6 @@ export interface AdminRoleRefApiModel {
   id: string;
   title: string;
   isFullAccess: boolean;
-  /** Optional Firestore doc id during frontend cutover. */
-  legacyFirestoreId?: string;
 }
 
 export interface AuditTimestampsApiModel {

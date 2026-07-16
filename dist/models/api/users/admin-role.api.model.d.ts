@@ -11,7 +11,6 @@ export interface AdminRoleListItemApiModel {
     isDefault: boolean;
     isFullAccess: boolean;
     createdAt: IsoDateTime;
-    legacyFirestoreId?: string;
 }
 /** GET /api/users/admin-roles/:id */
 export interface AdminRoleDetailApiModel extends AdminRoleListItemApiModel, AuditTimestampsApiModel {

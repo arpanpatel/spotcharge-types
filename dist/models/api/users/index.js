@@ -19,4 +19,6 @@ __exportStar(require("./admin-me.api.model"), exports);
 __exportStar(require("./admin-user.api.model"), exports);
 __exportStar(require("./admin-role.api.model"), exports);
 __exportStar(require("./permission-group.api.model"), exports);
+__exportStar(require("./permission.api.model"), exports);
+__exportStar(require("./profile.api.model"), exports);
 //# sourceMappingURL=index.js.map
