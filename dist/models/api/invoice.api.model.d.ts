@@ -87,5 +87,6 @@ export interface InvoiceApiModel {
     companyId?: string | null;
     revenueSnapshot?: RevenueSnapshot | null;
     settlementId?: string | null;
+    pendingCompletion?: boolean;
 }
 //# sourceMappingURL=invoice.api.model.d.ts.map

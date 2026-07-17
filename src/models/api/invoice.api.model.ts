@@ -88,4 +88,5 @@ export interface InvoiceApiModel {
     companyId?: string | null;
     revenueSnapshot?: RevenueSnapshot | null;
     settlementId?: string | null;
+    pendingCompletion?: boolean; // This field is used to check if the invoice is pending completion or not
 }
