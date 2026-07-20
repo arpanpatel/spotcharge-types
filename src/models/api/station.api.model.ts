@@ -23,18 +23,18 @@ export interface StationApiModel {
         lat: number;
         lng: number;
     };
-    /* ---------- CAPABILITIES (DERIVED, REQUIRED) ---------- */
-    // @deprecated
-    capabilities: {
+    /** Admin-configured physical access for the station location. */
+    accessType: StationAccessType[];
+    /** @deprecated Use accessType. Removed after all consumers migrate. */
+    capabilities?: {
       access: StationAccessCapability[];
     };
-    accessType: StationAccessType[];
     amenities: StationAmenities;
     facilities: StationFacility[];
     photos: StationPhotoModel[];
 
-    /* ---------- CHARGER COUNTS (DERIVED, REQUIRED) ---------- */
-    chargerCounts: StationChargerCounts;
+    /** @deprecated No longer maintained. Query chargers by stationId when needed. */
+    chargerCounts?: StationChargerCounts;
     status: StationStatus;
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;

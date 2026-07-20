@@ -20,7 +20,8 @@ export interface ChargerApiModel {
     connectors: Record<string, ConnectorModel>;
     gst: GstModel;
     protocol: string;
-    allowedModes: ChargerAllowedMode[];
+    /** @deprecated Access is defined on the parent station via accessType. */
+    allowedModes?: ChargerAllowedMode[];
     accessNote?: string;
     purchaseRate: number;
     isServiceChargeApplicable: boolean;

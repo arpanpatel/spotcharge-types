@@ -20,6 +20,7 @@ export interface StationSearchApiModel {
         lat: number;
         lng: number;
     } | null;
+    /** @deprecated Mirrored from accessType during transition. */
     capabilitiesAccess?: string[];
     createdAt?: number;
     updatedAt?: number;

@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.StationAccessCapability = void 0;
+/** @deprecated Use StationAccessType on the station document instead. */
 var StationAccessCapability;
 (function (StationAccessCapability) {
     StationAccessCapability["Fleet"] = "fleet";
