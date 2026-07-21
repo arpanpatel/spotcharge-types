@@ -66,6 +66,18 @@ export {
   CreateCompanyRequest,
   UpdateCompanyRequest,
 } from './companies/company.api.model';
+export {
+  BusinessUnitAccessApiModel,
+  CompanyUserDetailApiModel,
+  CompanyUserListApiModel,
+  CompanyUserListItemApiModel,
+  CompanyUserListOrderBy,
+  CreateCompanyUserRequest,
+  CreateCompanyUserResponse,
+  GrantBusinessUnitAccessRequest,
+  UpdateBusinessUnitAccessRequest,
+  UpdateCompanyUserRequest,
+} from './companies/company-user.api.model';
 export {CompanyUserApiModel} from './company-user.api.model';
 export {BusinessModelConfig, RevenueConfig} from './franchise-business-model';
 export {CompanyUserEntityAccessApiModel} from './company-user-entity-access.api.model';

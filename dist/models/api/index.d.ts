@@ -51,6 +51,7 @@ export { TariffApiModel } from './tariff.api.model';
 export { TariffAssignmentApiModel } from './tariff-assignment.api.model';
 export { CompanyApiModel } from './company.api.model';
 export { CompanyDetailApiModel, CompanyListApiModel, CompanyListItemApiModel, CompanyListOrderBy, CreateCompanyRequest, UpdateCompanyRequest, } from './companies/company.api.model';
+export { BusinessUnitAccessApiModel, CompanyUserDetailApiModel, CompanyUserListApiModel, CompanyUserListItemApiModel, CompanyUserListOrderBy, CreateCompanyUserRequest, CreateCompanyUserResponse, GrantBusinessUnitAccessRequest, UpdateBusinessUnitAccessRequest, UpdateCompanyUserRequest, } from './companies/company-user.api.model';
 export { CompanyUserApiModel } from './company-user.api.model';
 export { BusinessModelConfig, RevenueConfig } from './franchise-business-model';
 export { CompanyUserEntityAccessApiModel } from './company-user-entity-access.api.model';
