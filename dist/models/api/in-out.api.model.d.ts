@@ -28,6 +28,9 @@ export interface InOutApiModel {
     inOutType: InOutKeys;
     purpose: VehiclePurposeDetailType;
     checklistStatus: VehicleChecklist;
+    stationId: string | null;
+    stationName: string | null;
+    stationCode: string | null;
     previousInOutId?: string;
     isChecklistChanged: boolean;
     missingChecklistItems?: string[];
@@ -61,6 +64,9 @@ export interface LastInOutModel {
     inOutType: InOutKeys;
     purpose: VehiclePurposeDetailType;
     checklistStatus: VehicleChecklist;
+    stationId: string | null;
+    stationName: string | null;
+    stationCode: string | null;
     previousInOutId?: string;
     isChecklistChanged: boolean;
     missingChecklistItems?: string[];
