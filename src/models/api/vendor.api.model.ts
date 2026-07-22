@@ -3,6 +3,7 @@ import {PhoneNumberModel} from "../phone-number-model";
 import {Timestamp} from "../timestamp";
 import {AddressApiModel} from "./address.api.model";
 
+/** @deprecated Firestore document shape. Use VendorDetailApiModel from `./vendors` for Postgres REST API. */
 export interface VendorApiModel {
   id: string;
   name: string;
