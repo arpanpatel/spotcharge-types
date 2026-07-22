@@ -17,7 +17,6 @@ var Collection;
     Collection["ConnectorTypes"] = "connectorTypes";
     Collection["Orders"] = "orders";
     Collection["Rfids"] = "rfids";
-    Collection["FleetInvoices"] = "fleetInvoices";
     Collection["Invoices"] = "invoices";
     Collection["DeleteAccounts"] = "deleteAccounts";
     Collection["PublicUserDeleteAccounts"] = "publicUserDeleteAccounts";

@@ -14,7 +14,6 @@ export enum Collection {
     ConnectorTypes = 'connectorTypes',
     Orders = 'orders',
     Rfids = 'rfids',
-    FleetInvoices = 'fleetInvoices',
     Invoices = 'invoices',
     DeleteAccounts = 'deleteAccounts',
     PublicUserDeleteAccounts = 'publicUserDeleteAccounts',

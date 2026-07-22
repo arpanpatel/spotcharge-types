@@ -29,8 +29,6 @@ export interface FranchiseApiModel {
     chargers: string[];
     address: AddressApiModel;
     // @deprecated — do not use 
-    fleetInvoiceCount: number;
-    // @deprecated — do not use 
     allowedFleetIds?: string[];
     createdBy: CreatedByModel;
     updatedBy: CreatedByModel;
