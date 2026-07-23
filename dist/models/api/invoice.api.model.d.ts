@@ -27,7 +27,10 @@ export interface InvoiceApiModel {
     stationName: string | null;
     stationAddress: string;
     initialBatteryPercentage?: number;
-    chargerState: StateModel;
+    /** Place of supply state from station address at invoice creation. */
+    stationState?: StateModel | null;
+    /** @deprecated Use stationState. Kept for backward compatibility; stores same station state on new invoices. */
+    chargerState?: StateModel | null;
     gst: GstModel;
     customerName: string;
     chargingDate: Timestamp;
