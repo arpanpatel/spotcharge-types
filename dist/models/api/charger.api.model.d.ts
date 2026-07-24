@@ -17,7 +17,8 @@ export interface ChargerApiModel {
     type: ChargerType;
     location: AddressApiModel;
     connectors: Record<string, ConnectorModel>;
-    gst: GstModel;
+    /** @deprecated GST is configured on the parent station. */
+    gst?: GstModel | null;
     protocol: string;
     /** @deprecated Access is defined on the parent station via accessType. */
     allowedModes?: ChargerAllowedMode[];

@@ -1,7 +1,7 @@
 export type TaxType = 'CGST_SGST' | 'IGST';
 /**
  * Tax configuration stored at invoice creation time.
- * Contains tax type and rates determined by comparing charger state with GST record state.
+ * Contains tax type and rates determined by comparing station state with GST record state.
  */
 export interface TaxConfigModel {
     taxType: TaxType;
