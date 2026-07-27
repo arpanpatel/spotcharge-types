@@ -8,6 +8,8 @@ export { FleetChargerApiModel } from './fleet-charger.api.model';
 export { ChargerCapacityApiModel } from './charger-capacity.api.model';
 export { VendorApiModel } from './vendor.api.model';
 export { VendorDetailApiModel, VendorListApiModel, VendorListItemApiModel, VendorListOrderBy, CreateVendorRequest, UpdateVendorRequest, } from './vendors/vendor.api.model';
+export { TaxRateDetailApiModel, TaxRateListApiModel, TaxRateListItemApiModel, TaxRateListOrderBy, TaxRateGroupApiModel, TaxRateGroupComponentApiModel, CreateTaxRateRequest, UpdateTaxRateRequest, } from './tax-rates/tax-rate.api.model';
+export { GstRecordDetailApiModel, GstRecordListApiModel, GstRecordListItemApiModel, GstRecordListOrderBy, GstRecordForTaxResolution, CreateGstRecordRequest, UpdateGstRecordRequest, } from './gst-records/gst-record.api.model';
 export { ConnectorTypeApiModel } from './connector-type.api.model';
 export { RfidApiModel } from './rfid.api.model';
 export { OrderApiModel } from './order.api.model';

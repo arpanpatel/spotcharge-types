@@ -2,6 +2,7 @@ import { CreatedByModel } from "../created-by.model";
 import { Timestamp } from "../timestamp";
 import { EntityType, GstType } from "../../enum";
 import { StateModel } from "./address.api.model";
+/** @deprecated Firestore document shape — use REST `GstRecordDetailApiModel` in app code. */
 export interface GstRecordApiModel {
     id: string;
     gstNumber: string;

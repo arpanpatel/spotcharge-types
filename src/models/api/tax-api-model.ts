@@ -2,6 +2,7 @@ import {CreatedByModel} from "../created-by.model";
 import {Timestamp} from "../timestamp";
 import {EntityType, GstType, TaxCategory} from "../../enum";
 
+/** @deprecated Firestore document shape — use REST `TaxRateDetailApiModel` in app code. */
 export interface TaxApiModel {
     id: string;
     taxes: string[];
