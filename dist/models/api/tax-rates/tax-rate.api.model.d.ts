@@ -12,6 +12,8 @@ export interface TaxRateListItemApiModel {
     percentage: number | null;
     taxSpecificType: GstType;
     createdAt: IsoDateTime;
+    /** Set on list rows when `type` is Group — avoids per-group GET /api/tax-rates/:id. */
+    memberTaxRateIds?: string[];
 }
 /** GET /api/tax-rates — paginated list response */
 export interface TaxRateListApiModel {

@@ -13,6 +13,8 @@ export interface GstRecordListItemApiModel {
   gstNumber: string;
   businessLegalName: string;
   state: StateModel;
+  interTax: TaxRateGroupApiModel;
+  intraTax: TaxRateGroupApiModel;
   createdAt: IsoDateTime;
 }
 
