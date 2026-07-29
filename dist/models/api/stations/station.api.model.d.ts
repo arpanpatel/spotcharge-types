@@ -85,6 +85,20 @@ export interface UpdateStationRequest {
     companyId?: string | null;
     businessUnitId?: string | null;
 }
+/** POST/DELETE /api/admin/stations/:stationId/chargers */
+export interface StationChargersRequest {
+    chargerIds: string[];
+}
+export interface AssignStationChargersResponse {
+    success: true;
+    message: string;
+    assignedChargerIds: string[];
+}
+export interface RemoveStationChargersResponse {
+    success: true;
+    message: string;
+    removedChargerIds: string[];
+}
 /** POST /api/admin/stations — created ids. */
 export interface CreateStationResponse {
     id: string;

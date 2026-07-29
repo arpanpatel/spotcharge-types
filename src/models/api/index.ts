@@ -69,6 +69,9 @@ export {
   CreateStationRequest,
   UpdateStationRequest,
   CreateStationResponse,
+  StationChargersRequest,
+  AssignStationChargersResponse,
+  RemoveStationChargersResponse,
 } from './stations/station.api.model';
 export {StationApiModel, StationChargerCounts, StationAmenities, StationPhotoModel} from './station.api.model';
 export {StationSearchApiModel} from './station-search.api.model';
