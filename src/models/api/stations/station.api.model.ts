@@ -40,6 +40,7 @@ export interface StationListItemApiModel {
   stationCode: string;
   name: string;
   status: StationStatus;
+  accessType: StationAccessType[];
   createdAt: IsoDateTime;
 }
 
