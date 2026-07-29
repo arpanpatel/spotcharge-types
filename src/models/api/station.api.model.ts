@@ -9,6 +9,7 @@ export interface StationPhotoModel {
     isFeatured: boolean;
 }
 
+/** @deprecated Firestore document shape — use REST station API models in app code. */
 export interface StationApiModel {
     id: string;
     stationCode: string;
