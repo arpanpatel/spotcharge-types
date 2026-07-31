@@ -63,5 +63,6 @@ export { PartnerInquiryApiModel, PartnerInquiryInvestmentRange, PartnerInquiryLo
 export { SettlementApiModel } from './settlement.api.model';
 export { UserFavoriteStationApiModel } from './user-favorite-station.api.model';
 export { PartnerMeApiModel, PartnerProfileApiModel, PartnerCompanyUserApiModel, PartnerCompanySummaryApiModel, PARTNER_BUSINESS_UNIT_ACCESS_HEADER, PartnerStationListItemApiModel, PartnerStationDetailApiModel, } from './partner';
+export { FLEET_ID_HEADER, FleetStationListItemApiModel, FleetStationDetailApiModel, } from './fleet';
 export * from './users';
 //# sourceMappingURL=index.d.ts.map

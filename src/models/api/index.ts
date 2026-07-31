@@ -135,4 +135,9 @@ export {
   PartnerStationListItemApiModel,
   PartnerStationDetailApiModel,
 } from './partner';
+export {
+  FLEET_ID_HEADER,
+  FleetStationListItemApiModel,
+  FleetStationDetailApiModel,
+} from './fleet';
 export * from './users';

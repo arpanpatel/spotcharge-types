@@ -14,7 +14,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PARTNER_BUSINESS_UNIT_ACCESS_HEADER = exports.PartnerInquiryTimeline = exports.PartnerInquiryLocationReadiness = exports.PartnerInquiryInvestmentRange = exports.StationSearchSource = void 0;
+exports.FLEET_ID_HEADER = exports.PARTNER_BUSINESS_UNIT_ACCESS_HEADER = exports.PartnerInquiryTimeline = exports.PartnerInquiryLocationReadiness = exports.PartnerInquiryInvestmentRange = exports.StationSearchSource = void 0;
 var enum_1 = require("../../enum");
 Object.defineProperty(exports, "StationSearchSource", { enumerable: true, get: function () { return enum_1.StationSearchSource; } });
 var partner_inquiry_api_model_1 = require("./partner-inquiry.api.model");
@@ -23,5 +23,7 @@ Object.defineProperty(exports, "PartnerInquiryLocationReadiness", { enumerable: 
 Object.defineProperty(exports, "PartnerInquiryTimeline", { enumerable: true, get: function () { return partner_inquiry_api_model_1.PartnerInquiryTimeline; } });
 var partner_1 = require("./partner");
 Object.defineProperty(exports, "PARTNER_BUSINESS_UNIT_ACCESS_HEADER", { enumerable: true, get: function () { return partner_1.PARTNER_BUSINESS_UNIT_ACCESS_HEADER; } });
+var fleet_1 = require("./fleet");
+Object.defineProperty(exports, "FLEET_ID_HEADER", { enumerable: true, get: function () { return fleet_1.FLEET_ID_HEADER; } });
 __exportStar(require("./users"), exports);
 //# sourceMappingURL=index.js.map
