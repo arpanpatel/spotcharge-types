@@ -15,8 +15,12 @@ export interface StationGstSummaryApiModel {
 
 /** GET /api/stations/:stationId — consumer detail display. */
 export interface StationPublicDetailApiModel {
-  /** legacy_firestore_id in JSON (phase 1); path param also accepts Postgres station UUID. */
+  /** legacy_firestore_id in JSON (phase 1); becomes Postgres UUID at phase-2 cutover. Path param accepts UUID or legacy id. */
   id: string;
+  /** Postgres `infrastructure.stations.id` (UUID). Canonical identifier after phase-2 cutover. */
+  uuid: string;
+  /** Explicit legacy Firestore document id (same as `id` until phase-2 cutover). */
+  legacyFirestoreId: string;
   stationCode: string;
   name: string;
   status: StationStatus;
@@ -36,7 +40,12 @@ export type StationListOrderBy = 'name' | 'stationCode' | 'createdAt' | 'status'
 
 /** GET /api/admin/stations — list row. */
 export interface StationListItemApiModel {
+  /** legacy_firestore_id (phase 1); becomes Postgres UUID at phase-2 cutover. */
   id: string;
+  /** Postgres `infrastructure.stations.id` (UUID). */
+  uuid: string;
+  /** Explicit legacy Firestore document id (same as `id` until phase-2 cutover). */
+  legacyFirestoreId: string;
   stationCode: string;
   name: string;
   status: StationStatus;
@@ -116,6 +125,11 @@ export interface RemoveStationChargersResponse {
 
 /** POST /api/admin/stations — created ids. */
 export interface CreateStationResponse {
+  /** legacy_firestore_id (phase 1); becomes Postgres UUID at phase-2 cutover. */
   id: string;
+  /** Postgres `infrastructure.stations.id` (UUID). */
+  uuid: string;
+  /** Explicit legacy Firestore document id (same as `id` until phase-2 cutover). */
+  legacyFirestoreId: string;
   stationCode: string;
 }
