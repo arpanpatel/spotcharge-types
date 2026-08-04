@@ -843,6 +843,14 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_CHANNEL_PARTNER_APPLICATIONS: {
+        key: string;
+        formattedPermission: string;
+    };
+    VIEW_CHANNEL_PARTNER_APPLICATION: {
+        key: string;
+        formattedPermission: string;
+    };
     LIST_OCPI_PARTNERS: {
         key: string;
         formattedPermission: string;

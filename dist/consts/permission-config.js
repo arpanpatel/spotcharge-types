@@ -846,6 +846,14 @@ exports.permissionConfig = {
         key: 'VIEW_PARTNER_INQUIRY',
         formattedPermission: 'Can View Partner Inquiry',
     },
+    'LIST_CHANNEL_PARTNER_APPLICATIONS': {
+        key: 'LIST_CHANNEL_PARTNER_APPLICATIONS',
+        formattedPermission: 'Can View Channel Partner Application List',
+    },
+    'VIEW_CHANNEL_PARTNER_APPLICATION': {
+        key: 'VIEW_CHANNEL_PARTNER_APPLICATION',
+        formattedPermission: 'Can View Channel Partner Application',
+    },
     'LIST_OCPI_PARTNERS': {
         key: 'LIST_OCPI_PARTNERS',
         formattedPermission: 'Can View OCPI Partners List',

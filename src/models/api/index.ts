@@ -131,6 +131,21 @@ export {
   UpdateContactSubmissionRequest,
 } from './contact-submissions/contact-submission.api.model';
 export {PartnerInquiryApiModel, PartnerInquiryInvestmentRange, PartnerInquiryLocationReadiness, PartnerInquiryTimeline} from './partner-inquiry.api.model';
+export {
+  ChannelPartnerApplicationDetailApiModel,
+  ChannelPartnerApplicationListApiModel,
+  ChannelPartnerApplicationListItemApiModel,
+  ChannelPartnerApplicationListOrderBy,
+  ChannelPartnerApplicationStatus,
+  ChannelPartnerEntityType,
+  ChannelPartnerInvestmentCapacity,
+  ChannelPartnerSource,
+  ChannelPartnerTimeline,
+  ChannelPartnerYearsInBusiness,
+  CreateChannelPartnerApplicationRequest,
+  CreateChannelPartnerApplicationResponse,
+  UpdateChannelPartnerApplicationRequest,
+} from './channel-partner-applications/channel-partner-application.api.model';
 export {SettlementApiModel} from './settlement.api.model';
 export {UserFavoriteStationApiModel} from './user-favorite-station.api.model';
 export {
