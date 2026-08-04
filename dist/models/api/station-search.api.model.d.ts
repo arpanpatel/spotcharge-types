@@ -6,12 +6,8 @@ import { StationAccessType, StationFacility, StationSearchSource } from "../../e
  * Meilisearch document format for Station search index
  */
 export interface StationSearchApiModel {
-    /** Meilisearch document id — legacy Firestore id (phase 1); becomes Postgres UUID at phase-2 cutover. */
+    /** Meilisearch document id — Postgres `infrastructure.stations.id` (UUID). */
     id: string;
-    /** Postgres `infrastructure.stations.id` (UUID). */
-    uuid?: string;
-    /** Explicit legacy Firestore document id. */
-    legacyFirestoreId?: string;
     name: string;
     stationCode: string;
     status: string;

@@ -13,14 +13,10 @@ export interface StationGstSummaryApiModel {
   gstState: string;
 }
 
-/** GET /api/stations/:stationId — consumer detail display. */
+/** GET /api/stations/:stationId — consumer detail display. Path param accepts Postgres UUID or legacy Firestore id. */
 export interface StationPublicDetailApiModel {
-  /** legacy_firestore_id in JSON (phase 1); becomes Postgres UUID at phase-2 cutover. Path param accepts UUID or legacy id. */
+  /** Postgres `infrastructure.stations.id` (UUID). */
   id: string;
-  /** Postgres `infrastructure.stations.id` (UUID). Canonical identifier after phase-2 cutover. */
-  uuid: string;
-  /** Explicit legacy Firestore document id (same as `id` until phase-2 cutover). */
-  legacyFirestoreId: string;
   stationCode: string;
   name: string;
   status: StationStatus;
@@ -40,12 +36,8 @@ export type StationListOrderBy = 'name' | 'stationCode' | 'createdAt' | 'status'
 
 /** GET /api/admin/stations — list row. */
 export interface StationListItemApiModel {
-  /** legacy_firestore_id (phase 1); becomes Postgres UUID at phase-2 cutover. */
-  id: string;
   /** Postgres `infrastructure.stations.id` (UUID). */
-  uuid: string;
-  /** Explicit legacy Firestore document id (same as `id` until phase-2 cutover). */
-  legacyFirestoreId: string;
+  id: string;
   stationCode: string;
   name: string;
   status: StationStatus;
@@ -66,7 +58,6 @@ export interface StationListApiModel {
 export interface StationAdminDetailApiModel
   extends StationPublicDetailApiModel,
     AuditTimestampsApiModel {
-  legacyFirestoreId: string;
   /** Postgres `companies.id` (UUID). */
   companyId: string | null;
   businessUnitId: string | null;
@@ -125,11 +116,7 @@ export interface RemoveStationChargersResponse {
 
 /** POST /api/admin/stations — created ids. */
 export interface CreateStationResponse {
-  /** legacy_firestore_id (phase 1); becomes Postgres UUID at phase-2 cutover. */
-  id: string;
   /** Postgres `infrastructure.stations.id` (UUID). */
-  uuid: string;
-  /** Explicit legacy Firestore document id (same as `id` until phase-2 cutover). */
-  legacyFirestoreId: string;
+  id: string;
   stationCode: string;
 }
