@@ -130,6 +130,7 @@ export {
   CreateContactSubmissionRequest,
   UpdateContactSubmissionRequest,
 } from './contact-submissions/contact-submission.api.model';
+export {ContactSubmissionApiModel} from './contact-submission.api.model';
 export {PartnerInquiryApiModel, PartnerInquiryInvestmentRange, PartnerInquiryLocationReadiness, PartnerInquiryTimeline} from './partner-inquiry.api.model';
 export {
   ChannelPartnerApplicationDetailApiModel,
