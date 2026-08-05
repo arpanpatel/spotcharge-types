@@ -1,5 +1,10 @@
 import { AuditTimestampsApiModel, ApiSortDirection } from '../users';
 
+export enum ContactSubmissionStatus {
+  OPEN = 'open',
+  CLOSED = 'closed',
+}
+
 /** GET /api/contact-submissions */
 export type ContactSubmissionListOrderBy = 'firstName' | 'lastName' | 'email' | 'createdAt';
 
@@ -11,7 +16,7 @@ export interface ContactSubmissionListItemApiModel {
   email: string;
   phoneNumber: string;
   message: string;
-  status: string;
+  status: ContactSubmissionStatus | string;
   source: string;
   createdAt: string;
 }
@@ -41,11 +46,12 @@ export interface CreateContactSubmissionRequest {
   email: string;
   phoneNumber: string;
   message: string;
-  source:string;
+  /** Defaults to `website` when omitted. */
+  source?: string;
 }
 
 /** PATCH /api/contact-submissions/:id */
 export interface UpdateContactSubmissionRequest {
-  status?: string;
+  status?: ContactSubmissionStatus | string;
   source?: string;
 }

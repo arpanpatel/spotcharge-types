@@ -14,9 +14,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FLEET_ID_HEADER = exports.PARTNER_BUSINESS_UNIT_ACCESS_HEADER = exports.ChannelPartnerYearsInBusiness = exports.ChannelPartnerTimeline = exports.ChannelPartnerSource = exports.ChannelPartnerInvestmentCapacity = exports.ChannelPartnerEntityType = exports.ChannelPartnerApplicationStatus = exports.PartnerInquiryTimeline = exports.PartnerInquiryLocationReadiness = exports.PartnerInquiryInvestmentRange = exports.StationSearchSource = void 0;
+exports.FLEET_ID_HEADER = exports.PARTNER_BUSINESS_UNIT_ACCESS_HEADER = exports.ChannelPartnerYearsInBusiness = exports.ChannelPartnerTimeline = exports.ChannelPartnerSource = exports.ChannelPartnerInvestmentCapacity = exports.ChannelPartnerEntityType = exports.ChannelPartnerApplicationStatus = exports.PartnerInquiryTimeline = exports.PartnerInquiryLocationReadiness = exports.PartnerInquiryInvestmentRange = exports.ContactSubmissionStatus = exports.StationSearchSource = void 0;
 var enum_1 = require("../../enum");
 Object.defineProperty(exports, "StationSearchSource", { enumerable: true, get: function () { return enum_1.StationSearchSource; } });
+var contact_submission_api_model_1 = require("./contact-submissions/contact-submission.api.model");
+Object.defineProperty(exports, "ContactSubmissionStatus", { enumerable: true, get: function () { return contact_submission_api_model_1.ContactSubmissionStatus; } });
 var partner_inquiry_api_model_1 = require("./partner-inquiry.api.model");
 Object.defineProperty(exports, "PartnerInquiryInvestmentRange", { enumerable: true, get: function () { return partner_inquiry_api_model_1.PartnerInquiryInvestmentRange; } });
 Object.defineProperty(exports, "PartnerInquiryLocationReadiness", { enumerable: true, get: function () { return partner_inquiry_api_model_1.PartnerInquiryLocationReadiness; } });

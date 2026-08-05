@@ -127,6 +127,7 @@ export {
   ContactSubmissionListApiModel,
   ContactSubmissionListItemApiModel,
   ContactSubmissionListOrderBy,
+  ContactSubmissionStatus,
   CreateContactSubmissionRequest,
   UpdateContactSubmissionRequest,
 } from './contact-submissions/contact-submission.api.model';
