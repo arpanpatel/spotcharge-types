@@ -134,6 +134,15 @@ export {
 export {ContactSubmissionApiModel} from './contact-submission.api.model';
 export {PartnerInquiryApiModel, PartnerInquiryInvestmentRange, PartnerInquiryLocationReadiness, PartnerInquiryTimeline} from './partner-inquiry.api.model';
 export {
+  PartnerInquiryDetailApiModel,
+  PartnerInquiryListApiModel,
+  PartnerInquiryListItemApiModel,
+  PartnerInquiryListOrderBy,
+  CreatePartnerInquiryRequest,
+  UpdatePartnerInquiryRequest,
+  PartnerInquiryStatus
+} from './partner-inquiries/partner-inquiry.api.model';
+export {
   ChannelPartnerApplicationDetailApiModel,
   ChannelPartnerApplicationListApiModel,
   ChannelPartnerApplicationListItemApiModel,
