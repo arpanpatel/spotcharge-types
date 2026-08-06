@@ -73,6 +73,10 @@ export {
   AssignStationChargersResponse,
   RemoveStationChargersResponse,
 } from './stations/station.api.model';
+export {
+  StationPickerItemApiModel,
+  StationPickerListApiModel,
+} from './stations/station-picker.api.model';
 export {StationApiModel, StationChargerCounts, StationAmenities, StationPhotoModel} from './station.api.model';
 export {StationSearchApiModel} from './station-search.api.model';
 export {StationSearchSource} from '../../enum';
