@@ -1,0 +1,31 @@
+---
+description: Module-wise enum organization in spotcharge-types
+globs: src/enum/**,src/models/api/**
+alwaysApply: false
+---
+
+# Enum organization
+
+## New domain enums
+
+Place enums for a domain under `src/enum/<module>/`:
+
+```
+src/enum/pricing/
+  fee-component-type.enum.ts
+  connector-output-type.enum.ts
+  index.ts
+```
+
+- One enum per file (`*.enum.ts`).
+- Module folder name scopes the domain — drop redundant prefixes from file/export names when the folder already provides context (e.g. `ConnectorOutputType` in `pricing/`, not `PricingConnectorOutputType`).
+- Add `src/enum/<module>/index.ts` re-exporting the module's enums.
+- Re-export from root `src/enum/index.ts` so consumers keep using `import { X } from 'spotcharge-types'`.
+
+## Legacy flat enums
+
+Existing enums in `src/enum/*.enum.ts` stay until that domain is migrated. Do not move legacy enums into a new module folder unless you are actively migrating that domain.
+
+## API models
+
+Domain API models under `src/models/api/<module>/` should import enums from `../../../enum/<module>`, not from the flat enum root.

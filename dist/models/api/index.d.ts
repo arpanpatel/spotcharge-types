@@ -52,6 +52,7 @@ export { FleetUserV2ApiModel } from './fleet-user-v2.api.model';
 export { FleetUserAccessApiModel } from './fleet-user-access.api.model';
 export { TariffApiModel } from './tariff.api.model';
 export { TariffAssignmentApiModel } from './tariff-assignment.api.model';
+export { FeeCatalogDetailApiModel, FeeCatalogListApiModel, FeeCatalogListItemApiModel, FeeCatalogListOrderBy, FeeCatalogSummaryApiModel, CreateFeeCatalogRequest, UpdateFeeCatalogRequest, TariffDetailApiModel, TariffListApiModel, TariffListItemApiModel, TariffListOrderBy, CreateTariffRequest, UpdateTariffRequest, TariffRuleDetailApiModel, TariffRuleListApiModel, TariffRuleListItemApiModel, TariffRuleListOrderBy, CreateTariffRuleRequest, UpdateTariffRuleRequest, } from './pricing/pricing.api.model';
 export { CompanyApiModel } from './company.api.model';
 export { CompanyDetailApiModel, CompanyListApiModel, CompanyListItemApiModel, CompanyListOrderBy, CreateCompanyRequest, UpdateCompanyRequest, } from './companies/company.api.model';
 export { BusinessUnitAccessApiModel, CompanyUserDetailApiModel, CompanyUserListApiModel, CompanyUserListItemApiModel, CompanyUserListOrderBy, CreateCompanyUserRequest, CreateCompanyUserResponse, GrantBusinessUnitAccessRequest, UpdateBusinessUnitAccessRequest, UpdateCompanyUserRequest, } from './companies/company-user.api.model';
