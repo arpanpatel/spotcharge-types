@@ -1,6 +1,6 @@
 import { AuditTimestampsApiModel, ApiSortDirection } from '../users';
 import { PartnerInquiryInvestmentRange, PartnerInquiryLocationReadiness, PartnerInquiryTimeline } from '../partner-inquiry.api.model';
-/** partner-inquiries stats enum */
+/** partner-inquiries status enum */
 export declare enum PartnerInquiryStatus {
     NEW = "new",
     CONTACTED = "contacted",
@@ -8,10 +8,11 @@ export declare enum PartnerInquiryStatus {
     CLOSED = "closed"
 }
 /** GET /api/partner-inquiries */
-export type PartnerInquiryListOrderBy = 'fullName' | 'email' | 'phone' | 'city' | 'investmentRange' | 'locationReadiness' | 'timeline' | 'status' | 'createdAt';
+export type PartnerInquiryListOrderBy = 'fullName' | 'email' | 'phone' | 'city' | 'status' | 'createdAt';
 export interface PartnerInquiryListItemApiModel {
     /** partner_inquiries.id (uuid). */
     id: string;
+    referenceId: string;
     fullName: string;
     email: string;
     phone: string;
@@ -59,6 +60,11 @@ export interface CreatePartnerInquiryRequest {
     previousExperience?: string | null;
     additionalComments?: string | null;
     source?: string;
+}
+/** POST /api/partner-inquiries — create response */
+export interface CreatePartnerInquiryResponse {
+    id: string;
+    referenceId: string;
 }
 /** PATCH /api/partner-inquiries/:id */
 export interface UpdatePartnerInquiryRequest {

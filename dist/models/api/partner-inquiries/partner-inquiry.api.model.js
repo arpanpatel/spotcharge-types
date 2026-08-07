@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PartnerInquiryStatus = void 0;
-/** partner-inquiries stats enum */
+/** partner-inquiries status enum */
 var PartnerInquiryStatus;
 (function (PartnerInquiryStatus) {
     PartnerInquiryStatus["NEW"] = "new";

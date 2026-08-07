@@ -164,8 +164,9 @@ export {
   PartnerInquiryListItemApiModel,
   PartnerInquiryListOrderBy,
   CreatePartnerInquiryRequest,
+  CreatePartnerInquiryResponse,
   UpdatePartnerInquiryRequest,
-  PartnerInquiryStatus
+  PartnerInquiryStatus,
 } from './partner-inquiries/partner-inquiry.api.model';
 export {
   ChannelPartnerApplicationDetailApiModel,
