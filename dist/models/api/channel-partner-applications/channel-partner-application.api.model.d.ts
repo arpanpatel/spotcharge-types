@@ -16,10 +16,10 @@ export declare enum ChannelPartnerYearsInBusiness {
 }
 export declare enum ChannelPartnerInvestmentCapacity {
     UNDER_5L = "UNDER_5L",
-    L5_10 = "L5_10",
     L10_15 = "L10_15",
     L15_25 = "L15_25",
-    L25_PLUS = "L25_PLUS"
+    L25_50 = "L25_50",
+    L50_PLUS = "L50_PLUS"
 }
 export declare enum ChannelPartnerTimeline {
     IMMEDIATE = "IMMEDIATE",
@@ -72,9 +72,9 @@ export interface ChannelPartnerApplicationDetailApiModel extends Omit<ChannelPar
     yearsInBusiness?: ChannelPartnerYearsInBusiness | null;
     industry?: string | null;
     gstNumber?: string | null;
-    timeline?: ChannelPartnerTimeline | null;
-    whyPartner?: string | null;
-    source?: ChannelPartnerSource | null;
+    timeline: ChannelPartnerTimeline;
+    whyPartner: string;
+    source: ChannelPartnerSource;
     consent: boolean;
     sourceChannel: string;
     isDeleted: boolean;
@@ -93,9 +93,9 @@ export interface CreateChannelPartnerApplicationRequest {
     industry?: string;
     gstNumber?: string;
     investmentCapacity: ChannelPartnerInvestmentCapacity;
-    timeline?: ChannelPartnerTimeline;
-    whyPartner?: string;
-    source?: ChannelPartnerSource;
+    timeline: ChannelPartnerTimeline;
+    whyPartner: string;
+    source: ChannelPartnerSource;
     consent: boolean;
 }
 /** POST /api/channel-partner-applications — create response */

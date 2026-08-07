@@ -5,8 +5,10 @@ export interface StationPickerItemApiModel {
     name: string;
     stationCode: string;
     status: StationStatus;
-    city: string;
-    stateName: string;
+    city: string | null;
+    stateName: string | null;
+    /** Human-readable location for picker UI; null when address was not captured. */
+    locationLabel: string | null;
     companyId: string | null;
     businessUnitId: string | null;
 }

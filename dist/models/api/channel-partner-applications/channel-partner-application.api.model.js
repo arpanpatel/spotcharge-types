@@ -21,10 +21,10 @@ var ChannelPartnerYearsInBusiness;
 var ChannelPartnerInvestmentCapacity;
 (function (ChannelPartnerInvestmentCapacity) {
     ChannelPartnerInvestmentCapacity["UNDER_5L"] = "UNDER_5L";
-    ChannelPartnerInvestmentCapacity["L5_10"] = "L5_10";
     ChannelPartnerInvestmentCapacity["L10_15"] = "L10_15";
     ChannelPartnerInvestmentCapacity["L15_25"] = "L15_25";
-    ChannelPartnerInvestmentCapacity["L25_PLUS"] = "L25_PLUS";
+    ChannelPartnerInvestmentCapacity["L25_50"] = "L25_50";
+    ChannelPartnerInvestmentCapacity["L50_PLUS"] = "L50_PLUS";
 })(ChannelPartnerInvestmentCapacity = exports.ChannelPartnerInvestmentCapacity || (exports.ChannelPartnerInvestmentCapacity = {}));
 var ChannelPartnerTimeline;
 (function (ChannelPartnerTimeline) {
