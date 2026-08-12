@@ -1,6 +1,6 @@
 {
   "name": "spotcharge-types",
-  "version": "1.0.353",
+  "version": "1.0.354",
   "description": "Spotcharge typesn",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
