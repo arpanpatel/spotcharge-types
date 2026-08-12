@@ -5,11 +5,11 @@ var ChargerOperationalState;
 (function (ChargerOperationalState) {
     ChargerOperationalState["Active"] = "active";
     // Fully operational, available for charging, billing enabled
-    ChargerOperationalState["InActive"] = "inActive";
+    ChargerOperationalState["InActive"] = "inactive";
     // Installed but intentionally not usable (business decision)
     ChargerOperationalState["UnderMaintenance"] = "under_maintenance";
     // Scheduled preventive maintenance. temporarily unavailable
-    ChargerOperationalState["OutOfService"] = "outOfService";
+    ChargerOperationalState["OutOfService"] = "out_of_service";
     // Faulty or unsafe. should not allow charging sessions
 })(ChargerOperationalState = exports.ChargerOperationalState || (exports.ChargerOperationalState = {}));
 //# sourceMappingURL=charger-operational-state.enum.js.map

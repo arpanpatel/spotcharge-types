@@ -63,6 +63,7 @@ export interface ChargerListItemApiModel extends ChargerCoreApiModel {
   stationCode: string | null;
   connectorCount: number;
   vendorName: string | null;
+  lastSeen: IsoDateTime | null;
   createdAt: IsoDateTime;
 }
 
@@ -74,7 +75,6 @@ export interface ChargerAdminDetailApiModel
   isServiceChargeApplicable: boolean;
   firmwareVersion: string | null;
   onlineAt: IsoDateTime | null;
-  lastSeen: IsoDateTime | null;
   lastChargeAt: IsoDateTime | null;
   isDeleted: boolean;
   createdBy: AuditActor | null;

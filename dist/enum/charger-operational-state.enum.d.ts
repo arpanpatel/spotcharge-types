@@ -1,7 +1,7 @@
 export declare enum ChargerOperationalState {
     Active = "active",
-    InActive = "inActive",
+    InActive = "inactive",
     UnderMaintenance = "under_maintenance",
-    OutOfService = "outOfService"
+    OutOfService = "out_of_service"
 }
 //# sourceMappingURL=charger-operational-state.enum.d.ts.map
