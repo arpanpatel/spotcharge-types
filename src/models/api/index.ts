@@ -15,6 +15,7 @@ export {
   CreateChargerRequest,
   CreateConnectorRequest,
   UpdateChargerRequest,
+  ChargerResetRequest,
   ConnectorApiModel as ChargerConnectorApiModel,
   ChargerCoreApiModel,
   SessionEligibility,

@@ -1,4 +1,4 @@
-import { ChargerOperationalState, ChargerPhysicalState, ChargerStatus, ConnectorStatus, ConnectorType } from '../../../enum';
+import { ChargerOperationalState, ChargerPhysicalState, ChargerResetType, ChargerStatus, ConnectorOutputType, ConnectorStatus, ConnectorType } from '../../../enum';
 import { AuditActor } from '../../audit-actor.model';
 import { ApiSortDirection } from '../users/admin-user.api.model';
 import { AuditTimestampsApiModel, IsoDateTime } from '../users/shared.api.model';
@@ -10,7 +10,7 @@ export interface ConnectorApiModel {
     /** Postgres `infrastructure.connectors.id` (UUID). */
     id: string;
     connectorNo: number;
-    outputType: 'AC' | 'DC';
+    outputType: ConnectorOutputType;
     connectorType: ConnectorType;
     ratedPowerKw: string;
     /** Postgres `master.power_levels.id` — snapshotted kW/output type at provision time. */
@@ -97,7 +97,7 @@ export interface ChargerPickerListApiModel {
 /** Connector row on POST /api/admin/chargers (optional nested create). */
 export interface CreateConnectorRequest {
     connectorNo: number;
-    outputType?: 'AC' | 'DC';
+    outputType?: ConnectorOutputType;
     connectorType: ConnectorType;
     ratedPowerKw?: number | string;
     powerLevelId?: string | null;
@@ -127,5 +127,9 @@ export interface UpdateChargerRequest {
     operationalMode?: ChargerOperationalState;
     stationId?: string | null;
     isServiceChargeApplicable?: boolean;
+}
+/** POST /charger/reset/:chargePointId — OCPP Reset command body. */
+export interface ChargerResetRequest {
+    type: ChargerResetType;
 }
 //# sourceMappingURL=charger.api.model.d.ts.map
