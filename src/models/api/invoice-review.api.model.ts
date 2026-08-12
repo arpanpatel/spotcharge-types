@@ -7,8 +7,12 @@ export interface InvoiceReviewApiModel {
     invoiceNo: number;
     stationId: string;
     customerName: string;
-    chargerDocId: string;
+    /** Postgres `infrastructure.chargers.id` (UUID). */
     chargerId: string;
+    /** OCPP charge point identity. */
+    chargePointId: string;
+    /** @deprecated Firestore doc id — removed after historical backfill. */
+    chargerDocId?: string;
     userId: string;
     rating: number;
     feedback: string;

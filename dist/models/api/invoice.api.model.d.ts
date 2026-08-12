@@ -20,8 +20,12 @@ export interface InvoiceApiModel {
     bookingEndTime: number;
     expectedEndTime?: Timestamp;
     invoiceNo: number;
+    /** Postgres `infrastructure.chargers.id` (UUID). */
     chargerId: string;
-    chargerDocId: string;
+    /** OCPP charge point identity. */
+    chargePointId: string;
+    /** @deprecated Firestore doc id — removed after historical backfill. */
+    chargerDocId?: string;
     stationId: string;
     chargerName: string;
     stationName: string | null;

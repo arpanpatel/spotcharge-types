@@ -7,7 +7,7 @@ export interface TariffAssignmentApiModel {
     tariffId: string;
 
     scope: TariffScope;
-    scopeId: string | null;           // null for global; stationId/chargerDocId/userId otherwise
+    scopeId: string | null;           // null for global; stationId/chargerId (UUID)/userId otherwise
     capacityId?: string | null;       // optional; references ChargerCapacity doc; null = all capacities
 
     priority: number;                  // auto-set: global=1, station=2, charger=3, user=5

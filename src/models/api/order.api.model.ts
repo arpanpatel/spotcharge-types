@@ -9,7 +9,10 @@ import {FleetVehicleModel} from "../fleet-vehicle.model";
 export interface OrderApiModel {
     orderId: string;
     id: string;
+    /** Postgres `infrastructure.chargers.id` (UUID). */
     chargerId: string;
+    /** OCPP charge point identity. */
+    chargePointId: string;
     chargerName: string;
     stationId: string;
     stationName: string;

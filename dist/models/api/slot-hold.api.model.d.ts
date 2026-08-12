@@ -18,10 +18,14 @@ export interface SlotHoldApiModel {
     startDateTime: Timestamp;
     endDateTime: Timestamp;
     charger: {
+        /** Postgres charger UUID. */
         id: string;
-        name: string;
-        address: string;
-        pointType: PointType;
+        /** OCPP charge point identity. */
+        chargePointId: string;
+        name?: string;
+        address?: string;
+        /** @deprecated Prefer connector `outputType` from charger API. */
+        pointType?: PointType;
     };
     stationId: string;
     stationAddress: string;

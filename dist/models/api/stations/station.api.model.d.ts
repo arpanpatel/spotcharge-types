@@ -53,6 +53,8 @@ export interface StationAdminDetailApiModel extends StationPublicDetailApiModel,
     /** Postgres `companies.id` (UUID). */
     companyId: string | null;
     businessUnitId: string | null;
+    /** Grid electricity purchase rate (₹/kWh COGS). */
+    gridPurchaseRatePerKwh: number | null;
     isDeleted: boolean;
     createdBy: AuditActor | null;
     updatedBy: AuditActor | null;
@@ -71,6 +73,7 @@ export interface CreateStationRequest {
     /** Postgres `companies.id` (UUID). */
     companyId?: string | null;
     businessUnitId?: string | null;
+    gridPurchaseRatePerKwh?: number | null;
 }
 /** PATCH /api/admin/stations/:stationId — stationCode is not accepted. */
 export interface UpdateStationRequest {
@@ -85,6 +88,7 @@ export interface UpdateStationRequest {
     /** Postgres `companies.id` (UUID). */
     companyId?: string | null;
     businessUnitId?: string | null;
+    gridPurchaseRatePerKwh?: number | null;
 }
 /** POST/DELETE /api/admin/stations/:stationId/chargers */
 export interface StationChargersRequest {

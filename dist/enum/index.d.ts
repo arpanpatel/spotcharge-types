@@ -2,7 +2,6 @@ export { Collection } from './firestore-collections.enum';
 export { FirebaseProviderType } from './firebase-provider-type';
 export { FranchiseType } from './franchise-type.enum';
 export { ColorTheme } from './color-theme.enum';
-export { ChargerType } from './charger-type.enum';
 export { ChargerLocationType } from './charger-location-type.enum';
 export { PointType } from './point-type.enum';
 export { Roles } from './roles.enum';

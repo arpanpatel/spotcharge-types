@@ -21,8 +21,12 @@ export interface InvoiceApiModel {
     bookingEndTime: number;
     expectedEndTime?: Timestamp; // for efficient auto-complete cron queries
     invoiceNo: number;
-    chargerId: string; // this is the id of the charger in which set in machine
-    chargerDocId: string; // this is the doc id of the charger in the chargers collection,
+    /** Postgres `infrastructure.chargers.id` (UUID). */
+    chargerId: string;
+    /** OCPP charge point identity. */
+    chargePointId: string;
+    /** @deprecated Firestore doc id — removed after historical backfill. */
+    chargerDocId?: string;
     stationId: string; // this is the doc id of the station in the stations collection,
     chargerName: string;
     stationName: string | null; // Station name at time of invoice creation (for legal compliance)

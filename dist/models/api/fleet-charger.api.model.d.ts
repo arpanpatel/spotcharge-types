@@ -1,4 +1,4 @@
-import { ChargerLocationType, ChargerType, PointType } from "../../enum";
+import { ChargerLocationType, PointType } from "../../enum";
 import { FleetModel } from "../fleet.model";
 import { FranchiseModel } from "../franchise.model";
 import { AddressApiModel } from "./address.api.model";
@@ -7,17 +7,21 @@ import { Timestamp } from "../timestamp";
 import { ConnectorModel } from "../connector.model";
 import { VendorModel } from "../vendor.model";
 export interface FleetChargerApiModel {
+    /** Postgres `infrastructure.chargers.id` (UUID). */
     id: string;
     name: string;
-    chargerId: string;
-    type: ChargerType;
+    /** OCPP charge point identity. */
+    chargePointId: string;
+    /** @deprecated Use `chargePointId`. */
+    chargerId?: string;
     franchise: FranchiseModel;
     pointType: PointType;
     location: AddressApiModel;
     connectors: Array<ConnectorModel>;
     occpProtocol: string;
     chargerLocationType: ChargerLocationType;
-    purchaseRate: number;
+    /** @deprecated Grid COGS is on the parent station (`gridPurchaseRatePerKwh`). */
+    purchaseRate?: number;
     active: boolean;
     vendor: VendorModel;
     fleet?: FleetModel;
