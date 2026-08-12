@@ -6,6 +6,7 @@ import {
   ConnectorType,
 } from '../../../enum';
 import { AuditActor } from '../../audit-actor.model';
+import { ApiSortDirection } from '../users/admin-user.api.model';
 import { AuditTimestampsApiModel, IsoDateTime } from '../users/shared.api.model';
 
 /** Derived session gate for consumer/fleet charger APIs. */
@@ -99,4 +100,67 @@ export interface ChargerPickerItemApiModel {
   stationName: string | null;
   operationalMode: ChargerOperationalState;
   assetState: ChargerPhysicalState;
+}
+
+export type ChargerListOrderBy =
+  | 'name'
+  | 'chargePointId'
+  | 'createdAt'
+  | 'operationalMode'
+  | 'connectivityStatus'
+  | 'assetState';
+
+/** GET /api/admin/chargers — paginated list. */
+export interface ChargerListApiModel {
+  rows: ChargerListItemApiModel[];
+  totalCount: number;
+  pageIndex: number;
+  pageSize: number;
+  orderBy: ChargerListOrderBy;
+  sortDirection: ApiSortDirection;
+}
+
+/** GET /api/admin/chargers/picker — paginated picker list. */
+export interface ChargerPickerListApiModel {
+  rows: ChargerPickerItemApiModel[];
+  totalCount: number;
+  pageIndex: number;
+  pageSize: number;
+}
+
+/** Connector row on POST /api/admin/chargers (optional nested create). */
+export interface CreateConnectorRequest {
+  connectorNo: number;
+  outputType?: 'AC' | 'DC';
+  connectorType: ConnectorType;
+  ratedPowerKw?: number | string;
+  powerLevelId?: string | null;
+  name?: string | null;
+  qrCodeId?: string | null;
+  isActive?: boolean;
+  unitRate?: number | string | null;
+  isManualPricing?: boolean;
+}
+
+/** POST /api/admin/chargers */
+export interface CreateChargerRequest {
+  name: string;
+  vendorId?: string | null;
+  protocol?: string | null;
+  assetState?: ChargerPhysicalState;
+  operationalMode?: ChargerOperationalState;
+  stationId?: string | null;
+  isServiceChargeApplicable?: boolean;
+  connectors?: CreateConnectorRequest[];
+}
+
+/** PATCH /api/admin/chargers/:id — chargePointId and connectivityStatus are server-managed. */
+export interface UpdateChargerRequest {
+  name?: string;
+  vendorId?: string | null;
+  protocol?: string | null;
+  assetState?: ChargerPhysicalState;
+  operationalMode?: ChargerOperationalState;
+  stationId?: string | null;
+  isServiceChargeApplicable?: boolean;
 }
