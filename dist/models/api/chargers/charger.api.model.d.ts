@@ -75,7 +75,7 @@ export interface ChargerPickerItemApiModel {
     operationalMode: ChargerOperationalState;
     assetState: ChargerPhysicalState;
 }
-export type ChargerListOrderBy = 'name' | 'chargePointId' | 'createdAt' | 'operationalMode' | 'connectivityStatus' | 'assetState';
+export type ChargerListOrderBy = 'name' | 'chargePointId' | 'createdAt' | 'operationalMode' | 'connectivityStatus' | 'assetState' | 'lastSeen';
 /** GET /api/admin/chargers — paginated list. */
 export interface ChargerListApiModel {
     rows: ChargerListItemApiModel[];

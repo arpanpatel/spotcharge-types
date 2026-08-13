@@ -108,7 +108,8 @@ export type ChargerListOrderBy =
   | 'createdAt'
   | 'operationalMode'
   | 'connectivityStatus'
-  | 'assetState';
+  | 'assetState'
+  | 'lastSeen';
 
 /** GET /api/admin/chargers — paginated list. */
 export interface ChargerListApiModel {
