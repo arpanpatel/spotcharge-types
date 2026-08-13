@@ -7,6 +7,7 @@ export {PointType} from './point-type.enum';
 export {Roles} from './roles.enum';
 export {CapacityUnit} from './capcity-unit.enum';
 export {ChargerStatus} from './charger-status.enum';
+export {SessionEligibility} from './session-eligibility.enum';
 export {ConnectorStatus} from './connector-status.enum';
 export {ConnectorType} from './connector-type.enum';
 export {OrderState} from './order-state.enum';

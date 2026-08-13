@@ -18,7 +18,6 @@ export {
   ChargerResetRequest,
   ConnectorApiModel as ChargerConnectorApiModel,
   ChargerCoreApiModel,
-  SessionEligibility,
   SessionIneligibilityReason,
 } from './chargers/charger.api.model';
 

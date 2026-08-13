@@ -1,9 +1,7 @@
-import { ChargerOperationalState, ChargerPhysicalState, ChargerResetType, ChargerStatus, ConnectorOutputType, ConnectorStatus, ConnectorType } from '../../../enum';
+import { ChargerOperationalState, ChargerPhysicalState, ChargerResetType, ChargerStatus, ConnectorOutputType, ConnectorStatus, ConnectorType, SessionEligibility } from '../../../enum';
 import { AuditActor } from '../../audit-actor.model';
 import { ApiSortDirection } from '../users/admin-user.api.model';
 import { AuditTimestampsApiModel, IsoDateTime } from '../users/shared.api.model';
-/** Derived session gate for consumer/fleet charger APIs. */
-export type SessionEligibility = 'eligible' | 'ineligible';
 export type SessionIneligibilityReason = 'not_assigned' | 'station_inactive' | 'not_installed' | 'under_maintenance' | 'out_of_service' | 'offline' | 'connector_inactive' | 'connector_faulted' | 'connector_unavailable' | 'fleet_not_visible' | 'access_denied';
 /** Slim connector DTO on Postgres charger read APIs. */
 export interface ConnectorApiModel {

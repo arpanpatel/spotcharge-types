@@ -4,7 +4,7 @@ export { FleetApiModel } from './fleet.api.model';
 export { FleetUserApiModel, FleetVehicleModel } from './fleet-user.api.model';
 export { FranchiseApiModel } from './franchise.api.model';
 export { ChargerApiModel, ChargerIdentityApiModel } from './charger.api.model';
-export { ChargerListItemApiModel, ChargerAdminDetailApiModel, ChargerPublicDetailApiModel, ChargerPickerItemApiModel, ChargerListApiModel, ChargerPickerListApiModel, ChargerListOrderBy, CreateChargerRequest, CreateConnectorRequest, UpdateChargerRequest, ChargerResetRequest, ConnectorApiModel as ChargerConnectorApiModel, ChargerCoreApiModel, SessionEligibility, SessionIneligibilityReason, } from './chargers/charger.api.model';
+export { ChargerListItemApiModel, ChargerAdminDetailApiModel, ChargerPublicDetailApiModel, ChargerPickerItemApiModel, ChargerListApiModel, ChargerPickerListApiModel, ChargerListOrderBy, CreateChargerRequest, CreateConnectorRequest, UpdateChargerRequest, ChargerResetRequest, ConnectorApiModel as ChargerConnectorApiModel, ChargerCoreApiModel, SessionIneligibilityReason, } from './chargers/charger.api.model';
 export { ChargerCapacityApiModel } from './charger-capacity.api.model';
 export { VendorApiModel } from './vendor.api.model';
 export { VendorDetailApiModel, VendorListApiModel, VendorListItemApiModel, VendorListOrderBy, CreateVendorRequest, UpdateVendorRequest, } from './vendors/vendor.api.model';

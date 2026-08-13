@@ -6,13 +6,11 @@ import {
   ConnectorOutputType,
   ConnectorStatus,
   ConnectorType,
+  SessionEligibility,
 } from '../../../enum';
 import { AuditActor } from '../../audit-actor.model';
 import { ApiSortDirection } from '../users/admin-user.api.model';
 import { AuditTimestampsApiModel, IsoDateTime } from '../users/shared.api.model';
-
-/** Derived session gate for consumer/fleet charger APIs. */
-export type SessionEligibility = 'eligible' | 'ineligible';
 
 export type SessionIneligibilityReason =
   | 'not_assigned'
