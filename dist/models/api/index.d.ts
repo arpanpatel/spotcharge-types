@@ -6,6 +6,7 @@ export { FranchiseApiModel } from './franchise.api.model';
 export { ChargerApiModel, ChargerIdentityApiModel } from './charger.api.model';
 export { ChargerListItemApiModel, ChargerAdminDetailApiModel, ChargerPublicDetailApiModel, ChargerPickerItemApiModel, ChargerListApiModel, ChargerPickerListApiModel, ChargerListOrderBy, CreateChargerRequest, CreateConnectorRequest, UpdateChargerRequest, ChargerResetRequest, ConnectorApiModel as ChargerConnectorApiModel, ChargerCoreApiModel, SessionIneligibilityReason, } from './chargers/charger.api.model';
 export { ChargerCapacityApiModel } from './charger-capacity.api.model';
+export { PowerLevelListItemApiModel, PowerLevelDetailApiModel, CreatePowerLevelRequest, UpdatePowerLevelRequest, } from './master/power-level.api.model';
 export { VendorApiModel } from './vendor.api.model';
 export { VendorDetailApiModel, VendorListApiModel, VendorListItemApiModel, VendorListOrderBy, CreateVendorRequest, UpdateVendorRequest, } from './vendors/vendor.api.model';
 export { TaxRateDetailApiModel, TaxRateListApiModel, TaxRateListItemApiModel, TaxRateListOrderBy, TaxRateGroupApiModel, TaxRateGroupComponentApiModel, CreateTaxRateRequest, UpdateTaxRateRequest, } from './tax-rates/tax-rate.api.model';

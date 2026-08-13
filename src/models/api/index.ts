@@ -22,6 +22,12 @@ export {
 } from './chargers/charger.api.model';
 
 export {ChargerCapacityApiModel} from './charger-capacity.api.model';
+export {
+  PowerLevelListItemApiModel,
+  PowerLevelDetailApiModel,
+  CreatePowerLevelRequest,
+  UpdatePowerLevelRequest,
+} from './master/power-level.api.model';
 export {VendorApiModel} from './vendor.api.model';
 export {
   VendorDetailApiModel,
