@@ -8,8 +8,6 @@ export interface ConnectorApiModel {
     connectorType: ConnectorType;
     outputType: "AC" | "DC";
     capacity: string;
-    unitRate: number;
-    isManualPricing?: boolean;
     status: ConnectorStatus;
     qrCodeId?: string;
     isActive: boolean;

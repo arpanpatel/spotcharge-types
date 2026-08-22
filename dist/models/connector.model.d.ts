@@ -5,7 +5,6 @@ export interface ConnectorModel {
     name: number;
     status: ConnectorStatus;
     capacity: string | ChargerCapacity;
-    unitRate: number;
     type: ConnectorTypeModel;
 }
 //# sourceMappingURL=connector.model.d.ts.map

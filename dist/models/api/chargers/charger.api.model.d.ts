@@ -17,8 +17,6 @@ export interface ConnectorApiModel {
     qrCodeId: string | null;
     isActive: boolean;
     ocppStatus: ConnectorStatus;
-    unitRate: string | null;
-    isManualPricing: boolean;
     lastStatusAt: IsoDateTime | null;
 }
 /** Shared slim charger fields across list/detail/picker DTOs. */
@@ -102,8 +100,6 @@ export interface CreateConnectorRequest {
     name?: string | null;
     qrCodeId?: string | null;
     isActive?: boolean;
-    unitRate?: number | string | null;
-    isManualPricing?: boolean;
 }
 /** POST /api/admin/chargers */
 export interface CreateChargerRequest {
