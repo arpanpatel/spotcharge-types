@@ -62,6 +62,15 @@ export {RfidApiModel} from './rfid.api.model';
 export {OrderApiModel} from './order.api.model';
 export {VehicleApiModel} from './vehicle.api.model';
 export {BrandApiModel} from './brand.api.model';
+export {
+    BrandListItemApiModel,
+    BrandListApiModel,
+    BrandDetailApiModel,
+    CreateBrandRequest,
+    UpdateBrandRequest,
+    CreateBrandResponse,
+    BrandListOrderBy
+} from './brand/brand.api.model';
 export {BookingApiModel, Refund} from './booking.api.model';
 export {WalletTransactionApiModel} from './wallet-transaction.api.model';
 export {FleetVehicleApiModel} from './fleet-vehicle.api.model';
