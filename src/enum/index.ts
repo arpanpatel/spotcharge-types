@@ -46,6 +46,9 @@ export {
   RateDurationUnit,
   TariffRuleType,
   ConnectorOutputType,
+  PromotionAdjustmentType,
+  PromotionScopeType,
+  PromotionAppliesTo,
 } from './pricing';
 export {CompanyType} from './company-type.enum';
 export {CompanyStatus} from './company-status.enum';

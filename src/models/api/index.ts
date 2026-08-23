@@ -145,6 +145,15 @@ export {
   CreateTariffRuleRequest,
   UpdateTariffRuleRequest,
 } from './pricing/pricing.api.model';
+export {
+  PromotionAdjustmentApiModel,
+  PromotionListOrderBy,
+  PromotionListItemApiModel,
+  PromotionListApiModel,
+  PromotionDetailApiModel,
+  CreatePromotionRequest,
+  UpdatePromotionRequest,
+} from './pricing/promotion.api.model';
 export {CompanyApiModel} from './company.api.model';
 export {
   CompanyDetailApiModel,

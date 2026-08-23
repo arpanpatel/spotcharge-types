@@ -771,6 +771,22 @@ export const permissionConfig = {
         key: 'DELETE_TARIFF_ASSIGNMENT',
         formattedPermission: 'Can Delete Tariff Assignment',
     },
+    'LIST_PROMOTIONS': {
+        key: 'LIST_PROMOTIONS',
+        formattedPermission: 'Can View Promotion List',
+    },
+    'ADD_PROMOTION': {
+        key: 'ADD_PROMOTION',
+        formattedPermission: 'Can Add Promotion',
+    },
+    'EDIT_PROMOTION': {
+        key: 'EDIT_PROMOTION',
+        formattedPermission: 'Can Edit Promotion',
+    },
+    'DELETE_PROMOTION': {
+        key: 'DELETE_PROMOTION',
+        formattedPermission: 'Can Delete Promotion',
+    },
     'LIST_COMPANIES': {
         key: 'LIST_COMPANIES',
         formattedPermission: 'Can View Company List',

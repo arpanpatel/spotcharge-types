@@ -27,6 +27,6 @@ export { RoleDescriptor } from './role-descriptor.model';
 export { AdminSessionModel } from './admin-session.model';
 export { ApiErrorResponse } from './api-error-response.model';
 export { TaxType, TaxConfigModel, InvoiceTaxModel } from './tax-config.model';
-export { ResolvedTariff } from './resolved-tariff.model';
+export { ResolvedTariff, ResolvedPromotionSnapshot, ResolvedPromotionAdjustment, } from './resolved-tariff.model';
 export { RevenueSnapshot } from './revenue-snapshot.model';
 //# sourceMappingURL=index.d.ts.map

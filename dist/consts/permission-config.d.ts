@@ -771,6 +771,22 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
+    LIST_PROMOTIONS: {
+        key: string;
+        formattedPermission: string;
+    };
+    ADD_PROMOTION: {
+        key: string;
+        formattedPermission: string;
+    };
+    EDIT_PROMOTION: {
+        key: string;
+        formattedPermission: string;
+    };
+    DELETE_PROMOTION: {
+        key: string;
+        formattedPermission: string;
+    };
     LIST_COMPANIES: {
         key: string;
         formattedPermission: string;

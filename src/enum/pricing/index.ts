@@ -3,3 +3,8 @@ export {FeeUnit} from './fee-unit.enum';
 export {RateDurationUnit} from './rate-duration-unit.enum';
 export {TariffRuleType} from './tariff-rule-type.enum';
 export {ConnectorOutputType} from './connector-output-type.enum';
+export {
+  PromotionAdjustmentType,
+  PromotionScopeType,
+  PromotionAppliesTo,
+} from '../../consts/pricing';

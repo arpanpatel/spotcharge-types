@@ -1,5 +1,6 @@
 import { ChargerOperationalState, ChargerPhysicalState, ChargerResetType, ChargerStatus, ConnectorOutputType, ConnectorStatus, ConnectorType, SessionEligibility } from '../../../enum';
 import { AuditActor } from '../../audit-actor.model';
+import { ResolvedTariff } from '../../resolved-tariff.model';
 import { ApiSortDirection } from '../users/admin-user.api.model';
 import { AuditTimestampsApiModel, IsoDateTime } from '../users/shared.api.model';
 export type SessionIneligibilityReason = 'not_assigned' | 'station_inactive' | 'not_installed' | 'under_maintenance' | 'out_of_service' | 'offline' | 'connector_inactive' | 'connector_faulted' | 'connector_unavailable' | 'fleet_not_visible' | 'access_denied';
@@ -18,6 +19,8 @@ export interface ConnectorApiModel {
     isActive: boolean;
     ocppStatus: ConnectorStatus;
     lastStatusAt: IsoDateTime | null;
+    /** Resolved tariff with optional promotion snapshot (admin/portal detail). */
+    appliedPrice?: ResolvedTariff;
 }
 /** Shared slim charger fields across list/detail/picker DTOs. */
 export interface ChargerCoreApiModel {
