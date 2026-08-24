@@ -40,7 +40,8 @@ export { RefundStatus } from './refund-status.enum';
 export { RefundReason } from './refund-reason.enum';
 export { RefundDestination } from './refund-destination.enum';
 export { TariffScope } from './tariff-scope.enum';
-export { FeeComponentType, FeeUnit, RateDurationUnit, TariffRuleType, ConnectorOutputType, PromotionAdjustmentType, PromotionScopeType, PromotionAppliesTo, } from './pricing';
+export { FeeComponentType, FeeUnit, RateDurationUnit, TariffRuleType, ConnectorOutputType, PromotionAdjustmentType, PromotionAppliesTo, } from './pricing';
+export { CampaignScopeType } from './marketing';
 export { CompanyType } from './company-type.enum';
 export { CompanyStatus } from './company-status.enum';
 /** @deprecated Use UserRoleStatus instead */

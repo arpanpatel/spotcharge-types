@@ -47,9 +47,9 @@ export {
   TariffRuleType,
   ConnectorOutputType,
   PromotionAdjustmentType,
-  PromotionScopeType,
   PromotionAppliesTo,
 } from './pricing';
+export { CampaignScopeType } from './marketing';
 export {CompanyType} from './company-type.enum';
 export {CompanyStatus} from './company-status.enum';
 /** @deprecated Use UserRoleStatus instead */

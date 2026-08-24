@@ -155,14 +155,19 @@ export {
   UpdateTariffRuleRequest,
 } from './pricing/pricing.api.model';
 export {
-  PromotionAdjustmentApiModel,
-  PromotionListOrderBy,
-  PromotionListItemApiModel,
-  PromotionListApiModel,
-  PromotionDetailApiModel,
-  CreatePromotionRequest,
-  UpdatePromotionRequest,
-} from './pricing/promotion.api.model';
+  CampaignAdjustmentApiModel,
+  CampaignListOrderBy,
+  CampaignListItemApiModel,
+  CampaignListApiModel,
+  CampaignDetailApiModel,
+  CampaignStatus,
+  CreateCampaignRequest,
+  UpdateCampaignRequest,
+  UpdateCampaignStationsRequest,
+  UpdateCampaignStationsResponse,
+  CampaignStationListItemApiModel,
+  CampaignStationListApiModel,
+} from './marketing/campaign.api.model';
 export {CompanyApiModel} from './company.api.model';
 export {
   CompanyDetailApiModel,

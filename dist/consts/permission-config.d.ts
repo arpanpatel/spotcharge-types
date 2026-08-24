@@ -771,19 +771,19 @@ export declare const permissionConfig: {
         key: string;
         formattedPermission: string;
     };
-    LIST_PROMOTIONS: {
+    LIST_CAMPAIGNS: {
         key: string;
         formattedPermission: string;
     };
-    ADD_PROMOTION: {
+    ADD_CAMPAIGN: {
         key: string;
         formattedPermission: string;
     };
-    EDIT_PROMOTION: {
+    EDIT_CAMPAIGN: {
         key: string;
         formattedPermission: string;
     };
-    DELETE_PROMOTION: {
+    DELETE_CAMPAIGN: {
         key: string;
         formattedPermission: string;
     };

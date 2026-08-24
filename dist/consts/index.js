@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PromotionScopeType = exports.PromotionAppliesTo = exports.PromotionAdjustmentType = exports.permissionConfig = exports.Notifications = exports.VehicleInspectionChecklist = exports.InOutType = exports.InOutStatus = exports.VehiclePurpose = void 0;
+exports.CampaignScopeType = exports.PromotionScopeType = exports.PromotionAppliesTo = exports.PromotionAdjustmentType = exports.permissionConfig = exports.Notifications = exports.VehicleInspectionChecklist = exports.InOutType = exports.InOutStatus = exports.VehiclePurpose = void 0;
 var vehicle_purpose_const_1 = require("./vehicle-purpose.const");
 Object.defineProperty(exports, "VehiclePurpose", { enumerable: true, get: function () { return vehicle_purpose_const_1.VehiclePurpose; } });
 var in_out_status_const_1 = require("./in-out-status.const");
@@ -17,4 +17,6 @@ var pricing_1 = require("./pricing");
 Object.defineProperty(exports, "PromotionAdjustmentType", { enumerable: true, get: function () { return pricing_1.PromotionAdjustmentType; } });
 Object.defineProperty(exports, "PromotionAppliesTo", { enumerable: true, get: function () { return pricing_1.PromotionAppliesTo; } });
 Object.defineProperty(exports, "PromotionScopeType", { enumerable: true, get: function () { return pricing_1.PromotionScopeType; } });
+var marketing_1 = require("./marketing");
+Object.defineProperty(exports, "CampaignScopeType", { enumerable: true, get: function () { return marketing_1.CampaignScopeType; } });
 //# sourceMappingURL=index.js.map

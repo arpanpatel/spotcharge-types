@@ -5,4 +5,5 @@ export { VehicleInspectionChecklist, VehicleInspectionChecklistType } from './ve
 export { Notifications, NotificationType } from './notifications.const';
 export { permissionConfig, Permission, PermissionKeys } from './permission-config';
 export { PromotionAdjustmentType, PromotionAppliesTo, PromotionScopeType, } from './pricing';
+export { CampaignScopeType } from './marketing';
 //# sourceMappingURL=index.d.ts.map

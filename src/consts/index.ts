@@ -9,3 +9,4 @@ export {
   PromotionAppliesTo,
   PromotionScopeType,
 } from './pricing';
+export { CampaignScopeType } from './marketing';
