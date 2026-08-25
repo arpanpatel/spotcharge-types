@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CampaignScopeType = exports.PromotionScopeType = exports.PromotionAppliesTo = exports.PromotionAdjustmentType = exports.permissionConfig = exports.Notifications = exports.VehicleInspectionChecklist = exports.InOutType = exports.InOutStatus = exports.VehiclePurpose = void 0;
+exports.CatalogErrorCode = exports.VehicleTypeCatalog = exports.CampaignScopeType = exports.PromotionScopeType = exports.PromotionAppliesTo = exports.PromotionAdjustmentType = exports.permissionConfig = exports.Notifications = exports.VehicleInspectionChecklist = exports.InOutType = exports.InOutStatus = exports.VehiclePurpose = void 0;
 var vehicle_purpose_const_1 = require("./vehicle-purpose.const");
 Object.defineProperty(exports, "VehiclePurpose", { enumerable: true, get: function () { return vehicle_purpose_const_1.VehiclePurpose; } });
 var in_out_status_const_1 = require("./in-out-status.const");
@@ -19,4 +19,8 @@ Object.defineProperty(exports, "PromotionAppliesTo", { enumerable: true, get: fu
 Object.defineProperty(exports, "PromotionScopeType", { enumerable: true, get: function () { return pricing_1.PromotionScopeType; } });
 var marketing_1 = require("./marketing");
 Object.defineProperty(exports, "CampaignScopeType", { enumerable: true, get: function () { return marketing_1.CampaignScopeType; } });
+var vehicle_type_const_1 = require("./catalog/vehicle-type.const");
+Object.defineProperty(exports, "VehicleTypeCatalog", { enumerable: true, get: function () { return vehicle_type_const_1.VehicleTypeCatalog; } });
+var catalog_error_const_1 = require("./catalog/catalog-error.const");
+Object.defineProperty(exports, "CatalogErrorCode", { enumerable: true, get: function () { return catalog_error_const_1.CatalogErrorCode; } });
 //# sourceMappingURL=index.js.map

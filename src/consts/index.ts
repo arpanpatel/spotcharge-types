@@ -10,3 +10,5 @@ export {
   PromotionScopeType,
 } from './pricing';
 export { CampaignScopeType } from './marketing';
+export { VehicleTypeCatalog } from './catalog/vehicle-type.const';
+export { CatalogErrorCode } from './catalog/catalog-error.const';
