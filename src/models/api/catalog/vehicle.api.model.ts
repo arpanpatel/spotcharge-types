@@ -20,6 +20,7 @@ export interface PublicVehicleListItemApiModel {
   image: string | null;
   batteryCapacity: number | null;
   type: VehicleTypeCatalog;
+  year: number | null;
   brand: PublicVehicleBrandEmbedApiModel;
 }
 
