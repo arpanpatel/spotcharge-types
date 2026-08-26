@@ -24,6 +24,7 @@ export interface AdminVehicleListItemApiModel {
     type: VehicleTypeCatalog;
     vehicleBrandId: string;
     isActive: boolean;
+    year: number | null;
     brand: AdminVehicleBrandListItemApiModel;
     createdAt: string;
 }
