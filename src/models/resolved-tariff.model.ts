@@ -17,8 +17,12 @@ export interface ResolvedPromotionSnapshot {
   sessionAdjustment?: ResolvedPromotionAdjustment;
 }
 
+export const TARIFF_CODE_OVERRIDE = 'CONNECTOR-OVERRIDE';
+
 export interface ResolvedTariff {
   tariffId: string;
+  /** Immutable public tariff identifier (SC-TAR-XXXX) or {@link TARIFF_CODE_OVERRIDE}. */
+  tariffCode: string;
   tariffName: string;
   assignmentId: string;
   scope: TariffScope;

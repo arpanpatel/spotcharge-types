@@ -14,8 +14,10 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Timestamp = void 0;
+exports.TARIFF_CODE_OVERRIDE = exports.Timestamp = void 0;
 __exportStar(require("./api"), exports);
 var timestamp_1 = require("./timestamp");
 Object.defineProperty(exports, "Timestamp", { enumerable: true, get: function () { return timestamp_1.Timestamp; } });
+var resolved_tariff_model_1 = require("./resolved-tariff.model");
+Object.defineProperty(exports, "TARIFF_CODE_OVERRIDE", { enumerable: true, get: function () { return resolved_tariff_model_1.TARIFF_CODE_OVERRIDE; } });
 //# sourceMappingURL=index.js.map

@@ -32,5 +32,6 @@ export {
   ResolvedTariff,
   ResolvedPromotionSnapshot,
   ResolvedPromotionAdjustment,
+  TARIFF_CODE_OVERRIDE,
 } from './resolved-tariff.model';
 export {RevenueSnapshot} from './revenue-snapshot.model';

@@ -70,10 +70,11 @@ export interface FeeCatalogSummaryApiModel {
 }
 
 /** GET /api/tariffs */
-export type TariffListOrderBy = 'name' | 'createdAt';
+export type TariffListOrderBy = 'name' | 'tariffCode' | 'createdAt';
 
 export interface TariffListItemApiModel {
   id: string;
+  tariffCode: string;
   name: string;
   description: string | null;
   isActive: boolean;
